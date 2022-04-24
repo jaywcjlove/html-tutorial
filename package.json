@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "private": true,
+  "name": "html-tutorial",
+  "title": "HTML Tutorial",
+  "description": "Shell Tutorial 入门教程（Shell tutorial book）",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "idoc --watch",
+    "build": "idoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/html-tutorial"
+  },
+  "keywords": [
+    "html",
+    "tutorial"
+  ],
+  "dependencies": {
+    "idoc": "^1.10.8"
+  }
+}
