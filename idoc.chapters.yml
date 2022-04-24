@@ -12,6 +12,7 @@
 - reference/urlencode.md: HTML URL 编码
 - reference/language_codes.md: HTML 语言代码
 - reference/country_codes.md: HTML 国家/地区代码
+- reference/httpmessages.md: HTTP 状态消息
 - reference/keyboardshortcuts.md: 键盘快捷键
 - tags/: HTML 标签
 - tags/comment.md: <!--...--> 标签
