@@ -2,6 +2,10 @@
 logo: ./logo.svg
 favicon: ./logo.svg
 
+menus:
+  Home: index.html
+  索引: tags/index.html
+
 editButton: 
   label: Edit this page on GitHub
   url: https://github.com/jaywcjlove/html-tutorial/blob/master/

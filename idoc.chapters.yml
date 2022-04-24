@@ -1,6 +1,6 @@
 - reference/: HTML 参考
 - tags/README.md: HTML 索引 (字母排序)
-- reference/browsersupport.md: HTML 参考 - 浏览器支持
+- reference/browsersupport.md: HTML 浏览器支持
 - reference/attributes.md: HTML 属性参考
 - reference/standardattributes.md: HTML 全局属性
 - reference/eventattributes.md: HTML 事件
