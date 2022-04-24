@@ -5,7 +5,7 @@
   "title": "HTML Tutorial",
   "description": "Shell Tutorial 入门教程（Shell tutorial book）",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "scripts": {
     "start": "idoc --watch",
     "build": "idoc"
