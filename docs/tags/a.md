@@ -22,7 +22,6 @@ HTML `<a>` 标签
 
 ## 浏览器支持
 
-
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __&lt;a&gt;__ | Yes | Yes | Yes | Yes | Yes |
