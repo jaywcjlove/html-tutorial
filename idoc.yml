@@ -7,7 +7,7 @@ menus:
   索引: tags/index.html
 
 editButton: 
-  label: Edit this page on GitHub
+  label: GitHub 上编辑此页
   url: https://github.com/jaywcjlove/html-tutorial/blob/master/
 
 footer: |

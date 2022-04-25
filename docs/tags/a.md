@@ -19,6 +19,19 @@ HTML `<a>` 标签
 - _访问过的链接带有下划线和紫色_ <!--rehype:style=color: purple; text-decoration: underline;-->
 - _活动链接带有下划线和红色_ <!--rehype:style=color: red; text-decoration: underline;-->
 
+## 属性
+
+| 属性 | 值 | 描述 |
+| ---- | ---- | ---- |
+| [download](./a_download.md) | filename | 指定当用户单击超链接时将下载目标 |
+| [href](./a_href.md) | URL | 指定链接指向的页面的 URL |
+| [hreflang](./a_hreflang.md) | language_code | 指定链接文档的语言 |
+| [media](./a_media.md) | media_query | 指定链接文档针对什么媒体/设备进行优化 |
+| [ping](./a_ping.md) | list_of_URLs | 指定一个以空格分隔的 URL 列表，当点击链接时，浏览器将发送带有正文 ping 的 post 请求（在后台）。 通常用于跟踪 |
+| [referrepolicy](./a_referrepolicy.md) | no-referrer,<br />no-referrer-when-downgrade,<br />origin,<br />origin-when-cross-origin,<br />same-origin,<br />strict-origin-when-cross-origin,<br />unsafe-url | 指定与链接一起发送的推荐人信息 |
+| [rel](./a_rel.md) | alternate,<br />author,<br />bookmark,<br />external,<br />help,<br />license,<br />next,<br />nofollow,<br />noreferrer,<br />noopener,<br />prev,<br />search,<br />tag | 指定当前文档和链接文档之间的关系 |
+| [target](./a_target.md) | _blank,<br />_parent,<br />_self,<br />_top | 指定打开链接文档的位置 |
+| [type](./a_type.md) | media_type | 指定链接文档的媒体类型 |
 
 ## 浏览器支持
 
