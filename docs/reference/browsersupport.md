@@ -4,19 +4,6 @@ HTML 浏览器支持
 下表列出了所有 HTML 元素及其属性，以及浏览器支持：
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| [&lt;a&gt;](../tags/a.md) | Yes | Yes | Yes | Yes | Yes |
-| [download](../tags/a_download.md) | 14.0 | 18.0 | 20.0 | 10.1 | 15.0 |
-| [href](../tags/a_href.md) | Yes | Yes | Yes | Yes | Yes |
-| [hreflang](../tags/a_hreflang.md) | Yes | Yes | Yes | Yes | Yes |
-| [media](../tags/a_media.md) | Yes | Yes | Yes | Yes | Yes |
-| [ping](../tags/a_ping.md) | Yes | ❌ | Yes | ❌ | Yes |
-| [referrerpolicy](../tags/a_referrepolicy.md) | 51.0 | 79.0 | 50.0 | 11.1 | 38.0 |
-| [rel](../tags/a_rel.md) | Yes | Yes | Yes | Yes | Yes |
-| [target](../tags/a_target.md) | Yes | Yes | Yes | Yes | Yes |
-| [type](../tags/a_type.md) | Yes | Yes | Yes | Yes | Yes |
-
-| &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------------------------- | ---- | ---- | ---- | ---- | ---- |
 | [**\<a>**](../tags/a.md)                     | Yes  | Yes  | Yes  | Yes  | Yes  |
 | [download](../tags/a_download.md)            | 14.0 | 18.0 | 20.0 | 10.1 | 15.0 |
