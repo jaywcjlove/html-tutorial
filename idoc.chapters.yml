@@ -1,5 +1,6 @@
 - reference/: HTML 参考
 - tags/README.md: HTML 索引 (字母排序)
+- reference/byfunc.md: HTML 索引 (分类)
 - reference/browsersupport.md: HTML 浏览器支持
 - reference/attributes.md: HTML 属性参考
 - reference/standardattributes.md: HTML 全局属性

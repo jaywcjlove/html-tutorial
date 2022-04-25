@@ -3,127 +3,127 @@ HTML 标签参考手册
 
 按字母顺序排列 HTML 标签
 
-
 | 标签 Tag | 描述 Description |
 | ----  | ---- |
-| [&lt;!--...--&gt;](./comment.md) | Defines a comment |
-| [&lt;!DOCTYPE&gt;](./doctype.md) | Defines the document type |
-| [&lt;a&gt;](./a.md) | Defines a hyperlink |
-| [&lt;abbr&gt;](./abbr.md) | Defines an abbreviation or an acronym |
-| [&lt;acronym&gt;](./acronym.md) | ![][1] ⚠️ HTML 5 不支持。 Use [&lt;abbr&gt;](./abbr.md) instead. Defines an acronym |
-| [&lt;address&gt;](./address.md) | Defines contact information for the author/owner of a document |
-| [&lt;applet&gt;](./applet.md) | ![][1] ⚠️ HTML 5 不支持。 Use [&lt;embed&gt;](./embed.md) or [&lt;object&gt;](./object.md) instead. Defines an embedded applet |
-| [&lt;area&gt;](./area.md) | Defines an area inside an image map |
-| [&lt;article&gt;](./article.md) | Defines an article |
-| [&lt;aside&gt;](./aside.md) | Defines content aside from the page content |
-| [&lt;audio&gt;](./audio.md) | Defines embedded sound content |
-| [&lt;b&gt;](./b.md) | Defines bold text |
-| [&lt;base&gt;](./base.md) | Specifies the base URL/target for all relative URLs in a document |
-| [&lt;basefont&gt;](./basefont.md) | ![][1] ⚠️ HTML 5 不支持。 Use CSS instead. Specifies a default color, size, and font for all text in a document |
-| [&lt;bdi&gt;](./bdi.md) | Isolates a part of text that might be formatted in a different direction from other text outside it |
-| [&lt;bdo&gt;](./bdo.md) | Overrides the current text direction |
-| [&lt;big&gt;](./big.md) | ![][1] ⚠️ HTML 5 不支持。 Use CSS instead. Defines big text |
-| [&lt;blockquote&gt;](./blockquote.md) | Defines a section that is quoted from another source |
-| [&lt;body&gt;](./body.md) | Defines the document's body |
-| [&lt;br&gt;](./br.md) | Defines a single line break |
-| [&lt;button&gt;](./button.md) | Defines a clickable button |
-| [&lt;canvas&gt;](./canvas.md) | Used to draw graphics, on the fly, via scripting (usually JavaScript) |
-| [&lt;caption&gt;](./caption.md) | Defines a table caption |
-| [&lt;center&gt;](./center.md) | ![][1] ⚠️ HTML 5 不支持。 Use CSS instead. Defines centered text |
-| [&lt;cite&gt;](./cite.md) | Defines the title of a work |
-| [&lt;code&gt;](./code.md) | Defines a piece of computer code |
-| [&lt;col&gt;](./col.md) | Specifies column properties for each column within a &lt;colgroup&gt; element&nbsp; |
-| [&lt;colgroup&gt;](./colgroup.md) | Specifies a group of one or more columns in a table for formatting |
-| [&lt;data&gt;](./data.md) | Adds a machine-readable translation of a given content |
-| [&lt;datalist&gt;](./datalist.md) | Specifies a list of pre-defined options for input controls |
-| [&lt;dd&gt;](./dd.md) | Defines a description/value of a term in a description list |
-| [&lt;del&gt;](./del.md) | Defines text that has been deleted from a document |
-| [&lt;details&gt;](./details.md) | Defines additional details that the user can view or hide |
-| [&lt;dfn&gt;](./dfn.md) | Specifies a term that is going to be defined within the content |
-| [&lt;dialog&gt;](./dialog.md) | Defines a dialog box or window |
-| [&lt;dir&gt;](./dir.md) | ![][1] ⚠️ HTML 5 不支持。 Use [&lt;ul&gt;](./ul.md) instead. Defines a directory list |
-| [&lt;div&gt;](./div.md) | Defines a section in a document |
-| [&lt;dl&gt;](./dl.md) | Defines a description list |
-| [&lt;dt&gt;](./dt.md) | Defines a term/name in a description list |
-| [&lt;em&gt;](./em.md) | Defines emphasized text&nbsp; |
-| [&lt;embed&gt;](./embed.md) | Defines a container for an external application |
-| [&lt;fieldset&gt;](./fieldset.md) | Groups related elements in a form |
-| [&lt;figcaption&gt;](./figcaption.md) | Defines a caption for a &lt;figure&gt; element |
-| [&lt;figure&gt;](./figure.md) | Specifies self-contained content |
-| [&lt;font&gt;](./font.md) | ![][1] ⚠️ HTML 5 不支持。 Use CSS instead. Defines font, color, and size for text |
-| [&lt;footer&gt;](./footer.md) | Defines a footer for a document or section |
-| [&lt;form&gt;](./form.md) | Defines an HTML form for user input |
-| [&lt;frame&gt;](./frame.md) | ![][1] ⚠️ HTML 5 不支持。 Defines a window (a frame) in a frameset |
-| [&lt;frameset&gt;](./frameset.md) | ![][1] ⚠️ HTML 5 不支持。 Defines a set of frames |
-| [&lt;h1&gt; to &lt;h6&gt;](./hn.md) |  Defines HTML headings |
-| [&lt;head&gt;](./head.md) | Contains metadata/information for the document |
-| [&lt;header&gt;](./header.md) | Defines a header for a document or section |
-| [&lt;hr&gt;](./hr.md) |  Defines a thematic change in the content |
-| [&lt;html&gt;](./html.md) | Defines the root of an HTML document |
-| [&lt;i&gt;](./i.md) | Defines a part of text in an alternate voice or mood |
-| [&lt;iframe&gt;](./iframe.md) | Defines an inline frame |
-| [&lt;img&gt;](./img.md) | Defines an image |
-| [&lt;input&gt;](./input.md) | Defines an input control |
-| [&lt;ins&gt;](./ins.md) | Defines a text that has been inserted into a document |
-| [&lt;kbd&gt;](./kbd.md) | Defines keyboard input |
-| [&lt;label&gt;](./label.md) | Defines a label&nbsp;for an &lt;input&gt; element |
-| [&lt;legend&gt;](./legend.md) | Defines a caption for a &lt;fieldset&gt; element |
-| [&lt;li&gt;](./li.md) | Defines a list item |
-| [&lt;link&gt;](./link.md) | Defines the relationship between a document and an external resource (most used to link to style sheets) |
-| [&lt;main&gt;](./main.md) | Specifies the main content of a document |
-| [&lt;map&gt;](./map.md) | Defines an image map |
-| [&lt;mark&gt;](./mark.md) | Defines marked/highlighted text |
-| [&lt;meta&gt;](./meta.md) | Defines metadata about an HTML document |
-| [&lt;meter&gt;](./meter.md) | Defines a scalar measurement within a known range (a gauge) |
-| [&lt;nav&gt;](./nav.md) | Defines navigation links |
-| [&lt;noframes&gt;](./noframes.md) | ![][1] ⚠️ HTML 5 不支持。 Defines an alternate content for users that do not support frames |
-| [&lt;noscript&gt;](./noscript.md) | Defines an alternate content for users that do not support client-side scripts |
-| [&lt;object&gt;](./object.md) | Defines a container for an external application |
-| [&lt;ol&gt;](./ol.md) | Defines an ordered list |
-| [&lt;optgroup&gt;](./optgroup.md) | Defines a group of related options in a drop-down list |
-| [&lt;option&gt;](./option.md) | Defines an option in a drop-down list |
-| [&lt;output&gt;](./output.md) | Defines the result of a calculation |
-| [&lt;p&gt;](./p.md) | Defines a paragraph |
-| [&lt;param&gt;](./param.md) | Defines a parameter for an object |
-| [&lt;picture&gt;](./picture.md) | Defines a container for multiple image resources |
-| [&lt;pre&gt;](./pre.md) | Defines preformatted text |
-| [&lt;progress&gt;](./progress.md) | Represents the progress of a task |
-| [&lt;q&gt;](./q.md) | Defines a short quotation |
-| [&lt;rp&gt;](./rp.md) | Defines what to show in browsers that do not support ruby annotations |
-| [&lt;rt&gt;](./rt.md) | Defines an explanation/pronunciation of characters (for East Asian typography) |
-| [&lt;ruby&gt;](./ruby.md) | Defines a ruby annotation (for East Asian typography) |
-| [&lt;s&gt;](./s.md) | Defines text that is no longer correct |
-| [&lt;samp&gt;](./samp.md) | Defines sample output from a computer program |
-| [&lt;script&gt;](./script.md) | Defines a client-side script |
-| [&lt;section&gt;](./section.md) | Defines a section in a document |
-| [&lt;select&gt;](./select.md) | Defines a drop-down list |
-| [&lt;small&gt;](./small.md) | Defines smaller text |
-| [&lt;source&gt;](./source.md) | Defines multiple media resources for media elements (&lt;video&gt; and &lt;audio&gt;) |
-| [&lt;span&gt;](./span.md) | Defines a section in a document |
-| [&lt;strike&gt;](./strike.md) | ![][1] ⚠️ HTML 5 不支持。 Use [&lt;del&gt;](./del.md) or [&lt;s&gt;](./s.md) instead. Defines strikethrough text |
-| [&lt;strong&gt;](./strong.md) | Defines important text |
-| [&lt;style&gt;](./style.md) | Defines style information for a document |
-| [&lt;sub&gt;](./sub.md) | Defines subscripted text |
-| [&lt;summary&gt;](./summary.md) | Defines a visible heading for a &lt;details&gt; element |
-| [&lt;sup&gt;](./sup.md) | Defines superscripted text |
-| [&lt;svg&gt;](./svg.md) | Defines a container for SVG graphics |
-| [&lt;table&gt;](./table.md) | Defines a table |
-| [&lt;tbody&gt;](./tbody.md) | Groups the body content in a table |
-| [&lt;td&gt;](./td.md) | Defines a cell in a table |
-| [&lt;template&gt;](./template.md) | Defines a container for content that should be hidden when the page loads |
-| [&lt;textarea&gt;](./textarea.md) | Defines a multiline input control (text area) |
-| [&lt;tfoot&gt;](./tfoot.md) | Groups the footer content in a table |
-| [&lt;th&gt;](./th.md) | Defines a header cell in a table |
-| [&lt;thead&gt;](./thead.md) | Groups the header content in a table |
-| [&lt;time&gt;](./time.md) | Defines a specific time (or datetime) |
-| [&lt;title&gt;](./title.md) | Defines a title for the document |
-| [&lt;tr&gt;](./tr.md) | Defines a row in a table |
-| [&lt;track&gt;](./track.md) | Defines text tracks for media elements (&lt;video&gt; and &lt;audio&gt;) |
-| [&lt;tt&gt;](./tt.md) | ![][1] ⚠️ HTML 5 不支持。 Use CSS instead. Defines teletype text |
-| [&lt;u&gt;](./u.md) | Defines some text that is unarticulated and styled differently from normal text |
-| [&lt;ul&gt;](./ul.md) | Defines an unordered list |
-| [&lt;var&gt;](./var.md) | Defines a variable |
-| [&lt;video&gt;](./video.md) | Defines embedded video content |
-| [&lt;wbr&gt;](./wbr.md) | Defines a possible line-break |
+| [&lt;!--...--&gt;](./comment.md) | 定义注释 |
+| [&lt;!DOCTYPE&gt;](./doctype.md) | 定义文档类型 |
+| [&lt;a&gt;](./a.md) | 定义超链接 |
+| [&lt;abbr&gt;](./abbr.md) | 定义缩写或首字母缩略词 |
+| [&lt;acronym&gt;](./acronym.md) | ![][1] ⚠️ HTML 5 不支持。请改用 [&lt;abbr&gt;](./abbr.md)。定义首字母缩写词 |
+| [&lt;address&gt;](./address.md) | 定义文档作者/所有者的联系信息 |
+| [&lt;applet&gt;](./applet.md) | ![][1] ⚠️ HTML 5 不支持。请改用 [&lt;embed&gt;](./embed.md) 或者 [&lt;object&gt;](./object.md)。定义一个嵌入式小程序。 |
+| [&lt;area&gt;](./area.md) | 定义图像映射内的区域。 |
+| [&lt;article&gt;](./article.md) | 定义文章 |
+| [&lt;aside&gt;](./aside.md) | 定义页面内容之外的内容。 |
+| [&lt;audio&gt;](./audio.md) | 定义声音内容。 |
+| [&lt;b&gt;](./b.md) | 定义文本粗体字。 |
+| [&lt;base&gt;](./base.md) | 指定文档中所有相对 URL 的基本 URL/目标 |
+| [&lt;basefont&gt;](./basefont.md) | ![][1] ⚠️ HTML 5 不支持。定义页面中文本的默认字体、颜色或尺寸。 |
+| [&lt;bdi&gt;](./bdi.md) | 定义文本的文本方向，使其脱离其周围文本的方向设置。 |
+| [&lt;bdo&gt;](./bdo.md) | 定义文字方向。 |
+| [&lt;big&gt;](./big.md) | ![][1] ⚠️ HTML 5 不支持。 定义大号文本。请改用 CSS 代替。 |
+| [&lt;blockquote&gt;](./blockquote.md) | 定义长的段落引用。 |
+| [&lt;body&gt;](./body.md) | 定义文档的主体。 |
+| [&lt;br&gt;](./br.md) | 定义单个换行符 |
+| [&lt;button&gt;](./button.md) | 定义一个可点击的按钮 |
+| [&lt;canvas&gt;](./canvas.md) | 用于通过脚本（通常是 JavaScript）即时绘制图形 |
+| [&lt;caption&gt;](./caption.md) | 定义表格标题 |
+| [&lt;center&gt;](./center.md) | ![][1] ⚠️ HTML 5 不支持。改用 CSS。 定义居中文本 |
+| [&lt;cite&gt;](./cite.md) | 定义作品的标题 |
+| [&lt;code&gt;](./code.md) | 定义一段计算机代码 |
+| [&lt;col&gt;](./col.md) | 为 [&lt;colgroup&gt;](./colgroup.md) 元素中的每一列指定列属性  |
+| [&lt;colgroup&gt;](./colgroup.md) | 指定表格中的一组一个或多个列进行格式化 |
+| [&lt;data&gt;](./data.md) | 添加给定内容的机器可读翻译 |
+| [&lt;datalist&gt;](./datalist.md) | 指定输入控件的预定义选项列表 |
+| [&lt;dd&gt;](./dd.md) | 定义描述列表中术语的描述/值 |
+| [&lt;del&gt;](./del.md) | 定义已从文档中删除的文本 |
+| [&lt;details&gt;](./details.md) | 定义用户可以查看或隐藏的其他详细信息 |
+| [&lt;dfn&gt;](./dfn.md) | 指定将在内容中定义的术语 |
+| [&lt;dialog&gt;](./dialog.md) | 定义一个对话框或窗口 |
+| [&lt;dir&gt;](./dir.md) | ![][1] ⚠️ HTML 5 不支持。 请改用 [&lt;ul&gt;](./ul.md)。定义目录列表 |
+| [&lt;div&gt;](./div.md) | 定义文档中的一个部分 |
+| [&lt;dl&gt;](./dl.md) | 定义描述列表 |
+| [&lt;dt&gt;](./dt.md) | 在描述列表中定义一个术语/名称 |
+| [&lt;em&gt;](./em.md) | 定义强调的文本 |
+| [&lt;embed&gt;](./embed.md) | 为外部应用程序定义一个容器 |
+| [&lt;fieldset&gt;](./fieldset.md) | 对表单中的相关元素进行分组 |
+| [&lt;figcaption&gt;](./figcaption.md) | 定义 [&lt;figure&gt;](./figure.md) 元素的标题 |
+| [&lt;figure&gt;](./figure.md) | 指定自包含内容 |
+| [&lt;font&gt;](./font.md) | ![][1] ⚠️ HTML 5 不支持。改用 CSS。 定义文本的字体、颜色和大小 |
+| [&lt;footer&gt;](./footer.md) | 定义文档或部分的页脚 |
+| [&lt;form&gt;](./form.md) | 定义用户输入的 HTML 表单 |
+| [&lt;frame&gt;](./frame.md) | ![][1] ⚠️ HTML 5 不支持。在框架集中定义一个窗口（一个框架） |
+| [&lt;frameset&gt;](./frameset.md) | ![][1] ⚠️ HTML 5 不支持。 定义一组框架 |
+| [&lt;h1&gt; to &lt;h6&gt;](./hn.md) | 定义 HTML 标题 |
+| [&lt;head&gt;](./head.md) | 包含文档的元数据/信息 |
+| [&lt;header&gt;](./header.md) | 定义文档或部分的标题 |
+| [&lt;hr&gt;](./hr.md) | 定义水平线。 |
+| [&lt;html&gt;](./html.md) | 定义 HTML 文档的根 |
+| [&lt;i&gt;](./i.md) | 定义斜体字。 |
+| [&lt;iframe&gt;](./iframe.md) | 定义一个内联框架 |
+| [&lt;img&gt;](./img.md) | 定义图像。 |
+| [&lt;input&gt;](./input.md) | 定义输入控件。 |
+| [&lt;ins&gt;](./ins.md) | 定义被插入文本。 |
+| [&lt;kbd&gt;](./kbd.md) | 定义键盘文本。 |
+| [&lt;label&gt;](./label.md) | 为 [&lt;input&gt;](./input.md) 元素定义标签 |
+| [&lt;legend&gt;](./legend.md) | 定义 [&lt;fieldset&gt;](./fieldset.md) 元素的标题 |
+| [&lt;li&gt;](./li.md) | 定义一个列表项 |
+| [&lt;link&gt;](./link.md) | 定义文档和外部资源之间的关系（最常用于链接到样式文件） |
+| [&lt;main&gt;](./main.md) | 指定文档的主要内容 |
+| [&lt;map&gt;](./map.md) | 定义图像映射 |
+| [&lt;mark&gt;](./mark.md) | 定义标记/突出显示的文本 |
+| [&lt;meta&gt;](./meta.md) | 定义有关 HTML 文档的元数据 |
+| [&lt;meter&gt;](./meter.md) | 定义已知范围内的标量测量（仪表） |
+| [&lt;nav&gt;](./nav.md) | 定义导航链接 |
+| [&lt;noframes&gt;](./noframes.md) | ![][1] ⚠️ HTML 5 不支持。为不支持框架的用户定义替代内容 |
+| [&lt;noscript&gt;](./noscript.md) | 为不支持客户端脚本的用户定义替代内容 |
+| [&lt;object&gt;](./object.md) | 为外部应用程序定义一个容器 |
+| [&lt;ol&gt;](./ol.md) | 定义有序列表 |
+| [&lt;optgroup&gt;](./optgroup.md) | 在下拉列表中定义一组相关选项 |
+| [&lt;option&gt;](./option.md) | 在下拉列表中定义一个选项 |
+| [&lt;output&gt;](./output.md) | 定义计算结果 |
+| [&lt;p&gt;](./p.md) | 定义段落。 |
+| [&lt;param&gt;](./param.md) | 定义对象的参数 |
+| [&lt;picture&gt;](./picture.md) | 定义多个图片资源的容器 |
+| [&lt;pre&gt;](./pre.md) | 定义预格式化文本 |
+| [&lt;progress&gt;](./progress.md) | 代表一个任务的进度 |
+| [&lt;q&gt;](./q.md) | 定义一个短引号 |
+| [&lt;rp&gt;](./rp.md) | 定义在不支持 ruby 注释的浏览器中显示的内容 |
+| [&lt;rt&gt;](./rt.md) | 定义字符的解释/发音（用于东亚排版） |
+| [&lt;ruby&gt;](./ruby.md) | 定义一个 ruby 注释（用于东亚字体） |
+| [&lt;s&gt;](./s.md) | 定义不再正确的文本 |
+| [&lt;samp&gt;](./samp.md) | 定义计算机代码样本 |
+| [&lt;script&gt;](./script.md) | 定义客户端脚本 |
+| [&lt;section&gt;](./section.md) | 定义文档中的一个部分 |
+| [&lt;select&gt;](./select.md) | 定义一个下拉列表 |
+| [&lt;small&gt;](./small.md) | 定义较小的文本 |
+| [&lt;source&gt;](./source.md) | 为媒体元素（[&lt;video&gt;](./video.md) 和 [&lt;audio&gt;](./audio.md)）定义多种媒体资源 |
+| [&lt;span&gt;](./span.md) | 定义文档中的一个部分 |
+| [&lt;strike&gt;](./strike.md) | ![][1] ⚠️ HTML 5 不支持。请改用 [&lt;del&gt;](./del.md) 或 [&lt;s&gt;](./s.md)。 定义删除线文本 |
+| [&lt;strong&gt;](./strong.md) | 定义重要文本 |
+| [&lt;style&gt;](./style.md) | 定义文档的样式信息 |
+| [&lt;sub&gt;](./sub.md) | 定义下标文本 |
+| [&lt;summary&gt;](./summary.md) | 定义 &lt;details&gt; 元素的可见标题 |
+| [&lt;sup&gt;](./sup.md) | 定义上标文本 |
+| [&lt;svg&gt;](./svg.md) | 定义 SVG 图形的容器 |
+| [&lt;table&gt;](./table.md) | 定义一个表 |
+| [&lt;tbody&gt;](./tbody.md) | 将正文内容分组到表格中 |
+| [&lt;td&gt;](./td.md) | 定义表格中的单元格 |
+| [&lt;template&gt;](./template.md) | 为页面加载时应该隐藏的内容定义一个容器 |
+| [&lt;textarea&gt;](./textarea.md) | 定义一个多行输入控件（文本区域） |
+| [&lt;tfoot&gt;](./tfoot.md) | 对表格中的页脚内容进行分组 |
+| [&lt;th&gt;](./th.md) | 定义表格中的标题单元格 |
+| [&lt;thead&gt;](./thead.md) | 对表格中的标题内容进行分组 |
+| [&lt;time&gt;](./time.md) | 定义特定时间（或日期时间） |
+| [&lt;title&gt;](./title.md) | 定义文档的标题 |
+| [&lt;tr&gt;](./tr.md) | 定义表中的一行 |
+| [&lt;track&gt;](./track.md) | 为媒体元素（[&lt;video&gt;](./video.md) 和 [&lt;audio&gt;](./audio.md)）定义文本轨道 |
+| [&lt;tt&gt;](./tt.md) | ![][1] ⚠️ HTML 5 不支持。改用 CSS。定义打字机文本 |
+| [&lt;u&gt;](./u.md) | 定义下划线文本 |
+| [&lt;ul&gt;](./ul.md) | 定义一个无序列表 |
+| [&lt;var&gt;](./var.md) | 定义一个变量 |
+| [&lt;video&gt;](./video.md) | 定义嵌入的视频内容 |
+| [&lt;wbr&gt;](./wbr.md) | 定义可能的换行符 |
+| &lt;xmp&gt; | 已废弃，内容不会被当作文档内容解析，而会被用等宽字体直接呈现。 |
 
 [1]: ../assets/no-support-html5.svg
