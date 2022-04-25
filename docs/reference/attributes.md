@@ -78,16 +78,16 @@ HTML 属性参考
 | [onclick](../attribute/onclick.md) | 所有元素可见 | Script to be run when the element is being clicked |
 | [oncontextmenu](../attribute/oncontextmenu.md) | 所有元素可见 | Script to be run when a context menu is triggered |
 | [oncopy](../attribute/oncopy.md) | 所有元素可见 | Script to be run when the content of the element is being copied |
-| [oncuechange](../attribute/oncuechange.md) | [&lt;track&gt;](../tags/track.md) | Script to be run when the cue changes in a [&lt;track&gt;](../tags/track.md) element |
-| [oncut](../attribute/oncut.md) | 所有元素可见 | Script to be run when the content of the element is being cut |
-| [ondblclick](../attribute/ondblclick.md) | 所有元素可见 | Script to be run when the element is being double-clicked |
-| [ondrag](../attribute/ondrag.md) | 所有元素可见 | Script to be run when the element is being dragged |
-| [ondragend](../attribute/ondragend.md) | 所有元素可见 | Script to be run at the end of a drag operation |
-| [ondragenter](../attribute/ondragenter.md) | 所有元素可见 | Script to be run when an element has been dragged to a valid drop target |
-| [ondragleave](../attribute/ondragleave.md) | 所有元素可见 | Script to be run when an element leaves a valid drop target |
-| [ondragover](../attribute/ondragover.md) | 所有元素可见 | Script to be run when an element is being dragged over a valid drop target |
-| [ondragstart](../attribute/ondragstart.md) | 所有元素可见 | Script to be run at the start of a drag operation |
-| [ondrop](../attribute/ondrop.md) | 所有元素可见 | Script to be run when dragged element is being dropped |
+| [oncuechange](../attribute/oncuechange.md) | [&lt;track&gt;](../tags/track.md) | [&lt;track&gt;](../tags/track.md) 元素中提示发生变化时运行的脚本 |
+| [oncut](../attribute/oncut.md) | 所有元素可见 | 剪切元素内容时运行的脚本 |
+| [ondblclick](../attribute/ondblclick.md) | 所有元素可见 | 双击元素时运行的脚本 |
+| [ondrag](../attribute/ondrag.md) | 所有元素可见 | 拖动元素时运行的脚本 |
+| [ondragend](../attribute/ondragend.md) | 所有元素可见 | 在拖动操作结束时运行的脚本 |
+| [ondragenter](../attribute/ondragenter.md) | 所有元素可见 | 将元素拖到有效放置目标时运行的脚本 |
+| [ondragleave](../attribute/ondragleave.md) | 所有元素可见 | 当元素离开有效放置目标时运行的脚本 |
+| [ondragover](../attribute/ondragover.md) | 所有元素可见 | 将元素拖到有效放置目标上时运行的脚本 |
+| [ondragstart](../attribute/ondragstart.md) | 所有元素可见 | 在拖动操作开始时运行的脚本 |
+| [ondrop](../attribute/ondrop.md) | 所有元素可见 | 拖放拖动元素时运行的脚本 |
 | [ondurationchange](../attribute/ondurationchange.md) | [&lt;audio&gt;](../tags/audio.md), [&lt;video&gt;](../tags/video.md) | Script to be run when the length of the media changes |
 | [onemptied](../attribute/onemptied.md) | [&lt;audio&gt;](../tags/audio.md), [&lt;video&gt;](../tags/video.md) | Script to be run when something bad happens and the file is suddenly unavailable (like unexpectedly disconnects) |
 | [onended](../attribute/onended.md) | [&lt;audio&gt;](../tags/audio.md), [&lt;video&gt;](../tags/video.md) | Script to be run when the media has reach the end (a useful event for messages like "thanks for listening") |
