@@ -34,7 +34,15 @@ HTML 元素通过“标签”（tag）将文本从文档中引出，标签由在
 
 <!--idoc:ignore:end-->
 
-一天搬运一个慢慢攒吧。
+## Contributors
+
+一如既往，感谢我们出色的贡献者！一天搬运一个慢慢攒吧，欢迎大家参与进来 :)。
+
+<a href="https://github.com/jaywcjlove/html-tutorial/graphs/contributors">
+  <img src="https://jaywcjlove.github.io/html-tutorial/CONTRIBUTORS.svg" />
+</a>
+
+Made with [action-contributors](https://github.com/jaywcjlove/github-action-contributors).
 
 ## License
 
