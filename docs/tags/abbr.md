@@ -5,7 +5,7 @@ HTML `<abbr>` 标签
 
 标记一个缩写：
 
-```html
+```html idoc:preview
 The <abbr title="People's Republic of China">PRC</abbr> was founded in 1949.
 ```
 
@@ -33,7 +33,7 @@ The <abbr title="People's Republic of China">PRC</abbr> was founded in 1949.
 
 `<abbr>` 也可以与 [\<dfn>](./dfn.md) 一起使用来定义缩写：
 
-```html
+```html idoc:preview
 <p><dfn><abbr title="Cascading Style Sheets">CSS</abbr>
 </dfn> is a language that describes the style of an HTML document.</p>
 ```

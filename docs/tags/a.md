@@ -5,8 +5,8 @@ HTML `<a>` 标签
 
 指向 github.com 的超链接：
 
-```html
-<a href="https://github.com/jaywcjlove/html-tutorial">HTML Tutorial</a>
+```html idoc:preview
+<a target="_blank" href="https://github.com/jaywcjlove">HTML Tutorial</a>
 ```
 
 ## 定义和用法
@@ -47,7 +47,7 @@ HTML `<a>` 标签
 
 本例演示如何使用图像作为链接。
 
-```html
+```html idoc:preview
 <a href="https://github.com/jaywcjlove/html-tutorial">
   <img alt="HTML Tutorial" src="https://avatars1.githubusercontent.com/u/1680273?s=460&v=4" width="100" height="100">
 </a>
@@ -57,7 +57,7 @@ HTML `<a>` 标签
 
 本例演示如何在新窗口打开一个页面，这样的话访问者就无需离开你的站点了。
 
-```html
+```html idoc:preview
 <a target="_blank" href="https://github.com/jaywcjlove/html-tutorial">
   HTML Tutorial
 </a>
@@ -67,14 +67,14 @@ HTML `<a>` 标签
 
 本例演示如何如何链接到一个邮件。（本例在安装邮件客户端程序后才能工作。）
 
-```html
+```html idoc:preview
 <a href="mailto:someone@example.com">Send email</a>
 <a href="mailto:someone@microsoft.com?cc=someoneelse@microsoft.com&bcc=andsomeoneelse2@microsoft.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!">发送邮件！</a>
 ```
 
 ### 链接电话号码
 
-```html
+```html idoc:preview
 <a href="tel:+8602122278911">+86 021-22278911</a>
 ```
 
@@ -82,13 +82,13 @@ HTML `<a>` 标签
 
 链接到同一页面上的另一个部分，页面自定定位到对应位置：
 
-```html
-<a href="#section2">跳转到当前页面的 id=section2 的位置</a>
+```html idoc:preview
+<a href="#更多示例">跳转到当前页面的 "id=更多示例" 的位置</a>
 ```
 
 ### 执行 JS 脚本
 
-```html
+```html idoc:preview
 <a href="javascript:alert('Hello World!');">执行 JavaScript</a>
 ```
 
