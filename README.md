@@ -11,4 +11,31 @@ HTML 元素通过“标签”（tag）将文本从文档中引出，标签由在
 
 教程、参考资料和示例会不断审查以避免错误，但不能保证所有内容的完全正确性，所有资源来源网络。
 
+<!--idoc:ignore:start-->
+
+## 目录
+
+- [HTML 索引 (字母排序)](./docs/tags/README.md)
+- [HTML 索引 (分类)](./docs/reference/byfunc.md)
+- [HTML 浏览器支持](./docs/reference/browsersupport.md)
+- [HTML 属性参考](./docs/reference/attributes.md)
+- [HTML 全局属性](./docs/reference/standardattributes.md)
+- [HTML 事件](./docs/reference/eventattributes.md)
+- [HTML 颜色名](./docs/reference/colornames.md)
+- [HTML Canvas](./docs/reference/canvas.md)
+- [HTML 音频/视频](./docs/reference/av_dom.md)
+- [HTML 字符集](./docs/reference/charactersets.md)
+- [HTML Doctypes](./docs/reference/dtd.md)
+- [HTML URL 编码](./docs/reference/urlencode.md)
+- [HTML 语言代码](./docs/reference/language_codes.md)
+- [HTML 国家/地区代码](./docs/reference/country_codes.md)
+- [HTTP 状态消息](./docs/reference/httpmessages.md)
+- [键盘快捷键](./docs/reference/keyboardshortcuts.md)
+
+<!--idoc:ignore:end-->
+
 一天搬运一个慢慢攒吧。
+
+## License
+
+Licensed under the MIT License.
