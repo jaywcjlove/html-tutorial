@@ -48,11 +48,11 @@ HTML `<area>` 标签
 
 ## 全局属性
 
-`<abbr>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
+`<area>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
 
 ## 事件属性
 
-`<abbr>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
+`<area>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
 
 ## 更多示例
 
