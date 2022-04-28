@@ -41,7 +41,7 @@ HTML accesskey 属性
 
 ## 属性值
 
-值 | 描述
+值 Value | 描述 Description
 ---- | ----
 character | 规定激活（使元素获得焦点）元素的便捷按键。
 
