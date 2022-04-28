@@ -9,9 +9,9 @@ HTML data-* 属性
 
 ```html idoc:preview
 <ul>
-<li data-animal-type="鸟类">喜鹊</li>
-<li data-animal-type="鱼类">金枪鱼</li> 
-<li data-animal-type="蜘蛛">蝇虎</li> 
+  <li data-animal-type="鸟类">喜鹊</li>
+  <li data-animal-type="鱼类">金枪鱼</li> 
+  <li data-animal-type="蜘蛛">蝇虎</li> 
 </ul>
 ```
 
