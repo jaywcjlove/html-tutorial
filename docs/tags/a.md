@@ -92,6 +92,22 @@ HTML \<a> 标签
 <a href="javascript:alert('Hello World!');">执行 JavaScript</a>
 ```
 
+## 默认 CSS 设置
+
+大多数浏览器将显示具有以下默认值的 `<a>` 元素：
+
+```css
+a:link, a:visited {
+  color: (internal value);
+  text-decoration: underline;
+  cursor: auto;
+}
+
+a:link:active, a:visited:active {
+  color: (internal value);
+}
+```
+
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg
 [3]: ../assets/firefox.svg

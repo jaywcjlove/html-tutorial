@@ -44,6 +44,16 @@ HTML \<b> 标签
 <p>这是普通文本 - <span style="font-weight:bold;">这是粗体文本</span>.</p>
 ```
 
+## 默认 CSS 设置
+
+大多数浏览器将显示具有以下默认值的 `<b>` 元素：
+
+```css
+b {
+  font-weight: bold;
+}
+```
+
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg
 [3]: ../assets/firefox.svg

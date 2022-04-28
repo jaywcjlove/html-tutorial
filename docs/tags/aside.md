@@ -62,6 +62,16 @@ HTML \<aside> 标签
 </html>
 ```
 
+## 默认 CSS 设置
+
+大多数浏览器将显示具有以下默认值的 `<aside>` 元素：
+
+```css
+aside {
+  display: block;
+}
+```
+
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg
 [3]: ../assets/firefox.svg

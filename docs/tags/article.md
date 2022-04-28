@@ -87,6 +87,15 @@ HTML \<article> 标签
 </html>
 ```
 
+## 默认 CSS 设置
+
+大多数浏览器将显示具有以下默认值的 `<article>` 元素：
+
+```css
+article {
+  display: block;
+}
+```
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

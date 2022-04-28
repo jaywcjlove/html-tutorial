@@ -69,6 +69,15 @@ usemap="#planetmap">
 </map>
 ```
 
+## 默认 CSS 设置
+
+大多数浏览器将显示具有以下默认值的 `<area>` 元素：
+
+```css
+area {
+  display: none;
+}
+```
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

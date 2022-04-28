@@ -38,6 +38,16 @@ The <abbr title="People's Republic of China">PRC</abbr> was founded in 1949.
 </dfn> is a language that describes the style of an HTML document.</p>
 ```
 
+## 默认 CSS 设置
+
+大多数浏览器将显示具有以下默认值的 `<abbr>` 元素：
+
+```css
+abbr {
+  display: inline;
+}
+```
+
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg
 [3]: ../assets/firefox.svg
