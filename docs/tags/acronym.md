@@ -1,4 +1,4 @@
-HTML `<acronym>` 标签
+HTML \<acronym> 标签
 ===
 
 [![](https://shields.io/badge/HTML5-已废弃-yellow?logo=HTML5)](https://caniuse.com/?search=<acronym>)

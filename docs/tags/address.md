@@ -1,4 +1,4 @@
-HTML `<address>` 标签
+HTML \<address> 标签
 ===
 
 ## 例子

@@ -1,4 +1,4 @@
-HTML `<abbr>` 标签
+HTML \<abbr> 标签
 ===
 
 ## 实例

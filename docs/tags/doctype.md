@@ -1,4 +1,4 @@
-HTML `<!DOCTYPE>` 声明
+HTML \<!DOCTYPE> 声明
 ===
 
 ```html
@@ -31,7 +31,7 @@ HTML `<!DOCTYPE>` 声明
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| __&lt;!DOCTYPE&gt;__ | Yes | Yes | Yes | Yes | Yes |
+| __\<!DOCTYPE>__ | Yes | Yes | Yes | Yes | Yes |
 ## 较旧的 HTML 文档
 
 在旧文档（HTML 4 或 XHTML）中，声明更复杂，因为声明必须引用 DTD（文档类型定义）。

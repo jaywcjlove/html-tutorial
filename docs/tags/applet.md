@@ -1,4 +1,4 @@
-HTML `<applet>` 标签
+HTML \<applet> 标签
 ===
 
 [![](https://shields.io/badge/HTML5-已废弃-yellow?logo=HTML5)](https://caniuse.com/?search=<applet>)
