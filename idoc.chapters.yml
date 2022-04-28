@@ -8,7 +8,8 @@
 - reference/colornames.md: HTML 颜色名
 - reference/canvas.md: HTML Canvas
 - reference/av_dom.md: HTML 音频/视频
-- reference/charactersets.md: HTML 字符集
+- reference/charactersets.md: HTML 字符集(UTF-8)
+- reference/charactersets_entities.md: HTML 字符集实体
 - reference/dtd.md: HTML Doctypes
 - reference/urlencode.md: HTML URL 编码
 - reference/language_codes.md: HTML 语言代码
