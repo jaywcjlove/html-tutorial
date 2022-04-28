@@ -3,6 +3,8 @@ HTML 字符集
 
 HTML5 中的默认字符集为 UTF-8。
 
+使用 `&#<Number>;` 在 HTML 中显示，如 `&#35;` 👉  <kbd>&#35;</kbd>
+
 | Number | ASCII | ANSI | 8859-1 | UTF-8 | Description |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 32 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | space |
