@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML accesskey 属性 HTML Tutorial </title>
+  <title>HTML class 属性 HTML Tutorial </title>
   
-  <meta name="description" content="具有指定访问键的两个超链接：">
+  <meta name="description" content="在 HTML 文档中使用 class 属性：">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -67,7 +67,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -626,7 +626,198 @@
 </div>
 
   <markdown-style>
-    
+    <h1 id="html-class-属性"><a aria-hidden="true" tabindex="-1" href="#html-class-属性" class="anchor"><span class="icon icon-link"></span></a>HTML class 属性</h1>
+<h2 id="实例"><a aria-hidden="true" tabindex="-1" href="#实例" class="anchor"><span class="icon icon-link"></span></a>实例</h2>
+<p>在 HTML 文档中使用 class 属性：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>html</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>head</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
+</span></span></span><span class="code-line line-number" line="4"><span class="token style"><span class="token language-css"><span class="token selector">h1<span class="token class">.intro</span></span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="5"><span class="token style"><span class="token language-css">  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token color">blue</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="6"><span class="token style"><span class="token language-css"><span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="7"><span class="token style"><span class="token language-css">
+</span></span></span><span class="code-line line-number" line="8"><span class="token style"><span class="token language-css"><span class="token selector">p<span class="token class">.important</span></span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="9"><span class="token style"><span class="token language-css">  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token color">green</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="10"><span class="token style"><span class="token language-css"><span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="11"><span class="token style"><span class="token language-css"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>style</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="12"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>head</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="13"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>body</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="14">
+</span><span class="code-line line-number" line="15"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>intro<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Header 1<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h1</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="16"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>A paragraph.<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="17"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>important<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Note that this is an important paragraph. :)<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="18">
+</span><span class="code-line line-number" line="19"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>body</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="20"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>html</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<html>
+<head>
+<style>
+h1.intro {
+  color: blue;
+}
+
+p.important {
+  color: green;
+}
+</style>
+</head>
+<body>
+
+<h1 class=&#x22;intro&#x22;>Header 1</h1>
+<p>A paragraph.</p>
+<p class=&#x22;important&#x22;>Note that this is an important paragraph. :)</p>
+
+</body>
+</html>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<html>
+<head>
+<style>
+h1.intro {
+  color: blue;
+}
+
+p.important {
+  color: green;
+}
+</style>
+</head>
+<body>
+
+<h1 class=&#x22;intro&#x22;>Header 1</h1>
+<p>A paragraph.</p>
+<p class=&#x22;important&#x22;>Note that this is an important paragraph. :)</p>
+
+</body>
+</html>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<h2 id="定义和使用"><a aria-hidden="true" tabindex="-1" href="#定义和使用" class="anchor"><span class="icon icon-link"></span></a>定义和使用</h2>
+<p><code>class</code> 属性为元素指定一个或多个类名。</p>
+<p><code>class</code> 属性主要用于指向样式表中的类。 但是，JavaScript 也可以使用它（通过 HTML DOM）来更改具有指定类的 HTML 元素。</p>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th> </th><th><img src="../../assets/chrome.svg" alt="chrome"></th><th><img src="../../assets/edge.svg" alt="edge"></th><th><img src="../../assets/firefox.svg" alt="firefox"></th><th><img src="../../assets/safari.svg" alt="safari"></th><th><img src="../../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td><strong>&#x3C;a></strong></td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<h2 id="语法"><a aria-hidden="true" tabindex="-1" href="#语法" class="anchor"><span class="icon icon-link"></span></a>语法</h2>
+<pre class="language-html"><code class="language-HTML code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>element</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>classname<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<element class=&#x22;classname&#x22;>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="属性值"><a aria-hidden="true" tabindex="-1" href="#属性值" class="anchor"><span class="icon icon-link"></span></a>属性值</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>值 Value</th><th>描述 Description</th></tr></thead><tbody><tr><td>classname</td><td>为元素指定一个或多个类名。 要指定多个类，请用空格分隔类名，例如 <code>&#x3C;span class="left important"</code>>。 这允许您为一个 HTML元素组合多个 CSS 类。<br>命名规则：<br> 1. 必须以字母 A-Z 或 a-z 开头<br>2. 后面可以跟：字母 (A-Za-z)、数字 (0-9)、连字符 ("-") 和下划线 ("_")</td></tr></tbody></table>
+<h2 id="更多示例"><a aria-hidden="true" tabindex="-1" href="#更多示例" class="anchor"><span class="icon icon-link"></span></a>更多示例</h2>
+<p>向一个 HTML 元素添加多个类：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token doctype"><span class="token punctuation">&#x3C;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>html</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>head</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
+</span></span></span><span class="code-line line-number" line="5"><span class="token style"><span class="token language-css">    <span class="token selector">h1<span class="token class">.intro</span></span> <span class="token punctuation">{</span> <span class="token property">color</span><span class="token punctuation">:</span> <span class="token color">blue</span><span class="token punctuation">;</span> <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="6"><span class="token style"><span class="token language-css">    <span class="token selector"><span class="token class">.important</span></span> <span class="token punctuation">{</span> <span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token color">yellow</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="7"><span class="token style"><span class="token language-css">  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>style</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="8"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>head</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="9"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>body</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="10">
+</span><span class="code-line line-number" line="11"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>intro important<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Header 1<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h1</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="12"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>A paragraph.<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="13">
+</span><span class="code-line line-number" line="14"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>body</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="15"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>html</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1.intro { color: blue; text-align: center; }
+    .important { background-color: yellow; }
+  </style>
+</head>
+<body>
+
+<h1 class=&#x22;intro important&#x22;>Header 1</h1>
+<p>A paragraph.</p>
+
+</body>
+</html>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1.intro { color: blue; text-align: center; }
+    .important { background-color: yellow; }
+  </style>
+</head>
+<body>
+
+<h1 class=&#x22;intro important&#x22;>Header 1</h1>
+<p>A paragraph.</p>
+
+</body>
+</html>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<p>使用 JavaScript 为第一个带有 <code>class="example"</code>（索引 0）的元素添加黄色(yellow)背景色。</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>example<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Hello World!<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="3"><span class="token script"><span class="token language-javascript"><span class="token keyword">var</span> x <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementsByClassName</span><span class="token punctuation">(</span><span class="token string">"example"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="4"><span class="token script"><span class="token language-javascript">x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token property-access">style</span><span class="token punctuation">.</span><span class="token property-access">backgroundColor</span> <span class="token operator">=</span> <span class="token string">"yellow"</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="5"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<div class=&#x22;example&#x22;>Hello World!<div>
+<script>
+var x = document.getElementsByClassName(&#x22;example&#x22;);
+x[0].style.backgroundColor = &#x22;yellow&#x22;;
+</script>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<div class=&#x22;example&#x22;>Hello World!<div>
+<script>
+var x = document.getElementsByClassName(&#x22;example&#x22;);
+x[0].style.backgroundColor = &#x22;yellow&#x22;;
+</script>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<p>使用 JavaScript 将 <code>mystyle</code> 类添加到 <code>id="myDIV"</code> 的元素中：</p>
+<p>document.getElementById("myDIV").classList.add("mystyle");</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css"><span class="token selector"><span class="token class">.mystyle</span></span> <span class="token punctuation">{</span><span class="token property">color</span><span class="token punctuation">:</span> <span class="token color">red</span><span class="token punctuation">;</span><span class="token punctuation">}</span></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>style</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myDIV<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Hello World!<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="4"><span class="token script"><span class="token language-javascript"><span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myDIV"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">classList</span><span class="token punctuation">.</span><span class="token method function property-access">add</span><span class="token punctuation">(</span><span class="token string">"mystyle"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="5"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<style>.mystyle {color: red;}</style>
+<div id=&#x22;myDIV&#x22;>Hello World!<div>
+<script>
+document.getElementById(&#x22;myDIV&#x22;).classList.add(&#x22;mystyle&#x22;);
+</script>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<style>.mystyle {color: red;}</style>
+<div id=&#x22;myDIV&#x22;>Hello World!<div>
+<script>
+document.getElementById(&#x22;myDIV&#x22;).classList.add(&#x22;mystyle&#x22;);
+</script>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
     
 
 <div class="previous">
@@ -662,6 +853,46 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#实例" class="tocs-link">实例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#定义和使用" class="tocs-link">定义和使用</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#语法" class="tocs-link">语法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#属性值" class="tocs-link">属性值</a>
+        
+      </li>
+    
+      <li>
+        <a href="#更多示例" class="tocs-link">更多示例</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
+
+<script src="../../js/tocbot.js?v=1.0.0"></script>
 
 </div>
 
