@@ -4,25 +4,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>applet.md HTML Tutorial </title>
+  <title>HTML &lt;applet&gt; 标签 HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/tags/applet.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="&lt;applet&gt; 标签在 HTML 4 中用于定义嵌入式 applet（插件）。">
   
   
   <meta name="keywords" content="html,tutorial">
   
-  <link rel="stylesheet" type="text/css" href="../css/main.css?v=1.16.4">
-  <link rel="stylesheet" type="text/css" href="../css/tocbot.css?v=1.16.4">
-  <link rel="stylesheet" type="text/css" href="../css/media.css?v=1.16.4">
-  <link rel="stylesheet" type="text/css" href="../css/sidebar.css?v=1.16.4">
-  <link rel="stylesheet" type="text/css" href="../css/copy.css?v=1.16.4">
-  <link rel="stylesheet" type="text/css" href="../css/demo-preview.css?v=1.16.4">
+  <link rel="stylesheet" type="text/css" href="../css/main.css?v=1.16.5">
+  <link rel="stylesheet" type="text/css" href="../css/tocbot.css?v=1.16.5">
+  <link rel="stylesheet" type="text/css" href="../css/media.css?v=1.16.5">
+  <link rel="stylesheet" type="text/css" href="../css/sidebar.css?v=1.16.5">
+  <link rel="stylesheet" type="text/css" href="../css/copy.css?v=1.16.5">
+  <link rel="stylesheet" type="text/css" href="../css/demo-preview.css?v=1.16.5">
   
     <link rel="icon" href="../logo.svg" type="image/x-icon">
   
-  <script src="../js/copy.js?v=1.16.4"></script>
-  <script src="../js/dark-mode.js?v=1.16.4"></script>
-  <script src="../js/markdown-style.js?v=1.16.4"></script>
+  <script src="../js/copy.js?v=1.16.5"></script>
+  <script src="../js/dark-mode.js?v=1.16.5"></script>
+  <script src="../js/markdown-style.js?v=1.16.5"></script>
 </head>
 <body id="idoctotop">
   <a href="#idoctotop" class="gototop">top</a>
@@ -67,7 +67,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -626,8 +626,53 @@
 </div>
 
   <markdown-style>
-    <h1 id="appletmd"><a aria-hidden="true" tabindex="-1" href="#appletmd" class="anchor"><span class="icon icon-link"></span></a>applet.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/master/docs/tags/applet.md">docs/tags/applet.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-applet-标签"><a aria-hidden="true" tabindex="-1" href="#html-applet-标签" class="anchor"><span class="icon icon-link"></span></a>HTML <code>&#x3C;applet></code> 标签</h1>
+<p><a href="https://caniuse.com/?search=%3Capplet%3E"><img src="https://shields.io/badge/HTML5-%E5%B7%B2%E5%BA%9F%E5%BC%83-yellow?logo=HTML5" alt=""></a></p>
+<p><code>&#x3C;applet></code> 标签在 HTML 4 中用于定义嵌入式 <code>applet</code>（插件）。</p>
+<h2 id="插件"><a aria-hidden="true" tabindex="-1" href="#插件" class="anchor"><span class="icon icon-link"></span></a>插件</h2>
+<p>插件是扩展浏览器标准功能的计算机程序。</p>
+<p>插件已用于许多不同的目的：</p>
+<ul>
+<li>运行 Java 小程序</li>
+<li>运行 ActiveX 控件</li>
+<li>显示 Flash 影片</li>
+<li>显示地图</li>
+<li>扫描病毒</li>
+<li>验证银行 ID</li>
+</ul>
+<blockquote style="background: #ffffcc; padding: 10px 0 10px 15px; border-left: 4px solid #f4cc41;">
+<p>大多数浏览器不再支持 <code>Java Applets</code> 和插件。<br>
+任何浏览器都不再支持 <code>ActiveX</code> 控件。<br>
+现代浏览器也关闭了对 <code>Shockwave Flash</code> 的支持。</p>
+</blockquote>
+<!--rehype:style=background: #ffffcc; padding: 10px 0 10px 15px; border-left: 4px solid #f4cc41;-->
+<h2 id="改用什么"><a aria-hidden="true" tabindex="-1" href="#改用什么" class="anchor"><span class="icon icon-link"></span></a>改用什么？</h2>
+<p>如果要嵌入视频，请使用 <a href="../tags/video.html">&#x3C;video></a> 标签：</p>
+<h2 id="更多示例"><a aria-hidden="true" tabindex="-1" href="#更多示例" class="anchor"><span class="icon icon-link"></span></a>更多示例</h2>
+<p>如果要嵌入视频，请使用 <a href="../tags/video.html">&#x3C;video></a> 标签：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>video</span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>320<span class="token punctuation">"</span></span> <span class="token attr-name">controls</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>video/mp4<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>video/webm<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  Your browser does not support the video tag.
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>video</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<video width=&#x22;320&#x22; controls>
+  <source type=&#x22;video/mp4&#x22; src=&#x22;https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4&#x22;>
+  <source type=&#x22;video/webm&#x22; src=&#x22;https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm&#x22;>
+  Your browser does not support the video tag.
+</video>
+"><div data-previw="" class="idoc-demo-previw"></div><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<p>如果要嵌入音频，请使用 <a href="../tags/audio.html">&#x3C;audio></a> 标签：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>audio</span> <span class="token attr-name">controls</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>audio/ogg<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>horse.ogg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>audio/mpeg<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  Your browser does not support the audio tag.
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>audio</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<audio controls>
+  <source type=&#x22;audio/ogg&#x22; src=&#x22;horse.ogg&#x22;>
+  <source type=&#x22;audio/mpeg&#x22; src=&#x22;https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3&#x22;>
+  Your browser does not support the audio tag.
+</audio>
+"><div data-previw="" class="idoc-demo-previw"></div><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
     
 
 <div class="previous">
@@ -671,15 +716,40 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#插件" class="tocs-link">插件</a>
+        
+      </li>
+    
+      <li>
+        <a href="#改用什么" class="tocs-link">改用什么？</a>
+        
+      </li>
+    
+      <li>
+        <a href="#更多示例" class="tocs-link">更多示例</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
+
+<script src="../js/tocbot.js?v=1.0.0"></script>
 
 </div>
 
-<script src="../js/demo-preview.js?v=1.16.4"></script>
+<script src="../js/demo-preview.js?v=1.16.5"></script>
 
 
 <div class="footer warpper">
   Released under the MIT License. Copyright © 2022 Kenny Wong<br />
-Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.16.4
+Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.16.5
 
 </div>
 
