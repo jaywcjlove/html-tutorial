@@ -7,14 +7,15 @@ HTML \<base> 标签
 
 为页面上的所有链接指定默认 URL 和默认目标：
 
-```html idoc:preview
+```html idoc:preview:iframe
 <head>
-  <base href="https://github.com/jaywcjlove/html-tutorial" target="_blank">
+  <base href="https://wangchujiang.com/" target="_blank">
 </head>
-
 <body>
-<img src="images/stickman.gif" width="24" height="39" alt="Stickman">
-<a href="tags/tag_base.asp">HTML base Tag</a>
+  <img src="html-tutorial/assets/chrome.svg" width="24" height="39" alt="chrome"> 请注意，我们只为图像指定了一个相对地址。 由于我们在 head 部分指定了基本 URL，浏览器将在“https://wangchujiang.com/html-tutorial/assets/chrome.svg”中查找图像。
+  <div>
+    <a href="html-tutorial/tags/head.html">HTML base Tag</a> 注意，这个超链接，将在新窗口打开 ”https://wangchujiang.com/html-tutorial/tags/head.html“
+  </div>
 </body>
 ```
 
