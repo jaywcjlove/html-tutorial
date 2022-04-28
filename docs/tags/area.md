@@ -33,17 +33,17 @@ HTML `<area>` 标签
 
 | 属性 Attribute | 值 Value | 描述 Description |
 | ----- | ----- | ----- |
-| [alt](att_area_alt.asp)                      | *text* | 指定区域的替代文本。 如果存在 href 属性，则为必需 |
-| [coords](att_area_coords.asp)                | *coordinates* | 指定区域的坐标 |
-| [download](att_area_download.asp)            | *filename* | 指定当用户单击超链接时将下载目标 |
-| [href](att_area_href.asp)                    | *URL* | 指定区域的超链接目标 |
-| [hreflang](att_area_hreflang.asp)            | *language\_code* | 指定目标 URL 的语言 |
-| [media](att_area_media.asp)                  | *media query* | 指定目标 URL 优化的媒体/设备 |
-| [referrerpolicy](att_area_referrepolicy.asp) | no-referrer <br/> no-referrer-when-downgrade <br/> origin <br/> origin-when-cross-origin <br/> same-origin <br/> strict-origin-when-cross-origin <br/> unsafe-url  | 指定与链接一起发送的推荐人信息 |
-| [rel](att_area_rel.asp)                      | alternate <br /> author <br /> bookmark <br /> help <br /> license <br /> next <br /> nofollow <br /> noreferrer <br /> prefetch <br /> prev <br /> search <br /> tag  | 指定当前文档和目标 URL 之间的关系 |
-| [shape](att_area_shape.asp)                  | default <br /> rect <br /> circle <br /> poly  | 指定区域的形状 |
-| [target](att_area_target.asp)                | \_blank <br /> \_parent <br /> \_self <br /> \_top <br /> *framename* | 指定打开目标 URL 的位置 |
-| [type](att_area_type.asp)                    | *media\_type* | 指定目标 URL 的媒体类型 |
+| [alt](./area_alt.md)                      | *text* | 指定区域的替代文本。 如果存在 href 属性，则为必需 |
+| [coords](./area_coords.md)                | *coordinates* | 指定区域的坐标 |
+| [download](./area_download.md)            | *filename* | 指定当用户单击超链接时将下载目标 |
+| [href](./area_href.md)                    | *URL* | 指定区域的超链接目标 |
+| [hreflang](./area_hreflang.md)            | *language\_code* | 指定目标 URL 的语言 |
+| [media](./area_media.md)                  | *media query* | 指定目标 URL 优化的媒体/设备 |
+| [referrerpolicy](./area_referrepolicy.md) | no-referrer <br/> no-referrer-when-downgrade <br/> origin <br/> origin-when-cross-origin <br/> same-origin <br/> strict-origin-when-cross-origin <br/> unsafe-url  | 指定与链接一起发送的推荐人信息 |
+| [rel](./area_rel.md)                      | alternate <br /> author <br /> bookmark <br /> help <br /> license <br /> next <br /> nofollow <br /> noreferrer <br /> prefetch <br /> prev <br /> search <br /> tag  | 指定当前文档和目标 URL 之间的关系 |
+| [shape](./area_shape.md)                  | default <br /> rect <br /> circle <br /> poly  | 指定区域的形状 |
+| [target](./area_target.md)                | \_blank <br /> \_parent <br /> \_self <br /> \_top <br /> *framename* | 指定打开目标 URL 的位置 |
+| [type](./area_type.md)                    | *media\_type* | 指定目标 URL 的媒体类型 |
 
 
 ## 全局属性
