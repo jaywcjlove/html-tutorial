@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>audio.md HTML Tutorial </title>
+  <title>HTML &lt;audio&gt; Tag HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/tags/audio.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="播放声音文件：">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -67,7 +67,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -630,8 +630,140 @@
 </div>
 
   <markdown-style>
-    <h1 id="audiomd"><a aria-hidden="true" tabindex="-1" href="#audiomd" class="anchor"><span class="icon icon-link"></span></a>audio.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/master/docs/tags/audio.md">docs/tags/audio.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-audio-tag"><a aria-hidden="true" tabindex="-1" href="#html-audio-tag" class="anchor"><span class="icon icon-link"></span></a>HTML &#x3C;audio> Tag</h1>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>播放声音文件：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>audio</span> <span class="token attr-name">controls</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>horse.ogg<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>audio/ogg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>horse.mp3<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>audio/mpeg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  Your browser does not support the audio tag.
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>audio</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<audio controls>
+  <source src=&#x22;horse.ogg&#x22; type=&#x22;audio/ogg&#x22;>
+  <source src=&#x22;horse.mp3&#x22; type=&#x22;audio/mpeg&#x22;>
+  Your browser does not support the audio tag.
+</audio>
+"><div data-previw="" class="idoc-demo-previw"></div><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+<p><code>&#x3C;audio></code> 标签用于在文档中嵌入声音内容，例如音乐或其他音频流。</p>
+<p><code>&#x3C;audio></code> 标签包含一个或多个具有不同音频源的 <code>&#x3C;source></code> 标签。 浏览器将选择它支持的第一个来源。</p>
+<p><code>&#x3C;audio></code> 和 <code>&#x3C;/audio></code> 标签之间的文本只会在不支持 <code>&#x3C;audio></code> 元素的浏览器中显示。</p>
+<p>HTML 支持三种音频格式：MP3、WAV 和 OGG。</p>
+<h3 id="音频格式和浏览器支持"><a aria-hidden="true" tabindex="-1" href="#音频格式和浏览器支持" class="anchor"><span class="icon icon-link"></span></a>音频格式和浏览器支持</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Browser</th><th>MP3</th><th>WAV</th><th>OGG</th></tr></thead><tbody><tr><td>Edge / IE</td><td>YES</td><td>YES*</td><td>YES*</td></tr><tr><td>Chrome</td><td>YES</td><td>YES</td><td>YES</td></tr><tr><td>Firefox</td><td>YES</td><td>YES</td><td>YES</td></tr><tr><td>Safari</td><td>YES</td><td>YES</td><td>❌</td></tr><tr><td>Opera</td><td>YES</td><td>YES</td><td>YES</td></tr></tbody></table>
+<h2 id="提示和注意事项"><a aria-hidden="true" tabindex="-1" href="#提示和注意事项" class="anchor"><span class="icon icon-link"></span></a>提示和注意事项</h2>
+<p><strong>提示：</strong> 对于视频文件，请查看 <a href="./video.html"><code>&#x3C;video></code></a> 标签。</p>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+<p>表中的数字指定了完全支持该元素的第一个浏览器版本。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Element</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>&#x3C;audio></td><td>4.0</td><td>9.0</td><td>3.5</td><td>4.0</td><td>11.5</td></tr></tbody></table>
+<h2 id="属性"><a aria-hidden="true" tabindex="-1" href="#属性" class="anchor"><span class="icon icon-link"></span></a>属性</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Attribute</th><th>Value</th><th>Description</th></tr></thead><tbody><tr><td><a href="./audio_autoplay.html">autoplay</a></td><td>autoplay</td><td>指定音频一准备好就开始播放</td></tr><tr><td><a href="./audio_controls.html">controls</a></td><td>controls</td><td>指定应显示音频控件（例如播放/暂停按钮等）</td></tr><tr><td><a href="./audio_loop.html">loop</a></td><td>loop</td><td>指定音频将在每次结束时重新开始</td></tr><tr><td><a href="./audio_muted.html">muted</a></td><td>muted</td><td>指定音频输出应静音</td></tr><tr><td><a href="./audio_preload.html">preload</a></td><td>auto metadata none</td><td>指定当页面加载时作者是否以及如何认为应该加载音频</td></tr><tr><td><a href="./audio_src.html">src</a></td><td><em>URL</em></td><td>指定音频文件的 URL</td></tr></tbody></table>
+<h2 id="全局属性"><a aria-hidden="true" tabindex="-1" href="#全局属性" class="anchor"><span class="icon icon-link"></span></a>全局属性</h2>
+<p><code>&#x3C;audio></code> 标签支持 HTML 中的<a href="../reference/standardattributes.html">全局属性</a>。</p>
+<h2 id="事件属性"><a aria-hidden="true" tabindex="-1" href="#事件属性" class="anchor"><span class="icon icon-link"></span></a>事件属性</h2>
+<p><code>&#x3C;audio></code> 标签支持 HTML 中的<a href="../reference/eventattributes.html">事件属性</a>。</p>
     
 
 <div class="previous">
@@ -675,6 +807,60 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#定义和用法" class="tocs-link">定义和用法</a>
+        
+          <ol class="tocs-list is-collapsed">
+            
+              <li>
+                <a href="#音频格式和浏览器支持" class="tocs-link">音频格式和浏览器支持</a>
+                
+              </li>
+            
+          </ol>
+        
+      </li>
+    
+      <li>
+        <a href="#提示和注意事项" class="tocs-link">提示和注意事项</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#属性" class="tocs-link">属性</a>
+        
+      </li>
+    
+      <li>
+        <a href="#全局属性" class="tocs-link">全局属性</a>
+        
+      </li>
+    
+      <li>
+        <a href="#事件属性" class="tocs-link">事件属性</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
+
+<script src="../js/tocbot.js?v=1.0.0"></script>
 
 </div>
 
