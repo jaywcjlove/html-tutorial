@@ -31,7 +31,7 @@ HTML accesskey 属性
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| __&lt;a&gt;__ | Yes | Yes | Yes | Yes | Yes |
+| __&lt;accesskey&gt;__ | Yes | Yes | Yes | Yes | Yes |
 
 ## 语法
 

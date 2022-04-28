@@ -15,12 +15,11 @@ HTML contenteditable 属性
 
 ⚠️ 注意：当元素上没有设置 `contenteditable` 属性时，该元素将从其父元素继承它。
 
-
 ## 浏览器支持
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| __&lt;a&gt;__ | Yes | Yes | Yes | Yes | Yes |
+| __&lt;contenteditable&gt;__ | 4.0 | 6.0 | 3.5 | 3.1 | 10.1
 
 ## 语法
 
