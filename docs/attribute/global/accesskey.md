@@ -8,8 +8,8 @@ HTML accesskey 属性
 具有指定访问键的两个超链接：
 
 ```html idoc:preview
-<a href="https://www.w3schools.com/html/" accesskey="h">HTML</a><br>
-<a href="https://www.w3schools.com/css/" accesskey="c">CSS</a>
+<a href="https://github.com/jaywcjlove/html-tutorial" accesskey="h">HTML</a><br>
+<a href="https://github.com/jaywcjlove/html-tutorial" accesskey="c">CSS</a>
 ```
 
 ## 定义和使用
