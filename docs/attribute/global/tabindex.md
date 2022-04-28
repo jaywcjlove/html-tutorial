@@ -8,7 +8,7 @@ HTML `tabindex` 属性
 带有指定 tab 键顺序的链接：
 
 ```html idoc:preview
-<a href="hhttps://github.com/jaywcjlove/html-tutorialhttps://github.com/jaywcjlove/html-tutorial" tabindex="2">W3Schools</a>
+<a href="hhttps://github.com/jaywcjlove/html-tutorial" tabindex="2">html-tutorial</a>
 <a href="http://www.google.com/" tabindex="1">Google</a>
 <a href="http://www.microsoft.com/" tabindex="3">Microsoft</a>
 ```

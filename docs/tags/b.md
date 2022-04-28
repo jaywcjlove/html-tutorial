@@ -34,7 +34,6 @@ HTML \<b> 标签
 
 `<b>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
 
-
 ## 更多示例
 
 

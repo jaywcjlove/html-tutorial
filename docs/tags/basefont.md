@@ -2,7 +2,7 @@ HTML \<basefont> Tag
 ===
 
 
-[![](https://shields.io/badge/HTML5-已废弃-yellow?logo=HTML5)](https://caniuse.com/?search=<acronym>)
+[![](https://shields.io/badge/HTML5-已废弃-yellow?logo=HTML5)](https://caniuse.com/?search=<basefont>)
 
 ## HTML5 不支持
 
