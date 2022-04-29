@@ -44,7 +44,7 @@ Set the background color of the three columns with the \<colgroup> and \<col> ta
 
 | 属性 Attribute | 值 Value | 描述 Description |
 | ---- | ---- | ---- |
-| [span](att_colgroup_span.asp) | *number* | 指定列组应跨越的列数 |
+| [span](./colgroup_span.md) | *number* | 指定列组应跨越的列数 |
 
 ## 全局属性
 

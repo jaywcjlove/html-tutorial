@@ -40,7 +40,7 @@ HTML \<col> Tag
 
 | 属性 Attribute | 值 Value | 描述 Description |
 | ---- | ---- | ---- |
-| [span](att_col_span.asp) | *number* | 指定 \<col> 元素应跨越的列数 |
+| [span](./col_span.md) | *number* | 指定 \<col> 元素应跨越的列数 |
 
 ## 全局属性
 

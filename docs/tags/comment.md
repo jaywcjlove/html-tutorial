@@ -29,7 +29,6 @@ function displayMsg() {
 
 ⚠️ 注意：注释行末尾的两个正斜杠 (`//`) 是 JavaScript 注释符号。 这可以防止 JavaScript 执行 `-->` 标记。
 
-
 ## 标准属性
 
 注释标签不支持任何标准属性。
