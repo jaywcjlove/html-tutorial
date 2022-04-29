@@ -1,10 +1,13 @@
-
 logo: ./logo.svg
 favicon: ./logo.svg
 
 menus:
   Home: index.html
+  教程: tutorial/index.html
   索引: tags/index.html
+
+scopePrivate: 
+  - tutorial
 
 editButton: 
   label: GitHub 上编辑此页
