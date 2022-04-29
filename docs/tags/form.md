@@ -1,7 +1,6 @@
 HTML \<form> 标签
 ===
 
-
 ## 示例
 
 具有两个输入字段和一个提交按钮的 HTML 表单：
@@ -15,6 +14,7 @@ HTML \<form> 标签
   <input type="submit" value="提交">
 </form>
 ```
+
 ## 定义和用法
 
 `<form>` 标签用于为用户输入创建 HTML 表单。
@@ -31,7 +31,7 @@ HTML \<form> 标签
 *   [\<label>](./label.md)
 *   [\<output>](./output.md)
 
-## Browser Support
+## 浏览器支持
 
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
