@@ -67,7 +67,7 @@ HTML 教程: [HTML Iframes](../tutorial/iframe.md)
 
 ## 默认 CSS 设置
 
-大多数浏览器将显示具有以下默认值的 `<h1>` 元素：
+大多数浏览器将显示具有以下默认值的 `<iframe>` 元素：
 
 ```css
 iframe:focus {

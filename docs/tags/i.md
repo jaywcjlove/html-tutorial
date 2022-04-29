@@ -46,7 +46,7 @@ HTML 教程: [HTML Text Formatting](../tutorial/formatting.md)
 
 ## 默认 CSS 设置
 
-大多数浏览器将显示具有以下默认值的 `<form>` 元素：
+大多数浏览器将显示具有以下默认值的 `<i>` 元素：
 
 ```css
 i {
