@@ -36,11 +36,11 @@ HTML \<datalist> Tag
 
 ## 全局属性
 
-`<colgroup>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
+`<datalist>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
 
 ## 事件属性
 
-`<colgroup>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
+`<datalist>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
 
 ## 默认 CSS 设置
 

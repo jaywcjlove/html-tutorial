@@ -3,7 +3,7 @@ HTML \<colgroup> Tag
 
 ## 示例
 
-Set the background color of the three columns with the \<colgroup> and \<col> tags:
+使用 \<colgroup> 和 \<col> 标签设置三列的背景颜色：
 
 ```html idoc:preview
 <table>
