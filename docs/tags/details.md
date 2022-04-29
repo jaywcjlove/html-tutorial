@@ -70,7 +70,7 @@ HTML \<details> Tag
 
 ## 默认 CSS 设置
 
-大多数浏览器将显示具有以下默认值的 `<del>` 元素：
+大多数浏览器将显示具有以下默认值的 `<details>` 元素：
 
 ```css
 details {
