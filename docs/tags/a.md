@@ -41,6 +41,14 @@ HTML \<a> 标签
 
 所有浏览器都支持 `<a>` 标签。
 
+## 全局属性
+
+`<a>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
+
+## 事件属性
+
+`<a>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
+
 ## 更多示例
 
 ### 将图像作为链接
