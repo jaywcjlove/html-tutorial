@@ -1,4 +1,4 @@
-HTML \<embed> Tag
+HTML \<embed> 标签
 ===
 
 ## 示例

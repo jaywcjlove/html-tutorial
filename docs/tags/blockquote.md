@@ -1,4 +1,4 @@
-HTML \<blockquote> Tag
+HTML \<blockquote> 标签
 ===
 
 ## 示例

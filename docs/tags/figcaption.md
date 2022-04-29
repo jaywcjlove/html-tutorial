@@ -1,4 +1,4 @@
-HTML \<figcaption> Tag
+HTML \<figcaption> 标签
 ===
 
 ## 示例

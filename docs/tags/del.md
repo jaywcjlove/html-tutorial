@@ -1,4 +1,4 @@
-HTML \<del> Tag
+HTML \<del> 标签
 ===
 
 ## 示例

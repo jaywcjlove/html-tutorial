@@ -1,4 +1,4 @@
-HTML \<footer> Tag
+HTML \<footer> 标签
 ===
 
 ## 示例

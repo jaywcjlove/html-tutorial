@@ -1,4 +1,4 @@
-HTML \<colgroup> Tag
+HTML \<colgroup> 标签
 ===
 
 ## 示例

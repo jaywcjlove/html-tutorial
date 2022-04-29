@@ -1,4 +1,4 @@
-HTML \<button> Tag
+HTML \<button> 标签
 ===
 
 ## 示例

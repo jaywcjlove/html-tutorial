@@ -1,4 +1,4 @@
-HTML \<caption> Tag
+HTML \<caption> 标签
 ===
 
 ## 示例

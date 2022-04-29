@@ -1,4 +1,4 @@
-HTML \<canvas> Tag
+HTML \<canvas> 标签
 ===
 
 用于通过脚本（通常是 JavaScript）动态绘制图形。

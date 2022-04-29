@@ -1,4 +1,4 @@
-HTML \<bdi> Tag
+HTML \<bdi> 标签
 ===
 ## 示例
 

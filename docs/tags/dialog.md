@@ -1,4 +1,4 @@
-HTML \<dialog> Tag
+HTML \<dialog> 标签
 ===
 
 ## 示例
