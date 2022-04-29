@@ -44,11 +44,11 @@ HTML \<form> Tag
 | [accept-charset](./form_accept_charset.md) | *character\_set* | 指定要用于表单提交的字符编码|
 | [action](./form_action.md)                 | *URL* | 指定提交表单时将表单数据发送到何处|
 | [autocomplete](./form_autocomplete.md)     | on off  | 指定表单是否应该打开或关闭自动完成功能|
-| [enctype](./form_enctype.md) | application/x-www-form-urlencoded<br >multipart/form-data<br >text/plain  | 指定将表单数据提交到服务器时应如何编码（仅适用于 method="post"）|
-| [method](./form_method.md) | get post  | 指定发送表单数据时使用的 HTTP 方法|
+| [enctype](./form_enctype.md) | _application/x-www-form-urlencoded_<br >multipart/form-data<br >text/plain  | 指定将表单数据提交到服务器时应如何编码（仅适用于 method="post"）|
+| [method](./form_method.md) | get<br >post  | 指定发送表单数据时使用的 HTTP 方法|
 | [name](./form_name.md)                     | *text* | 指定表单的名称|
 | [novalidate](./form_novalidate.md)         | novalidate  | 指定提交时不应验证表单|
-| [rel](./form_rel.md)                       | external help license next nofollow noopener noreferrer opener prev search  | 指定链接资源和当前文档之间的关系|
+| [rel](./form_rel.md)                       | external<br >help<br >license<br >next<br >nofollow<br >noopener<br >noreferrer<br >opener<br >prev<br >search  | 指定链接资源和当前文档之间的关系|
 | [target](./form_target.md)                 | \_blank<br >\_self<br >\_parent<br >\_top  | 指定在哪里显示提交表单后收到的响应|
 
 ## 全局属性
@@ -104,4 +104,4 @@ form {
 [2]: ../assets/edge.svg
 [3]: ../assets/firefox.svg
 [4]: ../assets/safari.svg
-[5]: ../asse
+[5]: ../assets/opera.svg
