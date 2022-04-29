@@ -9,7 +9,7 @@ HTML \<base> 标签
 
 ```html idoc:preview:iframe
 <head>
-  <base href="https://wangchujiang.com/" target="_blank">
+  <base href="https://wangchujiang.com/" target="_blank">
 </head>
 <body>
   <img src="html-tutorial/assets/chrome.svg" width="24" height="39" alt="chrome"> 请注意，我们只为图像指定了一个相对地址。 由于我们在 head 部分指定了基本 URL，浏览器将在“https://wangchujiang.com/html-tutorial/assets/chrome.svg”中查找图像。
