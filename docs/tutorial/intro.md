@@ -48,15 +48,15 @@ HTML 元素由开始标签、一些内容和结束标签定义
 HTML **element** 是从开始标记到结束标记的所有内容：
 
 ```html
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<h1>我的第一个标题</h1>
+<p>我的第一个段落。</p>
 ```
 
 | 开始标签 Start tag | 元素内容 Element content | 结束标签 End tag |
 | --------- | ------------------- | ------- |
-| \<h1>     | My First Heading    | \</h1>  |
-| \<p>      | My first paragraph. | \</p>   |
-| \<br>     | *none*              | *none*  |
+| \<h1> | 我的第一个标题    | \</h1>  |
+| \<p>  | 我的第一个段落。  | \</p> |
+| \<br> | *none* | *none*  |
 
 **注意：** 一些 HTML 元素没有内容（如 \<br> 元素）。 这些元素称为空元素。 空元素没有结束标签！
 
