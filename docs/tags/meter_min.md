@@ -1,4 +1,4 @@
 meter_min.md
 ===
 
-欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/master/docs/tags/meter_min.md">docs/tags/meter_min.md</a> 文件，共建 HTML Tutorial 文档。
+欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/tags/meter_min.md">docs/tags/meter_min.md</a> 文件，共建 HTML Tutorial 文档。

@@ -1,4 +1,4 @@
 optgroup_label.md
 ===
 
-欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/master/docs/tags/optgroup_label.md">docs/tags/optgroup_label.md</a> 文件，共建 HTML Tutorial 文档。
+欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/tags/optgroup_label.md">docs/tags/optgroup_label.md</a> 文件，共建 HTML Tutorial 文档。
