@@ -1,6 +1,8 @@
 HTML \<dir> Tag
 ===
 
+[![](https://shields.io/badge/HTML5-已废弃-yellow?logo=HTML5)](https://caniuse.com/?search=<dir>)
+
 ## 示例
 
 ```html idoc:preview:iframe

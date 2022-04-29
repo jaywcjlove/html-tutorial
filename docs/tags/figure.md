@@ -31,11 +31,11 @@ HTML \<figure> Tag
 
 ## 全局属性
 
-`<fieldset>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
+`<figure>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
 
 ## 事件属性
 
-`<fieldset>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
+`<figure>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
 
 ## 更多示例
 

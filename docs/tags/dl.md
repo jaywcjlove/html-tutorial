@@ -28,11 +28,11 @@ HTML \<dl> Tag
 
 ## 全局属性
 
-`<dt>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
+`<dl>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
 
 ## 事件属性
 
-`<dt>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
+`<dl>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
 
 ## 相关页面
 
