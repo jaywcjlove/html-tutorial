@@ -35,18 +35,18 @@ HTML \<img> Tag
 
 | 属性 | 值 | 描述 |
 | ---- | ---- | ---- |
-| [alt](att_img_alt.asp) | *text* | Specifies an alternate text for an image |
-| crossorigin | anonymous use-credentials | Allow images from third-party sites that allow cross-origin access to be used with canvas                                |
-| [height](att_img_height.asp)                | *pixels*                                                                          | Specifies the height of an image                                                                                         |
-| [ismap](att_img_ismap.asp)                  | ismap                                                                             | Specifies an image as a server-side image map                                                                            |
-| [loading](att_img_loading.asp)              | eager lazy                                                                        | Specifies whether a browser should load an image immediately or to defer loading of images until some conditions are met |
-| [longdesc](att_img_longdesc.asp)            | *URL*                                                                             | Specifies a URL to a detailed description of an image                                                                    |
-| [referrerpolicy](att_img_referrepolicy.asp) | no-referrer no-referrer-when-downgrade origin origin-when-cross-origin unsafe-url | Specifies which referrer information to use when fetching an image                                                       |
-| sizes                                       | *sizes*                                                                           | Specifies image sizes for different page layouts                                                                         |
-| [src](att_img_src.asp)                      | *URL*                                                                             | Specifies the path to the image                                                                                          |
-| srcset                                      | *URL-list*                                                                        | Specifies a list of image files to use in different situations                                                           |
-| [usemap](att_img_usemap.asp)                | *#mapname*                                                                        | Specifies an image as a client-side image map                                                                            |
-| [width](att_img_width.asp)                  | *pixels*                                                                          | Specifies the width of an image                                                                                          |
+| [alt](att_img_alt.asp) | *text* | 指定图像的替代文本|
+| crossorigin | anonymous<br>use-credentials | 允许使用允许跨域访问的第三方站点的图像canvas                                |
+| [height](att_img_height.asp)                | *pixels* | 指定图像的高度|
+| [ismap](att_img_ismap.asp)                  | ismap | 将图像指定为服务器端图像映射|
+| [loading](att_img_loading.asp)              | eager <br> lazy | 指定浏览器应该立即加载图像还是推迟加载图像直到满足某些条件|
+| [longdesc](att_img_longdesc.asp)            | *URL* | 指定图像详细描述的 URL|
+| [referrerpolicy](att_img_referrepolicy.asp) | no-referrer<br>no-referrer-when-downgrade<br>origin<br>origin-when-cross-origin<br>unsafe-url | 指定在获取图像时要使用的引荐来源信息|
+| sizes                                       | *sizes* | 指定不同页面布局的图像大小|
+| [src](att_img_src.asp)                      | *URL* | 指定图像的路径|
+| srcset                                      | *URL-list* | 指定在不同情况下使用的图像文件列表|
+| [usemap](att_img_usemap.asp)                | *#mapname* | 将图像指定为客户端图像映射|
+| [width](att_img_width.asp)                  | *pixels* | 指定图像的宽度|
 
 ## 全局属性
 
