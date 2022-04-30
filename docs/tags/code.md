@@ -5,8 +5,9 @@ HTML \<code> 标签
 
 将一些文本定义为文档中的计算机代码：
 
-```html idoc:preview
+```html idoc:preview:iframe
 <p>The HTML <code>button</code> tag defines a clickable button.</p>
+
 <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
 ```
 
@@ -43,7 +44,7 @@ HTML \<code> 标签
 
 使用 CSS 设置 \<code> 元素的样式：
 
-```html idoc:preview
+```html idoc:preview:iframe
 <html>
 <head>
   <style>
@@ -62,6 +63,7 @@ HTML \<code> 标签
 </body>
 </html>
 ```
+<!--rehype:style=height: 120px;-->
 
 ## 默认 CSS 设置
 

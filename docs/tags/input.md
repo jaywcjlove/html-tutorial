@@ -64,7 +64,6 @@ HTML \<input> Tag
 
 | 属性 | 值 | 描述 |
 | ---- | ---- | ---- |
-| 
 | [accept](./input_accept.md) | *file\_extension*<br>audio/\*<br>video/\*<br>image/\*<br>*media\_type*  | 指定用户可以从文件输入对话框中选择的文件类型的过滤器（仅适用于 type="file"） |
 | [alt](./input_alt.md)                       | *text*   | 指定图像的替代文本（仅适用于 type="image"） |
 | [autocomplete](./input_autocomplete.md)     | on<br>off     | 指定 \<input> 元素是否应该启用自动完成功能 |
