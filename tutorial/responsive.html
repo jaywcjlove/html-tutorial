@@ -621,6 +621,8 @@
 <table><thead><tr><th>没有 viewport 元标记</th><th>使用 viewport 元标记</th></tr></thead><tbody><tr><td><img src="../assets/responsive_viewport1.png" alt=""></td><td><img src="../assets/responsive_viewport2.png" alt=""></td></tr></tbody></table>
 <h2 id="响应式图像"><a aria-hidden="true" tabindex="-1" href="#响应式图像" class="anchor"><span class="icon icon-link"></span></a>响应式图像</h2>
 <p>响应式图像是可以很好地缩放以适应任何浏览器大小的图像。</p>
+<p><img src="../assets/example.png" alt=""></p>
+<p>注意：上面图片是原始尺寸，下面有三种方法实现响应式图像。</p>
 <h3 id="使用-width-属性"><a aria-hidden="true" tabindex="-1" href="#使用-width-属性" class="anchor"><span class="icon icon-link"></span></a>使用 width 属性</h3>
 <p>如果 CSS 的 <code>width</code> 属性设置为 100%，图像将响应并放大和缩小：</p>
 <div class="idoc-demo-warpper language-html" style="height: 230px;"><pre class="language-html code-highlight" data-meta="preview"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/example.png<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span><span class="token number">100</span><span class="token unit">%</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
@@ -628,7 +630,7 @@
 "><div data-previw="" class="idoc-demo-previw"></div><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
 <!--rehype:style=height: 230px;-->
 <p>请注意，在上面的示例中，图像可以放大到大于其原始大小。 在许多情况下，更好的解决方案是使用 <code>max-width</code> 属性。</p>
-<h3 id="使用最-max-width-属性"><a aria-hidden="true" tabindex="-1" href="#使用最-max-width-属性" class="anchor"><span class="icon icon-link"></span></a>使用最 max-width 属性</h3>
+<h3 id="使用-max-width-属性"><a aria-hidden="true" tabindex="-1" href="#使用-max-width-属性" class="anchor"><span class="icon icon-link"></span></a>使用 max-width 属性</h3>
 <p>如果 <code>max-width</code> 属性设置为 100%，则图像将在必要时缩小，但永远不会放大到大于其原始尺寸：</p>
 <div class="idoc-demo-warpper language-html" style="height: 230px;"><pre class="language-html code-highlight" data-meta="preview"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/example.png<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">max-width</span><span class="token punctuation">:</span><span class="token number">100</span><span class="token unit">%</span><span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span>auto<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
 </span></pre><input type="hidden" value="<img src=&#x22;../assets/example.png&#x22; style=&#x22;max-width:100%;height:auto;&#x22;>
@@ -1176,7 +1178,7 @@
               </li>
             
               <li>
-                <a href="#使用最-max-width-属性" class="tocs-link">使用最 max-width 属性</a>
+                <a href="#使用-max-width-属性" class="tocs-link">使用 max-width 属性</a>
                 
               </li>
             
