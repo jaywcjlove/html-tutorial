@@ -85,7 +85,7 @@ HTML 响应式网页设计
 
 ## 设置 viewport
 
-要创建响应式网站，请将以下 `<meta>` 标签添加到您的所有网页：
+要创建响应式网站，请将以下 [`<meta>`](../tags/meta.md) 标签添加到您的所有网页：
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -142,7 +142,7 @@ HTML 响应式网页设计
 
 ### 根据浏览器宽度显示不同的图像
 
-HTML `<picture>` 元素允许您为不同的浏览器窗口大小定义不同的图像。
+HTML [`<picture>`](../tags/picture.md) 元素允许您为不同的浏览器窗口大小定义不同的图像。
 
 调整浏览器窗口大小以查看下图如何根据宽度变化：
 
@@ -243,42 +243,42 @@ HTML `<picture>` 元素允许您为不同的浏览器窗口大小定义不同的
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* { box-sizing: border-box; }
-.menu {
-  float: left;
-  width: 20%;
-  text-align: center;
-}
-.menu a {
-  background-color: #e5e5e5;
-  padding: 8px;
-  margin-top: 7px;
-  display: block;
-  width: 100%;
-  color: black;
-}
-.main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
-}
-.right {
-  background-color: #e5e5e5;
-  float: left;
-  width: 20%;
-  padding: 15px;
-  margin-top: 7px;
-  text-align: center;
-}
-
-@media only screen and (max-width: 520px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
+  <style>
+  * { box-sizing: border-box; }
+  .menu {
+    float: left;
+    width: 20%;
+    text-align: center;
   }
-}
-</style>
+  .menu a {
+    background-color: #e5e5e5;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+  .right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 520px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  </style>
 </head>
 <body style="font-family:Verdana;color:#aaaaaa;">
   <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
@@ -317,7 +317,7 @@ HTML `<picture>` 元素允许您为不同的浏览器窗口大小定义不同的
 
 ### Bootstrap
 
-另一个流行的 CSS 框架是 Bootstrap。 Bootstrap 使用 HTML、CSS 和 jQuery 来制作响应式网页。
+另一个流行的 CSS 框架是 [Bootstrap](https://getbootstrap.com/)。 Bootstrap 使用 HTML、CSS 和 jQuery 来制作响应式网页。
 
 ```html idoc:preview:iframe
 <!DOCTYPE html>
