@@ -38,8 +38,8 @@ HTML \<base> 标签
 
 | 属性 Attribute | 值 Value | 描述 Description |
 | ------ | ------ | ------ |
-| [href](att_base_href.asp)     | *URL*                         | 指定页面中所有相对 URL 的基本 URL|
-| [target](att_base_target.asp) | \_blank<br/> \_parent<br/>\_self<br/>\_top | 指定页面中所有超链接和表单的默认目标|
+| [href](./base_href.md)     | *URL*                         | 指定页面中所有相对 URL 的基本 URL|
+| [target](./base_target.md) | \_blank<br/> \_parent<br/>\_self<br/>\_top | 指定页面中所有超链接和表单的默认目标|
 
 
 ## 全局属性

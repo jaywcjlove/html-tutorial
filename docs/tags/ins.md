@@ -25,8 +25,8 @@ HTML \<ins> Tag
 
 | 属性 | 值 | 描述 |
 | ---- | ---- | ---- |
-| [cite](att_ins_cite.asp)         | *URL*                    | 指定文档的 URL，该文档解释了插入/更改文本的原因 |
-| [datetime](att_ins_datetime.asp) | *YYYY-MM-DDThh:mm:ssTZD* | 指定插入/更改文本的日期和时间 |
+| [cite](./ins_cite.md)         | *URL*                    | 指定文档的 URL，该文档解释了插入/更改文本的原因 |
+| [datetime](./ins_datetime.md) | *YYYY-MM-DDThh:mm:ssTZD* | 指定插入/更改文本的日期和时间 |
 
 ## 全局属性
 

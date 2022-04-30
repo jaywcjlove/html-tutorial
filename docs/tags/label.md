@@ -62,8 +62,8 @@ The `<label>` tag defines a label for several elements:
 
 | 属性 | 值 | 描述 |
 | ---- | ---- | ---- |
-| [for](att_label_for.asp)   | *element\_id* | 指定标签应绑定到的表单元素的 id |
-| [form](att_label_form.asp) | *form\_id*    | 指定标签属于哪个表单 |
+| [for](./label_for.md)   | *element\_id* | 指定标签应绑定到的表单元素的 id |
+| [form](./label_form.md) | *form\_id*    | 指定标签属于哪个表单 |
 
 ## 全局属性
 

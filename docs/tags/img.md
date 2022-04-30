@@ -35,18 +35,18 @@ HTML \<img> Tag
 
 | 属性 | 值 | 描述 |
 | ---- | ---- | ---- |
-| [alt](att_img_alt.asp) | *text* | 指定图像的替代文本|
+| [alt](./img_alt.md) | *text* | 指定图像的替代文本|
 | crossorigin | anonymous<br>use-credentials | 允许使用允许跨域访问的第三方站点的图像canvas                                |
-| [height](att_img_height.asp)                | *pixels* | 指定图像的高度|
-| [ismap](att_img_ismap.asp)                  | ismap | 将图像指定为服务器端图像映射|
-| [loading](att_img_loading.asp)              | eager <br> lazy | 指定浏览器应该立即加载图像还是推迟加载图像直到满足某些条件|
-| [longdesc](att_img_longdesc.asp)            | *URL* | 指定图像详细描述的 URL|
-| [referrerpolicy](att_img_referrepolicy.asp) | no-referrer<br>no-referrer-when-downgrade<br>origin<br>origin-when-cross-origin<br>unsafe-url | 指定在获取图像时要使用的引荐来源信息|
+| [height](./img_height.md)                | *pixels* | 指定图像的高度|
+| [ismap](./img_ismap.md)                  | ismap | 将图像指定为服务器端图像映射|
+| [loading](./img_loading.md)              | eager <br> lazy | 指定浏览器应该立即加载图像还是推迟加载图像直到满足某些条件|
+| [longdesc](./img_longdesc.md)            | *URL* | 指定图像详细描述的 URL|
+| [referrerpolicy](./img_referrepolicy.md) | no-referrer<br>no-referrer-when-downgrade<br>origin<br>origin-when-cross-origin<br>unsafe-url | 指定在获取图像时要使用的引荐来源信息|
 | sizes                                       | *sizes* | 指定不同页面布局的图像大小|
-| [src](att_img_src.asp)                      | *URL* | 指定图像的路径|
+| [src](./img_src.md)                      | *URL* | 指定图像的路径|
 | srcset                                      | *URL-list* | 指定在不同情况下使用的图像文件列表|
-| [usemap](att_img_usemap.asp)                | *#mapname* | 将图像指定为客户端图像映射|
-| [width](att_img_width.asp)                  | *pixels* | 指定图像的宽度|
+| [usemap](./img_usemap.md)                | *#mapname* | 将图像指定为客户端图像映射|
+| [width](./img_width.md)                  | *pixels* | 指定图像的宽度|
 
 ## 全局属性
 
