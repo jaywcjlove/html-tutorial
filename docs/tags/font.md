@@ -1,7 +1,7 @@
 HTML \<font> 标签
 ===
 
-[![](https://shields.io/badge/HTML5-已废弃-yellow?logo=HTML5)](https://caniuse.com/?search=<font>)
+[![](https://shields.io/badge/HTML5-已弃用/过时-yellow?logo=HTML5)](https://caniuse.com/?search=<font>)
 
 ## HTML5 不支持
 

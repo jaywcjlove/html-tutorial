@@ -17,7 +17,7 @@ Three radio buttons with labels:
 </form>
 ```
 
-## Definition and Usage
+## 定义和用法
 
 The `<label>` tag defines a label for several elements:
 

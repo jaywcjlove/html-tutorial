@@ -83,6 +83,8 @@
 - tags/link.md: <link>
 - tags/main.md: <main>
 - tags/map.md: <map>
+- tags/menu.md: <menu>
+- tags/menuitem.md: <menuitem>
 - tags/mark.md: <mark>
 - tags/meta.md: <meta>
 - tags/meter.md: <meter>

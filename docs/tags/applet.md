@@ -1,7 +1,7 @@
 HTML \<applet> 标签
 ===
 
-[![](https://shields.io/badge/HTML5-已废弃-yellow?logo=HTML5)](https://caniuse.com/?search=<applet>)
+[![](https://shields.io/badge/HTML5-已弃用/过时-yellow?logo=HTML5)](https://caniuse.com/?search=<applet>)
 
 `<applet>` 标签在 HTML 4 中用于定义嵌入式 `applet`（插件）。
 

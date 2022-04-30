@@ -9,26 +9,26 @@ HTML 标签参考手册
 | [&lt;!DOCTYPE&gt;](./doctype.md) | 定义文档类型 |
 | [&lt;a&gt;](./a.md) | 定义超链接 |
 | [&lt;abbr&gt;](./abbr.md) | 定义缩写或首字母缩略词 |
-| [&lt;acronym&gt;](./acronym.md) | ![][1] ⚠️ HTML 5 不支持。请改用 [&lt;abbr&gt;](./abbr.md)。定义首字母缩写词 |
+| [&lt;acronym&gt;](./acronym.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。请改用 [&lt;abbr&gt;](./abbr.md)。定义首字母缩写词 |
 | [&lt;address&gt;](./address.md) | 定义文档作者/所有者的联系信息 |
-| [&lt;applet&gt;](./applet.md) | ![][1] ⚠️ HTML 5 不支持。请改用 [&lt;embed&gt;](./embed.md) 或者 [&lt;object&gt;](./object.md)。定义一个嵌入式小程序。 |
+| [&lt;applet&gt;](./applet.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。请改用 [&lt;embed&gt;](./embed.md) 或者 [&lt;object&gt;](./object.md)。定义一个嵌入式小程序。 |
 | [&lt;area&gt;](./area.md) | 定义图像映射内的区域。 |
 | [&lt;article&gt;](./article.md) | 定义文章 |
 | [&lt;aside&gt;](./aside.md) | 定义页面内容之外的内容。 |
 | [&lt;audio&gt;](./audio.md) | 定义声音内容。 |
 | [&lt;b&gt;](./b.md) | 定义文本粗体字。 |
 | [&lt;base&gt;](./base.md) | 指定文档中所有相对 URL 的基本 URL/目标 |
-| [&lt;basefont&gt;](./basefont.md) | ![][1] ⚠️ HTML 5 不支持。定义页面中文本的默认字体、颜色或尺寸。 |
+| [&lt;basefont&gt;](./basefont.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。定义页面中文本的默认字体、颜色或尺寸。 |
 | [&lt;bdi&gt;](./bdi.md) | 定义文本的文本方向，使其脱离其周围文本的方向设置。 |
 | [&lt;bdo&gt;](./bdo.md) | 定义文字方向。 |
-| [&lt;big&gt;](./big.md) | ![][1] ⚠️ HTML 5 不支持。 定义大号文本。请改用 CSS 代替。 |
+| [&lt;big&gt;](./big.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。 定义大号文本。请改用 CSS 代替。 |
 | [&lt;blockquote&gt;](./blockquote.md) | 定义长的段落引用。 |
 | [&lt;body&gt;](./body.md) | 定义文档的主体。 |
 | [&lt;br&gt;](./br.md) | 定义单个换行符 |
 | [&lt;button&gt;](./button.md) | 定义一个可点击的按钮 |
 | [&lt;canvas&gt;](./canvas.md) | 用于通过脚本（通常是 JavaScript）即时绘制图形 |
 | [&lt;caption&gt;](./caption.md) | 定义表格标题 |
-| [&lt;center&gt;](./center.md) | ![][1] ⚠️ HTML 5 不支持。改用 CSS。 定义居中文本 |
+| [&lt;center&gt;](./center.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。改用 CSS。 定义居中文本 |
 | [&lt;cite&gt;](./cite.md) | 定义作品的标题 |
 | [&lt;code&gt;](./code.md) | 定义一段计算机代码 |
 | [&lt;col&gt;](./col.md) | 为 [&lt;colgroup&gt;](./colgroup.md) 元素中的每一列指定列属性  |
@@ -40,7 +40,7 @@ HTML 标签参考手册
 | [&lt;details&gt;](./details.md) | 定义用户可以查看或隐藏的其他详细信息 |
 | [&lt;dfn&gt;](./dfn.md) | 指定将在内容中定义的术语 |
 | [&lt;dialog&gt;](./dialog.md) | 定义一个对话框或窗口 |
-| [&lt;dir&gt;](./dir.md) | ![][1] ⚠️ HTML 5 不支持。 请改用 [&lt;ul&gt;](./ul.md)。定义目录列表 |
+| [&lt;dir&gt;](./dir.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。 请改用 [&lt;ul&gt;](./ul.md)。定义目录列表 |
 | [&lt;div&gt;](./div.md) | 定义文档中的一个部分 |
 | [&lt;dl&gt;](./dl.md) | 定义描述列表 |
 | [&lt;dt&gt;](./dt.md) | 在描述列表中定义一个术语/名称 |
@@ -49,11 +49,11 @@ HTML 标签参考手册
 | [&lt;fieldset&gt;](./fieldset.md) | 对表单中的相关元素进行分组 |
 | [&lt;figcaption&gt;](./figcaption.md) | 定义 [&lt;figure&gt;](./figure.md) 元素的标题 |
 | [&lt;figure&gt;](./figure.md) | 指定自包含内容 |
-| [&lt;font&gt;](./font.md) | ![][1] ⚠️ HTML 5 不支持。改用 CSS。 定义文本的字体、颜色和大小 |
+| [&lt;font&gt;](./font.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。改用 CSS。 定义文本的字体、颜色和大小 |
 | [&lt;footer&gt;](./footer.md) | 定义文档或部分的页脚 |
 | [&lt;form&gt;](./form.md) | 定义用户输入的 HTML 表单 |
-| [&lt;frame&gt;](./frame.md) | ![][1] ⚠️ HTML 5 不支持。在框架集中定义一个窗口（一个框架） |
-| [&lt;frameset&gt;](./frameset.md) | ![][1] ⚠️ HTML 5 不支持。 定义一组框架 |
+| [&lt;frame&gt;](./frame.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。在框架集中定义一个窗口（一个框架） |
+| [&lt;frameset&gt;](./frameset.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。 定义一组框架 |
 | [&lt;h1&gt; to &lt;h6&gt;](./hn.md) | 定义 HTML 标题 |
 | [&lt;head&gt;](./head.md) | 包含文档的元数据/信息 |
 | [&lt;header&gt;](./header.md) | 定义文档或部分的标题 |
@@ -72,10 +72,12 @@ HTML 标签参考手册
 | [&lt;main&gt;](./main.md) | 指定文档的主要内容 |
 | [&lt;map&gt;](./map.md) | 定义图像映射 |
 | [&lt;mark&gt;](./mark.md) | 定义标记/突出显示的文本 |
+| [&lt;menu&gt;](./menu.md) | 定义命令的列表或菜单。 |
+| [&lt;menuitem&gt;](./menuitem.md) | 定义用户可以从弹出菜单调用的命令/菜单项目。 |
 | [&lt;meta&gt;](./meta.md) | 定义有关 HTML 文档的元数据 |
 | [&lt;meter&gt;](./meter.md) | 定义已知范围内的标量测量（仪表） |
 | [&lt;nav&gt;](./nav.md) | 定义导航链接 |
-| [&lt;noframes&gt;](./noframes.md) | ![][1] ⚠️ HTML 5 不支持。为不支持框架的用户定义替代内容 |
+| [&lt;noframes&gt;](./noframes.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。为不支持框架的用户定义替代内容 |
 | [&lt;noscript&gt;](./noscript.md) | 为不支持客户端脚本的用户定义替代内容 |
 | [&lt;object&gt;](./object.md) | 为外部应用程序定义一个容器 |
 | [&lt;ol&gt;](./ol.md) | 定义有序列表 |
@@ -99,7 +101,7 @@ HTML 标签参考手册
 | [&lt;small&gt;](./small.md) | 定义较小的文本 |
 | [&lt;source&gt;](./source.md) | 为媒体元素（[&lt;video&gt;](./video.md) 和 [&lt;audio&gt;](./audio.md)）定义多种媒体资源 |
 | [&lt;span&gt;](./span.md) | 定义文档中的一个部分 |
-| [&lt;strike&gt;](./strike.md) | ![][1] ⚠️ HTML 5 不支持。请改用 [&lt;del&gt;](./del.md) 或 [&lt;s&gt;](./s.md)。 定义删除线文本 |
+| [&lt;strike&gt;](./strike.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。请改用 [&lt;del&gt;](./del.md) 或 [&lt;s&gt;](./s.md)。 定义删除线文本 |
 | [&lt;strong&gt;](./strong.md) | 定义重要文本 |
 | [&lt;style&gt;](./style.md) | 定义文档的样式信息 |
 | [&lt;sub&gt;](./sub.md) | 定义下标文本 |
@@ -118,7 +120,7 @@ HTML 标签参考手册
 | [&lt;title&gt;](./title.md) | 定义文档的标题 |
 | [&lt;tr&gt;](./tr.md) | 定义表中的一行 |
 | [&lt;track&gt;](./track.md) | 为媒体元素（[&lt;video&gt;](./video.md) 和 [&lt;audio&gt;](./audio.md)）定义文本轨道 |
-| [&lt;tt&gt;](./tt.md) | ![][1] ⚠️ HTML 5 不支持。改用 CSS。定义打字机文本 |
+| [&lt;tt&gt;](./tt.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。改用 CSS。定义打字机文本 |
 | [&lt;u&gt;](./u.md) | 定义下划线文本 |
 | [&lt;ul&gt;](./ul.md) | 定义一个无序列表 |
 | [&lt;var&gt;](./var.md) | 定义一个变量 |

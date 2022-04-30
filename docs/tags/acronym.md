@@ -1,7 +1,7 @@
 HTML \<acronym> 标签
 ===
 
-[![](https://shields.io/badge/HTML5-已废弃-yellow?logo=HTML5)](https://caniuse.com/?search=<acronym>)
+[![](https://shields.io/badge/HTML5-已弃用/过时-yellow?logo=HTML5)](https://caniuse.com/?search=<acronym>)
 
 ## HTML5 不支持
 

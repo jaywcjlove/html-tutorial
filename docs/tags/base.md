@@ -28,7 +28,7 @@ HTML \<base> 标签
 文档中只能有一个 `<base>` 元素，并且它必须在 \<head> 元素内。
 
 
-## Browser Support
+## 浏览器支持
 
 | Element |  ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
