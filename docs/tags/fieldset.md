@@ -30,7 +30,7 @@ HTML \<fieldset> 标签
 
 ## 提示和注意事项
 
-**提示：** [\<legend>](./legend.aspmd) 标记用于定义 `<fieldset>` 元素的标题。
+**提示：** [\<legend>](./legend.md) 标记用于定义 `<fieldset>` 元素的标题。
 
 ## 浏览器支持
 

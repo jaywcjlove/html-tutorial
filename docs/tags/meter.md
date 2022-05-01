@@ -43,7 +43,6 @@ HTML \<meter> Tag
 | [optimum](./meter_optimum.md) | *number*   | 指定仪表的最佳值是什么值 |
 | [value](./meter_value.md)     | *number*   | 必需的。 指定仪表的当前值 |
 
-
 ## 全局属性
 
 `<meter>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。

@@ -7,10 +7,10 @@ HTML \<nav> Tag
 
 ```html idoc:preview:iframe
 <nav>
-  <a href="../reference/byfunc.html">HTML 标签参考</a> |
-  <a href="../reference/standardattributes.html">全局属性</a> |
-  <a href="../reference/eventattributes.html">事件属性</a> |
-  <a href="../reference/charactersets_entities.html">Python</a>
+  <a href="../reference/byfunc.html">HTML 标签参考</a> |
+  <a href="../reference/standardattributes.html">全局属性</a> |
+  <a href="../reference/eventattributes.html">事件属性</a> |
+  <a href="../reference/charactersets_entities.html">Python</a>
 </nav>
 ```
 
@@ -44,6 +44,12 @@ HTML \<nav> Tag
 
 ```css
 nav {
-  display: block;
+  display: block;
 }
 ```
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg

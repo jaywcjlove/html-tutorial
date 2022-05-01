@@ -30,14 +30,14 @@ HTML \<link> Tag
 | 属性 | 值 | 描述 |
 | ---- | ---- | ---- |
 | crossorigin                                     | anonymous use-credentials | 指定元素如何处理跨域请求 |
-| [href](att_link_href.asp)                       | *URL* | 指定链接文档的位置 |
-| [hreflang](att_link_hreflang.asp)               | *language\_code* | 指定链接文档中文本的语言 |
-| [media](att_link_media.asp)                     | *media\_query* | 指定链接文档将在什么设备上显示 |
-| [referrerpolicy](att_iframe_referrerpolicy.asp) | no-referrer<br>no-referrer-when-downgrade<br>origin<br>origin-when-cross-origin<br>unsafe-url | 指定在获取资源时使用哪个引用者 |
-| [rel](att_link_rel.asp)                         | alternate<br>author<br>dns-prefetch<br>help<br>icon<br>license<br>next<br>pingback<br>preconnect<br>prefetch<br>preload<br>prerender<br>prev<br>search<br>stylesheet | 必需的，指定当前文档和链接文档之间的关系|
-| [sizes](att_link_sizes.asp)                     | *Height* x *Width* <br>any | 指定链接资源的大小。 仅适用于 rel="icon" |
+| [href](./link_href.md)                       | *URL* | 指定链接文档的位置 |
+| [hreflang](./link_hreflang.md)               | *language\_code* | 指定链接文档中文本的语言 |
+| [media](./link_media.md)                     | *media\_query* | 指定链接文档将在什么设备上显示 |
+| [referrerpolicy](./iframe_referrerpolicy.md) | no-referrer<br>no-referrer-when-downgrade<br>origin<br>origin-when-cross-origin<br>unsafe-url | 指定在获取资源时使用哪个引用者 |
+| [rel](./link_rel.md)                         | alternate<br>author<br>dns-prefetch<br>help<br>icon<br>license<br>next<br>pingback<br>preconnect<br>prefetch<br>preload<br>prerender<br>prev<br>search<br>stylesheet | 必需的，指定当前文档和链接文档之间的关系|
+| [sizes](./link_sizes.md)                     | *Height* x *Width* <br>any | 指定链接资源的大小。 仅适用于 rel="icon" |
 | title                                           || 定义首选或备用样式表 |
-| [type](att_link_type.asp)                       | *media\_type*| 指定链接文档的媒体类型 |
+| [type](./link_type.md)                       | *media\_type*| 指定链接文档的媒体类型 |
 
 ## 全局属性
 
