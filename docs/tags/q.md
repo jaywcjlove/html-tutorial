@@ -39,7 +39,6 @@ HTML \<q> 标签
 
 `<q>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
 
-
 ## 更多示例
 
 使用 CSS 设置 \<q> 元素的样式：
