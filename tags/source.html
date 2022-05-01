@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>source.md HTML Tutorial </title>
+  <title>HTML &lt;source&gt; Tag HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/tags/source.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="带有两个源文件的音频播放器。 浏览器会选择第一个">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,8 +642,135 @@
 </div>
 
   <markdown-style>
-    <h1 id="sourcemd"><a aria-hidden="true" tabindex="-1" href="#sourcemd" class="anchor"><span class="icon icon-link"></span></a>source.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/tags/source.md">docs/tags/source.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-source-tag"><a aria-hidden="true" tabindex="-1" href="#html-source-tag" class="anchor"><span class="icon icon-link"></span></a>HTML &#x3C;source> Tag</h1>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>带有两个源文件的音频播放器。 浏览器会选择第一个</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>audio</span> <span class="token attr-name">controls</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>video/mp4<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>video/webm<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  您的浏览器不支持音频元素。
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>audio</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<audio controls>
+  <source type=&#x22;video/mp4&#x22; src=&#x22;https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4&#x22;>
+  <source type=&#x22;video/webm&#x22; src=&#x22;https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm&#x22;>
+  您的浏览器不支持音频元素。
+</audio>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<audio controls>
+  <source type=&#x22;video/mp4&#x22; src=&#x22;https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4&#x22;>
+  <source type=&#x22;video/webm&#x22; src=&#x22;https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm&#x22;>
+  您的浏览器不支持音频元素。
+</audio>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+<p><code>&#x3C;source></code> 标签用于为媒体元素指定多个媒体资源，例如 <a href="./video.html">&#x3C;video></a>、<a href="./audio.html">&#x3C;audio></a> 和 <a href="./picture.html">&#x3C;picture></a>。</p>
+<p><code>&#x3C;source></code> 标签允许您指定浏览器可以选择的替代视频/音频/图像文件，基于浏览器支持或视口宽度。 浏览器会选择它支持的第一个 <code>&#x3C;source></code>。</p>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+<p>表中的数字指定了完全支持该元素的第一个浏览器版本。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Element</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>&#x3C;source></td><td>4.0</td><td>9.0</td><td>3.5</td><td>4.0</td><td>10.5</td></tr></tbody></table>
+<h2 id="属性-attributes"><a aria-hidden="true" tabindex="-1" href="#属性-attributes" class="anchor"><span class="icon icon-link"></span></a>属性 Attributes</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>属性</th><th>值</th><th>描述</th></tr></thead><tbody><tr><td><a href="./source_media.html">media</a></td><td><em>media_query</em></td><td>接受通常在 CSS 中定义的任何有效媒体查询</td></tr><tr><td>sizes</td><td></td><td>指定不同页面布局的图像大小</td></tr><tr><td><a href="./source_src.html">src</a></td><td><em>URL</em></td><td>在 <a href="./audio.html">&#x3C;audio></a> 和 <a href="./video.html">&#x3C;video></a> 中使用 &#x3C;source> 时需要。 指定媒体文件的 URL</td></tr><tr><td><a href="./source_srcset.html">srcset</a></td><td><em>URL</em></td><td>在 <a href="./picture.html">&#x3C;picture></a> 中使用 &#x3C;source> 时是必需的。 指定要在不同情况下使用的图像的 URL</td></tr><tr><td><a href="./source_type.html">type</a></td><td><em>MIME-type</em></td><td>指定资源的 MIME 类型</td></tr></tbody></table>
+<h2 id="全局属性"><a aria-hidden="true" tabindex="-1" href="#全局属性" class="anchor"><span class="icon icon-link"></span></a>全局属性</h2>
+<p><code>&#x3C;source></code> 标签支持 HTML 中的<a href="../reference/standardattributes.html">全局属性</a>。</p>
+<h2 id="事件属性"><a aria-hidden="true" tabindex="-1" href="#事件属性" class="anchor"><span class="icon icon-link"></span></a>事件属性</h2>
+<p><code>&#x3C;source></code> 标签支持 HTML 中的<a href="../reference/eventattributes.html">事件属性</a>。</p>
+<h2 id="更多示例"><a aria-hidden="true" tabindex="-1" href="#更多示例" class="anchor"><span class="icon icon-link"></span></a>更多示例</h2>
+<p>在 <a href="./video.html">&#x3C;video></a> 中使用 &#x3C;source> 播放视频：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>video</span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>320<span class="token punctuation">"</span></span> <span class="token attr-name">controls</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>video/mp4<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>video/webm<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  您的浏览器不支持 video 标签。
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>video</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<video width=&#x22;320&#x22; controls>
+  <source type=&#x22;video/mp4&#x22; src=&#x22;https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4&#x22;>
+  <source type=&#x22;video/webm&#x22; src=&#x22;https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm&#x22;>
+  您的浏览器不支持 video 标签。
+</video>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<video width=&#x22;320&#x22; controls>
+  <source type=&#x22;video/mp4&#x22; src=&#x22;https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4&#x22;>
+  <source type=&#x22;video/webm&#x22; src=&#x22;https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm&#x22;>
+  您的浏览器不支持 video 标签。
+</video>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<p>在 &#x3C;picture> 中使用 &#x3C;source> 根据视口宽度定义不同的图像：</p>
+<div class="idoc-demo-warpper language-html" style="height: 290px;"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>picture</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">srcset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/example.png<span class="token punctuation">"</span></span> <span class="token attr-name">media</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>(max-width: 600px)<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">srcset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/sublime_text.png<span class="token punctuation">"</span></span> <span class="token attr-name">media</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>(max-width: 1500px)<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">srcset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/chrome.svg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/example.png<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Flowers<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span>auto<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="6"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>picture</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<picture>
+  <source srcset=&#x22;../assets/example.png&#x22; media=&#x22;(max-width: 600px)&#x22;>
+  <source srcset=&#x22;../assets/sublime_text.png&#x22; media=&#x22;(max-width: 1500px)&#x22;>
+  <source srcset=&#x22;../assets/chrome.svg&#x22;>
+  <img src=&#x22;../assets/example.png&#x22; alt=&#x22;Flowers&#x22; style=&#x22;width:auto;&#x22;>
+</picture>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<picture>
+  <source srcset=&#x22;../assets/example.png&#x22; media=&#x22;(max-width: 600px)&#x22;>
+  <source srcset=&#x22;../assets/sublime_text.png&#x22; media=&#x22;(max-width: 1500px)&#x22;>
+  <source srcset=&#x22;../assets/chrome.svg&#x22;>
+  <img src=&#x22;../assets/example.png&#x22; alt=&#x22;Flowers&#x22; style=&#x22;width:auto;&#x22;>
+</picture>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<!--rehype:style=height: 290px;-->
+<h2 id="相关页面"><a aria-hidden="true" tabindex="-1" href="#相关页面" class="anchor"><span class="icon icon-link"></span></a>相关页面</h2>
+<p>HTML 教程: <a href="../tutorial/video.html">HTML Video</a></p>
+<p>HTML 教程: <a href="../tutorial/audio.html">HTML Audio</a></p>
     
 
 <div class="previous">
@@ -687,6 +814,54 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#定义和用法" class="tocs-link">定义和用法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#属性-attributes" class="tocs-link">属性 Attributes</a>
+        
+      </li>
+    
+      <li>
+        <a href="#全局属性" class="tocs-link">全局属性</a>
+        
+      </li>
+    
+      <li>
+        <a href="#事件属性" class="tocs-link">事件属性</a>
+        
+      </li>
+    
+      <li>
+        <a href="#更多示例" class="tocs-link">更多示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#相关页面" class="tocs-link">相关页面</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
 <script src="../js/demo-preview.js?v=1.17.7"></script>
