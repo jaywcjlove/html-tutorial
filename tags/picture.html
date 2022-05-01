@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>picture.md HTML Tutorial </title>
+  <title>HTML &lt;picture&gt; Tag HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/tags/picture.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="如何使用 &lt;picture&gt; 标签：">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,8 +642,58 @@
 </div>
 
   <markdown-style>
-    <h1 id="picturemd"><a aria-hidden="true" tabindex="-1" href="#picturemd" class="anchor"><span class="icon icon-link"></span></a>picture.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/tags/picture.md">docs/tags/picture.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-picture-tag"><a aria-hidden="true" tabindex="-1" href="#html-picture-tag" class="anchor"><span class="icon icon-link"></span></a>HTML &#x3C;picture> Tag</h1>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>如何使用 &#x3C;picture> 标签：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>picture</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">srcset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/example.png<span class="token punctuation">"</span></span> <span class="token attr-name">media</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>(max-width: 600px)<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">srcset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/sublime_text.png<span class="token punctuation">"</span></span> <span class="token attr-name">media</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>(max-width: 1500px)<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">srcset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/chrome.svg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/example.png<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Flowers<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="6"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>picture</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<picture>
+  <source srcset=&#x22;../assets/example.png&#x22; media=&#x22;(max-width: 600px)&#x22;>
+  <source srcset=&#x22;../assets/sublime_text.png&#x22; media=&#x22;(max-width: 1500px)&#x22;>
+  <source srcset=&#x22;../assets/chrome.svg&#x22;>
+  <img src=&#x22;../assets/example.png&#x22; alt=&#x22;Flowers&#x22;>
+</picture>
+"><div data-previw="" class="idoc-demo-previw"></div><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+<p><code>&#x3C;picture></code> 标签让 Web 开发人员在指定图像资源时更加灵活。</p>
+<p><code>&#x3C;picture></code> 元素最常用于响应式设计中的艺术指导。 无需根据视口宽度放大或缩小一个图像，而是可以设计多个图像以更好地填充浏览器视口。</p>
+<p><code>&#x3C;picture></code> 元素包含两个标签：一个或多个 <a href="./source.html">&#x3C;source></a> 标签和一个 <a href="./img.html">&#x3C;img></a> 标签。</p>
+<p>浏览器将查找媒体查询与当前视口宽度匹配的第一个 <a href="./source.html">&#x3C;source></a> 元素，然后它将显示正确的图像（在 srcset 属性中指定）。 <a href="./img.html">&#x3C;img></a> 元素是 <code>&#x3C;picture></code> 元素的最后一个子元素，如果没有源标签匹配，则作为后备选项。</p>
+<p><strong>提示：</strong> <code>&#x3C;picture></code> 元素的工作方式与 <a href="./video.html">&#x3C;video></a> 和 <a href="./audio.html">&#x3C;audio></a> “相似”。 您设置了不同的来源，第一个符合偏好的来源就是正在使用的来源。</p>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+<p>表中的数字指定了完全支持该元素的第一个浏览器版本。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Element</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>&#x3C;picture></td><td>38.0</td><td>13.0</td><td>38.0</td><td>9.1</td><td>25.0</td></tr></tbody></table>
+<h2 id="全局属性"><a aria-hidden="true" tabindex="-1" href="#全局属性" class="anchor"><span class="icon icon-link"></span></a>全局属性</h2>
+<p><code>&#x3C;picture></code> 标签支持 HTML 中的<a href="../reference/standardattributes.html">全局属性</a>。</p>
+<h2 id="事件属性"><a aria-hidden="true" tabindex="-1" href="#事件属性" class="anchor"><span class="icon icon-link"></span></a>事件属性</h2>
+<p><code>&#x3C;picture></code> 标签支持 HTML 中的<a href="../reference/eventattributes.html">事件属性</a>。</p>
+<h2 id="相关页面"><a aria-hidden="true" tabindex="-1" href="#相关页面" class="anchor"><span class="icon icon-link"></span></a>相关页面</h2>
+<p>HTML 教程: <a href="../tutorial/images.html">HTML &#x3C;picture> Element</a></p>
     
 
 <div class="previous">
@@ -687,6 +737,44 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#定义和用法" class="tocs-link">定义和用法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#全局属性" class="tocs-link">全局属性</a>
+        
+      </li>
+    
+      <li>
+        <a href="#事件属性" class="tocs-link">事件属性</a>
+        
+      </li>
+    
+      <li>
+        <a href="#相关页面" class="tocs-link">相关页面</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
 <script src="../js/demo-preview.js?v=1.17.7"></script>
