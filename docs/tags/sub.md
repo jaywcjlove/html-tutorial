@@ -39,8 +39,8 @@ HTML 教程: [HTML Text Formatting](../tutorial/formatting.md)
 
 ```css
 sub {
-  vertical-align: sub;
-  font-size: smaller;
+  vertical-align: sub;
+  font-size: smaller;
 }
 ```
 
