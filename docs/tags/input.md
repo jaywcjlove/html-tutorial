@@ -1,4 +1,4 @@
-HTML \<input> Tag
+HTML \<input> 标签
 ===
 
 ## 示例

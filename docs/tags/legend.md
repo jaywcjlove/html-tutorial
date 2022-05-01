@@ -1,4 +1,4 @@
-HTML \<legend> Tag
+HTML \<legend> 标签
 ===
 
 ## 示例

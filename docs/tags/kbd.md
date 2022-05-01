@@ -1,4 +1,4 @@
-HTML \<kbd> Tag
+HTML \<kbd> 标签
 ===
 
 ## 示例

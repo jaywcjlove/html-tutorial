@@ -1,4 +1,4 @@
-HTML \<img> Tag
+HTML \<img> 标签
 ===
 
 ## 示例

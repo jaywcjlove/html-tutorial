@@ -1,4 +1,4 @@
-HTML \<map> Tag
+HTML \<map> 标签
 ===
 
 ## 示例

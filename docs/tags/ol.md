@@ -1,4 +1,4 @@
-HTML \<ol> Tag
+HTML \<ol> 标签
 ===
 
 ## 示例
@@ -277,7 +277,6 @@ ol {
   padding-left: 40px;
 }
 ```
-<!--rehype:style=height: 230px;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

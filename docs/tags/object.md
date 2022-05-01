@@ -1,4 +1,4 @@
-HTML \<object> Tag
+HTML \<object> 标签
 ===
 
 ## 示例

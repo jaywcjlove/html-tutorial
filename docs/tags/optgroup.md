@@ -1,4 +1,4 @@
-HTML \<optgroup> Tag
+HTML \<optgroup> 标签
 ===
 
 ## 示例

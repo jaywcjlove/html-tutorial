@@ -1,4 +1,4 @@
-HTML \<noscript> Tag
+HTML \<noscript> 标签
 ===
 
 ## 示例
