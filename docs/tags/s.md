@@ -10,7 +10,7 @@ HTML \<s> Tag
 <p>SOLD OUT!</p>
 ```
 
-## Definition and Usage
+## 定义和用法
 
 `<s>` 标签指定不再正确、准确或相关的文本。 文本将通过一条线显示。
 
