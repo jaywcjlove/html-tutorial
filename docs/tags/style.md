@@ -80,7 +80,7 @@ HTML \<style> Tag
 
 ## 相关页面
 
-HTML tutorial: [HTML CSS](../tutorial/css.md)
+HTML 教程: [HTML CSS](../tutorial/css.md)
 
 ## 默认 CSS 设置
 

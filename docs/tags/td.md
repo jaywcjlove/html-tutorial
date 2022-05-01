@@ -137,7 +137,7 @@ HTML 表格有两种单元格：
 ```
 <!--rehype:style=height: 110px;-->
 
-How to vertical align content inside \<td> (with CSS):
+如何垂直对齐 \<td> 中的内容（使用 CSS）：
 
 ```html idoc:preview:iframe
 <style>
@@ -156,7 +156,7 @@ How to vertical align content inside \<td> (with CSS):
 ```
 <!--rehype:style=height: 150px;-->
 
-How to set the width of a table cell (with CSS):
+如何设置表格单元格的宽度（使用 CSS）：
 
 ```html idoc:preview:iframe
 <style>
@@ -175,7 +175,7 @@ How to set the width of a table cell (with CSS):
 ```
 <!--rehype:style=height: 110px;-->
 
-How to create table headers:
+如何创建表头：
 
 ```html idoc:preview:iframe
 <style>
@@ -196,7 +196,7 @@ How to create table headers:
 ```
 <!--rehype:style=height: 160px;-->
 
-How to create a table with a caption:
+如何创建带有标题的表格：
 
 ```html idoc:preview:iframe
 <style>
