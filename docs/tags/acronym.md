@@ -9,8 +9,6 @@ HTML \<acronym> 标签
 
 ## 改用什么？
 
-### 实例
-
 首字母缩略词或缩写应使用 [\<abbr>](../tags/abbr.md) 标签进行标记：
 
 ```html idoc:preview
