@@ -36,7 +36,7 @@ HTML \<map> Tag
 
 | 属性 | 值 | 描述 |
 | ---- | ---- | ---- |
-| [name](att_map_name.asp) | *mapname* | 必需的。 指定图像映射的名称 |
+| [name](./map_name.md) | *mapname* | 必需的。 指定图像映射的名称 |
 
 ## 全局属性
 
@@ -70,3 +70,9 @@ map {
   display: inline;
 }
 ```
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg
