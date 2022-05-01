@@ -65,6 +65,9 @@ HTML 支持三种音频格式：MP3、WAV 和 OGG。
 
 `<audio>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
 
+## 相关页面
+
+HTML Audio/Video DOM 参考: [HTML Audio/Video DOM Reference](../reference/av_dom.md)
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg
