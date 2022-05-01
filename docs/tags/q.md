@@ -49,8 +49,8 @@ HTML \<q> 标签
 <head>
   <style>
     q {
-      color: gray;
-      font-style: italic;
+      color: gray;
+      font-style: italic;
     }
   </style>
 </head>
@@ -68,13 +68,13 @@ HTML \<q> 标签
 
 ```css
 q {
-  display: inline;
+  display: inline;
 }
 q:before {
-  content: open-quote;
+  content: open-quote;
 }
 q:after {
-  content: close-quote;
+  content: close-quote;
 }
 ```
 

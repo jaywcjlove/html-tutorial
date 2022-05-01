@@ -3,7 +3,7 @@ HTML \<rp> Tag
 
 ## 示例
 
-ruby 注释：
+ruby 标注：
 
 ```html idoc:preview
 <ruby>
