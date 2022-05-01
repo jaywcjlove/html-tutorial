@@ -6,7 +6,7 @@ HTML \<area> 标签
 带有可点击区域的图像地图，点击下面`电脑`，`咖啡`和`手机`，进入不同的页面：
 
 ```html idoc:preview
-<img src="https://user-images.githubusercontent.com/1680273/165699392-e954c742-84e5-4962-9cb3-2796cb693030.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+<img src="../assets/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
 <map name="workmap">
   <area shape="rect" coords="34,44,270,350" alt="Computer" href="a.html">
   <area shape="rect" coords="290,172,333,250" alt="Phone" href="abbr.html">
