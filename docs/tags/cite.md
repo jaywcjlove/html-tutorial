@@ -24,11 +24,11 @@ HTML \<cite> 标签
 
 ## 全局属性
 
-`<button>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
+`<cite>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
 
 ## 事件属性
 
-`<button>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
+`<cite>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
 
 ## 默认 CSS 设置
 

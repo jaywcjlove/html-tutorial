@@ -43,7 +43,7 @@ BDO 表示双向超控(Bi-Directional Override)。
 大多数浏览器将显示具有以下默认值的 `<bdo>` 元素：
 
 ```css
-area {
+bdo {
   unicode-bidi: bidi-override;
 }
 ```

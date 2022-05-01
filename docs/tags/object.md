@@ -92,7 +92,7 @@ HTML 教程: [HTML Object Element](../tutorial/object.md)
 
 ## 默认 CSS 设置
 
-大多数浏览器将显示具有以下默认值的 `<menu>` 元素：
+大多数浏览器将显示具有以下默认值的 `<object>` 元素：
 
 ```css
 object:focus {

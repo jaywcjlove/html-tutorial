@@ -100,6 +100,14 @@ HTML \<a> 标签
 <a href="javascript:alert('Hello World!');">执行 JavaScript</a>
 ```
 
+## 全局属性
+
+`<a>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
+
+## 事件属性
+
+`<a>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
+
 ## 默认 CSS 设置
 
 大多数浏览器将显示具有以下默认值的 `<a>` 元素：
