@@ -189,13 +189,13 @@ HTML 表格有两种单元格：
 </style>
 <table>
   <tr>
-    <th>Name</th>
-    <th>Email</th>
-    <th>Phone</th>
+    <th>姓名</th>
+    <th>邮箱</th>
+    <th colspan="2">电话</th>
   </tr>
   <tr>
-    <td>John Doe</td>
-    <td>john.doe@example.com</td>
+    <td>周杰伦</td>
+    <td>zhou@example.com</td>
     <td>123-45-678</td>
   </tr>
 </table>
@@ -264,3 +264,9 @@ th {
   text-align: center;
 }
 ```
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg
