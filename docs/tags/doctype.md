@@ -29,7 +29,7 @@ HTML \<!DOCTYPE> 声明
 
 ## 浏览器支持
 
-| &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __\<!DOCTYPE>__ | Yes | Yes | Yes | Yes | Yes |
 ## 较旧的 HTML 文档

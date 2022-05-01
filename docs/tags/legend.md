@@ -34,11 +34,11 @@ HTML \<legend> 标签
 
 ## 全局属性
 
-`<ins>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
+`<legend>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
 
 ## 事件属性
 
-`<ins>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
+`<legend>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
 
 ## 更多示例
 

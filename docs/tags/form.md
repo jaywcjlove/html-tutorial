@@ -21,15 +21,15 @@ HTML \<form> 标签
 
 `<form>` 元素可以包含以下一个或多个表单元素：
 
-*   [\<input>](./input.md)
-*   [\<textarea>](./textarea.md)
-*   [\<button>](./button.md)
-*   [\<select>](./select.md)
-*   [\<option>](./option.md)
-*   [\<optgroup>](./optgroup.md)
-*   [\<fieldset>](./fieldset.md)
-*   [\<label>](./label.md)
-*   [\<output>](./output.md)
+* [\<input>](./input.md)
+* [\<textarea>](./textarea.md)
+* [\<button>](./button.md)
+* [\<select>](./select.md)
+* [\<option>](./option.md)
+* [\<optgroup>](./optgroup.md)
+* [\<fieldset>](./fieldset.md)
+* [\<label>](./label.md)
+* [\<output>](./output.md)
 
 ## 浏览器支持
 

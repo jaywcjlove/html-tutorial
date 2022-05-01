@@ -41,11 +41,11 @@ HTML \<optgroup> 标签
 
 ## 全局属性
 
-`<ol>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
+`<optgroup>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
 
 ## 事件属性
 
-`<ol>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
+`<optgroup>` 标签支持 HTML 中的[事件属性](../reference/eventattributes.md)。
 
 
 [1]: ../assets/chrome.svg

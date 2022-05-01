@@ -46,7 +46,6 @@ HTML \<meta> 标签
 
 `<meta>` 标签支持 HTML 中的[全局属性](../reference/standardattributes.md)。
 
-
 ## 更多示例
 
 **为搜索引擎定义关键字：**

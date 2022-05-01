@@ -95,7 +95,7 @@ HTML 教程: [HTML Paragraphs](../tutorial/paragraphs.md)
 
 ## 默认 CSS 设置
 
-大多数浏览器将显示具有以下默认值的 `<ol>` 元素：
+大多数浏览器将显示具有以下默认值的 `<p>` 元素：
 
 ```css
 p {
