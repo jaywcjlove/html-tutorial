@@ -136,9 +136,7 @@ HTML \<tbody> Tag
 
 ```html idoc:preview:iframe
 <style>
-  table, th, td {
-    border: 1px solid black;
-  }
+  table, th, td { border: 1px solid black; }
 </style>
 <table style="width:50%;">
   <tr>
