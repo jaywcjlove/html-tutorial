@@ -13,7 +13,7 @@ HTML class 属性
 
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
-| 所有 HTML 元素 | [class](att_global_class.asp) |
+| 所有 [HTML](../tags/README.md) 元素 | [class](./global/class.md) |
 
 ## 示例
 

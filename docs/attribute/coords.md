@@ -11,11 +11,11 @@ HTML coords 属性
 
 ## 适用于
 
-The `coords` attribute can be used on the following element:
+`coords` 属性可用于以下元素：
 
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
-| [\<area>](../tags/area.md) | [coords](att_area_coords.asp) |
+| [\<area>](../tags/area.md) | [coords](../tags/area_coords.md) |
 
 ## 示例
 

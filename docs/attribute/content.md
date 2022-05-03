@@ -11,7 +11,7 @@ HTML content 属性
 
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
-| [\<meta>](tag_meta.asp) | [content](../tags/meta_content.md) |
+| [\<meta>](../tags/meta.md) | [content](../tags/meta_content.md) |
 
 ## 示例
 

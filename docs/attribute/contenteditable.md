@@ -13,7 +13,7 @@ HTML contenteditable 属性
 
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
-| 所有 [HTML](../reference/byfunc.md) 元素 | [contenteditable](att_global_contenteditable.asp) |
+| 所有 [HTML](../tags/README.md) 元素 | [contenteditable](./global/contenteditable.md) |
 
 ## 示例
 

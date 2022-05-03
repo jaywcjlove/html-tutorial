@@ -17,7 +17,7 @@ HTML data 属性
 
 如何使用 \<object> 元素嵌入 Flash 文件：
 
-```html idoc:preview:iframe
+```html
 <object width="400" height="400" data="helloworld.swf"></object>
 ```
 

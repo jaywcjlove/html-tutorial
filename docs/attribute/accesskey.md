@@ -29,7 +29,7 @@ HTML accesskey 属性
 
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
-| All HTML elements | [accesskey](./global/accesskey.md) |
+| 全部 [HTML](../tags/README.md) 元素 | [accesskey](./global/accesskey.md) |
 
 ### 示例
 

@@ -11,8 +11,8 @@ HTML colspan 属性
 
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
-| [\<td>](../tags/td.md) | [colspan](att_td_colspan.asp) |
-| [\<th>](../tags/th.md) | [colspan](att_th_colspan.asp) |
+| [\<td>](../tags/td.md) | [colspan](../tags/td_colspan.md) |
+| [\<th>](../tags/th.md) | [colspan](../tags/th_colspan.md) |
 
 ## 示例
 
