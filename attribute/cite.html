@@ -672,7 +672,7 @@
 
 
 
-<table><thead><tr><th>标签 Element</th><th>属性 Attribute</th></tr></thead><tbody><tr><td><a href="../tags/blockquote.html">&#x3C;blockquote></a></td><td><a href="../tags/blockquote_cite.html">cite</a></td></tr><tr><td><a href="../tags/del.html">&#x3C;del></a></td><td><a href="../tags/del_cite.html">cite</a></td></tr><tr><td><a href="../tags/ins.html">&#x3C;ins></a></td><td><a href="../tags/ins_cite.html">cite</a></td></tr><tr><td><a href="../tags/q.html">&#x3C;q></a></td><td><a href="../tags/q_cite.html">cite</a></td></tr></tbody></table>
+<table><thead><tr><th>元素 Element</th><th>属性 Attribute</th></tr></thead><tbody><tr><td><a href="../tags/blockquote.html">&#x3C;blockquote></a></td><td><a href="../tags/blockquote_cite.html">cite</a></td></tr><tr><td><a href="../tags/del.html">&#x3C;del></a></td><td><a href="../tags/del_cite.html">cite</a></td></tr><tr><td><a href="../tags/ins.html">&#x3C;ins></a></td><td><a href="../tags/ins_cite.html">cite</a></td></tr><tr><td><a href="../tags/q.html">&#x3C;q></a></td><td><a href="../tags/q_cite.html">cite</a></td></tr></tbody></table>
 <h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
 <h3 id="blockquote-示例"><a aria-hidden="true" tabindex="-1" href="#blockquote-示例" class="anchor"><span class="icon icon-link"></span></a>Blockquote 示例</h3>
 <p>从另一个来源引用的部分：</p>
@@ -694,21 +694,33 @@ HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世�
 "></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
 <h3 id="del-示例"><a aria-hidden="true" tabindex="-1" href="#del-示例" class="anchor"><span class="icon icon-link"></span></a>Del 示例</h3>
 <p>已删除的文本，带有一个文档的 URL，该文档解释了该文本被删除的原因：</p>
-<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>del</span> <span class="token attr-name">cite</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../tags/del.html<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>此文字已被删除<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>del</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
-</span></pre><input type="hidden" value="<p><del cite=&#x22;../tags/del.html&#x22;>此文字已被删除</del></p>
-"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<p><del cite=&#x22;../tags/del.html&#x22;>此文字已被删除</del></p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>del</span> <span class="token attr-name">cite</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../tags/del.html<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>此文字已被删除<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>del</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<p>
+  <del cite=&#x22;../tags/del.html&#x22;>此文字已被删除</del>
+</p>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<p>
+  <del cite=&#x22;../tags/del.html&#x22;>此文字已被删除</del>
+</p>
 "></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
-<h3 id="ins-example"><a aria-hidden="true" tabindex="-1" href="#ins-example" class="anchor"><span class="icon icon-link"></span></a>Ins Example</h3>
+<h3 id="ins-示例"><a aria-hidden="true" tabindex="-1" href="#ins-示例" class="anchor"><span class="icon icon-link"></span></a>Ins 示例</h3>
 <p>一个插入的文本，带有一个文档的 URL，解释了为什么插入文本：</p>
-<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>This is a text.
-</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>ins</span> <span class="token attr-name">cite</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../tags/ins.html<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>这是插入的文本。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>ins</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
-</span></pre><input type="hidden" value="<p>This is a text.
-<ins cite=&#x22;../tags/ins.html&#x22;>这是插入的文本。</ins></p>
-"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<p>This is a text.
-<ins cite=&#x22;../tags/ins.html&#x22;>这是插入的文本。</ins></p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  这是一个文本。
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>ins</span> <span class="token attr-name">cite</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../tags/ins.html<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>这是插入的文本。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>ins</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<p>
+  这是一个文本。
+  <ins cite=&#x22;../tags/ins.html&#x22;>这是插入的文本。</ins>
+</p>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<p>
+  这是一个文本。
+  <ins cite=&#x22;../tags/ins.html&#x22;>这是插入的文本。</ins>
+</p>
 "></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
-<h3 id="q-example"><a aria-hidden="true" tabindex="-1" href="#q-example" class="anchor"><span class="icon icon-link"></span></a>Q Example</h3>
-<p>Specify the source URL of a quote:</p>
+<h3 id="q-示例"><a aria-hidden="true" tabindex="-1" href="#q-示例" class="anchor"><span class="icon icon-link"></span></a>Q 示例</h3>
+<p>指定报价的来源 URL：</p>
 <div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>超文本标记语言
 </span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>q</span> <span class="token attr-name">cite</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://github.com/jaywcjlove/html-tutorial<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 </span><span class="code-line line-number" line="3">  HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世界的一砖一瓦。它定义了网页内容的含义和结构。
@@ -723,7 +735,7 @@ HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世�
 </p>
 "></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
 <h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
-<p>The <code>cite</code> attribute has the following browser support for each element:</p>
+<p><code>cite</code> 属性对每个元素都有以下浏览器支持：</p>
 
 
 
@@ -769,7 +781,7 @@ HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世�
 
 
 
-<table><thead><tr><th>标签 Element</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>blockquote</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>del</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>ins</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>q</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<table><thead><tr><th>元素 Element</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td><a href="../tags/blockquote.html">blockquote</a></td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="../tags/del.html">del</a></td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="../tags/ins.html">ins</a></td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td><a href="../tags/q.html">q</a></td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
     
 
 <div class="previous">
@@ -835,12 +847,12 @@ HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世�
               </li>
             
               <li>
-                <a href="#ins-example" class="tocs-link">Ins Example</a>
+                <a href="#ins-示例" class="tocs-link">Ins 示例</a>
                 
               </li>
             
               <li>
-                <a href="#q-example" class="tocs-link">Q Example</a>
+                <a href="#q-示例" class="tocs-link">Q 示例</a>
                 
               </li>
             
