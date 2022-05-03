@@ -9,7 +9,7 @@ HTML cite 属性
 
 `cite` 属性可用于以下元素：
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<blockquote>](../tags/blockquote.md) | [cite](../tags/blockquote_cite.md) |
 | [\<del>](../tags/del.md)               | [cite](../tags/del_cite.md)        |
@@ -35,21 +35,25 @@ HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世�
 已删除的文本，带有一个文档的 URL，该文档解释了该文本被删除的原因：
 
 ```html idoc:preview:iframe
-<p><del cite="../tags/del.html">此文字已被删除</del></p>
+<p>
+  <del cite="../tags/del.html">此文字已被删除</del>
+</p>
 ```
 
-### Ins Example
+### Ins 示例
 
 一个插入的文本，带有一个文档的 URL，解释了为什么插入文本：
 
 ```html idoc:preview:iframe
-<p>This is a text.
-<ins cite="../tags/ins.html">这是插入的文本。</ins></p>
+<p>
+  这是一个文本。
+  <ins cite="../tags/ins.html">这是插入的文本。</ins>
+</p>
 ```
 
-### Q Example
+### Q 示例
 
-Specify the source URL of a quote:
+指定报价的来源 URL：
 
 ```html idoc:preview:iframe
 <p>超文本标记语言
@@ -60,14 +64,14 @@ Specify the source URL of a quote:
 
 ## 浏览器支持
 
-The `cite` attribute has the following browser support for each element:
+`cite` 属性对每个元素都有以下浏览器支持：
 
-| 标签 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| 元素 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
-| blockquote | Yes | Yes | Yes | Yes | Yes |
-| del        | Yes | Yes | Yes | Yes | Yes |
-| ins        | Yes | Yes | Yes | Yes | Yes |
-| q          | Yes | Yes | Yes | Yes | Yes |
+| [blockquote](../tags/blockquote.md) | Yes | Yes | Yes | Yes | Yes |
+| [del](../tags/del.md)               | Yes | Yes | Yes | Yes | Yes |
+| [ins](../tags/ins.md)               | Yes | Yes | Yes | Yes | Yes |
+| [q](../tags/q.md)                   | Yes | Yes | Yes | Yes | Yes |
 
 
 [1]: ../assets/chrome.svg

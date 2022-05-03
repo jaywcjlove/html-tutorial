@@ -13,7 +13,7 @@ accept 属性指定服务器接受的文件类型（可以通过文件上传提�
 
 `accept` 属性可用于以下元素：
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<input>](../tags/input.md) | [accept](../tags/input_accept.md) |
 

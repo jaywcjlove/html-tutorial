@@ -27,7 +27,7 @@ HTML accesskey 属性
 
 `accesskey` 是 [全局属性](../reference/standardattributes.md) 的一部分，可用于任何 HTML 元素。
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | All HTML elements | [accesskey](./global/accesskey.md) |
 

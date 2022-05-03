@@ -11,7 +11,7 @@ HTML accept-charset 属性
 
 `accept-charset` 属性可用于以下元素：
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<form>](../tags/form.md) | [accept-charset](../tags/form_accept_charset.md) |
 

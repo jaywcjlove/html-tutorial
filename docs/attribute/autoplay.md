@@ -11,7 +11,7 @@ HTML autoplay 属性
 
 `autoplay` 属性可用于以下元素：
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<audio>](../tags/audio.md) | [autoplay](../tags/audio_autoplay.md) |
 | [\<video>](../tags/video.md) | [autoplay](../tags/video_autoplay.md) |
@@ -46,7 +46,7 @@ HTML autoplay 属性
 
 `autoplay` 属性对每个元素都有以下浏览器支持：
 
-| 标签 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| 元素 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | [audio](../tags/audio.md)   | 4.0 | 9.0 | 3.5 | 4.0 | 10.5 |
 | [video](../tags/video.md)   | 4.0 | 9.0 | 3.5 | 4.0 | 10.5 |

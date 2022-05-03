@@ -13,7 +13,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集，它涵盖了世界�
 
 `charset` 属性可用于以下元素：
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<meta>](../tags/meta.md)     | [charset](../tags/meta_charset.md)   |
 | [\<script>](../tags/script.md) | [charset](../tags/script_charset.md) |
@@ -42,7 +42,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集，它涵盖了世界�
 
 `charset` 属性对每个元素都有以下浏览器支持：
 
-| 标签 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| 元素 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | [\<meta>](../tags/meta.md)     | Yes | Yes | Yes | Yes | Yes |
 | [\<script>](../tags/script.md) | Yes | Yes | Yes | Yes | Yes |

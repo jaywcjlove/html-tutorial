@@ -15,7 +15,7 @@ HTML autocomplete 属性
 
 `autocomplete` 属性可用于以下元素：
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<form>](../tags/form.md)   | [autocomplete](../tags/form_autocomplete.md)  |
 | [\<input>](../tags/input.md) | [autocomplete](../tags/input_autocomplete.md) |
@@ -51,7 +51,7 @@ HTML autocomplete 属性
 
 `autocomplete` 属性对每个元素都有以下浏览器支持：
 
-| 标签 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| 元素 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | [form](../tags/form.md)    | Yes  | Yes | 4.0 | 5.2 | 15.0 |
 | [input](../tags/input.md)   | 17.0 | 5.0 | 4.0 | 5.2 | 9.6  |

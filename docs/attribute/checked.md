@@ -15,7 +15,7 @@ HTML checked 属性
 
 `checked` 属性可用于以下元素：
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<input>](../tags/input.md) | [checked](../tags/input_checked.md) |
 

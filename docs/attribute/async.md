@@ -19,7 +19,7 @@ HTML async 属性
 
 `async` 属性可用于以下元素：
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<script>](../tags/script.md) | [async](../tags/script_async.md) |
 

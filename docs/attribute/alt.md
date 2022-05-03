@@ -15,7 +15,7 @@ HTML alt 属性
 
 `alt` 属性可用于以下元素：
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<area>](../tags/area.md)   | [alt](../tags/area_alt.md)  |
 | [\<img>](../tags/img.md)     | [alt](../tags/img_alt.md)   |
@@ -59,7 +59,7 @@ HTML alt 属性
 
 `alt` 属性对每个元素都有以下浏览器支持：
 
-| 标签 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| 元素 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | area    | Yes | Yes | Yes | Yes | Yes |
 | img     | Yes | Yes | Yes | Yes | Yes |

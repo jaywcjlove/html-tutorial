@@ -11,7 +11,7 @@ HTML autofocus 属性
 
 `autofocus` 属性可用于以下元素：
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<button>](../tags/button.md)     | [autofocus](../tags/button_autofocus.md)   |
 | [\<input>](../tags/input.md)       | [autofocus](../tags/input_autofocus.md)    |
@@ -54,7 +54,7 @@ HTML autofocus 属性
 
 `autofocus` 属性对每个元素都有以下浏览器支持：
 
-| 标签 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| 元素 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | [form](../tags/form.md)     | 5.0 | 10.0 | 4.0 | 5.0 | 9.6 |
 | [input](../tags/input.md)    | 5.0 | 10.0 | 4.0 | 5.0 | 9.6 |

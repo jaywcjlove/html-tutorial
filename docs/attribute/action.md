@@ -9,7 +9,7 @@ HTML action 属性
 
 `action` 属性可用于以下元素：
 
-| 标签 Element | 属性 Attribute |
+| 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<form>](../tags/form.md) | [action](../tags/form_action.md) |
 
