@@ -35,7 +35,7 @@ HTML list 属性
 
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
-| list      | 20.0 | 10.0 | 4.0 | Not supported | 9.6 |
+| list      | 20.0 | 10.0 | 4.0 | ❌ 不支持 | 9.6 |
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

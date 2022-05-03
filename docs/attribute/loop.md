@@ -1,6 +1,9 @@
 HTML loop 属性
 ===
 
+[![](https://shields.io/badge/HTML5-<audio>兼容-green?logo=HTML5)](https://caniuse.com/mdn-html_elements_audio_loop)
+[![](https://shields.io/badge/HTML5-<video>兼容-green?logo=HTML5)](https://caniuse.com/mdn-html_elements_video_loop)
+
 ## 定义和用法
 
 `loop` 属性是一个布尔属性。
@@ -52,8 +55,8 @@ HTML loop 属性
 
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
-| [\<audio>](../tags/audio.md) | 4.0 | 9.0 | 3.5  | 4.0 | 10.5 |
-| [\<video>](../tags/video.md) | 4.0 | 9.0 | 11.0 | 4.0 | 10.5 |
+| [\<audio>](../tags/audio.md) loop | 4.0 | 9.0 | 3.5  | 4.0 | 10.5 |
+| [\<video>](../tags/video.md) loop | 4.0 | 9.0 | 11.0 | 4.0 | 10.5 |
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg
