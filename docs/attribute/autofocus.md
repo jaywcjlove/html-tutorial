@@ -56,9 +56,9 @@ HTML autofocus 属性
 
 | 标签 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
-| form     | 5.0 | 10.0 | 4.0 | 5.0 | 9.6 |
-| input    | 5.0 | 10.0 | 4.0 | 5.0 | 9.6 |
-| textarea | Yes | 10.0 | 4.0 | Yes | Yes |
+| [form](../tags/form.md)     | 5.0 | 10.0 | 4.0 | 5.0 | 9.6 |
+| [input](../tags/input.md)    | 5.0 | 10.0 | 4.0 | 5.0 | 9.6 |
+| [textarea](../tags/textarea.md) | Yes | 10.0 | 4.0 | Yes | Yes |
 
 
 [1]: ../assets/chrome.svg
