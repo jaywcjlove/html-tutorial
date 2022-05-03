@@ -3,9 +3,9 @@ HTML lang 属性
 
 ## 定义和用法
 
-The `lang` attribute specifies the language of the element's content.
+`lang` 属性指定元素内容的[语言](../reference/language_codes.md)。
 
-Common examples are "en" for English, "es" for Spanish, "fr" for French and so on.
+常见的例子是英语的 `en`，西班牙语的 `es`，法语的 `fr` 等等。
 
 ## 适用于
 
