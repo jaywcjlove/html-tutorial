@@ -7,7 +7,7 @@ HTML max 属性
 
 当被 `<progress>` 元素使用时，`max` 属性指定任务总共需要多少工作。
 
-## Applies to
+## 适用于
 
 `max` 属性可用于以下元素：
 

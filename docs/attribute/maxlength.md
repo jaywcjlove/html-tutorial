@@ -43,8 +43,8 @@ HTML maxlength 属性
 
 | 元素 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
-| input    | 1.0 | 2.0  | 1.0 | 1.0 | 1.0  |
-| textarea | Yes | 10.0 | 4.0 | Yes | 15.0 |
+| [\<input>](../tags/input.md)       | 1.0 | 2.0  | 1.0 | 1.0 | 1.0  |
+| [\<textarea>](../tags/textarea.md) | Yes | 10.0 | 4.0 | Yes | 15.0 |
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg
