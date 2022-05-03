@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML novalidate 属性 HTML Tutorial </title>
+  <title>HTML Audio/Video DOM 中止事件 HTML Tutorial </title>
   
-  <meta name="description" content="novalidate 属性是一个布尔属性。">
+  <meta name="description" content="警告视频的加载已中止：">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -642,43 +642,30 @@
 </div>
 
   <markdown-style>
-    <h1 id="html-novalidate-属性"><a aria-hidden="true" tabindex="-1" href="#html-novalidate-属性" class="anchor"><span class="icon icon-link"></span></a>HTML novalidate 属性</h1>
+    <h1 id="html-audiovideo-dom-中止事件"><a aria-hidden="true" tabindex="-1" href="#html-audiovideo-dom-中止事件" class="anchor"><span class="icon icon-link"></span></a>HTML Audio/Video DOM 中止事件</h1>
 <h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
-<p><code>novalidate</code> 属性是一个布尔属性。</p>
-<p>当存在时，它指定表单数据（输入）在提交时不应该被验证。</p>
-<h2 id="适用于"><a aria-hidden="true" tabindex="-1" href="#适用于" class="anchor"><span class="icon icon-link"></span></a>适用于</h2>
-<p><code>novalidate</code> 属性可用于以下元素：</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>元素 Element</th><th>属性 Attribute</th></tr></thead><tbody><tr><td><a href="../tags/form.html">&#x3C;form></a></td><td><a href="../tags/form_novalidate.html">novalidate</a></td></tr></tbody></table>
-<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
-<p>指示表单在提交时不被验证：</p>
-<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/action_page.php<span class="token punctuation">"</span></span> <span class="token attr-name">novalidate</span><span class="token punctuation">></span></span>
-</span><span class="code-line line-number" line="2">  E-mail: <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>user_email<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-</span><span class="code-line line-number" line="4"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>form</span><span class="token punctuation">></span></span>
-</span></pre><input type="hidden" value="<form action=&#x22;/action_page.php&#x22; novalidate>
-  E-mail: <input type=&#x22;email&#x22; name=&#x22;user_email&#x22;>
-  <input type=&#x22;submit&#x22;>
-</form>
-"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<form action=&#x22;/action_page.php&#x22; novalidate>
-  E-mail: <input type=&#x22;email&#x22; name=&#x22;user_email&#x22;>
-  <input type=&#x22;submit&#x22;>
-</form>
-"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<p>警告视频的加载已中止：</p>
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line line-number" line="1"><span class="token keyword">var</span> vid <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myVideo"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="2">vid<span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">onabort</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span><span class="code-line line-number" line="3">  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"Video load aborted"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="4"><span class="token punctuation">}</span><span class="token punctuation">;</span>
+</span></code><input type="hidden" value="var vid = document.getElementById(&#x22;myVideo&#x22;);
+vid.onabort = function() {
+  alert(&#x22;Video load aborted&#x22;);
+};
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="定义和用法-1"><a aria-hidden="true" tabindex="-1" href="#定义和用法-1" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+<p><code>abort</code> 事件在音频/视频的加载被中止时发生。</p>
+<p>此事件在媒体数据下载被中止时发生，而不是因为错误。</p>
+<p><strong>提示：</strong> 当媒体加载过程受到某种干扰时发生的相关事件是：</p>
+<ul>
+<li>emptied</li>
+<li><a href="../events/onerror.html">error</a></li>
+<li><a href="../events/onstalled.html">stalled</a></li>
+<li><a href="av_event_suspend.asp">suspend</a></li>
+</ul>
 <h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
-<p>表中的数字指定了完全支持该属性的第一个浏览器版本。</p>
+<p>表中的数字指定了完全支持该事件的第一个浏览器版本。</p>
 
 
 
@@ -700,7 +687,36 @@
 
 
 
-<table><thead><tr><th>属性 Attribute</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>novalidate</td><td>10.0</td><td>10.0</td><td>4.0</td><td>❌ 不支持</td><td>10.6</td></tr></tbody></table>
+<table><thead><tr><th>Event</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>abort</td><td>Yes</td><td>9.0</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<p><strong>注意：</strong> Windows 7 上的 Internet Explorer 11 不支持中止事件。</p>
+<h2 id="语法"><a aria-hidden="true" tabindex="-1" href="#语法" class="anchor"><span class="icon icon-link"></span></a>语法</h2>
+<p>在 HTML 中:</p>
+<pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>element</span> <span class="token special-attr"><span class="token attr-name">onabort</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript">myScript</span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<element onabort=&#x22;myScript&#x22;>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<p>在 <code>JavaScript</code> 中:</p>
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line line-number" line="1">object<span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">onabort</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> myScript <span class="token punctuation">}</span><span class="token punctuation">;</span>
+</span></code><input type="hidden" value="object.onabort = function(){ myScript };
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<p>在 <code>JavaScript</code> 中，使用 <code>addEventListener()</code> 方法：</p>
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line line-number" line="1">object<span class="token punctuation">.</span><span class="token method function property-access">addEventListener</span><span class="token punctuation">(</span><span class="token string">"abort"</span><span class="token punctuation">,</span> myScript<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></code><input type="hidden" value="object.addEventListener(&#x22;abort&#x22;, myScript);
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="技术细节"><a aria-hidden="true" tabindex="-1" href="#技术细节" class="anchor"><span class="icon icon-link"></span></a>技术细节</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>支持的 HTML 标签：</th><th><a href="../tags/audio.html">&#x3C;audio></a> 和 <a href="../tags/video.html">&#x3C;video></a></th></tr></thead><tbody><tr><td>支持的 JavaScript 对象：</td><td>Audio, Video</td></tr></tbody></table>
     
 
 <div class="previous">
@@ -723,7 +739,7 @@
 
 
 <section class="article-footer">
-  <a href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/attribute/novalidate.md" class="edit-button" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/events/onabort.md" class="edit-button" target="_blank" rel="noopener noreferrer">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
     </svg>
@@ -746,17 +762,22 @@
       </li>
     
       <li>
-        <a href="#适用于" class="tocs-link">适用于</a>
-        
-      </li>
-    
-      <li>
-        <a href="#示例" class="tocs-link">示例</a>
+        <a href="#定义和用法-1" class="tocs-link">定义和用法</a>
         
       </li>
     
       <li>
         <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#语法" class="tocs-link">语法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#技术细节" class="tocs-link">技术细节</a>
         
       </li>
     
