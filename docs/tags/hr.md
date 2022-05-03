@@ -79,3 +79,9 @@ hr {
   border-width: 1px;
 }
 ```
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg

@@ -8,7 +8,7 @@ HTML 属性参考
 | ---- | ---- | ---- |
 | [accept](../attribute/accept.md) | [\<input>](../tags/input.md) | 指定服务器接受的文件类型（仅适用于 `type="file"`） |
 | [accept-charset](../attribute/accept-charset.md) | [\<form>](../tags/form.md) | 指定要用于表单提交的字符编码 |
-| [accesskey](../attribute/accesskey.md) | [Global Attributes](./standardattributes.md) | 指定激活/聚焦元素的快捷键 |
+| [accesskey](../attribute/accesskey.md) | [全局属性](./standardattributes.md) | 指定激活/聚焦元素的快捷键 |
 | [action](../attribute/action.md) | [\<form>](../tags/form.md) | 指定提交表单时将表单数据发送到何处 |
 | align | ![][1] ⚠️ HTML 5 不支持 | 根据周围元素指定对齐方式。 改用 CSS |
 | [alt](../attribute/alt.md) | [\<area>](../tags/area.md), [\<img>](../tags/img.md), [\<input>](../tags/input.md) | 指定原始元素无法显示时的替代文本 |
@@ -21,40 +21,40 @@ HTML 属性参考
 | [charset](../attribute/charset.md) | [\<meta>](../tags/meta.md), [\<script>](../tags/script.md) | 指定字符编码 |
 | [checked](../attribute/checked.md) | [\<input>](../tags/input.md) | 指定一个 \<input> 页面加载时应预先选择元素（对于 type="checkbox" 或 type="radio"） |
 | [cite](../attribute/cite.md) | [\<blockquote>](../tags/blockquote.md), [\<del>](../tags/del.md), [\<ins>](../tags/ins.md), [\<q>](../tags/q.md) | 指定解释引用/删除/插入文本的 URL |
-| [class](../attribute/class.md) | [Global Attributes](./standardattributes.md) | 为元素指定一个或多个类名（指样式表中的类） |
+| [class](../attribute/class.md) | [全局属性](./standardattributes.md) | 为元素指定一个或多个类名（指样式表中的类） |
 | color | ![][1] ⚠️ HTML 5 不支持 | 指定元素的文本颜色。 改用 CSS |
 | [cols](../attribute/cols.md) | [\<textarea>](../tags/textarea.md) | 指定文本区域的可见宽度 |
 | [colspan](../attribute/colspan.md) | [\<td>](../tags/td.md), [\<th>](../tags/th.md) | 指定表格单元格应跨越的列数 |
 | [content](../attribute/content.md) | [\<meta>](../tags/meta.md) | 给出与 http-equiv 或 name 属性关联的值 |
-| [contenteditable](../attribute/contenteditable.md) | [Global Attributes](./standardattributes.md) | 指定元素的内容是否可编辑 |
+| [contenteditable](../attribute/contenteditable.md) | [全局属性](./standardattributes.md) | 指定元素的内容是否可编辑 |
 | [controls](../attribute/controls.md) | [\<audio>](../tags/audio.md), [\<video>](../tags/video.md) | 指定应显示音频/视频控件（例如播放/暂停按钮等） |
 | [coords](../attribute/coords.md) | [\<area>](../tags/area.md) | 指定区域的坐标 |
 | [data](../attribute/data.md) | [\<object>](../tags/object.md) | 指定对象要使用的资源的 URL |
-| [data-*](../attribute/data-.md) | [Global Attributes](./standardattributes.md) | 用于存储页面或应用程序私有的自定义数据 |
+| [data-*](../attribute/data-.md) | [全局属性](./standardattributes.md) | 用于存储页面或应用程序私有的自定义数据 |
 | [datetime](../attribute/datetime.md) | [\<del>](../tags/del.md), [\<ins>](../tags/ins.md), [\<time>](../tags/time.md) | 指定日期和时间 |
 | [default](../attribute/default.md) | [\<track>](../tags/track.md) | 指定如果用户的偏好没有表明另一个轨道更合适，则启用该轨道 |
 | [defer](../attribute/defer.md) | [\<script>](../tags/script.md) | 指定当页面完成解析时执行脚本（仅适用于外部脚本） |
-| [dir](../attribute/dir.md) | [Global Attributes](./standardattributes.md) | 指定元素中内容的文本方向 |
+| [dir](../attribute/dir.md) | [全局属性](./standardattributes.md) | 指定元素中内容的文本方向 |
 | [dirname](../attribute/dirname.md) | [\<input>](../tags/input.md), [\<textarea>](../tags/textarea.md) | 指定将提交文本方向 |
 | [disabled](../attribute/disabled.md) | [\<button>](../tags/button.md), [\<fieldset>](../tags/fieldset.md), [\<input>](../tags/input.md), [\<optgroup>](../tags/optgroup.md), [\<option>](../tags/option.md), [\<select>](../tags/select.md), [\<textarea>](../tags/textarea.md) | 指定应禁用指定的元素/元素组 |
 | [download](../attribute/download.md) | [\<a>](../tags/a.md), [\<area>](../tags/area.md) | 指定当用户单击超链接时将下载目标 |
-| [draggable](../attribute/draggable.md) | [Global Attributes](./standardattributes.md) | 指定元素是否可拖动 |
+| [draggable](../attribute/draggable.md) | [全局属性](./standardattributes.md) | 指定元素是否可拖动 |
 | [enctype](../attribute/enctype.md) | [\<form>](../tags/form.md) | 指定将表单数据提交到服务器时应如何编码（仅适用于 method="post"） |
 | [for](../attribute/for.md) | [\<label>](../tags/label.md), [\<output>](../tags/output.md) | 指定标签/计算绑定到哪个表单元素 |
 | [form](../attribute/form.md) |[\<button>](../tags/button.md), [\<fieldset>](../tags/fieldset.md), [\<input>](../tags/input.md), [\<label>](../tags/label.md), [\<meter>](../tags/meter.md), [\<object>](../tags/object.md), [\<output>](../tags/output.md), [\<select>](../tags/select.md), [\<textarea>](../tags/textarea.md) | 指定元素所属表单的名称 |
 | [formaction](../attribute/formaction.md) |[\<button>](../tags/button.md), [\<input>](../tags/input.md) | 指定提交表单时将表单数据发送到何处。 仅适用于 type="submit" |
 | [headers](../attribute/headers.md) |[\<td>](../tags/td.md), [\<th>](../tags/th.md) | 指定一个或多个与单元格相关的标题单元格 |
 | [height](../attribute/height.md) | [\<canvas>](../tags/canvas.md), [\<embed>](../tags/embed.md), [\<iframe>](../tags/iframe.md), [\<img>](../tags/img.md), [\<input>](../tags/input.md), [\<object>](../tags/object.md), [\<video>](../tags/video.md) | 指定元素的高度 |
-| [hidden](../attribute/hidden.md) |[Global Attributes](./standardattributes.md) | 指定一个元素尚不相关或不再相关 |
+| [hidden](../attribute/hidden.md) |[全局属性](./standardattributes.md) | 指定一个元素尚不相关或不再相关 |
 | [high](../attribute/high.md) |[\<meter>](../tags/meter.md) | 指定被认为是高值的范围 |
 | [href](../attribute/href.md) |[\<a>](../tags/a.md), [\<area>](../tags/area.md), [\<base>](../tags/base.md), [\<link>](../tags/link.md) | 指定链接指向的页面的 URL |
 | [hreflang](../attribute/hreflang.md) |[\<a>](../tags/a.md), [\<area>](../tags/area.md), [\<link>](../tags/link.md) | 指定链接文档的语言 |
 | [http-equiv](../attribute/http-equiv.md) | [\<meta>](../tags/meta.md) | 为内容属性的信息/值提供 HTTP 标头 |
-| [id](../attribute/id.md) | [Global Attributes](./standardattributes.md) | 指定元素的唯一 ID |
+| [id](../attribute/id.md) | [全局属性](./standardattributes.md) | 指定元素的唯一 ID |
 | [ismap](../attribute/ismap.md) | [\<img>](../tags/img.md) | 将图像指定为服务器端图像映射 |
 | [kind](../attribute/kind.md) | [\<track>](../tags/track.md) | 指定文本轨道的类型 |
 | [label](../attribute/label.md) | [\<track>](../tags/track.md), [\<option>](../tags/option.md), [\<optgroup>](../tags/optgroup.md) | 指定文本轨道的标题 |
-| [lang](../attribute/lang.md) | [Global Attributes](./standardattributes.md) | 指定元素内容的语言 |
+| [lang](../attribute/lang.md) | [全局属性](./standardattributes.md) | 指定元素内容的语言 |
 | [list](../attribute/list.md) | [\<input>](../tags/input.md) | 引用一个 \<datalist> 包含 \<input> 的预定义选项的元素 元素 |
 | [loop](../attribute/loop.md) | [\<audio>](../tags/audio.md), [\<video>](../tags/video.md) | 指定音频/视频将在每次完成时重新开始 |
 | [low](../attribute/low.md) | [\<meter>](../tags/meter.md) | 指定被认为是低值的范围 |
@@ -156,18 +156,18 @@ HTML 属性参考
 | [size](../attribute/size.md) | [\<input>](../tags/input.md), [\<select>](../tags/select.md) | 指定宽度，以字符为单位（用于 \<input>）或指定可见选项的数量（用于 \<select>） |
 | [sizes](../attribute/sizes.md) | [\<img>](../tags/img.md), [\<link>](../tags/link.md), [\<source>](../tags/source.md) | 指定链接资源的大小 |
 | [span](../attribute/span.md) | [\<col>](../tags/col.md), [\<colgroup>](../tags/colgroup.md) | 指定要跨越的列数 |
-| [spellcheck](../attribute/spellcheck.md) | [Global Attributes](./standardattributes.md) | 指定是否检查元素的拼写和语法 |
+| [spellcheck](../attribute/spellcheck.md) | [全局属性](./standardattributes.md) | 指定是否检查元素的拼写和语法 |
 | [src](../attribute/src.md) | [\<audio>](../tags/audio.md), [\<embed>](../tags/embed.md), [\<iframe>](../tags/iframe.md), [\<img>](../tags/img.md), [\<input>](../tags/input.md), [\<script>](../tags/script.md), [\<source>](../tags/source.md), [\<track>](../tags/track.md), [\<video>](../tags/video.md) | 指定媒体文件的 URL |
 | [srcdoc](../attribute/srcdoc.md) | [\<iframe>](../tags/iframe.md) | 指定要在 \<iframe> 中显示的页面的 HTML 内容。 |
 | [srclang](../attribute/srclang.md) | [\<track>](../tags/track.md) | 指定轨道文本数据的语言（如果 kind="subtitles" 是必需的） |
 | [srcset](../attribute/source_srcset.md) | [\<img>](../tags/img.md), [\<source>](../tags/source.md) | 指定要在不同情况下使用的图像的 URL |
 | [start](../attribute/start.md) | [\<ol>](../tags/ol.md) | 指定有序列表的起始值 |
 | [step](../attribute/step.md) | [\<input>](../tags/input.md) | 指定输入字段的合法数字间隔 |
-| [style](../attribute/style.md) | [Global Attributes](./standardattributes.md) | 为元素指定内联 CSS 样式 |
-| [tabindex](../attribute/tabindex.md) | [Global Attributes](./standardattributes.md) | 指定元素的跳格顺序 |
+| [style](../attribute/style.md) | [全局属性](./standardattributes.md) | 为元素指定内联 CSS 样式 |
+| [tabindex](../attribute/tabindex.md) | [全局属性](./standardattributes.md) | 指定元素的跳格顺序 |
 | [target](../attribute/target.md) | [\<a>](../tags/a.md), [\<area>](../tags/area.md), [\<base>](../tags/base.md), [\<form>](../tags/form.md) | 指定打开链接文档或提交表单的目标 |
-| [title](../attribute/title.md) | [Global Attributes](./standardattributes.md) | 指定有关元素的额外信息 |
-| [translate](../attribute/translate.md) | [Global Attributes](./standardattributes.md) | 指定是否应翻译元素的内容 |
+| [title](../attribute/title.md) | [全局属性](./standardattributes.md) | 指定有关元素的额外信息 |
+| [translate](../attribute/translate.md) | [全局属性](./standardattributes.md) | 指定是否应翻译元素的内容 |
 | [type](../attribute/type.md) | [\<a>](../tags/a.md), [\<button>](../tags/button.md), [\<embed>](../tags/embed.md), [\<input>](../tags/input.md), [\<link>](../tags/link.md), [\<menu>](../tags/menu.md), [\<object>](../tags/object.md), [\<script>](../tags/script.md), [\<source>](../tags/source.md), [\<style>](../tags/style.md) | 指定元素的类型 |
 | [usemap](../attribute/usemap.md) | [\<img>](../tags/img.md), [\<object>](../tags/object.md) | 将图像指定为客户端图像映射 |
 | [value](../attribute/value.md) | [\<button>](../tags/button.md), [\<input>](../tags/input.md), [\<li>](../tags/li.md), [\<option>](../tags/option.md), [\<meter>](../tags/meter.md), [\<progress>](../tags/progress.md), [\<param>](../tags/param.md) | 指定元素的值 |
