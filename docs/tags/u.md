@@ -38,9 +38,9 @@ HTML \<u> Tag
 <head>
 <style>
   .spelling-error {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: red;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
   }
 </style>
 </head>
@@ -61,7 +61,7 @@ HTML 教程: [HTML Text Formatting](../tutorial/formatting.md)
 
 ```css
 u {
-  text-decoration: underline;
+  text-decoration: underline;
 }
 ```
 

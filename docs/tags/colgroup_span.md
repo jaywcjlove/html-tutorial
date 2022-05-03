@@ -7,22 +7,22 @@ HTML \<colgroup> span 属性
 
 ```html idoc:preview
 <table>
-  <colgroup span="2" style="background:red"></colgroup>
-  <tr>
-    <th>ISBN</th>
-    <th>Title</th>
-    <th>Price</th>
-  </tr>
-  <tr>
-    <td>3476896</td>
-    <td>My first HTML</td>
-    <td>$53</td>
-  </tr>
-  <tr>
-    <td>5869207</td>
-    <td>My first CSS</td>
-    <td>$49</td>
-  </tr>
+  <colgroup span="2" style="background:red"></colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  </tr>
 </table>
 ```
 

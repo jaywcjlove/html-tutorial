@@ -40,8 +40,8 @@ HTML 教程: [HTML Text Formatting](../tutorial/formatting.md)
 
 ```css
 mark {
-  background-color: yellow;
-  color: black;
+  background-color: yellow;
+  color: black;
 }
 ```
 

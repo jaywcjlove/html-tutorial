@@ -80,8 +80,8 @@ HTML \<canvas> 标签
 
 ```css
 canvas {
-  height: 150px;
-  width: 300px;
+  height: 150px;
+  width: 300px;
 }
 ```
 

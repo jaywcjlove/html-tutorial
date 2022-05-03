@@ -7,9 +7,9 @@ HTML \<menuitem> icon 属性
 
 ```html idoc:preview:iframe
 <menu type="context" id="mymenu">
-  <menuitem label="Refresh" icon="ico_reload.png"></menuitem>
-  <menuitem label="Twitter" icon="ico_twitter.png"></menuitem>
-  <menuitem label="Facebook" icon="ico_facebook.png"></menuitem>
+  <menuitem label="Refresh" icon="ico_reload.png"></menuitem>
+  <menuitem label="Twitter" icon="ico_twitter.png"></menuitem>
+  <menuitem label="Facebook" icon="ico_facebook.png"></menuitem>
 </menu>
 ```
 

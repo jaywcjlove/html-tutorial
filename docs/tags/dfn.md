@@ -69,7 +69,7 @@ HTML \<dfn> 标签
 
 ```css
 dfn {
-  font-style: italic;
+  font-style: italic;
 }
 ```
 

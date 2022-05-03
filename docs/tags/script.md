@@ -54,7 +54,7 @@ JavaScript 的常见用途是图像处理、表单验证和内容的动态更改
 //<![CDATA[
 var i = 10;
 if (i < 5) {
-  // some code
+  // some code
 }
 //]]>
 </script>
@@ -74,7 +74,7 @@ HTML 教程: [HTML Scripts](../tutorial/scripts.md)
 
 ```css
 script {
-  display: none;
+  display: none;
 }
 ```
 

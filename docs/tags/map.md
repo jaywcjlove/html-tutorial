@@ -9,9 +9,9 @@ HTML \<map> 标签
 <img src="../assets/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
 
 <map name="workmap">
-  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
 </map>
 ```
 
@@ -55,9 +55,9 @@ HTML \<map> 标签
 usemap="#planetmap">
 
 <map name="planetmap">
-  <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
-  <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
-  <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+  <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+  <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+  <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
 </map>
 ```
 
@@ -67,7 +67,7 @@ usemap="#planetmap">
 
 ```css
 map {
-  display: inline;
+  display: inline;
 }
 ```
 

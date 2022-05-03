@@ -48,7 +48,7 @@ HTML 教程: [HTML Text Formatting](../tutorial/formatting.md)
 
 ```css
 var {
-  font-style: italic;
+  font-style: italic;
 }
 ```
 

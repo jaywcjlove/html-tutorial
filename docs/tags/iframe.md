@@ -30,7 +30,7 @@ HTML \<iframe> 标签
 
 | 属性 | 值 | 描述 |
 | ---- | ---- | ---- |
-| allow |   | 为 \<iframe> 指定功能策略 |
+| allow |   | 为 \<iframe> 指定功能策略 |
 | allowfullscreen | true <br /> false | 如果 \<iframe> 可以通过调用 requestFullscreen() 方法激活全屏模式，则设置为 true |
 | allowpaymentrequest | true <br /> false | 如果应允许跨域 \<iframe> 调用支付请求 API，则设置为 true |
 | [height](./iframe_height.md) | *pixels* | 指定 \<iframe> 的高度。 默认高度为 150 像素 |
@@ -71,10 +71,10 @@ HTML 教程: [HTML Iframes](../tutorial/iframe.md)
 
 ```css
 iframe:focus {
-  outline: none;
+  outline: none;
 }
 iframe[seamless] {
-  display: block;
+  display: block;
 }
 ```
 

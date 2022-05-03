@@ -7,8 +7,8 @@ A pre-selected \<menuitem> element:
 
 ```html idoc:preview:iframe
 <menu type="popup">
-  <menuitem type="radio" radiogroup="alignment" checked
-    label="Left" onclick="setAlign('left')">
+  <menuitem type="radio" radiogroup="alignment" checked
+    label="Left" onclick="setAlign('left')">
 </menu>
 ```
 

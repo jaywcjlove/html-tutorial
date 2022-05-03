@@ -42,7 +42,7 @@ HTML \<section> Tag
 
 ```css
 section {
-  display: block;
+  display: block;
 }
 ```
 

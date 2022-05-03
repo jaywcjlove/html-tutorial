@@ -39,7 +39,7 @@ HTML 教程: [HTML Text Formatting](../tutorial/formatting.md)
 
 ```css
 strong {
-  font-weight: bold;
+  font-weight: bold;
 }
 ```
 

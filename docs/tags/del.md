@@ -62,7 +62,7 @@ HTML \<del> 标签
 
 ```css
 del {
-  text-decoration: line-through;
+  text-decoration: line-through;
 }
 ```
 

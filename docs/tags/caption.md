@@ -7,15 +7,15 @@ HTML \<caption> 标签
 
 ```html idoc:preview
 <table>
-  <caption>Monthly savings</caption>
-  <tr>
-    <th>Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
 </table>
 ```
 
@@ -47,28 +47,28 @@ HTML \<caption> 标签
 
 ```html idoc:preview
 <table>
-  <caption style="text-align:right">My savings</caption>
-  <tr>
-    <th>Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
+  <caption style="text-align:right">My savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
 </table>
 <br>
 
 <table>
-  <caption style="caption-side:bottom">My savings</caption>
-  <tr>
-    <th>Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
+  <caption style="caption-side:bottom">My savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
 </table>
 ```
 
@@ -78,8 +78,8 @@ HTML \<caption> 标签
 
 ```css
 caption {
-  display: table-caption;
-  text-align: center;
+  display: table-caption;
+  text-align: center;
 }
 ```
 

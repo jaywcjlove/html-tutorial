@@ -36,7 +36,7 @@ HTML \<cite> 标签
 
 ```css
 cite {
-  font-style: italic;
+  font-style: italic;
 }
 ```
 

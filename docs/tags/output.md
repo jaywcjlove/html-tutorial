@@ -7,9 +7,9 @@ HTML \<output> 标签
 
 ```html idoc:preview:iframe
 <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
-  <input type="range" id="a" value="50">
-  +<input type="number" id="b" value="25">
-  =<output name="x" for="a b"></output>
+  <input type="range" id="a" value="50">
+  +<input type="number" id="b" value="25">
+  =<output name="x" for="a b"></output>
 </form>
 ```
 
@@ -23,7 +23,7 @@ HTML \<output> 标签
 
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
-| \<output> | 10.0 | 13.0  | 4.0 | 5.1 | 11.0 |
+| \<output> | 10.0 | 13.0  | 4.0 | 5.1 | 11.0 |
 
 ## 属性 Attributes
 
@@ -47,7 +47,7 @@ HTML \<output> 标签
 
 ```css
 output {
-  display: inline;
+  display: inline;
 }
 ```
 

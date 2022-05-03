@@ -170,9 +170,9 @@ HTML \<thead> Tag
 
 ```css
 thead {
-  display: table-header-group;
-  vertical-align: middle;
-  border-color: inherit;
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
 }
 ```
 

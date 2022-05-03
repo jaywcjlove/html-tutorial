@@ -10,11 +10,11 @@ HTML \<datalist> 标签
 <input list="browsers" name="browser" id="browser">
 
 <datalist id="browsers">
-  <option value="Edge">
-  <option value="Firefox">
-  <option value="Chrome">
-  <option value="Opera">
-  <option value="Safari">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
 </datalist>
 ```
 
@@ -48,7 +48,7 @@ HTML \<datalist> 标签
 
 ```css
 datalist {
-  display: none;
+  display: none;
 }
 ```
 

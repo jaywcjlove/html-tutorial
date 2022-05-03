@@ -7,20 +7,20 @@ HTML \<colgroup> 标签
 
 ```html idoc:preview
 <table>
-  <colgroup>
-    <col span="2" style="background-color:red">
-    <col style="background-color:yellow">
-  </colgroup>
-  <tr>
-    <th>ISBN</th>
-    <th>Title</th>
-    <th>Price</th>
-  </tr>
-  <tr>
-    <td>3476896</td>
-    <td>My first HTML</td>
-    <td>$53</td>
-  </tr>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
 </table>
 ```
 
@@ -60,21 +60,21 @@ HTML \<colgroup> 标签
 
 ```html idoc:preview
 <table style="width:100%">
-  <tr>
-    <th>ISBN</th>
-    <th>Title</th>
-    <th>Price</th>
-  </tr>
-  <tr>
-    <td>3476896</td>
-    <td>My first HTML</td>
-    <td style="text-align:right">$53</td>
-  </tr>
-  <tr>
-    <td>2489604</td>
-    <td>My first CSS</td>
-    <td style="text-align:right">$47</td>
-  </tr>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td style="text-align:right">$53</td>
+  </tr>
+  <tr>
+    <td>2489604</td>
+    <td>My first CSS</td>
+    <td style="text-align:right">$47</td>
+  </tr>
 </table>
 ```
 
@@ -82,14 +82,14 @@ HTML \<colgroup> 标签
 
 ```html idoc:preview
 <table style="height:200px">
-  <tr>
-    <th>Month</th>
-    <th style="vertical-align:bottom">Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td style="vertical-align:bottom">$100</td>
-  </tr>
+  <tr>
+    <th>Month</th>
+    <th style="vertical-align:bottom">Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td style="vertical-align:bottom">$100</td>
+  </tr>
 </table>
 ```
 
@@ -97,18 +97,18 @@ HTML \<colgroup> 标签
 
 ```html idoc:preview
 <table>
-  <tr>
-    <th style="width:200px">Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
-  <tr>
-    <td>February</td>
-    <td>$80</td>
-  </tr>
+  <tr>
+    <th style="width:200px">Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
 </table>
 ```
 
@@ -118,7 +118,7 @@ HTML \<colgroup> 标签
 
 ```css
 colgroup {
-  display: table-column-group;
+  display: table-column-group;
 }
 ```
 

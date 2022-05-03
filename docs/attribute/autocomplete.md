@@ -28,9 +28,9 @@ HTML autocomplete 属性
 
 ```html idoc:preview:iframe
 <form action="/action\_page.php" method="get" autocomplete="on">
-  First name:<input type="text" name="fname"><br>
-  E-mail: <input type="email" name="email"><br>
-  <input type="submit">
+  First name:<input type="text" name="fname"><br>
+  E-mail: <input type="email" name="email"><br>
+  <input type="submit">
 </form>
 ```
 
@@ -40,10 +40,10 @@ HTML autocomplete 属性
 
 ```html idoc:preview:iframe
 <form action="/action_page.php" autocomplete="on">
-  First name:<input type="text" name="fname"><br>
-  Last name: <input type="text" name="lname"><br>
-  E-mail: <input type="email" name="email" autocomplete="off"><br>
-  <input type="submit">
+  First name:<input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  E-mail: <input type="email" name="email" autocomplete="off"><br>
+  <input type="submit">
 </form>
 ```
 

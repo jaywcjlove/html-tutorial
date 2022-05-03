@@ -16,7 +16,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | &    | \&amp;      | \&#38;  | \&#x26;  | ampersand                                                             |
 | <    | \&lt;       | \&#60;  | \&#x3C;  | less than                                                             |
 | >    | \&gt;       | \&#62;  | \&#x3E;  | greater than                                                          |
-|      | \&nbsp;     | \&#160; | \&#xA0;  | no-break space = non-breaking space                                   |
+|      | \&nbsp;     | \&#160; | \&#xA0;  | no-break space = non-breaking space                                   |
 | ¡    | \&iexcl;    | \&#161; | \&#xA1;  | inverted exclamation mark                                             |
 | ¢    | \&cent;     | \&#162; | \&#xA2;  | cent sign                                                             |
 | £    | \&pound;    | \&#163; | \&#xA3;  | pound sign                                                            |
@@ -130,7 +130,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | Ο    | \&Omicron;  | \&#927; | \&#x39F; | greek capital letter omicron                                          |
 | Π    | \&Pi;       | \&#928; | \&#x3A0; | greek capital letter pi                                               |
 | Ρ    | \&Rho;      | \&#929; | \&#x3A1; | greek capital letter rho                                              |
-|      |             |         |          | (not used)                                                            |
+|      |             |         |          | (not used)                                                            |
 | Σ    | \&Sigma;    | \&#931; | \&#x3A3; | greek capital letter sigma                                            |
 | Τ    | \&Tau;      | \&#932; | \&#x3A4; | greek capital letter tau                                              |
 | Υ    | \&Upsilon;  | \&#933; | \&#x3A5; | greek capital letter upsilon                                          |
@@ -138,7 +138,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | Χ    | \&Chi;      | \&#935; | \&#x3A7; | greek capital letter chi                                              |
 | Ψ    | \&Psi;      | \&#936; | \&#x3A8; | greek capital letter psi                                              |
 | Ω    | \&Omega;    | \&#937; | \&#x3A9; | greek capital letter omega                                            |
-|      |             |         |          | (not used)                                                            |
+|      |             |         |          | (not used)                                                            |
 | α    | \&alpha;    | \&#945; | \&#x3B1; | greek smal letter alpha                                               |
 | β    | \&beta;     | \&#946; | \&#x3B2; | greek smal letter beta                                                |
 | γ    | \&gamma;    | \&#947; | \&#x3B3; | greek smal letter gamma                                               |
@@ -164,10 +164,10 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | χ    | \&chi;      | \&#967; | \&#x3C7; | greek smal letter chi                                                 |
 | ψ    | \&psi;      | \&#968; | \&#x3C8; | greek smal letter psi                                                 |
 | ω    | \&omega;    | \&#969; | \&#x3C9; | greek smal letter omega                                               |
-|      |             |         |          | (not used)                                                            |
+|      |             |         |          | (not used)                                                            |
 | ϑ    | \&thetasym; | \&#977; | \&#x3D1; | greek smal letter theta symbol                                        |
 | ϒ    | \&upsih;    | \&#978; | \&#x3D2; | Greek upsilon with hook symbol                                        |
-|      |             |         |          | (not used)                                                            |
+|      |             |         |          | (not used)                                                            |
 | ϖ    | \&piv;      | \&#982; | \&#x3D6; | Greek pi symbol                                                       |
 
 ### 特殊符号
@@ -1393,7 +1393,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ♮         | natur                   | 0266E         | 9838   |
 | ♮         | natural                 | 0266E         | 9838   |
 | ℕ         | naturals                | 02115         | 8469   |
-|           | nbsp                    | 000A0         | 160    |
+|           | nbsp                    | 000A0         | 160    |
 | ≎̸        | nbump                   | 0224E + 00338 |        |
 | ≏̸        | nbumpe                  | 0224F + 00338 |        |
 | ⩃         | ncap                    | 02A43         | 10819  |
@@ -1467,7 +1467,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ≪̸        | nLtv                    | 0226A + 00338 |        |
 | ∤         | nmid                    | 02224         | 8740   |
 | ⁠         | NoBreak                 | 02060         | 8288   |
-|           | NonBreakingSpace        | 000A0         | 160    |
+|           | NonBreakingSpace        | 000A0         | 160    |
 | ℕ         | Nopf                    | 02115         | 8469   |
 | 𝕟        | nopf                    | 1D55F         | 120159 |
 | ⫬         | Not                     | 02AEC         | 10988  |

@@ -96,7 +96,7 @@ HTML 教程: [HTML Object Element](../tutorial/object.md)
 
 ```css
 object:focus {
-  outline: none;
+  outline: none;
 }
 ```
 

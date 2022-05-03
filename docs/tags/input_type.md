@@ -7,9 +7,9 @@ HTML \<input> type Attribute
 
 ```html idoc:preview:iframe
 <form action="/action_page.php">
-  <label for="username">Username: </label>
-  <input type="text" id="username" name="username"><br>
-  <input type="submit" value="Submit">
+  <label for="username">Username: </label>
+  <input type="text" id="username" name="username"><br>
+  <input type="submit" value="Submit">
 </form>
 ```
 

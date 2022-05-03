@@ -50,7 +50,7 @@ HTML 教程: [HTML Text Formatting](../tutorial/formatting.md)
 
 ```css
 samp {
-  font-family: monospace;
+  font-family: monospace;
 }
 ```
 

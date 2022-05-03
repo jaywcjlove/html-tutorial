@@ -39,7 +39,7 @@ HTML \<small> Tag
 <head>
   <style>
     span.small {
-      font-size: smaller;
+      font-size: smaller;
     }
   </style>
 </head>
@@ -60,7 +60,7 @@ HTML 教程: [HTML Text Formatting](../tutorial/formatting.md)
 
 ```css
 small {
-  font-size: smaller;
+  font-size: smaller;
 }
 ```
 

@@ -7,9 +7,9 @@ HTML \<audio> 标签
 
 ```html idoc:preview
 <audio controls>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
 </audio>
 ```
 

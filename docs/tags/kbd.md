@@ -49,9 +49,9 @@ HTML \<kbd> 标签
 <head>
   <style>
     kbd {
-      border-radius: 2px;
-      padding: 2px;
-      border: 1px solid black;
+      border-radius: 2px;
+      padding: 2px;
+      border: 1px solid black;
     }
   </style>
 </head>
@@ -73,7 +73,7 @@ HTML 教程: [HTML Text Formatting](../tutorial/formatting.md)
 
 ```css
 kbd {
-  font-family: monospace;
+  font-family: monospace;
 }
 ```
 

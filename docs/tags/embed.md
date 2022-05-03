@@ -73,7 +73,7 @@ HTML \<embed> 标签
 
 ```css
 embed:focus {
-  outline: none;
+  outline: none;
 }
 ```
 

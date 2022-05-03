@@ -41,7 +41,7 @@ HTML tutorial: [HTML Text Formatting](../tutorial/formatting.md)
 
 ```css
 em {
-  font-style: italic;
+  font-style: italic;
 }
 ```
 

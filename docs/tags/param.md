@@ -7,7 +7,7 @@ HTML \<param> 标签
 
 ```html idoc:preview:iframe
 <object data="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4">
-  <param name="autoplay" value="true">
+  <param name="autoplay" value="true">
 </object>
 ```
 <!--rehype:style=height: 180px;-->
@@ -45,7 +45,7 @@ HTML \<param> 标签
 
 ```css
 param {
-  display: none;
+  display: none;
 }
 ```
 

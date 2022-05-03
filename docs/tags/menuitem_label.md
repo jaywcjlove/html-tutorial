@@ -7,9 +7,9 @@ HTML \<menuitem> label 属性
 
 ```html idoc:preview:iframe
 <menu type="context" id="mymenu">
-  <menuitem label="Refresh"></menuitem>
-  <menuitem label="Twitter"></menuitem>
-  <menuitem label="Facebook"></menuitem>
+  <menuitem label="Refresh"></menuitem>
+  <menuitem label="Twitter"></menuitem>
+  <menuitem label="Facebook"></menuitem>
 </menu>
 ```
 

@@ -7,9 +7,9 @@ HTML \<data> 标签
 
 ```html idoc:preview
 <ul>
-  <li><data value="21053">Cherry Tomato</data></li>
-  <li><data value="21054">Beef Tomato</data></li>
-  <li><data value="21055">Snack Tomato</data></li>
+  <li><data value="21053">Cherry Tomato</data></li>
+  <li><data value="21054">Beef Tomato</data></li>
+  <li><data value="21055">Snack Tomato</data></li>
 </ul>
 ```
 
