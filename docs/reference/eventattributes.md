@@ -10,7 +10,7 @@ HTML 能够让事件触发浏览器中的操作，例如当用户单击元素时
 
 ## Window 事件属性
 
-为 `window` 对象触发的事件（适用于 `<body>` 标签）：
+为 `window` 对象触发的事件（适用于 [`<body>`](../tags/body.md) 标签）：
 
 | 属性 Attribute | Value | 描述 Description |
 | ---- | ---- | ---- |
@@ -94,7 +94,7 @@ HTML 能够让事件触发浏览器中的操作，例如当用户单击元素时
 
 ## 媒体事件
 
-由视频、图像和音频等媒体触发的事件（适用于所有 HTML 元素，但最常见于媒体元素，如 `<audio>`、`<embed>`、`<img>`、`<object>` 和 `<video>`）。
+由视频、图像和音频等媒体触发的事件（适用于所有 HTML 元素，但最常见于媒体元素，如 [`<audio>`](../tags/audio.md)、[`<embed>`](../tags/embed.md)、[`<img>`](../tags/img.md)、[`<object>`](../tags/object.md) 和 [`<video>`](../tags/video.md)）。
 
 > 提示：查看我们的 [HTML Audio 和 Video DOM 参考](../reference/av_dom.md) 以获取更多信息。
 
