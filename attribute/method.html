@@ -4,25 +4,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>method.md HTML Tutorial </title>
+  <title>HTML method 属性 HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/attribute/method.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="method 属性指定如何发送表单数据（表单数据被发送到 action 属性中指定的页面）。">
   
   
   <meta name="keywords" content="html,tutorial">
   
-  <link rel="stylesheet" type="text/css" href="../css/main.css?v=1.17.10">
-  <link rel="stylesheet" type="text/css" href="../css/tocbot.css?v=1.17.10">
-  <link rel="stylesheet" type="text/css" href="../css/media.css?v=1.17.10">
-  <link rel="stylesheet" type="text/css" href="../css/sidebar.css?v=1.17.10">
-  <link rel="stylesheet" type="text/css" href="../css/copy.css?v=1.17.10">
-  <link rel="stylesheet" type="text/css" href="../css/demo-preview.css?v=1.17.10">
+  <link rel="stylesheet" type="text/css" href="../css/main.css?v=1.17.11">
+  <link rel="stylesheet" type="text/css" href="../css/tocbot.css?v=1.17.11">
+  <link rel="stylesheet" type="text/css" href="../css/media.css?v=1.17.11">
+  <link rel="stylesheet" type="text/css" href="../css/sidebar.css?v=1.17.11">
+  <link rel="stylesheet" type="text/css" href="../css/copy.css?v=1.17.11">
+  <link rel="stylesheet" type="text/css" href="../css/demo-preview.css?v=1.17.11">
   
     <link rel="icon" href="../logo.svg" type="image/x-icon">
   
-  <script src="../js/copy.js?v=1.17.10"></script>
-  <script src="../js/dark-mode.js?v=1.17.10"></script>
-  <script src="../js/markdown-style.js?v=1.17.10"></script>
+  <script src="../js/copy.js?v=1.17.11"></script>
+  <script src="../js/dark-mode.js?v=1.17.11"></script>
+  <script src="../js/markdown-style.js?v=1.17.11"></script>
 </head>
 <body id="idoctotop">
   <a href="#idoctotop" class="gototop">top</a>
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,8 +642,81 @@
 </div>
 
   <markdown-style>
-    <h1 id="methodmd"><a aria-hidden="true" tabindex="-1" href="#methodmd" class="anchor"><span class="icon icon-link"></span></a>method.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/attribute/method.md">docs/attribute/method.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-method-属性"><a aria-hidden="true" tabindex="-1" href="#html-method-属性" class="anchor"><span class="icon icon-link"></span></a>HTML method 属性</h1>
+<h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+<p><code>method</code> 属性指定如何发送表单数据（表单数据被发送到 <code>action</code> 属性中指定的页面）。</p>
+<p>表单数据可以作为 URL 变量（使用 <code>method="get"</code>）或作为 HTTP 发布事务（使用 <code>method="post"</code>）发送。</p>
+<p><strong>关于 GET 的注意事项：</strong></p>
+<ul>
+<li>以名称/值对的形式将表单数据附加到 URL 中</li>
+<li>URL 的长度是有限的（大约 3000 个字符）</li>
+<li>切勿使用 GET 发送敏感数据！ （将在 URL 中可见）</li>
+<li>对于用户想要为结果添加书签的表单提交很有用</li>
+<li>GET 更适合非安全数据，例如 Google 中的查询字符串</li>
+</ul>
+<p><strong>关于 POST 的注意事项：</strong></p>
+<ul>
+<li>在 HTTP 请求的正文中附加 form-data（数据未显示在 URL 中）</li>
+<li>没有大小限制</li>
+<li>不能为 POST 提交的表单添加书签</li>
+</ul>
+<h2 id="适用于"><a aria-hidden="true" tabindex="-1" href="#适用于" class="anchor"><span class="icon icon-link"></span></a>适用于</h2>
+<p><code>method</code> 属性可用于以下元素：</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>元素 Element</th><th>属性 Attribute</th></tr></thead><tbody><tr><td><a href="../tags/form.html">&#x3C;form></a></td><td><a href="../tags/form_method.html">method</a></td></tr></tbody></table>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>使用“get”方法提交表单：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/action_page.php<span class="token punctuation">"</span></span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>get<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  First name: <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fname<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>br</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  Last name: <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lname<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>br</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Submit<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>form</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<form action=&#x22;/action_page.php&#x22; method=&#x22;get&#x22;>
+  First name: <input type=&#x22;text&#x22; name=&#x22;fname&#x22;><br>
+  Last name: <input type=&#x22;text&#x22; name=&#x22;lname&#x22;><br>
+  <input type=&#x22;submit&#x22; value=&#x22;Submit&#x22;>
+</form>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<form action=&#x22;/action_page.php&#x22; method=&#x22;get&#x22;>
+  First name: <input type=&#x22;text&#x22; name=&#x22;fname&#x22;><br>
+  Last name: <input type=&#x22;text&#x22; name=&#x22;lname&#x22;><br>
+  <input type=&#x22;submit&#x22; value=&#x22;Submit&#x22;>
+</form>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>属性 Attribute</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>method</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
     
 
 <div class="previous">
@@ -679,19 +752,47 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#定义和用法" class="tocs-link">定义和用法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#适用于" class="tocs-link">适用于</a>
+        
+      </li>
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
-<script src="../js/demo-preview.js?v=1.17.10"></script>
+<script src="../js/demo-preview.js?v=1.17.11"></script>
 
 
 <div class="footer warpper">
   Released under the MIT License. Copyright © 2022 Kenny Wong<br />
-Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.17.10
+Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.17.11
 
 </div>
 
 
-<script src="../js/tocbot.js?v=1.17.10"></script>
+<script src="../js/tocbot.js?v=1.17.11"></script>
 
 </body>
 </html>
