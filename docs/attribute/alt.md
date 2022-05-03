@@ -59,7 +59,7 @@ HTML alt 属性
 
 `alt` 属性对每个元素都有以下浏览器支持：
 
-| Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| 标签 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | area    | Yes | Yes | Yes | Yes | Yes |
 | img     | Yes | Yes | Yes | Yes | Yes |
