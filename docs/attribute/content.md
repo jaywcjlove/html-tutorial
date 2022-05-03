@@ -21,8 +21,8 @@ HTML content 属性
 
 ```html
 <head>
-<meta name="description" content="Free Web tutorials">
-<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 </head>
 ```
 

@@ -13,7 +13,7 @@ HTML \<video> Tag
   <source
     type="video/webm"
     src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm">
-  Your browser does not support the video tag.
+  您的浏览器不支持 video 标签。
 </video>
 ```
 

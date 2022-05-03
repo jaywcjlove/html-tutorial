@@ -35,7 +35,7 @@ HTML \<applet> 标签
 <video width="320" controls>
   <source type="video/mp4" src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4">
   <source type="video/webm" src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm">
-  Your browser does not support the video tag.
+  您的浏览器不支持 video 标签。
 </video>
 ```
 
