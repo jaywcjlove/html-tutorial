@@ -646,8 +646,122 @@
 <p>HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世界的一砖一瓦。它定义了网页内容的含义和结构。除 HTML 以外的其它技术则通常用来描述一个网页的表现与展示效果（如 CSS），或功能与行为（如 JavaScript）。</p>
 <p>“超文本”（hypertext）是指连接单个网站内或多个网站间的网页的链接。链接是网络的一个基本方面。只要将内容上传到互联网，并将其与他人创建的页面相链接，你就成为了万维网的积极参与者。</p>
 <p>HTML 使用“标记”（markup）来注明文本、图片和其他内容，以便于在 Web 浏览器中显示。</p>
-<p>HTML 元素通过“标签”（tag）将文本从文档中引出，标签由在“&#x3C;”和“>”中包裹的元素名组成，HTML 标签里的元素名不区分大小写。也就是说，它们可以用大写，小写或混合形式书写。例如，<code>&#x3C;title></code> 标签可以写成 <code>&#x3C;Title></code>，<code>&#x3C;TITLE></code> 或以任何其他方式。</p>
+<p>HTML 元素通过“标签”（tag）将文本从文档中引出，标签由在 <code>&#x3C;</code> 和 <code>></code> 中包裹的元素名组成，HTML 标签里的元素名不区分大小写。也就是说，它们可以用大写，小写或混合形式书写。例如，<code>&#x3C;title></code> 标签可以写成 <code>&#x3C;Title></code>，<code>&#x3C;TITLE></code> 或以任何其他方式。</p>
+<pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>title</span><span class="token punctuation">></span></span>标题<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>title</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>TITLE</span><span class="token punctuation">></span></span>标题<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>TITLE</span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<title>标题<title>
+<TITLE>标题<TITLE>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<pre class="language-bash"><code class="language-bash code-highlight"><span class="code-line line-number" line="1">                    ╭┈┈┈┈┈┈┈┈┈┈┈╮
+</span><span class="code-line line-number" line="2">                    ┆  Element  ┆
+</span><span class="code-line line-number" line="3">                    ╰┈┈┈┈┈┬┈┈┈┈┈╯
+</span><span class="code-line line-number" line="4">                          ▼ 
+</span><span class="code-line line-number" line="5">     ╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┴┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╮
+</span><span class="code-line line-number" line="6">  开始标签               文本内容               结束标签
+</span><span class="code-line line-number" line="7">     ▼                ╰┈┈┈┈┬┈┈┈┈╯               ▼
+</span><span class="code-line line-number" line="8">╭┈┈┈┈┴┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┴┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┴┈┈┈┈╮
+</span><span class="code-line line-number" line="9">┆ <span class="token operator">&#x3C;</span>div <span class="token assign-left variable">class</span><span class="token operator">=</span><span class="token string">"ab"</span><span class="token operator">></span>    this my content        <span class="token operator">&#x3C;</span>/div<span class="token operator">></span>  ┆
+</span><span class="code-line line-number" line="10">╰┈┈╱┈┈┈┈┈┈┈┈┈┈┈┈╲┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╯
+</span><span class="code-line line-number" line="11">属性名称        属性值
+</span><span class="code-line line-number" line="12"> name          value
+</span><span class="code-line line-number" line="13">   ╰┈┈┈┈┈┈┬┈┈┈┈┈┈╯
+</span><span class="code-line line-number" line="14">    Attribute<span class="token punctuation">(</span>属性<span class="token punctuation">)</span>
+</span></code><input type="hidden" value="                    ╭┈┈┈┈┈┈┈┈┈┈┈╮
+                    ┆  Element  ┆
+                    ╰┈┈┈┈┈┬┈┈┈┈┈╯
+                          ▼ 
+     ╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┴┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╮
+  开始标签               文本内容               结束标签
+     ▼                ╰┈┈┈┈┬┈┈┈┈╯               ▼
+╭┈┈┈┈┴┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┴┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┴┈┈┈┈╮
+┆ <div class=&#x22;ab&#x22;>    this my content        </div>  ┆
+╰┈┈╱┈┈┈┈┈┈┈┈┈┈┈┈╲┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╯
+属性名称        属性值
+ name          value
+   ╰┈┈┈┈┈┈┬┈┈┈┈┈┈╯
+    Attribute(属性)
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
 <p>教程、参考资料和示例会不断审查以避免错误，但不能保证所有内容的完全正确性，所有资源来源网络。</p>
+<h2 id="html-简史"><a aria-hidden="true" tabindex="-1" href="#html-简史" class="anchor"><span class="icon icon-link"></span></a>HTML 简史</h2>
+<p>在 1980 年代后期，作为 CERN 承包商的物理学家 Tim Berners-Lee 为 CERN 研究人员提出了一个系统。 1989 年，他写了一份备忘录，提出了一个基于互联网的超文本系统。</p>
+<p>Tim Berners-Lee 被称为 HTML 之父。 HTML 的第一个可用描述是 Tim 在 1991 年末提出的名为“HTML 标签”的文档。HTML 的最新版本是 HTML5，我们将在本教程的后面部分学习。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Year</th><th>Version</th></tr></thead><tbody><tr><td>1989</td><td>Tim Berners-Lee 发明了 www</td></tr><tr><td>1991</td><td>Tim Berners-Lee 发明了 HTML</td></tr><tr><td>1993</td><td>Dave Raggett 起草了 HTML+</td></tr><tr><td>1995</td><td>HTML 工作组定义的 HTML 2.0</td></tr><tr><td>1997</td><td>W3C Recommendation: HTML 3.2</td></tr><tr><td>1999</td><td>W3C Recommendation: HTML 4.01</td></tr><tr><td>2000</td><td>W3C Recommendation: XHTML 1.0</td></tr><tr><td>2008</td><td>WHATWG HTML5 首次公开草案</td></tr><tr><td>2012</td><td><a href="http://whatwg.org/html/">WHATWG HTML5 Living Standard</a></td></tr><tr><td>2014</td><td><a href="http://www.w3.org/TR/html5/">W3C Recommendation: HTML5</a></td></tr><tr><td>2016</td><td>W3C Candidate Recommendation: HTML 5.1</td></tr><tr><td>2017</td><td><a href="http://www.w3.org/TR/html51/">W3C Recommendation: HTML5.1 2nd Edition</a></td></tr><tr><td>2017</td><td><a href="http://www.w3.org/TR/html52/">W3C Recommendation: HTML5.2</a></td></tr></tbody></table>
+<h2 id="html-要点"><a aria-hidden="true" tabindex="-1" href="#html-要点" class="anchor"><span class="icon icon-link"></span></a>HTML 要点</h2>
+<ul>
+<li>HTML 代表超文本标记语言。</li>
+<li>HTML 用于创建网页和 Web 应用程序。</li>
+<li>HTML 是网络上广泛使用的语言。</li>
+<li>我们只能通过 HTML 创建静态网站。</li>
+<li>从技术上讲，HTML 是一种标记语言，而不是一种编程语言。</li>
+</ul>
+<h2 id="html-版本"><a aria-hidden="true" tabindex="-1" href="#html-版本" class="anchor"><span class="icon icon-link"></span></a>HTML 版本</h2>
+<p>自 HTML 发明以来，市场上有很多 HTML 版本，下面对 HTML 版本进行简单介绍：</p>
+<p><strong>① HTML 1.0：</strong> HTML 的第一个版本是 1.0，它是 HTML 语言的准系统版本，于 1991 年发布。</p>
+<p><strong>② HTML 2.0：</strong> 这是 1995 年发布的下一个版本，是网站设计的标准语言版本。 HTML 2.0 能够支持额外的功能，例如基于表单的文件上传、文本框等表单元素、选项按钮等。</p>
+<p><strong>③ HTML 3.2：</strong> HTML 3.2 版本由 W3C 于 1997 年初发布。此版本能够创建表格并为表单元素的额外选项提供支持。 它还可以支持具有复杂数学方程的网页。 直到 1997 年 1 月，它才成为任何浏览器的官方标准。如今，大多数浏览器实际上都支持它。</p>
+<p><strong>④ HTML 4.01：</strong> HTML 4.01 版本于 1999 年 12 月发布，是一个非常稳定的 HTML 语言版本。 这个版本是当前的官方标准，它增加了对样式表 (CSS) 的支持和各种多媒体元素的脚本能力。</p>
+<p><strong>⑤ HTML 5：</strong> HTML 5 是超文本标记语言的最新版本。 该版本的初稿于 2008 年 1 月公布。有两个主要组织，一个是 <a href="https://www.w3.org/">W3C</a>（万维网联盟），另一个是 <a href="https://whatwg.org/">WHATWG</a>（Web 超文本应用技术工作组），它们参与了 HTML 5 版本的开发 ，并且仍在开发中。</p>
 
 <h2 id="contributors"><a aria-hidden="true" tabindex="-1" href="#contributors" class="anchor"><span class="icon icon-link"></span></a>Contributors</h2>
 <p>一如既往，感谢我们出色的贡献者！一天搬运一个慢慢攒吧，欢迎大家参与进来 :)。</p>
@@ -695,6 +809,21 @@
 <nav class="tocs">
   <aside class="inner toc">
     <ol class="tocs-list">
+    
+      <li>
+        <a href="#html-简史" class="tocs-link">HTML 简史</a>
+        
+      </li>
+    
+      <li>
+        <a href="#html-要点" class="tocs-link">HTML 要点</a>
+        
+      </li>
+    
+      <li>
+        <a href="#html-版本" class="tocs-link">HTML 版本</a>
+        
+      </li>
     
       <li>
         <a href="#contributors" class="tocs-link">Contributors</a>
