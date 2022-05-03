@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>data-.md HTML Tutorial </title>
+  <title>HTML data-* 属性 HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/attribute/data-.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="data-* 属性用于存储页面或应用程序私有的自定义数据。">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,8 +642,75 @@
 </div>
 
   <markdown-style>
-    <h1 id="data-md"><a aria-hidden="true" tabindex="-1" href="#data-md" class="anchor"><span class="icon icon-link"></span></a>data-.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/attribute/data-.md">docs/attribute/data-.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-data--属性"><a aria-hidden="true" tabindex="-1" href="#html-data--属性" class="anchor"><span class="icon icon-link"></span></a>HTML data-* 属性</h1>
+<h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+<p><code>data-*</code> 属性用于存储页面或应用程序私有的自定义数据。</p>
+<p><code>data-*</code> 属性使我们能够在所有 HTML 元素上嵌入自定义数据属性。</p>
+<p>然后可以在页面的 JavaScript 中使用存储的（自定义）数据来创建更具吸引力的用户体验（无需任何 Ajax 调用或服务器端数据库查询）。</p>
+<p><code>data-*</code> 属性由两部分组成：</p>
+<ol>
+<li>属性名不能包含任何大写字母，并且必须在前缀 “data-” 之后至少有一个字符长</li>
+<li>属性值可以是任意字符串</li>
+</ol>
+<p><strong>注意：</strong> 以 “data-” 为前缀的自定义属性将被用户代理完全忽略。</p>
+<h2 id="适用于"><a aria-hidden="true" tabindex="-1" href="#适用于" class="anchor"><span class="icon icon-link"></span></a>适用于</h2>
+<p><code>data-*</code> 属性是一个 <a href="../reference/standardattributes.html">全局属性</a>，可用于任何 HTML 元素。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>元素 Element</th><th>属性 Attribute</th></tr></thead><tbody><tr><td>全部 <a href="../reference/byfunc.html">HTML</a> 元素</td><td><a href="./global/data.html">data-*</a></td></tr></tbody></table>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>使用 <code>data-\*</code> 属性嵌入自定义数据：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>ul</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>li</span> <span class="token attr-name">data-animal-type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bird<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Owl<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>li</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>li</span> <span class="token attr-name">data-animal-type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fish<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Salmon<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>li</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>li</span> <span class="token attr-name">data-animal-type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>spider<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Tarantula<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>li</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>ul</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<ul>
+  <li data-animal-type=&#x22;bird&#x22;>Owl</li>
+  <li data-animal-type=&#x22;fish&#x22;>Salmon</li>
+  <li data-animal-type=&#x22;spider&#x22;>Tarantula</li>
+</ul>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<ul>
+  <li data-animal-type=&#x22;bird&#x22;>Owl</li>
+  <li data-animal-type=&#x22;fish&#x22;>Salmon</li>
+  <li data-animal-type=&#x22;spider&#x22;>Tarantula</li>
+</ul>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+<p>表中的数字指定了完全支持该属性的第一个浏览器版本。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>属性 Attribute</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>data-*</td><td>4.0</td><td>5.5</td><td>2.0</td><td>3.1</td><td>9.6</td></tr></tbody></table>
     
 
 <div class="previous">
@@ -679,6 +746,34 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#定义和用法" class="tocs-link">定义和用法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#适用于" class="tocs-link">适用于</a>
+        
+      </li>
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
 <script src="../js/demo-preview.js?v=1.17.10"></script>

@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>default.md HTML Tutorial </title>
+  <title>HTML default 属性 HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/attribute/default.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="default 属性是一个布尔属性。">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,8 +642,66 @@
 </div>
 
   <markdown-style>
-    <h1 id="defaultmd"><a aria-hidden="true" tabindex="-1" href="#defaultmd" class="anchor"><span class="icon icon-link"></span></a>default.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/attribute/default.md">docs/attribute/default.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-default-属性"><a aria-hidden="true" tabindex="-1" href="#html-default-属性" class="anchor"><span class="icon icon-link"></span></a>HTML default 属性</h1>
+<h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+<p><code>default</code> 属性是一个布尔属性。</p>
+<p>当存在时，它指定如果用户的偏好没有指示另一个轨道会更合适，则启用该轨道。</p>
+<p><strong>注意：</strong> 每个 <code>&#x3C;media></code> 元素不能有多个具有 <code>default</code> 属性的 <a href="../tags/track.html"><code>&#x3C;track></code></a> 元素。</p>
+<h2 id="适用于"><a aria-hidden="true" tabindex="-1" href="#适用于" class="anchor"><span class="icon icon-link"></span></a>适用于</h2>
+<p><code>default</code> 属性可用于以下元素：</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>元素 Element</th><th>属性 Attribute</th></tr></thead><tbody><tr><td><a href="../tags/track.html">&#x3C;track></a></td><td><a href="../tags/track_default.html">default</a></td></tr></tbody></table>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>带有两个字幕轨道的视频。 “英文”字幕是默认的：</p>
+<pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>video</span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>320<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>240<span class="token punctuation">"</span></span> <span class="token attr-name">controls</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>forrest_gump.mp4<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>video/mp4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>forrest_gump.ogg<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>video/ogg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>track</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>subtitles_en.vtt<span class="token punctuation">"</span></span> <span class="token attr-name">kind</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>subtitles<span class="token punctuation">"</span></span> <span class="token attr-name">srclang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>English<span class="token punctuation">"</span></span> <span class="token attr-name">default</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>track</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>subtitles_no.vtt<span class="token punctuation">"</span></span> <span class="token attr-name">kind</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>subtitles<span class="token punctuation">"</span></span> <span class="token attr-name">srclang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>no<span class="token punctuation">"</span></span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Norwegian<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="6"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>video</span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<video width=&#x22;320&#x22; height=&#x22;240&#x22; controls>
+  <source src=&#x22;forrest_gump.mp4&#x22; type=&#x22;video/mp4&#x22;>
+  <source src=&#x22;forrest_gump.ogg&#x22; type=&#x22;video/ogg&#x22;>
+  <track src=&#x22;subtitles_en.vtt&#x22; kind=&#x22;subtitles&#x22; srclang=&#x22;en&#x22; label=&#x22;English&#x22; default>
+  <track src=&#x22;subtitles_no.vtt&#x22; kind=&#x22;subtitles&#x22; srclang=&#x22;no&#x22; label=&#x22;Norwegian&#x22;>
+</video>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+<p>表中的数字指定了完全支持该属性的第一个浏览器版本。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>属性 Attribute</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>default</td><td>18.0</td><td>10.0</td><td>31.0</td><td>6.0</td><td>15.0</td></tr></tbody></table>
     
 
 <div class="previous">
@@ -679,6 +737,34 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#定义和用法" class="tocs-link">定义和用法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#适用于" class="tocs-link">适用于</a>
+        
+      </li>
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
 <script src="../js/demo-preview.js?v=1.17.10"></script>
