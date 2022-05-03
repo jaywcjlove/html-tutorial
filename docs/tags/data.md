@@ -25,7 +25,7 @@ HTML \<data> 标签
 
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------- | --- | --- | --- | --- | --- |
-| \<data> | 62.0 | 13.0 | 22.0 | Not supported | 49.0 |
+| \<data> | 62.0 | 13.0 | 22.0 | ❌ 不支持 | 49.0 |
 
 ## 属性 Attributes
 

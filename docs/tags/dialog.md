@@ -22,7 +22,7 @@ HTML \<dialog> 标签
 
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----- | --- | --- | --- | --- | --- |
-| \<dialog> | 37.0 | 79.0 | 53.0\* | Not supported | 24.0 |
+| \<dialog> | 37.0 | 79.0 | 53.0\* | ❌ 不支持 | 24.0 |
 
 \* 默认不支持，但可以在 `about:config` 中启用（设置 `dom.dialog_element.enabled` 为 `true`）。
 

@@ -24,7 +24,7 @@ HTML \<input type="month">
 
 | Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
-| type="month" | 25.0 | 12.0 | Not supported | Not supported | 10.1 |
+| type="month" | 25.0 | 12.0 | ❌ 不支持 | ❌ 不支持 | 10.1 |
 
 ## 语法
 
