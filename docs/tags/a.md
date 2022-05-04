@@ -38,6 +38,7 @@ HTML \<a> 标签
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __&lt;a&gt;__ | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 所有浏览器都支持 `<a>` 标签。
 

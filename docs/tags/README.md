@@ -126,6 +126,7 @@ HTML 标签参考手册
 | [&lt;var&gt;](./var.md) | 定义一个变量 |
 | [&lt;video&gt;](./video.md) | 定义嵌入的视频内容 |
 | [&lt;wbr&gt;](./wbr.md) | 定义可能的换行符 |
-| &lt;xmp&gt; | 已废弃，内容不会被当作文档内容解析，而会被用等宽字体直接呈现。 |
+| _\<xmp>_<!--rehype:style=color: red;--> | 已废弃，内容不会被当作文档内容解析，而会被用等宽字体直接呈现。 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/no-support-html5.svg

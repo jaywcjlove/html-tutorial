@@ -17,18 +17,21 @@ HTML 浏览器支持
 | [rel](../tags/a_rel.md)                      | Yes  | Yes  | Yes  | Yes  | Yes  |
 | [target](../tags/a_target.md)                | Yes  | Yes  | Yes  | Yes  | Yes  |
 | [type](../tags/a_type.md)                    | Yes  | Yes  | Yes  | Yes  | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## abbr
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------------- | --- | --- | --- | --- | --- |
 | [**\<abbr>**](../tags/abbr.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## address
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------------- | --- | --- | --- | --- | --- |
 | [**\<address>**](../tags/address.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## area
 
@@ -46,18 +49,21 @@ HTML 浏览器支持
 | [shape](../tags/area_shape.md)                  | Yes  | Yes  | Yes  | Yes  | Yes  |
 | [target](../tags/area_target.md)                | Yes  | Yes  | Yes  | Yes  | Yes  |
 | [type](../tags/area_type.md)                    | Yes  | Yes  | Yes  | Yes  | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## article
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------------- | --- | --- | --- | --- | ---- |
 | [**\<article>**](../tags/article.md) | 6.0 | 9.0 | 4.0 | 5.0 | 11.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## aside
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------------- | --- | --- | --- | --- | ---- |
 | [**\<aside>**](../tags/aside.md) | 6.0 | 9.0 | 4.0 | 5.0 | 11.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## audio
 
@@ -70,12 +76,14 @@ HTML 浏览器支持
 | [muted](../tags/audio_muted.md)       | 4.0 | 10.0 | 11.0 | 7.1 | 11.5 |
 | [preload](../tags/audio_preload.md)   | 4.0 | 9.0  | 4.0  | 4.0 | 11.5 |
 | [src](../tags/audio_src.md)           | 4.0 | 9.0  | 3.5  | 4.0 | 11.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## b
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------- | --- | --- | --- | --- | --- |
 | [**\<b>**](../tags/b.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## base
 
@@ -84,12 +92,14 @@ HTML 浏览器支持
 | [**\<base>**](../tags/base.md)   | Yes | Yes | Yes | Yes | Yes |
 | [href](../tags/base_href.md)     | Yes | Yes | Yes | Yes | Yes |
 | [target](../tags/base_target.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## bdi
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------- | ---- | ---- | ---- | -- | ---- |
 | [**\<bdi>**](../tags/bdi.md) | 16.0 | 79.0 | 10.0 | ❌ | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## bdo
 
@@ -97,6 +107,7 @@ HTML 浏览器支持
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<bdo>**](../tags/bdo.md) | Yes | Yes | Yes | Yes | Yes |
 | [dir](../tags/bdo_dir.md)    | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## blockquote
 
@@ -104,18 +115,21 @@ HTML 浏览器支持
 | --------------------------------------- | --- | --- | --- | --- | --- |
 | [**\<blockquote>**](../tags/blockquote.md) | Yes | Yes | Yes | Yes | Yes |
 | [cite](../tags/blockquote_cite.md)         | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## body
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------- | --- | --- | --- | --- | --- |
 | [**\<body>**](../tags/body.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## br
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------- | --- | --- | --- | --- | --- |
 | [**\<br>**](../tags/br.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## button
@@ -134,6 +148,7 @@ HTML 浏览器支持
 | [name](../tags/button_name.md)                     | Yes  | Yes  | Yes | Yes | Yes  |
 | [type](../tags/button_type.md)                     | Yes  | Yes  | Yes | Yes | Yes  |
 | [value](../tags/button_value.md)                   | Yes  | Yes  | Yes | Yes | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## canvas
@@ -143,6 +158,7 @@ HTML 浏览器支持
 | [**\<canvas>**](../tags/canvas.md) | 4.0 | 9.0 | 2.0 | 3.1 | 9.0 |
 | [height](../tags/canvas_height.md) | 4.0 | 9.0 | 2.0 | 3.1 | 9.0 |
 | [width](../tags/canvas_width.md)   | 4.0 | 9.0 | 2.0 | 3.1 | 9.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## caption
@@ -150,6 +166,7 @@ HTML 浏览器支持
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------------- | --- | --- | --- | --- | --- |
 | [**\<caption>**](../tags/caption.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## cite
@@ -157,6 +174,7 @@ HTML 浏览器支持
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------- | --- | --- | --- | --- | --- |
 | [**\<cite>**](../tags/cite.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## code
@@ -164,6 +182,7 @@ HTML 浏览器支持
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------- | --- | --- | --- | --- | --- |
 | [**\<code>**](../tags/code.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## col
@@ -172,6 +191,7 @@ HTML 浏览器支持
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<col>**](../tags/col.md) | Yes | Yes | Yes | Yes | Yes |
 | [span](../tags/col_span.md)  | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## colgroup
@@ -180,6 +200,7 @@ HTML 浏览器支持
 | ----------------------------------- | --- | --- | --- | --- | --- |
 | [**\<colgroup>**](../tags/colgroup.md) | Yes | Yes | Yes | Yes | Yes |
 | [span](../tags/colgroup_span.md)       | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## data
@@ -188,6 +209,7 @@ HTML 浏览器支持
 | --------------------------- | ---- | ---- | ---- | -- | ---- |
 | [**\<data>**](../tags/data.md) | 62.0 | 13.0 | 22.0 | ❌ | 49.0 |
 | value                       | 62.0 | 13.0 | 22.0 | ❌ | 49.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## datalist
@@ -195,6 +217,7 @@ HTML 浏览器支持
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------------------- | ---- | ---- | --- | ---- | --- |
 | [**\<datalist>**](../tags/datalist.md) | 20.0 | 10.0 | 4.0 | 12.1 | 9.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## dd
@@ -202,6 +225,7 @@ HTML 浏览器支持
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------- | --- | --- | --- | --- | --- |
 | [**\<dd>**](../tags/dd.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## del
@@ -211,6 +235,7 @@ HTML 浏览器支持
 | [**\<del>**](../tags/del.md)        | Yes | Yes | Yes | Yes | Yes |
 | [cite](../tags/del_cite.md)         | Yes | Yes | Yes | Yes | Yes |
 | [datetime](../tags/del_datetime.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## details
@@ -219,6 +244,7 @@ HTML 浏览器支持
 | --------------------------------- | ----- | ---- | ---- | --- | ---- |
 | [**\<details>**](../tags/details.md) | 12.0  | 79.0 | 49.0 | 6.0 | 15.0 |
 | [open](../tags/details_open.md)      | 12.0  | 79.0 | 49.0 | 6.0 | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## dfn
@@ -226,6 +252,7 @@ HTML 浏览器支持
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<dfn>**](../tags/dfn.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## dialog
 
@@ -233,6 +260,7 @@ HTML 浏览器支持
 | ------------------------------- | ---- | ---- | ------ | -- | ---- |
 | [**\<dialog>**](../tags/dialog.md) | 37.0 | 79.0 | 53.0\* | ❌ | 24.0 |
 | [open](../tags/dialog_open.md)     | 37.0 | 79.0 | 53.0\* | ❌ | 24.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 \* 默认不支持，但可以在 about:config 中启用（将 dom.dialog_element.enabled 设置为 true）。
 
@@ -242,24 +270,28 @@ HTML 浏览器支持
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<div>**](../tags/div.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## dl
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------- | --- | --- | --- | --- | --- |
 | [**\<dl>**](../tags/dl.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## dt
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------- | --- | --- | --- | --- | --- |
 | [**\<dt>**](../tags/dt.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## em
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------- | --- | --- | --- | --- | --- |
 | [**\<em>**](../tags/em.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## embed
 
@@ -270,6 +302,7 @@ HTML 浏览器支持
 | [src](../tags/embed_src.md)       | Yes | Yes | Yes | Yes | Yes |
 | [type](../tags/embed_type.md)     | Yes | Yes | Yes | Yes | Yes |
 | [width](../tags/embed_width.md)   | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## fieldset
 
@@ -279,24 +312,28 @@ HTML 浏览器支持
 | [disabled](../tags/fieldset_disabled.md) | Yes | Yes  | Yes | 6.0 | Yes |
 | [form](../tags/fieldset_form.md)         | Yes | Yes  | Yes | Yes | Yes |
 | [name](../tags/fieldset_name.md)         | Yes | 11.0 | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## figcaption
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------------------- | --- | --- | --- | --- | ---- |
 | [**\<figcaption>**](../tags/figcaption.md) | 8.0 | 9.0 | 4.0 | 5.1 | 11.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## figure
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------------- | --- | --- | --- | --- | ---- |
 | [**\<figure>**](../tags/figure.md) | 8.0 | 9.0 | 4.0 | 5.1 | 11.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## footer
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------------- | --- | --- | --- | --- | ---- |
 | [**\<footer>**](../tags/footer.md) | 5.0 | 9.0 | 4.0 | 5.0 | 11.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## form
 
@@ -312,30 +349,35 @@ HTML 浏览器支持
 | [novalidate](../tags/form_novalidate.md)         | Yes | 10.0 | 4.0 | 10.1 | 15.0 |
 | [rel](../tags/form_rel.md)                       | Yes | Yes  | Yes | Yes  | Yes  |
 | [target](../tags/form_target.md)                 | Yes | Yes  | Yes | Yes  | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## h1
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------------- | --- | --- | --- | --- | --- |
 | [**\<h1> - \<h6>**](../tags/hn.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## head
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------- | --- | --- | --- | --- | --- |
 | [**\<head>**](../tags/head.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## header
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------------- | ---- | --- | --- | --- | ---- |
 | [**\<header>**](../tags/header.md) | 5.0  | 9.0 | 4.0 | 5.0 | 11.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## hr
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------- | --- | --- | --- | --- | --- |
 | [**\<hr>**](../tags/hr.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## html
 
@@ -343,12 +385,14 @@ HTML 浏览器支持
 | --------------------------- | --- | --- | --- | --- | --- |
 | [**\<html>**](../tags/html.md) | Yes | Yes | Yes | Yes | Yes |
 | [xmlns](../tags/html_xmlns.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## i
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------- | --- | --- | --- | --- | --- |
 | [**\<i>**](../tags/i.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## iframe
 
@@ -365,6 +409,7 @@ HTML 浏览器支持
 | [src](../tags/iframe_src.md)                       | Yes  | Yes       | Yes  | Yes  | Yes  |
 | [srcdoc](../tags/iframe_srcdoc.md)                 | 20.0 | 79.0      | 25.0 | 6.0  | 15.0 |
 | [width](../tags/iframe_width.md)                   | Yes  | Yes       | Yes  | Yes  | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## img
 
@@ -383,6 +428,7 @@ HTML 浏览器支持
 | srcset                                      | 34.0 | ?    | 38.0 | 8.0  | 21.0 |
 | [usemap](../tags/img_usemap.md)                | Yes  | Yes  | Yes  | Yes  | Yes  |
 | [width](../tags/img_width.md)                  | Yes  | Yes  | Yes  | Yes  | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## input
 
@@ -420,6 +466,7 @@ HTML 浏览器支持
 | [type](../tags/input_type.md)                     | Yes  | Yes  | Yes  | Yes  | Yes  |
 | [value](../tags/input_value.md)                   | Yes  | Yes  | Yes  | Yes  | Yes  |
 | [width](../tags/input_width.md)                   | Yes  | Yes  | 16.0 | Yes  | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## ins
 
@@ -428,12 +475,14 @@ HTML 浏览器支持
 | [**\<ins>**](../tags/ins.md)        | Yes | Yes | Yes | Yes | Yes |
 | [cite](../tags/ins_cite.md)         | Yes | Yes | Yes | Yes | Yes |
 | [datetime](../tags/ins_datetime.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## kbd
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<kbd>**](../tags/kbd.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## label
 
@@ -442,12 +491,14 @@ HTML 浏览器支持
 | [**\<label>**](../tags/label.md) | Yes | Yes | Yes | Yes | Yes |
 | [for](../tags/label_for.md)      | Yes | Yes | Yes | Yes | Yes |
 | [form](../tags/label_form.md)    | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## legend
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------------- | --- | --- | --- | --- | --- |
 | [**\<legend>**](../tags/legend.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## li
 
@@ -455,6 +506,7 @@ HTML 浏览器支持
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<li>**](../tags/li.md)   | Yes | Yes | Yes | Yes | Yes |
 | [value](../tags/li_value.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## link
 
@@ -470,12 +522,14 @@ HTML 浏览器支持
 | [sizes](../tags/link_sizes.md)                   | ❌  | ❌  | ❌  | ❌  | ❌  |
 | title                                         | Yes  | Yes  | Yes  | Yes  | Yes  |
 | [type](../tags/link_type.md)                     | Yes  | Yes  | Yes  | Yes  | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## main
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------- | ---- | ---- | ---- | --- | ---- |
 | [**\<main>**](../tags/main.md) | 26.0 | 12.0 | 21.0 | 7.0 | 16.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## map
 
@@ -483,12 +537,14 @@ HTML 浏览器支持
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<map>**](../tags/map.md) | Yes | Yes | Yes | Yes | Yes |
 | [name](../tags/map_name.md)  | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## mark
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------- | --- | --- | --- | --- | ---- |
 | [**\<mark>**](../tags/mark.md) | 6.0 | 9.0 | 4.0 | 5.0 | 11.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## meta
 
@@ -499,6 +555,7 @@ HTML 浏览器支持
 | [content](../tags/meta_content.md)        | Yes | Yes | Yes | Yes | Yes |
 | [http\_equiv](../tags/meta_http_equiv.md) | Yes | Yes | Yes | Yes | Yes |
 | [name](../tags/meta_name.md)              | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## meter
 
@@ -512,18 +569,21 @@ HTML 浏览器支持
 | [min](../tags/meter_min.md)         | 8.0 | 13.0 | 16.0 | 6.0 | 11.5 |
 | [optimum](../tags/meter_optimum.md) | 8.0 | 13.0 | 16.0 | 6.0 | 11.5 |
 | [value](../tags/meter_value.md)     | 8.0 | 13.0 | 16.0 | 6.0 | 11.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## nav
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------- | --- | --- | --- | --- | ---- |
 | [**\<nav>**](../tags/nav.md) | 5.0 | 9.0 | 4.0 | 5.0 | 11.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## noscript
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------------------- | --- | --- | --- | --- | --- |
 | [**\<noscript>**](../tags/noscript.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## object
 
@@ -537,6 +597,7 @@ HTML 浏览器支持
 | [type](../tags/object_type.md)     | Yes | Yes | Yes | Yes | Yes |
 | [usemap](../tags/object_usemap.md) | ❌ | ❌ | Yes | ❌ | ❌ |
 | [width](../tags/object_width.md)   | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## ol
 
@@ -546,6 +607,7 @@ HTML 浏览器支持
 | [reversed](../tags/ol_reversed.md) | 18.0 | 79.0 | 18.0 | 6.0 | 12.1 |
 | [start](../tags/ol_start.md)       | Yes  | Yes  | Yes  | Yes | Yes  |
 | [type](../tags/ol_type.md)         | Yes  | Yes  | Yes  | Yes | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## optgroup
 
@@ -554,6 +616,7 @@ HTML 浏览器支持
 | [**\<optgroup>**](../tags/optgroup.md)   | Yes | Yes | Yes | Yes | Yes |
 | [disabled](../tags/optgroup_disabled.md) | Yes | 8.0 | Yes | Yes | Yes |
 | [label](../tags/optgroup_label.md)       | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## option
 
@@ -564,6 +627,7 @@ HTML 浏览器支持
 | [label](../tags/option_label.md)       | Yes | 8.0 | ❌ | Yes | Yes |
 | [selected](../tags/option_selected.md) | Yes | Yes | Yes | Yes | Yes |
 | [value](../tags/option_value.md)       | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## output
 
@@ -573,12 +637,14 @@ HTML 浏览器支持
 | [for](../tags/output_for.md)       | 10.0 | 13.0 | 4.0 | 7.0 | 11.5 |
 | [form](../tags/output_form.md)     | ❌  | ❌  | ❌ | ❌ | ❌  |
 | [name](../tags/output_name.md)     | 10.0 | 13.0 | 4.0 | 7.0 | 11.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## p
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------- | --- | --- | --- | --- | --- |
 | [**\<p>**](../tags/p.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## param
 
@@ -587,18 +653,21 @@ HTML 浏览器支持
 | [**\<param>**](../tags/param.md) | Yes | Yes | Yes | Yes | Yes |
 | [name](../tags/param_name.md)    | Yes | Yes | Yes | Yes | Yes |
 | [value](../tags/param_value.md)  | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## picture
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------------- | ---- | ---- | ---- | --- | ---- |
 | [**\<picture>**](../tags/picture.md) | 38.0 | 13.0 | 38.0 | 9.1 | 25.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## pre
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<pre>**](../tags/pre.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## progress
 
@@ -607,6 +676,7 @@ HTML 浏览器支持
 | [**\<progress>**](../tags/progress.md) | 8.0 | 10.0 | 16.0 | 6.0 | 11.0 |
 | [max](../tags/progress_max.md)         | 8.0 | 10.0 | 16.0 | 6.0 | 11.0 |
 | [value](../tags/progress_value.md)     | 8.0 | 10.0 | 16.0 | 6.0 | 11.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## q
 
@@ -614,36 +684,42 @@ HTML 浏览器支持
 | ---------------------- | --- | --- | --- | --- | --- |
 | [**\<q>**](../tags/q.md)  | Yes | Yes | Yes | Yes | Yes |
 | [cite](../tags/q_cite.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## rp
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------- | --- | --- | ---- | --- | ---- |
 | [**\<rp>**](../tags/rp.md) | 5.0 | 5.5 | 38.0 | 5.0 | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## rt
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------- | --- | --- | ---- | --- | ---- |
 | [**\<rt>**](../tags/rt.md) | 5.0 | 5.5 | 38.0 | 5.0 | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## ruby
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------- | --- | --- | ---- | --- | ---- |
 | [**\<ruby>**](../tags/ruby.md) | 5.0 | 5.5 | 38.0 | 5.0 | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## s
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------- | --- | --- | --- | --- | --- |
 | [**\<s>**](../tags/s.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## samp
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------- | --- | --- | --- | --- | --- |
 | [**\<samp>**](../tags/samp.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## script
 
@@ -658,12 +734,14 @@ HTML 浏览器支持
 | [referrerpolicy](../tags/script_referrepolicy.md) | 70.0 | 79.0 | 65.0 | ❌  | Yes  |
 | [src](../tags/script_src.md)                      | Yes  | Yes  | Yes  | Yes  | Yes  |
 | [type](../tags/script_type.md)                    | Yes  | Yes  | Yes  | Yes  | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## section
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------------- | --- | --- | --- | --- | ---- |
 | [**\<section>**](../tags/section.md) | 5.0 | 9.0 | 4.0 | 5.0 | 11.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## select
 
@@ -677,16 +755,19 @@ HTML 浏览器支持
 | [name](../tags/select_name.md)           | Yes | Yes  | Yes | Yes | Yes |
 | [required](../tags/select_required.md)   | Yes | 10.0 | 4.0 | Yes | Yes |
 | [size](../tags/select_size.md)           | Yes | Yes  | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------- | ---- | ---- | ---- | ---- | ---- |
 | **\<slot>** | 53.0 | 79.0 | 63.0 | 10.0 | 40.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## small
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------------- | --- | --- | --- | --- | --- |
 | [**\<small>**](../tags/small.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## source
 
@@ -698,18 +779,21 @@ HTML 浏览器支持
 | [src](../tags/source_src.md)       | 4.0  | 9.0  | 3.5  | 4.0 | 10.5 |
 | [srcset](../tags/source_srcset.md) | 38.0 | 13.0 | 38.0 | 9.1 | 25.0 |
 | [type](../tags/source_type.md)     | 4.0  | 9.0  | 3.5  | 4.0 | 10.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## span
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------- | --- | --- | --- | --- | --- |
 | [**\<span>**](../tags/span.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## strong
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------------- | --- | --- | --- | --- | --- |
 | [**\<strong>**](../tags/strong.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## style
 
@@ -718,42 +802,49 @@ HTML 浏览器支持
 | [**\<style>**](../tags/style.md) | Yes | Yes | Yes | Yes | Yes |
 | [media](../tags/style_media.md)  | Yes | Yes | Yes | Yes | Yes |
 | [type](../tags/style_type.md)    | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## sub
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<sub>**](../tags/sub.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## summary
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------------------- | ---- | ---- | ---- | --- | ---- |
 | [**\<summary>**](../tags/summary.md) | 12.0 | 79.0 | 49.0 | 6.0 | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## sup
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<sup>**](../tags/sup.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## svg
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------- | --- | --- | --- | --- | ---- |
 | [**\<svg>**](../tags/svg.md) | 4.0 | 9.0 | 3.0 | 3.2 | 10.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## table
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------------- | --- | --- | --- | --- | --- |
 | [**\<table>**](../tags/table.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## tbody
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------------- | --- | --- | --- | --- | --- |
 | [**\<tbody>**](../tags/tbody.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## td
 
@@ -763,12 +854,14 @@ HTML 浏览器支持
 | [colspan](../tags/td_colspan.md) | Yes | Yes | Yes | Yes | Yes |
 | [headers](../tags/td_headers.md) | Yes | Yes | Yes | Yes | Yes |
 | [rowspan](../tags/td_rowspan.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## template
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------------------- | ---- | ---- | ---- | --- | ---- |
 | [**\<template>**](../tags/template.md) | 26.0 | 13.0 | 22.0 | 8.0 | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## textarea
 
@@ -790,12 +883,14 @@ HTML 浏览器支持
 | [rows](../tags/textarea_rows.md)               | Yes | Yes  | Yes  | Yes  | Yes  |
 | spellcheck                                  | Yes | 11.0 | Yes  | Yes  | Yes  |
 | [wrap](../tags/textarea_wrap.md)               | Yes | Yes  | Yes  | Yes  | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## tfoot
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------------- | --- | --- | --- | --- | --- |
 | [**\<tfoot>**](../tags/tfoot.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## th
 
@@ -807,12 +902,14 @@ HTML 浏览器支持
 | [headers](../tags/th_headers.md) | Yes | Yes | Yes | Yes | Yes |
 | [rowspan](../tags/th_rowspan.md) | Yes | Yes | Yes | Yes | Yes |
 | [scope](../tags/th_scope.md)     | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## thead
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------------- | --- | --- | --- | --- | --- |
 | [**\<thead>**](../tags/thead.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## time
 
@@ -820,18 +917,21 @@ HTML 浏览器支持
 | --------------------------------- | ---- | ---- | ---- | --- | ---- |
 | [**\<time>**](../tags/time.md)       | 62.0 | 18.0 | 22.0 | 7.0 | 49.0 |
 | [datetime](../tags/time_datetime.md) | 62.0 | 18.0 | 22.0 | 7.0 | 49.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## title
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------------- | --- | --- | --- | --- | --- |
 | [**\<title>**](../tags/title.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## tr
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------- | --- | --- | --- | --- | --- |
 | [**\<tr>**](../tags/tr.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## track
 
@@ -843,24 +943,28 @@ HTML 浏览器支持
 | [label](../tags/track_label.md)     | 23.0 | 10.0 | 31.0 | 6.0 | 12.1 |
 | [src](../tags/track_src.md)         | 23.0 | 10.0 | 31.0 | 6.0 | 12.1 |
 | [srclang](../tags/track_srclang.md) | 23.0 | 10.0 | 31.0 | 6.0 | 12.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## u
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------------- | --- | --- | --- | --- | --- |
 | [**\<u>**](../tags/u.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## ul
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----------------------- | --- | --- | --- | --- | --- |
 | [**\<ul>**](../tags/ul.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## var
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<var>**](../tags/var.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## video
 
@@ -876,12 +980,14 @@ HTML 浏览器支持
 | [preload](../tags/video_preload.md)   | 4.0  | 9.0  | 4.0  | 3.1 | 10.5 |
 | [src](../tags/video_src.md)           | 4.0  | 9.0  | 3.5  | 3.1 | 11.5 |
 | [width](../tags/video_width.md)       | 4.0  | 9.0  | 3.5  | 3.1 | 11.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## wbr
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------------------- | --- | --- | --- | --- | --- |
 | [**\<wbr>**](../tags/wbr.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 

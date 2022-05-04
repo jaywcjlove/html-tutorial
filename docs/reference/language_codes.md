@@ -218,3 +218,4 @@ ISO 639-1 定义了语言的缩写：
 | Yoruba | yo |
 | Zhuang, Chuang | za |
 | Zulu | zu |
+<!--rehype:style=width: 100%; display: inline-table;-->

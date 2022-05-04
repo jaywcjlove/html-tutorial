@@ -236,3 +236,4 @@ HTML5 中的默认字符集为 UTF-8。
 | 253 | &nbsp; | ý | ý | ý | Latin small letter y with acute |
 | 254 | &nbsp; | þ | þ | þ | Latin small letter thorn |
 | 255 | &nbsp; | ÿ | ÿ | ÿ | Latin small letter y with diaeresis |
+<!--rehype:style=width: 100%; display: inline-table;-->

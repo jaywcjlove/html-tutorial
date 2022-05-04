@@ -20,3 +20,4 @@ HTML 全局属性
 | [tabindex](../attribute/global/tabindex.md) | 指定元素的跳格(Tab)顺序 |
 | [title](../attribute/global/title.md) | 指定有关元素的额外信息 |
 | [translate](../attribute/global/translate.md) | 指定是否应翻译元素的内容 |
+<!--rehype:style=width: 100%; display: inline-table;-->

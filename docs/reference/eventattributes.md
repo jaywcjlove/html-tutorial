@@ -29,6 +29,7 @@ HTML 能够让事件触发浏览器中的操作，例如当用户单击元素时
 | [onresize](../events/onresize.md) | _script_ | 调整浏览器窗口大小时触发 |
 | onstorage | _script_ | 更新 Web 存储区域时运行的脚本 |
 | [onunload](../events/onunload.md) | _script_ | 页面卸载（或浏览器窗口已关闭）时触发 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## Form 事件
 
@@ -46,6 +47,7 @@ HTML 能够让事件触发浏览器中的操作，例如当用户单击元素时
 | [onsearch](../events/onsearch.md) | _script_ | 当用户在搜索字段中写入内容时触发 (`<input="search">`) |
 | [onselect](../events/onselect.md) | _script_ | 在元素中选择了某些文本后触发 |
 | [onsubmit](../events/onsubmit.md) | _script_ | 提交表单时触发 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## Keyboard 键盘事件
 
@@ -54,6 +56,7 @@ HTML 能够让事件触发浏览器中的操作，例如当用户单击元素时
 | [onkeydown](../events/onkeydown.md) | _script_ | 当用户按下某个键时触发 |
 | [onkeypress](../events/onkeypress.md) | _script_ | 当用户按下某个键时触发 |
 | [onkeyup](../events/onkeyup.md) | _script_ | 当用户释放键时触发 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## Mouse 事件
 
@@ -70,6 +73,7 @@ HTML 能够让事件触发浏览器中的操作，例如当用户单击元素时
 | [onmouseup](../events/onmouseup.md) | _script_ | 当在元素上释放鼠标按钮时触发 |
 | onmousewheel | _script_ | ⚠️ 已弃用。 改用 [onwheel](../events/onwheel.md) 属性 |
 | [onwheel](../events/onwheel.md) | _script_ | 当鼠标滚轮在元素上向上或向下滚动时触发 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## Drag 事件
 
@@ -83,6 +87,7 @@ HTML 能够让事件触发浏览器中的操作，例如当用户单击元素时
 | [ondragstart](../events/ondragstart.md) | _script_ | 在拖动操作开始时运行的脚本 |
 | [ondrop](../events/ondrop.md) | _script_ | 拖放拖动元素时运行的脚本 |
 | [onscroll](../events/onscroll.md) | _script_ | 滚动元素的滚动条时运行的脚本 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## Clipboard 事件
 
@@ -91,6 +96,7 @@ HTML 能够让事件触发浏览器中的操作，例如当用户单击元素时
 | [oncopy](../events/oncopy.md) | _script_ | 当用户复制元素的内容时触发 |
 | [oncut](../events/oncut.md) | _script_ | 当用户剪切元素的内容时触发 |
 | [onpaste](../events/onpaste.md) | _script_ | 当用户在元素中粘贴一些内容时触发 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 媒体事件
 
@@ -123,9 +129,11 @@ HTML 能够让事件触发浏览器中的操作，例如当用户单击元素时
 | ontimeupdate | _script_ | 当播放位置改变时运行的脚本（比如当用户快进到媒体中的不同点时） |
 | onvolumechange | _script_ | 每次更改音量时要运行的脚本（包括将音量设置为`静音 mute`） |
 | onwaiting | _script_ | 当媒体暂停但预计会恢复时运行脚本（例如当媒体暂停以缓冲更多数据时） |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 杂项事件
 
 | 属性 Attribute | Value | 描述 Description |
 | ---- | ---- | ---- |
 | [ontoggle](../events/ontoggle.md) | _script_ | 当用户打开或关闭 [`<details>`](../tags/details.md) 元素时触发 |
+<!--rehype:style=width: 100%; display: inline-table;-->

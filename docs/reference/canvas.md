@@ -13,6 +13,7 @@ HTML [`<canvas>`](../tags/canvas.md) 标签用于通过脚本（通常是 JavaSc
 | [shadowBlur](../tags/canvas_shadowblur.md) | 设置或返回用于阴影的模糊级别 |
 | [shadowOffsetX](../tags/canvas_shadowoffsetx.md) | 设置或返回阴影距形状的水平距离 |
 | [shadowOffsetY](../tags/canvas_shadowoffsety.md) | 设置或返回阴影距形状的垂直距离 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 | 方法 | 描述 |
 | ---- | ---- |
@@ -20,6 +21,7 @@ HTML [`<canvas>`](../tags/canvas.md) 标签用于通过脚本（通常是 JavaSc
 | [createPattern()](../tags/canvas_createpattern.md) | 在指定的方向上重复指定的元素 |
 | [createRadialGradient()](../tags/canvas_createradialgradient.md) | 创建放射状/环形的渐变（用在画布内容上） |
 | [addColorStop()](../tags/canvas_addcolorstop.md) | 规定渐变对象中的颜色和停止位置 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 线条样式(Line Styles)
 
@@ -29,6 +31,7 @@ HTML [`<canvas>`](../tags/canvas.md) 标签用于通过脚本（通常是 JavaSc
 | [lineJoin](../tags/canvas_linejoin.md) | 设置或返回两条线相交时，所创建的拐角类型 |
 | [lineWidth](../tags/canvas_linewidth.md) | 设置或返回当前的线条宽度 |
 | [miterLimit](../tags/canvas_miterlimit.md) | 设置或返回最大斜接长度 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 矩形(Rectangles)
 
@@ -38,6 +41,7 @@ HTML [`<canvas>`](../tags/canvas.md) 标签用于通过脚本（通常是 JavaSc
 | [fillRect()](../tags/canvas_fillrect.md) | 绘制“被填充”的矩形 |
 | [strokeRect()](../tags/canvas_strokerect.md) | 绘制矩形（无填充） |
 | [clearRect()](../tags/canvas_clearrect.md) | 在给定的矩形内清除指定的像素 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 路径(Paths)
 
@@ -55,6 +59,7 @@ HTML [`<canvas>`](../tags/canvas.md) 标签用于通过脚本（通常是 JavaSc
 | [arc()](../tags/canvas_arc.md) | 创建弧/曲线（用于创建圆形或部分圆） |
 | [arcTo()](../tags/canvas_arcto.md) | 创建两切线之间的弧/曲线 |
 | [isPointInPath()](../tags/canvas_ispointinpath.md) | 如果指定的点位于当前路径中，则返回 true，否则返回 false |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 转换(Transformations)
 
@@ -65,6 +70,7 @@ HTML [`<canvas>`](../tags/canvas.md) 标签用于通过脚本（通常是 JavaSc
 | [translate()](../tags/canvas_translate.md) | 重新映射画布上的 (0,0) 位置 |
 | [transform()](../tags/canvas_transform.md) | 替换绘图的当前转换矩阵 |
 | [setTransform()](../tags/canvas_settransform.md) | 将当前转换重置为单位矩阵。然后运行 transform() |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 文本(Text)
 
@@ -73,18 +79,21 @@ HTML [`<canvas>`](../tags/canvas.md) 标签用于通过脚本（通常是 JavaSc
 | [font](../tags/canvas_font.md) | 设置或返回文本内容的当前字体属性 |
 | [textAlign](../tags/canvas_textalign.md) | 设置或返回文本内容的当前对齐方式 |
 | [textBaseline](../tags/canvas_textbaseline.md) | 设置或返回在绘制文本时使用的当前文本基线 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 | 方法 | 描述 |
 | ---- | ---- |
 | [fillText()](../tags/canvas_filltext.md) | 在画布上绘制“被填充的”文本 |
 | [strokeText()](../tags/canvas_stroketext.md) | 在画布上绘制文本（无填充） |
 | [measureText()](../tags/canvas_measuretext.md) | 返回包含指定文本宽度的对象 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 图像绘制(Image Drawing)
 
 | 方法 | 描述 |
 | ---- | ---- |
 | [drawImage()](../tags/canvas_drawimage.md) | 向画布上绘制图像、画布或视频 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 像素操作(Pixel Manipulation)
 
@@ -93,12 +102,14 @@ HTML [`<canvas>`](../tags/canvas.md) 标签用于通过脚本（通常是 JavaSc
 | [width](../tags/canvas_imagedata_width.md) | 返回 ImageData 对象的宽度 |
 | [height](../tags/canvas_imagedata_height.md) | 返回 ImageData 对象的高度 |
 | [data](../tags/canvas_imagedata_data.md) | 返回一个对象，其包含指定的 ImageData 对象的图像数据 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 | 方法 | 描述 |
 | ---- | ---- |
 | [createImageData()](../tags/canvas_createimagedata.md) | 创建新的、空白的 ImageData 对象 |
 | [getImageData()](../tags/canvas_getimagedata.md) | 返回 ImageData 对象，该对象为画布上指定的矩形复制像素数据 |
 | [putImageData()](../tags/canvas_putimagedata.md) | 把图像数据（从指定的 ImageData 对象）放回画布上 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 合成(Compositing)
 
@@ -106,6 +117,7 @@ HTML [`<canvas>`](../tags/canvas.md) 标签用于通过脚本（通常是 JavaSc
 | ---- | ---- |
 | [globalAlpha](../tags/canvas_globalalpha.md) | 设置或返回绘图的当前 alpha 或透明值 |
 | [globalCompositeOperation](../tags/canvas_globalcompositeoperation.md) | 设置或返回新图像如何绘制到已有的图像上 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 其他(Other)
 
@@ -116,3 +128,4 @@ HTML [`<canvas>`](../tags/canvas.md) 标签用于通过脚本（通常是 JavaSc
 | createEvent() |   |
 | getContext() |   |
 | toDataURL() |   |
+<!--rehype:style=width: 100%; display: inline-table;-->

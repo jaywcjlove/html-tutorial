@@ -3,35 +3,154 @@ HTML 颜色名称
 
 所有现代浏览器都支持以下 140 种颜色名称：
 
-|   |   |   |   |
-| ---- | ---- | ---- | ---- |
-| `AliceBlue`<!--rehype:style=background: AliceBlue;--> `#F0F8FF`<!--rehype:style=background: #F0F8FF;--> | `AntiqueWhite`<!--rehype:style=background: AntiqueWhite;--> `#FAEBD7`<!--rehype:style=background: #FAEBD7;--> | `Aqua`<!--rehype:style=background: Aqua;--> `#00FFFF`<!--rehype:style=background: #00FFFF;--> | `Aquamarine`<!--rehype:style=background: Aquamarine;--> `#7FFFD4`<!--rehype:style=background: #7FFFD4;--> | `Azure`<!--rehype:style=background: Azure;--> `#F0FFFF`<!--rehype:style=background: #F0FFFF;--> |
-| `Beige`<!--rehype:style=background: Beige;--> `#F5F5DC`<!--rehype:style=background: #F5F5DC;--> | `Bisque`<!--rehype:style=background: Bisque;--> `#FFE4C4`<!--rehype:style=background: #FFE4C4;--> | `Black`<!--rehype:style=background: Black; color: #fff;--> `#000000`<!--rehype:style=background: #000000; color: #fff;--> | `BlanchedAlmond`<!--rehype:style=background: BlanchedAlmond;--> `#FFEBCD`<!--rehype:style=background: #FFEBCD;--> | `Blue`<!--rehype:style=background: Blue;--> `#0000FF`<!--rehype:style=background: #0000FF;--> |
-| `BlueViolet`<!--rehype:style=background: BlueViolet; color: #fff;--> `#8A2BE2`<!--rehype:style=background: #8A2BE2; color: #fff;--> | `Brown`<!--rehype:style=background: Brown;--> `#A52A2A`<!--rehype:style=background: #A52A2A;--> | `BurlyWood`<!--rehype:style=background: BurlyWood;--> `#DEB887`<!--rehype:style=background: #DEB887;--> | `CadetBlue`<!--rehype:style=background: CadetBlue;--> `#5F9EA0`<!--rehype:style=background: #5F9EA0;--> | `Chartreuse`<!--rehype:style=background: Chartreuse;--> `#7FFF00`<!--rehype:style=background: #7FFF00;--> |
-| `Chocolate`<!--rehype:style=background: Chocolate;--> `#D2691E`<!--rehype:style=background: #D2691E;--> | `Coral`<!--rehype:style=background: Coral;--> `#FF7F50`<!--rehype:style=background: #FF7F50;--> | `CornflowerBlue`<!--rehype:style=background: CornflowerBlue;--> `#6495ED`<!--rehype:style=background: #6495ED;--> | `Cornsilk`<!--rehype:style=background: Cornsilk;--> `#FFF8DC`<!--rehype:style=background: #FFF8DC;--> | `Crimson`<!--rehype:style=background: Crimson;--> `#DC143C`<!--rehype:style=background: #DC143C;--> |
-| `Cyan`<!--rehype:style=background: Cyan;--> `#00FFFF`<!--rehype:style=background: #00FFFF;--> | `DarkBlue`<!--rehype:style=background: DarkBlue;color: #fff;--> `#00008B`<!--rehype:style=background: #00008B;color: #fff;--> | `DarkCyan`<!--rehype:style=background: DarkCyan;--> `#008B8B`<!--rehype:style=background: #008B8B;--> | `DarkGoldenRod`<!--rehype:style=background: DarkGoldenRod;--> `#B8860B`<!--rehype:style=background: #B8860B;--> | `DarkGray`<!--rehype:style=background: DarkGray;--> `#A9A9A9`<!--rehype:style=background: #A9A9A9;--> |
-| `DarkGrey`<!--rehype:style=background: DarkGrey;--> `#A9A9A9`<!--rehype:style=background: #A9A9A9;--> | `DarkGreen`<!--rehype:style=background: DarkGreen;--> `#006400`<!--rehype:style=background: #006400;--> | `DarkKhaki`<!--rehype:style=background: DarkKhaki;--> `#BDB76B`<!--rehype:style=background: #BDB76B;--> | `DarkMagenta`<!--rehype:style=background: DarkMagenta;--> `#8B008B`<!--rehype:style=background: #8B008B;--> | `DarkOliveGreen`<!--rehype:style=background: DarkOliveGreen;--> `#556B2F`<!--rehype:style=background: #556B2F;--> |
-| `DarkOrange`<!--rehype:style=background: DarkOrange;--> `#FF8C00`<!--rehype:style=background: #FF8C00;--> | `DarkOrchid`<!--rehype:style=background: DarkOrchid;--> `#9932CC`<!--rehype:style=background: #9932CC;--> | `DarkRed`<!--rehype:style=background: DarkRed;--> `#8B0000`<!--rehype:style=background: #8B0000;--> | `DarkSalmon`<!--rehype:style=background: DarkSalmon;--> `#E9967A`<!--rehype:style=background: #E9967A;--> | `DarkSeaGreen`<!--rehype:style=background: DarkSeaGreen;--> `#8FBC8F`<!--rehype:style=background: #8FBC8F;--> |
-| `DarkSlateBlue`<!--rehype:style=background: DarkSlateBlue;color: #fff;--> `#483D8B`<!--rehype:style=background: #483D8B;color: #fff;--> | `DarkSlateGray`<!--rehype:style=background: DarkSlateGray;color: #fff;--> `#2F4F4F`<!--rehype:style=background: #2F4F4F;color: #fff;--> | `DarkSlateGrey`<!--rehype:style=background: DarkSlateGrey;color: #fff;--> `#2F4F4F`<!--rehype:style=background: #2F4F4F;color: #fff;--> | `DarkTurquoise`<!--rehype:style=background: DarkTurquoise;--> `#00CED1`<!--rehype:style=background: #00CED1;--> | `DarkViolet`<!--rehype:style=background: DarkViolet;--> `#9400D3`<!--rehype:style=background: #9400D3;--> |
-| `DeepPink`<!--rehype:style=background: DeepPink;--> `#FF1493`<!--rehype:style=background: #FF1493;--> | `DeepSkyBlue`<!--rehype:style=background: DeepSkyBlue;--> `#00BFFF`<!--rehype:style=background: #00BFFF;--> | `DimGray`<!--rehype:style=background: DimGray;--> `#696969`<!--rehype:style=background: #696969;--> | `DimGrey`<!--rehype:style=background: DimGrey;--> `#696969`<!--rehype:style=background: #696969;--> | `DodgerBlue`<!--rehype:style=background: DodgerBlue;--> `#1E90FF`<!--rehype:style=background: #1E90FF;--> |
-| `FireBrick`<!--rehype:style=background: FireBrick;--> `#B22222`<!--rehype:style=background: #B22222;--> | `FloralWhite`<!--rehype:style=background: FloralWhite;--> `#FFFAF0`<!--rehype:style=background: #FFFAF0;--> | `ForestGreen`<!--rehype:style=background: ForestGreen;--> `#228B22`<!--rehype:style=background: #228B22;--> | `Fuchsia`<!--rehype:style=background: Fuchsia;--> `#FF00FF`<!--rehype:style=background: #FF00FF;--> | `Gainsboro`<!--rehype:style=background: Gainsboro;--> `#DCDCDC`<!--rehype:style=background: #DCDCDC;--> |
-| `GhostWhite`<!--rehype:style=background: GhostWhite;--> `#F8F8FF`<!--rehype:style=background: #F8F8FF;--> | `Gold`<!--rehype:style=background: Gold;--> `#FFD700`<!--rehype:style=background: #FFD700;--> | `GoldenRod`<!--rehype:style=background: GoldenRod;--> `#DAA520`<!--rehype:style=background: #DAA520;--> | `Gray`<!--rehype:style=background: Gray;--> `#808080`<!--rehype:style=background: #808080;--> | `Grey`<!--rehype:style=background: Grey;--> `#808080`<!--rehype:style=background: #808080;--> |
-| `Green`<!--rehype:style=background: Green;--> `#008000`<!--rehype:style=background: #008000;--> | `GreenYellow`<!--rehype:style=background: GreenYellow;--> `#ADFF2F`<!--rehype:style=background: #ADFF2F;--> | `HoneyDew`<!--rehype:style=background: HoneyDew;--> `#F0FFF0`<!--rehype:style=background: #F0FFF0;--> | `HotPink`<!--rehype:style=background: HotPink;--> `#FF69B4`<!--rehype:style=background: #FF69B4;--> | `IndianRed <!--rehype:style=background: IndianRed;-->` `#CD5C5C`<!--rehype:style=background: #CD5C5C;--> |
-| `Indigo` <!--rehype:style=background: Indigo;--> `#4B0082`<!--rehype:style=background: #4B0082;--> | `Ivory`<!--rehype:style=background: Ivory;--> `#FFFFF0`<!--rehype:style=background: #FFFFF0;--> | `Khaki`<!--rehype:style=background: Khaki;--> `#F0E68C`<!--rehype:style=background: #F0E68C;--> | `Lavender`<!--rehype:style=background: Lavender;--> `#E6E6FA`<!--rehype:style=background: #E6E6FA;--> | `LavenderBlush`<!--rehype:style=background: LavenderBlush;--> `#FFF0F5`<!--rehype:style=background: #FFF0F5;--> |
-| `LawnGreen`<!--rehype:style=background: LawnGreen;--> `#7CFC00`<!--rehype:style=background: #7CFC00;--> | `LemonChiffon`<!--rehype:style=background: LemonChiffon;--> `#FFFACD`<!--rehype:style=background: #FFFACD;--> | `LightBlue`<!--rehype:style=background: LightBlue;--> `#ADD8E6`<!--rehype:style=background: #ADD8E6;--> | `LightCoral`<!--rehype:style=background: LightCoral;--> `#F08080`<!--rehype:style=background: #F08080;--> | `LightCyan`<!--rehype:style=background: LightCyan;--> `#E0FFFF`<!--rehype:style=background: #E0FFFF;--> |
-| `LightGoldenRodYellow`<!--rehype:style=background: LightGoldenRodYellow;--> `#FAFAD2`<!--rehype:style=background: #FAFAD2;--> | `LightGray`<!--rehype:style=background: LightGray;--> `#D3D3D3`<!--rehype:style=background: #D3D3D3;--> | `LightGrey`<!--rehype:style=background: LightGrey;--> `#D3D3D3`<!--rehype:style=background: #D3D3D3;--> | `LightGreen`<!--rehype:style=background: LightGreen;--> `#90EE90`<!--rehype:style=background: #90EE90;--> | `LightPink`<!--rehype:style=background: LightPink;--> `#FFB6C1`<!--rehype:style=background: #FFB6C1;--> |
-| `LightSalmon`<!--rehype:style=background: LightSalmon;--> `#FFA07A`<!--rehype:style=background: #FFA07A;--> | `LightSeaGreen`<!--rehype:style=background: LightSeaGreen;--> `#20B2AA`<!--rehype:style=background: #20B2AA;--> | `LightSkyBlue`<!--rehype:style=background: LightSkyBlue;--> `#87CEFA`<!--rehype:style=background: #87CEFA;--> | `LightSlateGray`<!--rehype:style=background: LightSlateGray;--> `#778899`<!--rehype:style=background: #778899;--> | `LightSlateGrey`<!--rehype:style=background: LightSlateGrey;--> `#778899`<!--rehype:style=background: #778899;--> |
-| `LightSteelBlue`<!--rehype:style=background: LightSteelBlue;--> `#B0C4DE`<!--rehype:style=background: #B0C4DE;--> | `LightYellow`<!--rehype:style=background: LightYellow;--> `#FFFFE0`<!--rehype:style=background: #FFFFE0;--> | `Lime`<!--rehype:style=background: Lime;--> `#00FF00`<!--rehype:style=background: #00FF00;--> | `LimeGreen`<!--rehype:style=background: LimeGreen;--> `#32CD32`<!--rehype:style=background: #32CD32;--> | `Linen`<!--rehype:style=background: Linen;--> `#FAF0E6`<!--rehype:style=background: #FAF0E6;--> |
-| `Magenta`<!--rehype:style=background: Magenta;--> `#FF00FF`<!--rehype:style=background: #FF00FF;--> | `Maroon`<!--rehype:style=background: Maroon;--> `#800000`<!--rehype:style=background: #800000;--> | `MediumAquaMarine`<!--rehype:style=background: MediumAquaMarine;--> `#66CDAA`<!--rehype:style=background: #66CDAA;--> | `MediumBlue`<!--rehype:style=background: MediumBlue;--> `#0000CD`<!--rehype:style=background: #0000CD;--> | `MediumOrchid`<!--rehype:style=background: MediumOrchid;--> `#BA55D3`<!--rehype:style=background: #BA55D3;--> |
-| `MediumPurple`<!--rehype:style=background: MediumPurple;--> `#9370DB`<!--rehype:style=background: #9370DB;--> | `MediumSeaGreen`<!--rehype:style=background: MediumSeaGreen;--> `#3CB371`<!--rehype:style=background: #3CB371;--> | `MediumSlateBlue`<!--rehype:style=background: MediumSlateBlue;--> `#7B68EE`<!--rehype:style=background: #7B68EE;--> | `MediumSpringGreen`<!--rehype:style=background: MediumSpringGreen;--> `#00FA9A`<!--rehype:style=background: #00FA9A;--> | `MediumTurquoise`<!--rehype:style=background: MediumTurquoise;--> `#48D1CC`<!--rehype:style=background: #48D1CC;--> |
-| `MediumVioletRed`<!--rehype:style=background: MediumVioletRed;--> `#C71585`<!--rehype:style=background: #C71585;--> | `MidnightBlue`<!--rehype:style=background: MidnightBlue;--> `#191970`<!--rehype:style=background: #191970;--> | `MintCream`<!--rehype:style=background: MintCream;--> `#F5FFFA`<!--rehype:style=background: #F5FFFA;--> | `MistyRose`<!--rehype:style=background: MistyRose;--> `#FFE4E1`<!--rehype:style=background: #FFE4E1;--> | `Moccasin`<!--rehype:style=background: Moccasin;--> `#FFE4B5`<!--rehype:style=background: #FFE4B5;--> |
-| `NavajoWhite`<!--rehype:style=background: NavajoWhite;--> `#FFDEAD`<!--rehype:style=background: #FFDEAD;--> | `Navy`<!--rehype:style=background: Navy;--> `#000080`<!--rehype:style=background: #000080;--> | `OldLace`<!--rehype:style=background: OldLace;--> `#FDF5E6`<!--rehype:style=background: #FDF5E6;--> | `Olive`<!--rehype:style=background: Olive;--> `#808000`<!--rehype:style=background: #808000;--> | `OliveDrab`<!--rehype:style=background: OliveDrab;--> `#6B8E23`<!--rehype:style=background: #6B8E23;--> |
-| `Orange`<!--rehype:style=background: Orange;--> `#FFA500`<!--rehype:style=background: #FFA500;--> | `OrangeRed`<!--rehype:style=background: OrangeRed;--> `#FF4500`<!--rehype:style=background: #FF4500;--> | `Orchid`<!--rehype:style=background: Orchid;--> `#DA70D6`<!--rehype:style=background: #DA70D6;--> | `PaleGoldenRod`<!--rehype:style=background: PaleGoldenRod;--> `#EEE8AA`<!--rehype:style=background: #EEE8AA;--> | `PaleGreen`<!--rehype:style=background: PaleGreen;--> `#98FB98`<!--rehype:style=background: #98FB98;--> |
-| `PaleTurquoise`<!--rehype:style=background: PaleTurquoise;--> `#AFEEEE`<!--rehype:style=background: #AFEEEE;--> | `PaleVioletRed`<!--rehype:style=background: PaleVioletRed;--> `#DB7093`<!--rehype:style=background: #DB7093;--> | `PapayaWhip`<!--rehype:style=background: PapayaWhip;--> `#FFEFD5`<!--rehype:style=background: #FFEFD5;--> | `PeachPuff`<!--rehype:style=background: PeachPuff;--> `#FFDAB9`<!--rehype:style=background: #FFDAB9;--> | `Peru`<!--rehype:style=background: Peru;--> `#CD853F`<!--rehype:style=background: #CD853F;--> |
-| `Pink`<!--rehype:style=background: Pink;--> `#FFC0CB`<!--rehype:style=background: #FFC0CB;--> | `Plum`<!--rehype:style=background: Plum;--> `#DDA0DD`<!--rehype:style=background: #DDA0DD;--> | `PowderBlue`<!--rehype:style=background: PowderBlue;--> `#B0E0E6`<!--rehype:style=background: #B0E0E6;--> | `Purple`<!--rehype:style=background: Purple;--> `#800080`<!--rehype:style=background: #800080;--> | `RebeccaPurple`<!--rehype:style=background: RebeccaPurple;--> `#663399`<!--rehype:style=background: #663399;--> |
-| `Red`<!--rehype:style=background: Red;--> `#FF0000`<!--rehype:style=background: #FF0000;--> | `RosyBrown`<!--rehype:style=background: RosyBrown;--> `#BC8F8F`<!--rehype:style=background: #BC8F8F;--> | `RoyalBlue`<!--rehype:style=background: RoyalBlue;--> `#4169E1`<!--rehype:style=background: #4169E1;--> | `SaddleBrown`<!--rehype:style=background: SaddleBrown;--> `#8B4513`<!--rehype:style=background: #8B4513;--> | `Salmon`<!--rehype:style=background: Salmon;--> `#FA8072`<!--rehype:style=background: #FA8072;--> |
-| `SandyBrown`<!--rehype:style=background: SandyBrown;--> `#F4A460`<!--rehype:style=background: #F4A460;--> | `SeaGreen`<!--rehype:style=background: SeaGreen;--> `#2E8B57`<!--rehype:style=background: #2E8B57;--> | `SeaShell`<!--rehype:style=background: SeaShell;--> `#FFF5EE`<!--rehype:style=background: #FFF5EE;--> | `Sienna`<!--rehype:style=background: Sienna;--> `#A0522D`<!--rehype:style=background: #A0522D;--> | `Silver`<!--rehype:style=background: Silver;--> `#C0C0C0`<!--rehype:style=background: #C0C0C0;--> |
-| `SkyBlue`<!--rehype:style=background: SkyBlue;--> `#87CEEB`<!--rehype:style=background: #87CEEB;--> | `SlateBlue`<!--rehype:style=background: SlateBlue;--> `#6A5ACD`<!--rehype:style=background: #6A5ACD;--> | `SlateGray`<!--rehype:style=background: SlateGray;--> `#708090`<!--rehype:style=background: #708090;--> | `SlateGrey`<!--rehype:style=background: SlateGrey;--> `#708090`<!--rehype:style=background: #708090;--> | `Snow`<!--rehype:style=background: Snow;--> `#FFFAFA`<!--rehype:style=background: #FFFAFA;--> |
-| `SpringGreen`<!--rehype:style=background: SpringGreen;--> `#00FF7F`<!--rehype:style=background: #00FF7F;--> | `SteelBlue`<!--rehype:style=background: SteelBlue;--> `#4682B4`<!--rehype:style=background: #4682B4;--> | `Tan`<!--rehype:style=background: Tan;--> `#D2B48C`<!--rehype:style=background: #D2B48C;--> | `Teal`<!--rehype:style=background: Teal;--> `#008080`<!--rehype:style=background: #008080;--> | `Thistle`<!--rehype:style=background: Thistle;--> `#D8BFD8`<!--rehype:style=background: #D8BFD8;--> |
-| `Tomato`<!--rehype:style=background: Tomato;--> `#FF6347`<!--rehype:style=background: #FF6347;--> | `Turquoise`<!--rehype:style=background: Turquoise;--> `#40E0D0`<!--rehype:style=background: #40E0D0;--> | `Violet`<!--rehype:style=background: Violet;--> `#EE82EE`<!--rehype:style=background: #EE82EE;--> | `Wheat`<!--rehype:style=background: Wheat;--> `#F5DEB3`<!--rehype:style=background: #F5DEB3;--> | `White`<!--rehype:style=background: White;--> `#FFFFFF`<!--rehype:style=background: #FFFFFF;--> |
-| `WhiteSmoke`<!--rehype:style=background: WhiteSmoke;--> `#F5F5F5`<!--rehype:style=background: #F5F5F5;--> | `Yellow`<!--rehype:style=background: Yellow;--> `#FFFF00`<!--rehype:style=background: #FFFF00;--> | `YellowGreen`<!--rehype:style=background: YellowGreen;--> `#9ACD32`<!--rehype:style=background: #9ACD32;--> | - |
+|  |  |
+| ---- | ---- |
+| AliceBlue | _#F0F8FF_<!--rehype:style=background: #F0F8FF; display: block; padding: 8px 10px--> |
+| AntiqueWhite | _#FAEBD7_<!--rehype:style=background: #FAEBD7; display: block; padding: 8px 10px--> |
+| Aqua | _#00FFFF_<!--rehype:style=background: #00FFFF; display: block; padding: 8px 10px--> |
+| Aquamarine | _#7FFFD4_<!--rehype:style=background: #7FFFD4; display: block; padding: 8px 10px--> |
+| Azure | _#F0FFFF_<!--rehype:style=background: #F0FFFF; display: block;padding: 8px 10px--> |
+| Beige | _#F5F5DC_<!--rehype:style=background: #F5F5DC; display: block;padding: 8px 10px--> |
+| Bisque | _#FFE4C4_<!--rehype:style=background: #FFE4C4; display: block;padding: 8px 10px--> |
+| Black | _#000000_<!--rehype:style=background: #000000; display: block;padding: 8px 10px--> |
+| BlanchedAlmond | _#FFEBCD_<!--rehype:style=background: #FFEBCD; display: block;padding: 8px 10px--> |
+| Blue | _#0000FF_<!--rehype:style=background: #0000FF; display: block;padding: 8px 10px--> |
+| BlueViolet | _#8A2BE2_<!--rehype:style=background: #8A2BE2; display: block;padding: 8px 10px--> |
+| Brown | _#A52A2A_<!--rehype:style=background: #A52A2A; display: block;padding: 8px 10px--> |
+| BurlyWood | _#DEB887_<!--rehype:style=background: #DEB887; display: block;padding: 8px 10px--> |
+| CadetBlue | _#5F9EA0_<!--rehype:style=background: #5F9EA0; display: block;padding: 8px 10px--> |
+| Chartreuse | _#7FFF00_<!--rehype:style=background: #7FFF00; display: block;padding: 8px 10px--> |
+| Chocolate | _#D2691E_<!--rehype:style=background: #D2691E; display: block;padding: 8px 10px--> |
+| Coral | _#FF7F50_<!--rehype:style=background: #FF7F50; display: block;padding: 8px 10px--> |
+| CornflowerBlue | _#6495ED_<!--rehype:style=background: #6495ED; display: block;padding: 8px 10px--> |
+| Cornsilk | _#FFF8DC_<!--rehype:style=background: #FFF8DC; display: block;padding: 8px 10px--> |
+| Crimson | _#DC143C_<!--rehype:style=background: #DC143C; display: block;padding: 8px 10px--> |
+| Cyan | _#00FFFF_<!--rehype:style=background: #00FFFF; display: block;padding: 8px 10px--> |
+| DarkBlue | _#00008B_<!--rehype:style=background: #00008B; display: block;padding: 8px 10px--> |
+| DarkCyan | _#008B8B_<!--rehype:style=background: #008B8B; display: block;padding: 8px 10px--> |
+| DarkGoldenRod | _#B8860B_<!--rehype:style=background: #B8860B; display: block;padding: 8px 10px--> |
+| DarkGray | _#A9A9A9_<!--rehype:style=background: #A9A9A9; display: block;padding: 8px 10px--> |
+| DarkGrey | _#A9A9A9_<!--rehype:style=background: #A9A9A9; display: block;padding: 8px 10px--> |
+| DarkGreen | _#006400_<!--rehype:style=background: #006400; display: block;padding: 8px 10px--> |
+| DarkKhaki | _#BDB76B_<!--rehype:style=background: #BDB76B; display: block;padding: 8px 10px--> |
+| DarkMagenta | _#8B008B_<!--rehype:style=background: #8B008B; display: block;padding: 8px 10px--> |
+| DarkOliveGreen | _#556B2F_<!--rehype:style=background: #556B2F; display: block;padding: 8px 10px--> |
+| DarkOrange | _#FF8C00_<!--rehype:style=background: #FF8C00; display: block;padding: 8px 10px--> |
+| DarkOrchid | _#9932CC_<!--rehype:style=background: #9932CC; display: block;padding: 8px 10px--> |
+| DarkRed | _#8B0000_<!--rehype:style=background: #8B0000; display: block;padding: 8px 10px--> |
+| DarkSalmon | _#E9967A_<!--rehype:style=background: #E9967A; display: block;padding: 8px 10px--> |
+| DarkSeaGreen | _#8FBC8F_<!--rehype:style=background: #8FBC8F; display: block;padding: 8px 10px--> |
+| DarkSlateBlue | _#483D8B_<!--rehype:style=background: #483D8B; display: block;padding: 8px 10px--> |
+| DarkSlateGray | _#2F4F4F_<!--rehype:style=background: #2F4F4F; display: block;padding: 8px 10px--> |
+| DarkSlateGrey | _#2F4F4F_<!--rehype:style=background: #2F4F4F; display: block;padding: 8px 10px--> |
+| DarkTurquoise | _#00CED1_<!--rehype:style=background: #00CED1; display: block;padding: 8px 10px--> |
+| DarkViolet | _#9400D3_<!--rehype:style=background: #9400D3; display: block;padding: 8px 10px--> |
+| DeepPink | _#FF1493_<!--rehype:style=background: #FF1493; display: block;padding: 8px 10px--> |
+| DeepSkyBlue | _#00BFFF_<!--rehype:style=background: #00BFFF; display: block;padding: 8px 10px--> |
+| DimGray | _#696969_<!--rehype:style=background: #696969; display: block;padding: 8px 10px--> |
+| DimGrey | _#696969_<!--rehype:style=background: #696969; display: block;padding: 8px 10px--> |
+| DodgerBlue | _#1E90FF_<!--rehype:style=background: #1E90FF; display: block;padding: 8px 10px--> |
+| FireBrick | _#B22222_<!--rehype:style=background: #B22222; display: block;padding: 8px 10px--> |
+| FloralWhite | _#FFFAF0_<!--rehype:style=background: #FFFAF0; display: block;padding: 8px 10px--> |
+| ForestGreen | _#228B22_<!--rehype:style=background: #228B22; display: block;padding: 8px 10px--> |
+| Fuchsia | _#FF00FF_<!--rehype:style=background: #FF00FF; display: block;padding: 8px 10px--> |
+| Gainsboro | _#DCDCDC_<!--rehype:style=background: #DCDCDC; display: block;padding: 8px 10px--> |
+| GhostWhite | _#F8F8FF_<!--rehype:style=background: #F8F8FF; display: block;padding: 8px 10px--> |
+| Gold | _#FFD700_<!--rehype:style=background: #FFD700; display: block;padding: 8px 10px--> |
+| GoldenRod | _#DAA520_<!--rehype:style=background: #DAA520; display: block;padding: 8px 10px--> |
+| Gray | _#808080_<!--rehype:style=background: #808080; display: block;padding: 8px 10px--> |
+| Grey | _#808080_<!--rehype:style=background: #808080; display: block;padding: 8px 10px--> |
+| Green | _#008000_<!--rehype:style=background: #008000; display: block;padding: 8px 10px--> |
+| GreenYellow | _#ADFF2F_<!--rehype:style=background: #ADFF2F; display: block;padding: 8px 10px--> |
+| HoneyDew | _#F0FFF0_<!--rehype:style=background: #F0FFF0; display: block;padding: 8px 10px--> |
+| HotPink | _#FF69B4_<!--rehype:style=background: #FF69B4; display: block;padding: 8px 10px--> |
+| IndianRed | _#CD5C5C_<!--rehype:style=background: #CD5C5C; display: block;padding: 8px 10px--> |
+| Indigo | _#4B0082_<!--rehype:style=background: #4B0082; display: block;padding: 8px 10px--> |
+| Ivory | _#FFFFF0_<!--rehype:style=background: #FFFFF0; display: block;padding: 8px 10px--> |
+| Khaki | _#F0E68C_<!--rehype:style=background: #F0E68C; display: block;padding: 8px 10px--> |
+| Lavender | _#E6E6FA_<!--rehype:style=background: #E6E6FA; display: block;padding: 8px 10px--> |
+| LavenderBlush | _#FFF0F5_<!--rehype:style=background: #FFF0F5; display: block;padding: 8px 10px--> |
+| LawnGreen | _#7CFC00_<!--rehype:style=background: #7CFC00; display: block;padding: 8px 10px--> |
+| LemonChiffon | _#FFFACD_<!--rehype:style=background: #FFFACD; display: block;padding: 8px 10px--> |
+| LightBlue | _#ADD8E6_<!--rehype:style=background: #ADD8E6; display: block;padding: 8px 10px--> |
+| LightCoral | _#F08080_<!--rehype:style=background: #F08080; display: block;padding: 8px 10px--> |
+| LightCyan | _#E0FFFF_<!--rehype:style=background: #E0FFFF; display: block;padding: 8px 10px--> |
+| LightGoldenRodYellow | _#FAFAD2_<!--rehype:style=background: #FAFAD2; display: block;padding: 8px 10px--> |
+| LightGray | _#D3D3D3_<!--rehype:style=background: #D3D3D3; display: block;padding: 8px 10px--> |
+| LightGrey | _#D3D3D3_<!--rehype:style=background: #D3D3D3; display: block;padding: 8px 10px--> |
+| LightGreen | _#90EE90_<!--rehype:style=background: #90EE90; display: block;padding: 8px 10px--> |
+| LightPink | _#FFB6C1_<!--rehype:style=background: #FFB6C1; display: block;padding: 8px 10px--> |
+| LightSalmon | _#FFA07A_<!--rehype:style=background: #FFA07A; display: block;padding: 8px 10px--> |
+| LightSeaGreen | _#20B2AA_<!--rehype:style=background: #20B2AA; display: block;padding: 8px 10px--> |
+| LightSkyBlue | _#87CEFA_<!--rehype:style=background: #87CEFA; display: block;padding: 8px 10px--> |
+| LightSlateGray | _#778899_<!--rehype:style=background: #778899; display: block;padding: 8px 10px--> |
+| LightSlateGrey | _#778899_<!--rehype:style=background: #778899; display: block;padding: 8px 10px--> |
+| LightSteelBlue | _#B0C4DE_<!--rehype:style=background: #B0C4DE; display: block;padding: 8px 10px--> |
+| LightYellow | _#FFFFE0_<!--rehype:style=background: #FFFFE0; display: block;padding: 8px 10px--> |
+| Lime | _#00FF00_<!--rehype:style=background: #00FF00; display: block;padding: 8px 10px--> |
+| LimeGreen | _#32CD32_<!--rehype:style=background: #32CD32; display: block;padding: 8px 10px--> |
+| Linen | _#FAF0E6_<!--rehype:style=background: #FAF0E6; display: block;padding: 8px 10px--> |
+| Magenta | _#FF00FF_<!--rehype:style=background: #FF00FF; display: block;padding: 8px 10px--> |
+| Maroon | _#800000_<!--rehype:style=background: #800000; display: block;padding: 8px 10px--> |
+| MediumAquaMarine | _#66CDAA_<!--rehype:style=background: #66CDAA; display: block;padding: 8px 10px--> |
+| MediumBlue | _#0000CD_<!--rehype:style=background: #0000CD; display: block;padding: 8px 10px--> |
+| MediumOrchid | _#BA55D3_<!--rehype:style=background: #BA55D3; display: block;padding: 8px 10px--> |
+| MediumPurple | _#9370DB_<!--rehype:style=background: #9370DB; display: block;padding: 8px 10px--> |
+| MediumSeaGreen | _#3CB371_<!--rehype:style=background: #3CB371; display: block;padding: 8px 10px--> |
+| MediumSlateBlue | _#7B68EE_<!--rehype:style=background: #7B68EE; display: block;padding: 8px 10px--> |
+| MediumSpringGreen | _#00FA9A_<!--rehype:style=background: #00FA9A; display: block;padding: 8px 10px--> |
+| MediumTurquoise | _#48D1CC_<!--rehype:style=background: #48D1CC; display: block;padding: 8px 10px--> |
+| MediumVioletRed | _#C71585_<!--rehype:style=background: #C71585; display: block;padding: 8px 10px--> |
+| MidnightBlue | _#191970_<!--rehype:style=background: #191970; display: block;padding: 8px 10px--> |
+| MintCream | _#F5FFFA_<!--rehype:style=background: #F5FFFA; display: block;padding: 8px 10px--> |
+| MistyRose | _#FFE4E1_<!--rehype:style=background: #FFE4E1; display: block;padding: 8px 10px--> |
+| Moccasin | _#FFE4B5_<!--rehype:style=background: #FFE4B5; display: block;padding: 8px 10px--> |
+| NavajoWhite | _#FFDEAD_<!--rehype:style=background: #FFDEAD; display: block;padding: 8px 10px--> |
+| Navy | _#000080_<!--rehype:style=background: #000080; display: block;padding: 8px 10px--> |
+| OldLace | _#FDF5E6_<!--rehype:style=background: #FDF5E6; display: block;padding: 8px 10px--> |
+| Olive | _#808000_<!--rehype:style=background: #808000; display: block;padding: 8px 10px--> |
+| OliveDrab | _#6B8E23_<!--rehype:style=background: #6B8E23; display: block;padding: 8px 10px--> |
+| Orange | _#FFA500_<!--rehype:style=background: #FFA500; display: block;padding: 8px 10px--> |
+| OrangeRed | _#FF4500_<!--rehype:style=background: #FF4500; display: block;padding: 8px 10px--> |
+| Orchid | _#DA70D6_<!--rehype:style=background: #DA70D6; display: block;padding: 8px 10px--> |
+| PaleGoldenRod | _#EEE8AA_<!--rehype:style=background: #EEE8AA; display: block;padding: 8px 10px--> |
+| PaleGreen | _#98FB98_<!--rehype:style=background: #98FB98; display: block;padding: 8px 10px--> |
+| PaleTurquoise | _#AFEEEE_<!--rehype:style=background: #AFEEEE; display: block;padding: 8px 10px--> |
+| PaleVioletRed | _#DB7093_<!--rehype:style=background: #DB7093; display: block;padding: 8px 10px--> |
+| PapayaWhip | _#FFEFD5_<!--rehype:style=background: #FFEFD5; display: block;padding: 8px 10px--> |
+| PeachPuff | _#FFDAB9_<!--rehype:style=background: #FFDAB9; display: block;padding: 8px 10px--> |
+| Peru | _#CD853F_<!--rehype:style=background: #CD853F; display: block;padding: 8px 10px--> |
+| Pink | _#FFC0CB_<!--rehype:style=background: #FFC0CB; display: block;padding: 8px 10px--> |
+| Plum | _#DDA0DD_<!--rehype:style=background: #DDA0DD; display: block;padding: 8px 10px--> |
+| PowderBlue | _#B0E0E6_<!--rehype:style=background: #B0E0E6; display: block;padding: 8px 10px--> |
+| Purple | _#800080_<!--rehype:style=background: #800080; display: block;padding: 8px 10px--> |
+| RebeccaPurple | _#663399_<!--rehype:style=background: #663399; display: block;padding: 8px 10px--> |
+| Red | _#FF0000_<!--rehype:style=background: #FF0000; display: block;padding: 8px 10px--> |
+| RosyBrown | _#BC8F8F_<!--rehype:style=background: #BC8F8F; display: block;padding: 8px 10px--> |
+| RoyalBlue | _#4169E1_<!--rehype:style=background: #4169E1; display: block;padding: 8px 10px--> |
+| SaddleBrown | _#8B4513_<!--rehype:style=background: #8B4513; display: block;padding: 8px 10px--> |
+| Salmon | _#FA8072_<!--rehype:style=background: #FA8072; display: block;padding: 8px 10px--> |
+| SandyBrown | _#F4A460_<!--rehype:style=background: #F4A460; display: block;padding: 8px 10px--> |
+| SeaGreen | _#2E8B57_<!--rehype:style=background: #2E8B57; display: block;padding: 8px 10px--> |
+| SeaShell | _#FFF5EE_<!--rehype:style=background: #FFF5EE; display: block;padding: 8px 10px--> |
+| Sienna | _#A0522D_<!--rehype:style=background: #A0522D; display: block;padding: 8px 10px--> |
+| Silver | _#C0C0C0_<!--rehype:style=background: #C0C0C0; display: block;padding: 8px 10px--> |
+| SkyBlue | _#87CEEB_<!--rehype:style=background: #87CEEB; display: block;padding: 8px 10px--> |
+| SlateBlue | _#6A5ACD_<!--rehype:style=background: #6A5ACD; display: block;padding: 8px 10px--> |
+| SlateGray | _#708090_<!--rehype:style=background: #708090; display: block;padding: 8px 10px--> |
+| SlateGrey | _#708090_<!--rehype:style=background: #708090; display: block;padding: 8px 10px--> |
+| Snow | _#FFFAFA_<!--rehype:style=background: #FFFAFA; display: block;padding: 8px 10px--> |
+| SpringGreen | _#00FF7F_<!--rehype:style=background: #00FF7F; display: block;padding: 8px 10px--> |
+| SteelBlue | _#4682B4_<!--rehype:style=background: #4682B4; display: block;padding: 8px 10px--> |
+| Tan | _#D2B48C_<!--rehype:style=background: #D2B48C; display: block;padding: 8px 10px--> |
+| Teal | _#008080_<!--rehype:style=background: #008080; display: block;padding: 8px 10px--> |
+| Thistle | _#D8BFD8_<!--rehype:style=background: #D8BFD8; display: block;padding: 8px 10px--> |
+| Tomato | _#FF6347_<!--rehype:style=background: #FF6347; display: block;padding: 8px 10px--> |
+| Turquoise | _#40E0D0_<!--rehype:style=background: #40E0D0; display: block;padding: 8px 10px--> |
+| Violet | _#EE82EE_<!--rehype:style=background: #EE82EE; display: block;padding: 8px 10px--> |
+| Wheat | _#F5DEB3_<!--rehype:style=background: #F5DEB3; display: block;padding: 8px 10px--> |
+| White | _#FFFFFF_<!--rehype:style=background: #FFFFFF; display: block;padding: 8px 10px--> |
+| WhiteSmoke | _#F5F5F5_<!--rehype:style=background: #F5F5F5; display: block;padding: 8px 10px--> |
+| Yellow | _#FFFF00_<!--rehype:style=background: #FFFF00; display: block;padding: 8px 10px--> |
+| YellowGreen | _#9ACD32_<!--rehype:style=background: #9ACD32; display: block;padding: 8px 10px--> |
+<!--rehype:style=width: 100%; display: inline-table;-->

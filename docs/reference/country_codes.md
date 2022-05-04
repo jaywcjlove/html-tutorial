@@ -257,3 +257,4 @@ HTML ISO 国家/地区代码参考
 | YEMEN | YE |
 | ZAMBIA | ZM |
 | ZIMBABWE | ZW |
+<!--rehype:style=width: 100%; display: inline-table;-->

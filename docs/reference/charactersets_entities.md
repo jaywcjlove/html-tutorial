@@ -169,6 +169,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ϒ    | \&upsih;    | \&#978; | \&#x3D2; | Greek upsilon with hook symbol                                        |
 |      |             |         |          | (not used)                                                            |
 | ϖ    | \&piv;      | \&#982; | \&#x3D6; | Greek pi symbol                                                       |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 特殊符号
 
@@ -246,6 +247,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ♣    | \&clubs;   | \&#9827; | \&#x2663; | black club suit = shamrock                              |
 | ♥    | \&hearts;  | \&#9829; | \&#x2665; | black heart suit = valentine                            |
 | ♦    | \&diams;   | \&#9830; | \&#x2666; | black diamond suit                                      |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## HTML 5 实体参考
 
@@ -333,6 +335,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ä         | auml          | 000E4         | 228    |
 | ∳         | awconint      | 02233         | 8755   |
 | ⨑         | awint         | 02A11         | 10769  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 B 开头
 
@@ -461,6 +464,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ≏         | bumpe              | 0224F       | 8783   |
 | ≎         | Bumpeq             | 0224E       | 8782   |
 | ≏         | bumpeq             | 0224F       | 8783   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 C 开头
 
@@ -593,6 +597,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ∲         | cwconint                 | 02232         | 8754   |
 | ∱         | cwint                    | 02231         | 8753   |
 | ⌭         | cylcty                   | 0232D         | 9005   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 D 开头
 
@@ -716,6 +721,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | Џ         | DZcy                     | 0040F | 1039   |
 | џ         | dzcy                     | 0045F | 1119   |
 | ⟿         | dzigrarr                 | 027FF | 10239  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 E 开头
 
@@ -809,6 +815,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ℰ         | expectation          | 02130 | 8496   |
 | ⅇ         | ExponentialE         | 02147 | 8519   |
 | ⅇ         | exponentiale         | 02147 | 8519   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 F 开头
 
@@ -858,6 +865,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ⌢         | frown                 | 02322         | 8994   |
 | ℱ         | Fscr                  | 02131         | 8497   |
 | 𝒻        | fscr                  | 1D4BB         | 119995 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 G 开头
 
@@ -942,6 +950,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ≳         | gtrsim            | 02273         | 8819   |
 | ≩︀        | gvertneqq         | 02269 + 0FE00 | 8809   |
 | ≩︀        | gvnE              | 02269 + 0FE00 | 8809   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 H 开头
 
@@ -987,6 +996,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ≏         | HumpEqual      | 0224F | 8783   |
 | ⁃         | hybull         | 02043 | 8259   |
 | ‐         | hyphen         | 02010 | 8208   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 I 开头
 
@@ -1067,6 +1077,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | і         | iukcy          | 00456 | 1110   |
 | Ï         | Iuml           | 000CF | 207    |
 | ï         | iuml           | 000EF | 239    |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 J 开头
 
@@ -1087,6 +1098,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ј         | jsercy      | 00458 | 1112   |
 | Є         | Jukcy       | 00404 | 1028   |
 | є         | jukcy       | 00454 | 1108   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 K 开头
 
@@ -1110,6 +1122,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | 𝕜        | kopf        | 1D55C | 120156 |
 | 𝒦        | Kscr        | 1D4A6 | 119974 |
 | 𝓀        | kscr        | 1D4C0 | 120000 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 L 开头
 
@@ -1325,6 +1338,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ⥦         | luruhar             | 02966         | 10598  |
 | ≨︀        | lvertneqq           | 02268 + 0FE00 | 8808   |
 | ≨︀        | lvnE                | 02268 + 0FE00 | 8808   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 M 开头
 
@@ -1376,6 +1390,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | μ         | mu            | 003BC | 956    |
 | ⊸         | multimap      | 022B8 | 8888   |
 | ⊸         | mumap         | 022B8 | 8888   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 N 开头
 
@@ -1613,6 +1628,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ↖         | nwarr                   | 02196         | 8598   |
 | ↖         | nwarrow                 | 02196         | 8598   |
 | ⤧         | nwnear                  | 02927         | 10535  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 O 开头
 
@@ -1694,6 +1710,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ⏞         | OverBrace            | 023DE | 9182   |
 | ⎴         | OverBracket          | 023B4 | 9140   |
 | ⏜         | OverParenthesis      | 023DC | 9180   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 P 开头
 
@@ -1783,6 +1800,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | Ψ         | Psi                | 003A8 | 936    |
 | ψ         | psi                | 003C8 | 968    |
 |           | puncsp             | 02008 | 8200   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 Q 开头
 
@@ -1801,6 +1819,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ?         | quest       | 0003F | 63     |
 | ≟         | questeq     | 0225F | 8799   |
 | "         | quot        | 00022 | 34     |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 R 开头
 
@@ -1951,6 +1970,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ⧴         | RuleDelayed          | 029F4         | 10740  |
 | ⥨         | ruluhar              | 02968         | 10600  |
 | ℞         | rx                   | 0211E         | 8478   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 S 开头
 
@@ -2148,6 +2168,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ↙         | swarrow             | 02199         | 8601   |
 | ⤪         | swnwar              | 0292A         | 10538  |
 | ß         | szlig               | 000DF         | 223    |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 T 开头
 
@@ -2231,6 +2252,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ≬         | twixt             | 0226C         | 8812   |
 | ↞         | twoheadleftarrow  | 0219E         | 8606   |
 | ↠         | twoheadrightarrow | 021A0         | 8608   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 U 开头
 
@@ -2319,6 +2341,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | Ü         | Uuml             | 000DC | 220    |
 | ü         | uuml             | 000FC | 252    |
 | ⦧         | uwangle          | 029A7 | 10663  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 V 开头
 
@@ -2383,6 +2406,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ⊋︀        | vsupne            | 0228B + 0FE00 |        |
 | ⊪         | Vvdash            | 022AA         | 8874   |
 | ⦚         | vzigzag           | 0299A         | 10650  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 W 开头
 
@@ -2404,6 +2428,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ≀         | wreath      | 02240 | 8768   |
 | 𝒲        | Wscr        | 1D4B2 | 119986 |
 | 𝓌        | wscr        | 1D4CC | 120012 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 X 开头
 
@@ -2437,6 +2462,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | △         | xutri       | 025B3 | 9651   |
 | ⋁         | xvee        | 022C1 | 8897   |
 | ⋀         | xwedge      | 022C0 | 8896   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 Y 开头
 
@@ -2463,6 +2489,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | ю         | yucy        | 0044E | 1102   |
 | Ÿ         | Yuml        | 00178 | 376    |
 | ÿ         | yuml        | 000FF | 255    |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 字母 Z 开头
 
@@ -2491,6 +2518,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集！情况并非总是�
 | 𝓏        | zscr           | 1D4CF | 120015 |
 | ‍         | zwj            | 0200D | 8205   |
 | ‌         | zwnj           | 0200C | 8204   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 制表符
 

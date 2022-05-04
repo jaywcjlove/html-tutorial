@@ -20,6 +20,7 @@ The <abbr title="People's Republic of China">PRC</abbr> was founded in 1949.
 | 元素 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __&lt;acronym&gt;__ | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 所有主流的浏览器均支持 `<acronym>` 标签。
 

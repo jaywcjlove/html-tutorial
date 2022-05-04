@@ -22,6 +22,7 @@
 | 剪切文本 `Cut text` | Ctrl + X | Cmd + X |
 | 重做文本 `Redo text` | Ctrl + Y | Shift + Cmd + Z  |
 | 撤销文本 `Undo text` | Ctrl + Z | Cmd + Z |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 文字编辑
 
@@ -43,6 +44,7 @@
 | 转到下一个单词的开头 | Ctrl + Right Arrow | Option + Right Arrow |
 | 转到换行开始 | Ctrl + Up Arrow | Cmd + Left Arrow |
 | 转到换行末尾 | Ctrl + Down Arrow | Cmd + Right Arrow |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 文本选取
 
@@ -64,6 +66,7 @@
 | 一次选择光标以下的文本的一帧 | Shift + Page Down | Shift + Fn + Down Arrow |
 | 选择所有文本 | Ctrl + A | Cmd + A |
 | 查找文本 | Ctrl + F | Cmd + F |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 文本格式化
 
@@ -74,6 +77,7 @@
 | 为所选文字添加下划线 | Ctrl + U | Cmd + U |
 | 使所选文字成为上标 | Ctrl + Shift + = | Cmd + Shift + = |
 | 使所选文字成为下标 | Ctrl + = | Cmd + = |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 文本编辑
 
@@ -91,6 +95,7 @@
 | 剪切文本 | Ctrl + X | Cmd + X |
 | 重制文本 | Ctrl + Y | Shift + Cmd + Z  |
 | 撤销文本 | Ctrl + Z | Cmd + Z |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## Web 浏览器
 
@@ -113,6 +118,7 @@
 | 放大 100%（默认） | Ctrl + 0 | Cmd + 0 |
 | 打开首页 | Alt + Home | `Option + Home` 或 `Option + Fn + Left Arrow` |
 | 查找文本 | Ctrl + F | Cmd + F |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 标签页/窗口管理
 
@@ -136,6 +142,7 @@
 | 在前台的新标签页中打开链接 | Ctrl + Shift + Click | Cmd + Shift + Click |
 | 打印当前网页 | Ctrl + P | Cmd + P |
 | 保存当前网页 | Ctrl + S | Cmd + S |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 地址栏
 
@@ -147,6 +154,7 @@
 | 在新标签页中打开地址栏的位置 | Alt + Enter | Opt + Enter |
 | 显示以前输入的地址的列表 | F4 | |
 | 地址栏中键入的文本的开头添加 "www." 结尾处添加 ".com"（例如，键入 "google"，然后按 Ctrl + Enter 打开 "www.google.com"）| Ctrl + Enter | `Cmd + Enter` Or `Control + Enter` |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 书签
 
@@ -156,6 +164,7 @@
 | 为当前页面添加书签 | Ctrl + D` | `Cmd + Opt + B` or `Cmd + Shift + B` |
 | 打开浏览记录 | Ctrl + H | `Cmd + Shift + H` or `Cmd + Y` |
 | 打开下载记录 | Ctrl + J | `Cmd + J` or `Cmd + Shift + J` |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 屏幕截图
 
@@ -167,3 +176,4 @@
 | 将窗口的屏幕截图复制到剪贴板 | Alt + PrtScr | Cmd + Ctrl + Shift + 4，然后空格 |
 | 将所需区域的屏幕截图复制到剪贴板 | | Cmd + Ctrl + Shift + 4 |
 | 将所需区域的屏幕截图保存为文件 | | Cmd + Shift + 4 |
+<!--rehype:style=width: 100%; display: inline-table;-->

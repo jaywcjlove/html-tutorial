@@ -173,6 +173,7 @@ HTML 属性参考
 | [value](../attribute/value.md) | [\<button>](../tags/button.md), [\<input>](../tags/input.md), [\<li>](../tags/li.md), [\<option>](../tags/option.md), [\<meter>](../tags/meter.md), [\<progress>](../tags/progress.md), [\<param>](../tags/param.md) | 指定元素的值 |
 | [width](../attribute/width.md) | [\<canvas>](../tags/canvas.md), [\<embed>](../tags/embed.md), [\<iframe>](../tags/iframe.md), [\<img>](../tags/img.md), [\<input>](../tags/input.md), [\<object>](../tags/object.md), [\<video>](../tags/video.md) | 指定元素的宽度 |
 | [wrap](../attribute/wrap.md) | [\<textarea>](../tags/textarea.md) | 指定在表单中提交时如何包装文本区域中的文本 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 

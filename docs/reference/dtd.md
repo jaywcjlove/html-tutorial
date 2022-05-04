@@ -147,3 +147,4 @@ HTML `<!DOCTYPE>`
 | [&lt;var&gt;](../tags/var.md) |Yes | Yes | Yes |
 | [&lt;video&gt;](../tags/video.md) |Yes | ❌ | ❌ |
 | [&lt;wbr&gt;](../tags/wbr.md) |Yes | ❌ | ❌ |
+<!--rehype:style=width: 100%; display: inline-table;-->

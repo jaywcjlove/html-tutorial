@@ -17,6 +17,7 @@ HTML 标签参考 (分类)
 | [\<br>](../tags/br.md) | 定义单个换行符 |
 | [\<hr>](../tags/hr.md) | 定义水平线。 |
 | [\<!--...-->](../tags/comment.md) | 定义注释 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 格式化
 
@@ -60,6 +61,7 @@ HTML 标签参考 (分类)
 | [\<u>](../tags/u.md) | 定义下划线文本 |
 | [\<var>](../tags/var.md) | 定义一个变量 |
 | [\<wbr>](../tags/wbr.md) | 定义可能的换行符 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 表单和输入
 
@@ -77,6 +79,7 @@ HTML 标签参考 (分类)
 | [\<legend>](../tags/legend.md) | 定义 [\<fieldset>](../tags/fieldset.md) 元素的标题 |
 | [\<datalist>](../tags/datalist.md) | 指定输入控件的预定义选项列表 |
 | [\<output>](../tags/output.md) | 定义计算结果 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 框架
 
@@ -86,6 +89,7 @@ HTML 标签参考 (分类)
 | [\<frameset>](../tags/frameset.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。 定义一组框架 |
 | [\<noframes>](../tags/noframes.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。为不支持框架的用户定义替代内容 |
 | [\<iframe>](../tags/iframe.md) | 定义一个内联框架 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 图像
 
@@ -99,6 +103,7 @@ HTML 标签参考 (分类)
 | [\<figure>](../tags/figure.md) | 指定自包含内容 |
 | [\<picture>](../tags/picture.md) | 定义多个图片资源的容器 |
 | [\<svg>](../tags/svg.md) | 定义 SVG 图形的容器 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 音频/视频
 
@@ -108,6 +113,7 @@ HTML 标签参考 (分类)
 | [\<source>](../tags/source.md) | 为媒体元素（[\<video>](../tags/video.md) 和 [\<audio>](../tags/audio.md)）定义多种媒体资源 |
 | [\<track>](../tags/track.md) | 为媒体元素（[\<video>](../tags/video.md) 和 [\<audio>](../tags/audio.md)）定义文本轨道 |
 | [\<video>](../tags/video.md) | 定义嵌入的视频内容 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 链接
 
@@ -116,6 +122,7 @@ HTML 标签参考 (分类)
 | [\<a>](../tags/a.md) | 定义超链接 |
 | [\<link>](../tags/link.md) | 定义文档和外部资源之间的关系（最常用于链接到样式文件） |
 | [\<nav>](../tags/nav.md) | 定义导航链接 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 列表
 
@@ -130,6 +137,7 @@ HTML 标签参考 (分类)
 | [\<dd>](../tags/dd.md) | 定义描述列表中术语的描述/值 |
 | [\<menu>](./menu.md) | 定义命令的列表或菜单。 |
 | [\<menuitem>](./menuitem.md) | 定义用户可以从弹出菜单调用的命令/菜单项目。 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 表格
 
@@ -145,6 +153,7 @@ HTML 标签参考 (分类)
 | [\<tfoot>](../tags/tfoot.md) | 对表格中的页脚内容进行分组 |
 | [\<col>](../tags/col.md) | 为 [\<colgroup>](../tags/colgroup.md) 元素中的每一列指定列属性  |
 | [\<colgroup>](../tags/colgroup.md) | 指定表格中的一组一个或多个列进行格式化 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 样式和语义
 
@@ -163,6 +172,7 @@ HTML 标签参考 (分类)
 | [\<dialog>](../tags/dialog.md) | 定义一个对话框或窗口 |
 | [\<summary>](../tags/summary.md) | 定义 \<details> 元素的可见标题 |
 | [\<data>](../tags/data.md) | 添加给定内容的机器可读翻译 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 元信息
 
@@ -173,6 +183,7 @@ HTML 标签参考 (分类)
 | [\<meta>](../tags/meta.md) | 定义有关 HTML 文档的元数据 |
 | [\<base>](../tags/base.md) | 指定文档中所有相对 URL 的基本 URL/目标 |
 | [\<basefont>](../tags/basefont.md)<!--rehype:style=color: red;--> | ![][1] ⚠️ HTML 5 不支持。定义页面中文本的默认字体、颜色或尺寸。 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 编程
 
@@ -185,5 +196,6 @@ HTML 标签参考 (分类)
 | [\<object>](../tags/object.md) | 为外部应用程序定义一个容器 |
 | [\<param>](../tags/param.md) | 定义对象的参数 |
 | [\<script>](../tags/script.md) | 定义客户端脚本 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/no-support-html5.svg

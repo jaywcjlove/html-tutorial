@@ -12,6 +12,7 @@ HTML5 DOM 具有 [\<audio>](../tags/audio.md) 和 [\<video>](../tags/video.md) �
 | [load()](./av/method/load.md)                 | 重新加载音频/视频元素 |
 | [play()](./av/method/play.md)                 | 开始播放音频/视频 |
 | [pause()](./av/method/pause.md)               | 暂停当前播放的音频/视频 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## HTML Audio/Video 属性
 
@@ -46,6 +47,7 @@ HTML5 DOM 具有 [\<audio>](../tags/audio.md) 和 [\<video>](../tags/video.md) �
 | [textTracks](./av/property/texttracks.md)                   | 返回一个表示可用文本轨道的 TextTrackList 对象 |
 | [videoTracks](./av/property/videotracks.md)                 | 返回一个 VideoTrackList 对象，表示可用的视频轨道 |
 | [volume](./av/property/volume.md)                           | 设置或返回音频/视频的音量 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## HTML Audio/Video 事件
 
@@ -73,3 +75,4 @@ HTML5 DOM 具有 [\<audio>](../tags/audio.md) 和 [\<video>](../tags/video.md) �
 | [timeupdate](./av/event/timeupdate.md)         | 当前播放位置改变时触发 |
 | [volumechange](./av/event/volumechange.md)     | 当音量改变时触发 |
 | [waiting](./av/event/waiting.md)               | 当视频停止时触发，因为它需要缓冲下一帧 |
+<!--rehype:style=width: 100%; display: inline-table;-->
