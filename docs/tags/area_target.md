@@ -26,6 +26,7 @@ HTML \<area> target 属性
 | 属性 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | target    | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
@@ -41,4 +42,10 @@ HTML \<area> target 属性
 | \_self      | 在单击时在同一框架中打开链接的文档 |
 | \_parent    | 在父框架中打开链接的文档 |
 | \_top       | 在整个窗口中打开链接的文档 |
-| *framename* | 在命名的 iframe 中打开链接的文档 |
+| *framename* | 在命名的 iframe 中打开链接的文档 |<!--rehype:style=width: 100%; display: inline-table;-->
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg
