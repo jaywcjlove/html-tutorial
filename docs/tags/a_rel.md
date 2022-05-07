@@ -22,6 +22,7 @@ HTML `<a>` 标签的 rel 属性
 | 属性 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | rel       | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
@@ -46,6 +47,7 @@ HTML `<a>` 标签的 rel 属性
 | prev       | 选择中的上一个文档 |
 | search     | 指向文档搜索工具的链接 |
 | tag        | 当前文档的标签（关键字） |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 

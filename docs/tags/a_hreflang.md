@@ -37,6 +37,7 @@ HTML `<a>` 标签的 hreflang 属性
 | 值 | 描述 |
 | ---- | ---- |
 | *language\_code* | 一个由两个字母组成的语言代码，用于指定链接文档的语言。 要查看所有可用的语言代码，请访问我们的 [语言代码参考](../reference/language_codes.md)。 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg
