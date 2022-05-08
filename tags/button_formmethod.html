@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>button_formmethod.md HTML Tutorial </title>
+  <title>HTML &lt;button&gt; formmethod 属性 HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/tags/button_formmethod.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="带有两个提交按钮的表单。 第一个提交按钮用 method=&#34;get&#34; 提交表单数据，第二个用 method=&#34;post&#34; 提交表单数据：">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,8 +642,101 @@
 </div>
 
   <markdown-style>
-    <h1 id="button_formmethodmd"><a aria-hidden="true" tabindex="-1" href="#button_formmethodmd" class="anchor"><span class="icon icon-link"></span></a>button_formmethod.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/tags/button_formmethod.md">docs/tags/button_formmethod.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-button-formmethod-属性"><a aria-hidden="true" tabindex="-1" href="#html-button-formmethod-属性" class="anchor"><span class="icon icon-link"></span></a>HTML &#x3C;button> formmethod 属性</h1>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>带有两个提交按钮的表单。 第一个提交按钮用 <code>method="get"</code> 提交表单数据，第二个用 <code>method="post"</code> 提交表单数据：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>form</span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/action_page.php<span class="token punctuation">"</span></span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>get<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fname<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>First name:<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>label</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fname<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fname<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>br</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>br</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lname<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Last name:<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>label</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lname<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lname<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>br</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>br</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="6">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Submit<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>button</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="7">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">formmethod</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>post<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Submit using POST<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>button</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="8"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>form</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<form action=&#x22;/action_page.php&#x22; method=&#x22;get&#x22;>
+  <label for=&#x22;fname&#x22;>First name:</label>
+  <input type=&#x22;text&#x22; id=&#x22;fname&#x22; name=&#x22;fname&#x22;><br><br>
+  <label for=&#x22;lname&#x22;>Last name:</label>
+  <input type=&#x22;text&#x22; id=&#x22;lname&#x22; name=&#x22;lname&#x22;><br><br>
+  <button type=&#x22;submit&#x22;>Submit</button>
+  <button type=&#x22;submit&#x22; formmethod=&#x22;post&#x22;>Submit using POST</button>
+</form>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<form action=&#x22;/action_page.php&#x22; method=&#x22;get&#x22;>
+  <label for=&#x22;fname&#x22;>First name:</label>
+  <input type=&#x22;text&#x22; id=&#x22;fname&#x22; name=&#x22;fname&#x22;><br><br>
+  <label for=&#x22;lname&#x22;>Last name:</label>
+  <input type=&#x22;text&#x22; id=&#x22;lname&#x22; name=&#x22;lname&#x22;><br><br>
+  <button type=&#x22;submit&#x22;>Submit</button>
+  <button type=&#x22;submit&#x22; formmethod=&#x22;post&#x22;>Submit using POST</button>
+</form>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+<p><code>formmethod</code> 属性指定发送表单数据时使用的 HTTP 方法。此属性覆盖表单的“方法”属性。</p>
+<p><code>formmethod</code> 属性仅用于具有 <code>type="submit"</code> 的按钮。</p>
+<p>表单数据可以作为 URL 变量（使用 <code>method="get"</code>）或作为 HTTP post（使用 <code>method="post"</code>）发送。</p>
+<p><code>get</code> 方法的注意事项：</p>
+<ul>
+<li>它以名称/值对的形式将表单数据附加到 URL</li>
+<li>这对于用户想要为结果添加书签的表单提交很有用</li>
+<li>您可以在 <code>URL</code> 中放置多少数据是有限制的（因浏览器而异），因此，您无法确定所有表单数据都会正确传输</li>
+<li>切勿使用 <code>get</code> 方法传递敏感信息！ （密码或其他敏感信息将显示在浏览器的地址栏中）</li>
+</ul>
+<p>关于 <code>post</code> 方法的注意事项：</p>
+<ul>
+<li>它将表单数据作为 HTTP 发布事务发送</li>
+<li>使用 <code>post</code> 方式提交的表单无法添加书签</li>
+<li>它比 <code>get</code> 更健壮和安全</li>
+<li>它没有尺寸限制</li>
+</ul>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+<p>表中的数字指定了完全支持该属性的第一个浏览器版本。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>属性 Attribute</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>formmethod</td><td>9.0</td><td>10.0</td><td>4.0</td><td>5.1</td><td>15.0</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="语法"><a aria-hidden="true" tabindex="-1" href="#语法" class="anchor"><span class="icon icon-link"></span></a>语法</h2>
+<pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">formmethod</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>get|post<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<button type=&#x22;submit&#x22; formmethod=&#x22;get|post&#x22;>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="属性值"><a aria-hidden="true" tabindex="-1" href="#属性值" class="anchor"><span class="icon icon-link"></span></a>属性值</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>值 Value</th><th>描述 Description</th></tr></thead><tbody><tr><td>get</td><td>将表单数据附加到 URL： <code>URL?name=value\&#x26;name=value</code></td></tr><tr><td>post</td><td>将表单数据作为 HTTP 发布事务发送</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
     
 
 <div class="previous">
@@ -679,6 +772,39 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#定义和用法" class="tocs-link">定义和用法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#语法" class="tocs-link">语法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#属性值" class="tocs-link">属性值</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
 <script src="../js/demo-preview.js?v=1.17.12"></script>
