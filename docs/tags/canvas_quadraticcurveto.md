@@ -46,19 +46,19 @@ ctx.stroke();
 ![A quadratic Bézier curve](../assets/img_quadraticcurve.gif)
 
 
-起点：
+起点：<i></i><!--rehype:style=display: inline-block; background: #ff9000; width: 9px; height: 9px;-->
 
 ```js
 moveTo(20, 20)
 ```
 
-控制点：
+控制点：<i></i><!--rehype:style=display: inline-block; background: #FF0000; width: 9px; height: 9px;-->
 
 ```js
 quadraticCurveTo(20,100,200,20)
 ```
 
-终点：
+终点：<i></i><!--rehype:style=display: inline-block; background: #b0ef4e; width: 9px; height: 9px;-->
 
 ```js
 quadraticCurveTo(20,100,200,20)
