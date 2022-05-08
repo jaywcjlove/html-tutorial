@@ -35,3 +35,9 @@ HTML \<img> width 标签
 | ----- | ----- |
 | *pixels* | 以像素为单位的宽度（例如 width="100"） |
 <!--rehype:style=width: 100%; display: inline-table;-->
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg
