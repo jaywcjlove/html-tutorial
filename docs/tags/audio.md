@@ -9,7 +9,7 @@ HTML \<audio> 标签
 <audio controls>
   <source type="audio/ogg" src="horse.ogg">
   <source type="audio/mpeg" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
-  Your browser does not support the audio tag.
+  您的浏览器不支持音频标签。
 </audio>
 ```
 
@@ -25,13 +25,14 @@ HTML 支持三种音频格式：MP3、WAV 和 OGG。
 
 ### 音频格式和浏览器支持
 
-| Browser   | MP3 | WAV   | OGG   |
+| 浏览器   | MP3 | WAV   | OGG   |
 | --------- | --- | ----- | ----- |
 | Edge / IE | YES | YES\* | YES\* |
 | Chrome    | YES | YES   | YES   |
 | Firefox   | YES | YES   | YES   |
 | Safari    | YES | YES   | ❌    |
 | Opera     | YES | YES   | YES   |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 提示和注意事项
 
@@ -44,10 +45,11 @@ HTML 支持三种音频格式：MP3、WAV 和 OGG。
 | Element  | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | -------- | --- | --- | --- | --- | ---- |
 | \<audio> | 4.0 | 9.0 | 3.5 | 4.0 | 11.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性
 
-| Attribute | Value | Description |
+| 属性 Attribute | 值 Value | 描述 Description |
 | ------- | ------- | ------- |
 | [autoplay](./audio_autoplay.md) | autoplay           | 指定音频一准备好就开始播放 |
 | [controls](./audio_controls.md) | controls           | 指定应显示音频控件（例如播放/暂停按钮等） |
@@ -55,6 +57,7 @@ HTML 支持三种音频格式：MP3、WAV 和 OGG。
 | [muted](./audio_muted.md)       | muted              | 指定音频输出应静音 |
 | [preload](./audio_preload.md)   | auto metadata none | 指定当页面加载时作者是否以及如何认为应该加载音频 |
 | [src](./audio_src.md)           | *URL*              | 指定音频文件的 URL |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## 全局属性
