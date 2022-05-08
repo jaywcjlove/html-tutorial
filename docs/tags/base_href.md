@@ -34,6 +34,8 @@ HTML \<base> href 属性
 <base href="URL">
 ```
 
+## 属性值
+
 | 值 Value | 描述 Description |
 | ----- | ----- |
 | *URL* | 充当基本 URL 的绝对 URL（如“http://www.example.com/”） |

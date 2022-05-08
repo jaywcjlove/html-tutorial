@@ -1,7 +1,6 @@
 HTML \<basefont> 标签
 ===
 
-
 [![](https://shields.io/badge/HTML5-已弃用/过时-yellow?logo=HTML5)](https://caniuse.com/?search=<basefont>)
 
 ## HTML5 不支持
