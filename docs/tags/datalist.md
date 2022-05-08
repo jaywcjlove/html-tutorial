@@ -33,6 +33,7 @@ HTML \<datalist> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------- | --- | --- | --- | --- | --- |
 | \<datalist> | 20.0 | 10.0 | 4.0 | 12.1 | 9.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

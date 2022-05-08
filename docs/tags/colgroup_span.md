@@ -42,7 +42,7 @@ HTML \<colgroup> span 属性
 ## 语法
 
 ```html
-<colgroup span="*number*">
+<colgroup span="number">
 ```
 
 ## 属性值

@@ -22,6 +22,7 @@ HTML \<del> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----- | --- | --- | --- | --- | --- |
 | \<del>  | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 Attributes
 
@@ -29,6 +30,7 @@ HTML \<del> 标签
 | ---- | ---- | ---- |
 | [cite](./del_cite.md)         | *URL*                    | 指定一个文档的 URL，该文档解释了文本被删除/更改的原因 |
 | [datetime](./del_datetime.md) | *YYYY-MM-DDThh:mm:ssTZD* | 指定删除/更改文本的日期和时间 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

@@ -23,6 +23,7 @@ HTML \<dialog> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----- | --- | --- | --- | --- | --- |
 | \<dialog> | 37.0 | 79.0 | 53.0\* | ❌ 不支持 | 24.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 \* 默认不支持，但可以在 `about:config` 中启用（设置 `dom.dialog_element.enabled` 为 `true`）。
 
@@ -31,6 +32,7 @@ HTML \<dialog> 标签
 | 属性 Attribute | 值 Value | 描述 Description |
 | ---- | ---- | ---- |
 | [open](./dialog_open.md) | open  | 指定对话框元素处于活动状态并且用户可以与之交互 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

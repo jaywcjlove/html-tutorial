@@ -26,12 +26,14 @@ HTML \<data> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------- | --- | --- | --- | --- | --- |
 | \<data> | 62.0 | 13.0 | 22.0 | ❌ 不支持 | 49.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 Attributes
 
 | 属性 Attribute | 值 Value | 描述 Description |
 | ---- | ---- | ---- |
 | value | *machine-readable format* | 指定元素内容的机器可读翻译 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

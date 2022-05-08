@@ -29,6 +29,7 @@ HTML \<details> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----- | --- | --- | --- | --- | --- |
 | \<details> | 12.0 | 79.0 | 49.0 | 6.0 | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 
