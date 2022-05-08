@@ -37,6 +37,7 @@ HTML \<fieldset> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----- | --- | --- | --- | --- | --- |
 | \<fieldset> | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 Attributes
 
@@ -45,6 +46,7 @@ HTML \<fieldset> 标签
 | [disabled](./fieldset_disabled.md) | disabled   | 指定应该禁用一组相关的表单元素 |
 | [form](./fieldset_form.md) | *form\_id* | 指定字段集属于哪个表单 |
 | [name](./fieldset_name.md) | *text*     | 指定字段集的名称 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 
