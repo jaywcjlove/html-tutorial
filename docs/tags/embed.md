@@ -58,6 +58,7 @@ HTML \<embed> 标签
 | [src](./embed_src.md)       | *URL*         | 指定要嵌入的外部文件的地址 |
 | [type](./embed_type.md)     | *media\_type* | 指定嵌入内容的媒体类型 |
 | [width](./embed_width.md)   | *pixels*      | 指定嵌入内容的宽度 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 
