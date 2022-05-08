@@ -25,12 +25,14 @@ HTML \<code> 标签
 | [\<kbd>](./kbd.md)   | 定义键盘输入 |
 | [\<var>](./var.md)   | 定义一个变量 |
 | [\<pre>](./pre.md)   | 定义预格式化文本 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 浏览器支持
 
 | Element  | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------- | --- | --- | --- | --- | --- |
 | \<code> | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

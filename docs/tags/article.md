@@ -43,6 +43,7 @@ HTML \<article> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __\<article>__ | 6.0 | 9.0 | 4.0 | 5.0 | 11.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

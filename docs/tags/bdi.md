@@ -6,9 +6,9 @@ HTML \<bdi> 标签
 
 ```html idoc:preview
 <ul>
-<li>User <bdi>hrefs</bdi>: 60 points</li>
-<li>User <bdi>jdoe</bdi>: 80 points</li>
-<li>User <bdi>إيان</bdi>: 90 points</li>
+  <li>User <bdi>hrefs</bdi>: 60 points</li>
+  <li>User <bdi>jdoe</bdi>: 80 points</li>
+  <li>User <bdi>إيان</bdi>: 90 points</li>
 </ul>
 ```
 
@@ -25,6 +25,7 @@ BDI 表示双向隔离(Bi-Directional Isolation)。
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | ---- | ---- | ---- | ---- | ---- |
 | \<bdi>  | 16.0 | 79.0 | 10.0 | ❌ 不支持 | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## 全局属性

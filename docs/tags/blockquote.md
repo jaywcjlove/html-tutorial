@@ -23,15 +23,17 @@ HTML \<blockquote> 标签
 
 ## 浏览器支持
 
-| Element       | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| 元素 Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------------- | --- | --- | --- | --- | --- |
 | \<blockquote> | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性
 
 | 属性 | 值 | 描述 |
 | ---- | ---- | ---- |
 | [cite](./blockquote_cite.md) | *URL* | 规定引用的来源。 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

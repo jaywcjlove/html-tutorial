@@ -38,6 +38,7 @@ HTML \<canvas> 标签
 | Element  | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------- | --- | --- | --- | --- | --- |
 | \<canvas> | 4.0 | 9.0 | 2.0 | 3.1 | 9.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 Attributes
 
@@ -45,6 +46,7 @@ HTML \<canvas> 标签
 | ---- | ---- | ---- |
 | [height](./canvas_height.md) | *pixels* | 指定画布的高度。 默认值为 150 |
 | [width](./canvas_width.md)   | *pixels* | 指定画布的宽度 默认值为 300 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

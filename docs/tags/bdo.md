@@ -22,12 +22,14 @@ BDO 表示双向超控(Bi-Directional Override)。
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | \<bdo>  | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 Attributes
 
 | 属性 Attribute | 值 Value | 描述 Description |
 | ----- | ----- | ----- |
 | [dir](./bdo_dir.md) | `ltr` `rtl` | 必需的。 指定 `<bdo>` 元素内文本的文本方向 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## 全局属性

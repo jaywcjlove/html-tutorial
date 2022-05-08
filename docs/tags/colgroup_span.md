@@ -37,6 +37,7 @@ HTML \<colgroup> span 属性
 | Attribute  | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------- | --- | --- | --- | --- | --- |
 | span      | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
@@ -49,6 +50,7 @@ HTML \<colgroup> span 属性
 | 值 Value | 描述 Description |
 | -------- | ------ |
 | *number* | 设置列组应跨越的列数 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

@@ -28,6 +28,7 @@ HTML \<area> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __\<area>__ | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性
 
@@ -44,6 +45,7 @@ HTML \<area> 标签
 | [shape](./area_shape.md)                  | default <br /> rect <br /> circle <br /> poly  | 指定区域的形状 |
 | [target](./area_target.md)                | \_blank <br /> \_parent <br /> \_self <br /> \_top <br /> *framename* | 指定打开目标 URL 的位置 |
 | [type](./area_type.md)                    | *media\_type* | 指定目标 URL 的媒体类型 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## 全局属性

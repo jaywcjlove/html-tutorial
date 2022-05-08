@@ -39,12 +39,14 @@ HTML \<colgroup> 标签
 | Element  | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------- | --- | --- | --- | --- | --- |
 | \<colgroup> | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 Attributes
 
 | 属性 Attribute | 值 Value | 描述 Description |
 | ---- | ---- | ---- |
 | [span](./colgroup_span.md) | *number* | 指定列组应跨越的列数 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

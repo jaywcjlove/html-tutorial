@@ -18,6 +18,7 @@ HTML \<bdo> dir 属性
 | Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------- | --- | --- | --- | --- | --- |
 | dir       | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
@@ -31,6 +32,7 @@ HTML \<bdo> dir 属性
 | -------- | ------ |
 | ltr   | 从左到右的文本方向 |
 | rtl   | 从右到左的文本方向 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

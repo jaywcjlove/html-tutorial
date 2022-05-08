@@ -33,13 +33,15 @@ HTML \<base> 标签
 | Element |  ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | \<base> | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 idoc:preview
 
 | 属性 Attribute | 值 Value | 描述 Description |
 | ------ | ------ | ------ |
-| [href](./base_href.md)     | *URL*                         | 指定页面中所有相对 URL 的基本 URL|
-| [target](./base_target.md) | \_blank<br/> \_parent<br/>\_self<br/>\_top | 指定页面中所有超链接和表单的默认目标|
+| [href](./base_href.md)     | *URL* | 指定页面中所有相对 URL 的基本 URL|
+| [target](./base_target.md) | \_blank<br/> \_parent<br/>\_self<br/>\_top | 指定页面中所有超链接和表单的默认目标 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## 全局属性

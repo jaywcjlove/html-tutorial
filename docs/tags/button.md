@@ -24,6 +24,7 @@ HTML \<button> 标签
 | Element  | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------- | --- | --- | --- | --- | --- |
 | \<button> | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 Attributes
 
@@ -40,6 +41,7 @@ HTML \<button> 标签
 | [name](./button_name.md) | *name* | 指定按钮的名称|
 | [type](./button_type.md) | button<br/>reset<br/>submit | 指定按钮的类型|
 | [value](./button_value.md) | *text* | 指定按钮的初始值|
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 
