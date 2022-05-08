@@ -32,7 +32,7 @@ HTML hidden 属性
 
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
-| hidden    | 6.0 | 11.0 | 4.0 | 5.1  | 11.1 |
+| hidden    | 6.0 | 11.0 | 4.0 | 5.1  | 11.1 |
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

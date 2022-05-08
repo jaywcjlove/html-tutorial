@@ -57,7 +57,7 @@ HTML \<canvas> width 属性
   ctx.fillRect(50, 50, 100, 100);
 
   function clearCanvas() {
-      c.height = 300;
+      c.height = 300;
   }
 </script>
 ```

@@ -1,4 +1,46 @@
-form_name.md
+HTML \<form> name 属性
 ===
 
-欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/tags/form_name.md">docs/tags/form_name.md</a> 文件，共建 HTML Tutorial 文档。
+## 示例
+
+具有 name 属性的 HTML 表单：
+
+```html idoc:preview:iframe
+<script>
+  function formSubmit() {
+    document.forms["myForm"].submit();
+  }
+</script>
+<form action="/action_page.php" method="get" name="myForm">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="button" onclick="formSubmit()" value="Send form data!">
+</form>
+```
+
+## 定义和用法
+
+`name` 属性指定表单的名称。
+
+`name` 属性用于引用 JavaScript 中的元素，或在提交表单后引用表单数据。
+
+## 浏览器支持
+
+| 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| ------- | --- | --- | --- | --- | --- |
+| name      | Yes | Yes | Yes | Yes | Yes |
+
+
+## 语法
+
+```html
+<form name="text">
+```
+
+## 属性值
+
+| 值 Value | 描述 Description |
+| ----- | ----- |
+| *text* | 指定表单的名称 |

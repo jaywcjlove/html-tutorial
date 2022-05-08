@@ -27,7 +27,7 @@ HTML lang 属性
 
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
-| lang      | Yes | Yes | Yes | Yes | Yes |
+| lang      | Yes | Yes | Yes | Yes | Yes |
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

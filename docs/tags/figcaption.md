@@ -26,6 +26,7 @@ HTML \<figcaption> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----- | --- | --- | --- | --- | --- |
 | \<figcaption> | 8.0 | 9.0 | 4.0 | 5.1 | 11.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

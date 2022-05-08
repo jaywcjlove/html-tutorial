@@ -31,7 +31,7 @@ HTML draggable 属性
 
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
-| draggable | 4.0 | 9.0 | 3.5 | 6.0  | 12.0 |
+| draggable | 4.0 | 9.0 | 3.5 | 6.0  | 12.0 |
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg
