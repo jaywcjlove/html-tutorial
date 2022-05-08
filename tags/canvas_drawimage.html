@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML &lt;canvas&gt; 标签的 drawImage() 方法 HTML Tutorial </title>
+  <title>HTML canvas drawImage() 方法 HTML Tutorial </title>
   
-  <meta name="description" content="HTML &lt;canvas&gt; 标签的 drawImage() 方法">
+  <meta name="description" content="将图像绘制到画布上：">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,7 +642,365 @@
 </div>
 
   <markdown-style>
-    <h1 id="html-canvas-标签的-drawimage-方法"><a aria-hidden="true" tabindex="-1" href="#html-canvas-标签的-drawimage-方法" class="anchor"><span class="icon icon-link"></span></a>HTML <code>&#x3C;canvas></code> 标签的 drawImage() 方法</h1>
+    <h1 id="html-canvas-drawimage-方法"><a aria-hidden="true" tabindex="-1" href="#html-canvas-drawimage-方法" class="anchor"><span class="icon icon-link"></span></a>HTML canvas drawImage() 方法</h1>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p><img src="../assets/chrome.svg" alt="The Scream"></p>
+<p>将图像绘制到画布上：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span>要使用的图像：<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>img</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>scream<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>65<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>65<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/chrome.svg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span>Canvas:<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>canvas</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myCanvas<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>240<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>297<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token unit">px</span> solid <span class="token hexcode color">#d3d3d3</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>您的浏览器不支持 HTML5 canvas 标签。 <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>canvas</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5">
+</span><span class="code-line line-number" line="6"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="7"><span class="token script"><span class="token language-javascript"><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="8"><span class="token script"><span class="token language-javascript">  <span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myCanvas"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="9"><span class="token script"><span class="token language-javascript">  <span class="token keyword">var</span> ctx <span class="token operator">=</span> c<span class="token punctuation">.</span><span class="token method function property-access">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="10"><span class="token script"><span class="token language-javascript">  <span class="token keyword">var</span> img <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"scream"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="11"><span class="token script"><span class="token language-javascript">  ctx<span class="token punctuation">.</span><span class="token method function property-access">drawImage</span><span class="token punctuation">(</span>img<span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="12"><span class="token script"><span class="token language-javascript"><span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="13"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<div>要使用的图像：</div>
+<img id=&#x22;scream&#x22; width=&#x22;65&#x22; height=&#x22;65&#x22; src=&#x22;../assets/chrome.svg&#x22;>
+<div>Canvas:</div>
+<canvas id=&#x22;myCanvas&#x22; width=&#x22;240&#x22; height=&#x22;297&#x22; style=&#x22;border:1px solid #d3d3d3;&#x22;>您的浏览器不支持 HTML5 canvas 标签。 </canvas>
+
+<script>
+window.onload = function() {
+  var c = document.getElementById(&#x22;myCanvas&#x22;);
+  var ctx = c.getContext(&#x22;2d&#x22;);
+  var img = document.getElementById(&#x22;scream&#x22;);
+  ctx.drawImage(img, 10, 10);
+}
+</script>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<div>要使用的图像：</div>
+<img id=&#x22;scream&#x22; width=&#x22;65&#x22; height=&#x22;65&#x22; src=&#x22;../assets/chrome.svg&#x22;>
+<div>Canvas:</div>
+<canvas id=&#x22;myCanvas&#x22; width=&#x22;240&#x22; height=&#x22;297&#x22; style=&#x22;border:1px solid #d3d3d3;&#x22;>您的浏览器不支持 HTML5 canvas 标签。 </canvas>
+
+<script>
+window.onload = function() {
+  var c = document.getElementById(&#x22;myCanvas&#x22;);
+  var ctx = c.getContext(&#x22;2d&#x22;);
+  var img = document.getElementById(&#x22;scream&#x22;);
+  ctx.drawImage(img, 10, 10);
+}
+</script>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<p>JavaScript:</p>
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line line-number" line="1"><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span><span class="code-line line-number" line="2">  <span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myCanvas"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="3">  <span class="token keyword">var</span> ctx <span class="token operator">=</span> c<span class="token punctuation">.</span><span class="token method function property-access">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="4">  <span class="token keyword">var</span> img <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"scream"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="5">  ctx<span class="token punctuation">.</span><span class="token method function property-access">drawImage</span><span class="token punctuation">(</span>img<span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="6"><span class="token punctuation">}</span><span class="token punctuation">;</span>
+</span></code><input type="hidden" value="window.onload = function() {
+  var c = document.getElementById(&#x22;myCanvas&#x22;);
+  var ctx = c.getContext(&#x22;2d&#x22;);
+  var img = document.getElementById(&#x22;scream&#x22;);
+  ctx.drawImage(img, 10, 10);
+};
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+<p>表中的数字指定了完全支持该属性的第一个浏览器版本。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>方法 Method</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>drawImage()</td><td>Yes</td><td>9.0</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+<p><code>drawImage()</code> 方法在画布上绘制图像、画布或视频。</p>
+<p><code>drawImage()</code> 方法还可以绘制图像的一部分，和/或增加/减小图像大小。</p>
+<p><strong>注意：</strong> 您不能在图像加载之前调用 <code>drawImage()</code> 方法。 为确保图像已加载，您可以从 <code>window.onload()</code> 或 <code>document.getElementById("imageID").onload</code> 调用 <code>drawImage()</code>。</p>
+<h2 id="javascript-语法"><a aria-hidden="true" tabindex="-1" href="#javascript-语法" class="anchor"><span class="icon icon-link"></span></a>JavaScript 语法</h2>
+<p>将图像放置在画布上：</p>
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>JavaScript 语法:</th><th><em>context</em>.drawImage(<em>img,x,y</em>);</th></tr></thead></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<p>将图像放置在画布上，并指定图像的宽度和高度：</p>
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>JavaScript 语法:</th><th><em>context</em>.drawImage(<em>img,x,y,width,height</em>);</th></tr></thead></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<p>裁剪图像并将裁剪的部分放置在画布上：</p>
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>JavaScript 语法:</th><th><em>context</em>.drawImage(<em>img,sx,sy,swidth,sheight,x,y,width,height</em>);</th></tr></thead></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="参数值"><a aria-hidden="true" tabindex="-1" href="#参数值" class="anchor"><span class="icon icon-link"></span></a>参数值</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>参数</th><th>描述 Description</th></tr></thead><tbody><tr><td><em>img</em></td><td>指定要使用的图像、画布或视频元素</td></tr><tr><td><em>sx</em></td><td>选修的。 开始剪辑的 x 坐标</td></tr><tr><td><em>sy</em></td><td>选修的。 y 坐标从哪里开始剪辑</td></tr><tr><td><em>swidth</em></td><td>选修的。 剪切图像的宽度</td></tr><tr><td><em>sheight</em></td><td>选修的。 剪切图像的高度</td></tr><tr><td><em>x</em></td><td>将图像放置在画布上的 x 坐标</td></tr><tr><td><em>y</em></td><td>y 坐标在画布上放置图像的位置</td></tr><tr><td><em>width</em></td><td>选修的。 要使用的图像宽度（拉伸或缩小图像）</td></tr><tr><td><em>height</em></td><td>选修的。 要使用的图像高度（拉伸或缩小图像）</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="更多示例"><a aria-hidden="true" tabindex="-1" href="#更多示例" class="anchor"><span class="icon icon-link"></span></a>更多示例</h2>
+<p>将图像放置在画布上，并指定图像的宽度和高度：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span>要使用的图像：<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>img</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>scream<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>120<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>120<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/chrome.svg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>The Scream<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">
+</span><span class="code-line line-number" line="4"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span>Canvas:<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>canvas</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myCanvas<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>240<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>297<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token unit">px</span> solid <span class="token hexcode color">#d3d3d3</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>您的浏览器不支持 HTML5 canvas 标签。 <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>canvas</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="6">
+</span><span class="code-line line-number" line="7"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="8"><span class="token script"><span class="token language-javascript"><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="9"><span class="token script"><span class="token language-javascript">  <span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myCanvas"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="10"><span class="token script"><span class="token language-javascript">  <span class="token keyword">var</span> ctx <span class="token operator">=</span> c<span class="token punctuation">.</span><span class="token method function property-access">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="11"><span class="token script"><span class="token language-javascript">  <span class="token keyword">var</span> img <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"scream"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="12"><span class="token script"><span class="token language-javascript">  ctx<span class="token punctuation">.</span><span class="token method function property-access">drawImage</span><span class="token punctuation">(</span>img<span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">150</span><span class="token punctuation">,</span> <span class="token number">180</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="13"><span class="token script"><span class="token language-javascript"><span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="14"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<div>要使用的图像：</div>
+<img id=&#x22;scream&#x22; width=&#x22;120&#x22; height=&#x22;120&#x22; src=&#x22;../assets/chrome.svg&#x22; alt=&#x22;The Scream&#x22;>
+
+<div>Canvas:</div>
+<canvas id=&#x22;myCanvas&#x22; width=&#x22;240&#x22; height=&#x22;297&#x22; style=&#x22;border:1px solid #d3d3d3;&#x22;>您的浏览器不支持 HTML5 canvas 标签。 </canvas>
+
+<script>
+window.onload = function() {
+  var c = document.getElementById(&#x22;myCanvas&#x22;);
+  var ctx = c.getContext(&#x22;2d&#x22;);
+  var img = document.getElementById(&#x22;scream&#x22;);
+  ctx.drawImage(img, 10, 10, 150, 180);
+}
+</script>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<div>要使用的图像：</div>
+<img id=&#x22;scream&#x22; width=&#x22;120&#x22; height=&#x22;120&#x22; src=&#x22;../assets/chrome.svg&#x22; alt=&#x22;The Scream&#x22;>
+
+<div>Canvas:</div>
+<canvas id=&#x22;myCanvas&#x22; width=&#x22;240&#x22; height=&#x22;297&#x22; style=&#x22;border:1px solid #d3d3d3;&#x22;>您的浏览器不支持 HTML5 canvas 标签。 </canvas>
+
+<script>
+window.onload = function() {
+  var c = document.getElementById(&#x22;myCanvas&#x22;);
+  var ctx = c.getContext(&#x22;2d&#x22;);
+  var img = document.getElementById(&#x22;scream&#x22;);
+  ctx.drawImage(img, 10, 10, 150, 180);
+}
+</script>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<p>JavaScript:</p>
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line line-number" line="1"><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span><span class="code-line line-number" line="2">  <span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myCanvas"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="3">  <span class="token keyword">var</span> ctx <span class="token operator">=</span> c<span class="token punctuation">.</span><span class="token method function property-access">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="4">  <span class="token keyword">var</span> img <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"scream"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="5">  ctx<span class="token punctuation">.</span><span class="token method function property-access">drawImage</span><span class="token punctuation">(</span>img<span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">150</span><span class="token punctuation">,</span> <span class="token number">180</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="6"><span class="token punctuation">}</span><span class="token punctuation">;</span>
+</span></code><input type="hidden" value="window.onload = function() {
+  var c = document.getElementById(&#x22;myCanvas&#x22;);
+  var ctx = c.getContext(&#x22;2d&#x22;);
+  var img = document.getElementById(&#x22;scream&#x22;);
+  ctx.drawImage(img, 10, 10, 150, 180);
+};
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<p>裁剪图像并将裁剪的部分放置在画布上</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span>要使用的图像：<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>img</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>scream<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/workplace.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>The Scream<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>120<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>120<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">
+</span><span class="code-line line-number" line="4"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span>Canvas:<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>canvas</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myCanvas<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>300<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>150<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token unit">px</span> solid <span class="token hexcode color">#d3d3d3</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>您的浏览器不支持 HTML5 canvas 标签。 <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>canvas</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="6">
+</span><span class="code-line line-number" line="7"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="8"><span class="token script"><span class="token language-javascript"><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="9"><span class="token script"><span class="token language-javascript">  <span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myCanvas"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="10"><span class="token script"><span class="token language-javascript">  <span class="token keyword">var</span> ctx <span class="token operator">=</span> c<span class="token punctuation">.</span><span class="token method function property-access">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="11"><span class="token script"><span class="token language-javascript">  <span class="token keyword">var</span> img <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"scream"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="12"><span class="token script"><span class="token language-javascript">  ctx<span class="token punctuation">.</span><span class="token method function property-access">drawImage</span><span class="token punctuation">(</span>img<span class="token punctuation">,</span> <span class="token number">90</span><span class="token punctuation">,</span> <span class="token number">130</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">60</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">60</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="13"><span class="token script"><span class="token language-javascript"><span class="token punctuation">}</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="14"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<div>要使用的图像：</div>
+<img id=&#x22;scream&#x22; src=&#x22;../assets/workplace.jpg&#x22; alt=&#x22;The Scream&#x22; width=&#x22;120&#x22; height=&#x22;120&#x22;>
+
+<div>Canvas:</div>
+<canvas id=&#x22;myCanvas&#x22; width=&#x22;300&#x22; height=&#x22;150&#x22; style=&#x22;border:1px solid #d3d3d3;&#x22;>您的浏览器不支持 HTML5 canvas 标签。 </canvas>
+
+<script>
+window.onload = function() {
+  var c = document.getElementById(&#x22;myCanvas&#x22;);
+  var ctx = c.getContext(&#x22;2d&#x22;);
+  var img = document.getElementById(&#x22;scream&#x22;);
+  ctx.drawImage(img, 90, 130, 50, 60, 10, 10, 50, 60);
+};
+</script>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<div>要使用的图像：</div>
+<img id=&#x22;scream&#x22; src=&#x22;../assets/workplace.jpg&#x22; alt=&#x22;The Scream&#x22; width=&#x22;120&#x22; height=&#x22;120&#x22;>
+
+<div>Canvas:</div>
+<canvas id=&#x22;myCanvas&#x22; width=&#x22;300&#x22; height=&#x22;150&#x22; style=&#x22;border:1px solid #d3d3d3;&#x22;>您的浏览器不支持 HTML5 canvas 标签。 </canvas>
+
+<script>
+window.onload = function() {
+  var c = document.getElementById(&#x22;myCanvas&#x22;);
+  var ctx = c.getContext(&#x22;2d&#x22;);
+  var img = document.getElementById(&#x22;scream&#x22;);
+  ctx.drawImage(img, 90, 130, 50, 60, 10, 10, 50, 60);
+};
+</script>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<p>JavaScript:</p>
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line line-number" line="1"><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method-variable function-variable method function property-access">onload</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span><span class="code-line line-number" line="2">  <span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myCanvas"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="3">  <span class="token keyword">var</span> ctx <span class="token operator">=</span> c<span class="token punctuation">.</span><span class="token method function property-access">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="4">  <span class="token keyword">var</span> img <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"scream"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="5">  ctx<span class="token punctuation">.</span><span class="token method function property-access">drawImage</span><span class="token punctuation">(</span>img<span class="token punctuation">,</span> <span class="token number">90</span><span class="token punctuation">,</span> <span class="token number">130</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">60</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">60</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="6"><span class="token punctuation">}</span><span class="token punctuation">;</span>
+</span></code><input type="hidden" value="window.onload = function() {
+  var c = document.getElementById(&#x22;myCanvas&#x22;);
+  var ctx = c.getContext(&#x22;2d&#x22;);
+  var img = document.getElementById(&#x22;scream&#x22;);
+  ctx.drawImage(img, 90, 130, 50, 60, 10, 10, 50, 60);
+};
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<p>要使用的视频（按播放开始演示）：</p>
+<details open class="octicon octicon-video"><summary><svg aria-hidden="" height="16" width="16" viewBox="0 0 16 16" version="1.1" data-view-component="" class="octicon octicon-device-camera-video"><path fill-rule="evenodd" d="M16 3.75a.75.75 0 00-1.136-.643L11 5.425V4.75A1.75 1.75 0 009.25 3h-7.5A1.75 1.75 0 000 4.75v6.5C0 12.216.784 13 1.75 13h7.5A1.75 1.75 0 0011 11.25v-.675l3.864 2.318A.75.75 0 0016 12.25v-8.5zm-5 5.075l3.5 2.1v-5.85l-3.5 2.1v1.65zM9.5 6.75v-2a.25.25 0 00-.25-.25h-7.5a.25.25 0 00-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-4.5z"></path></svg><span aria-label="Video description mov_bbb.mp4">mov_bbb.mp4</span><span class="dropdown-caret"></span></summary><video muted controls style="max-height:640px;" src="../assets/mov_bbb.mp4"></video></details>
+<p>Canvas:</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>使用视频：<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>video</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>video1<span class="token punctuation">"</span></span> <span class="token attr-name">controls</span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>270<span class="token punctuation">"</span></span> <span class="token attr-name">autoplay</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>source</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/mov_bbb.mp4<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>video/mp4<span class="token punctuation">'</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>video</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5">
+</span><span class="code-line line-number" line="6"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>要使用的视频（按播放开始演示）：<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="7"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>canvas</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myCanvas<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>270<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>135<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token unit">px</span> solid <span class="token hexcode color">#d3d3d3</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>您的浏览器不支持 HTML5 canvas 标签。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>canvas</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="8">
+</span><span class="code-line line-number" line="9"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="10"><span class="token script"><span class="token language-javascript"><span class="token keyword">var</span> v <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"video1"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="11"><span class="token script"><span class="token language-javascript"><span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myCanvas"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="12"><span class="token script"><span class="token language-javascript"><span class="token keyword">var</span> ctx <span class="token operator">=</span> c<span class="token punctuation">.</span><span class="token method function property-access">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="13"><span class="token script"><span class="token language-javascript"><span class="token keyword">var</span> i<span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="14"><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="15"><span class="token script"><span class="token language-javascript">v<span class="token punctuation">.</span><span class="token method function property-access">addEventListener</span><span class="token punctuation">(</span><span class="token string">"play"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>i <span class="token operator">=</span> <span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method function property-access">setInterval</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>ctx<span class="token punctuation">.</span><span class="token method function property-access">drawImage</span><span class="token punctuation">(</span>v<span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">260</span><span class="token punctuation">,</span><span class="token number">125</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="16"><span class="token script"><span class="token language-javascript">v<span class="token punctuation">.</span><span class="token method function property-access">addEventListener</span><span class="token punctuation">(</span><span class="token string">"pause"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method function property-access">clearInterval</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="17"><span class="token script"><span class="token language-javascript">v<span class="token punctuation">.</span><span class="token method function property-access">addEventListener</span><span class="token punctuation">(</span><span class="token string">"ended"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token function">clearInterval</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+</span></span></span><span class="code-line line-number" line="18"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<p>使用视频：</p>
+<video id=&#x22;video1&#x22; controls width=&#x22;270&#x22; autoplay>
+  <source src=&#x22;../assets/mov_bbb.mp4&#x22; type=&#x27;video/mp4&#x27;>
+</video>
+
+<p>要使用的视频（按播放开始演示）：</p>
+<canvas id=&#x22;myCanvas&#x22; width=&#x22;270&#x22; height=&#x22;135&#x22; style=&#x22;border:1px solid #d3d3d3;&#x22;>您的浏览器不支持 HTML5 canvas 标签。</canvas>
+
+<script>
+var v = document.getElementById(&#x22;video1&#x22;);
+var c = document.getElementById(&#x22;myCanvas&#x22;);
+var ctx = c.getContext(&#x22;2d&#x22;);
+var i;
+
+v.addEventListener(&#x22;play&#x22;, function() {i = window.setInterval(function() {ctx.drawImage(v,5,5,260,125)},20);}, false);
+v.addEventListener(&#x22;pause&#x22;, function() {window.clearInterval(i);}, false);
+v.addEventListener(&#x22;ended&#x22;, function() {clearInterval(i);}, false); 
+</script>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<p>使用视频：</p>
+<video id=&#x22;video1&#x22; controls width=&#x22;270&#x22; autoplay>
+  <source src=&#x22;../assets/mov_bbb.mp4&#x22; type=&#x27;video/mp4&#x27;>
+</video>
+
+<p>要使用的视频（按播放开始演示）：</p>
+<canvas id=&#x22;myCanvas&#x22; width=&#x22;270&#x22; height=&#x22;135&#x22; style=&#x22;border:1px solid #d3d3d3;&#x22;>您的浏览器不支持 HTML5 canvas 标签。</canvas>
+
+<script>
+var v = document.getElementById(&#x22;video1&#x22;);
+var c = document.getElementById(&#x22;myCanvas&#x22;);
+var ctx = c.getContext(&#x22;2d&#x22;);
+var i;
+
+v.addEventListener(&#x22;play&#x22;, function() {i = window.setInterval(function() {ctx.drawImage(v,5,5,260,125)},20);}, false);
+v.addEventListener(&#x22;pause&#x22;, function() {window.clearInterval(i);}, false);
+v.addEventListener(&#x22;ended&#x22;, function() {clearInterval(i);}, false); 
+</script>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<p>JavaScript（代码每 20 毫秒绘制一次视频的当前帧）：</p>
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line line-number" line="1"><span class="token keyword">var</span> v <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"video1"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="2"><span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myCanvas"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="3"><span class="token keyword">var</span> ctx <span class="token operator">=</span> c<span class="token punctuation">.</span><span class="token method function property-access">getContext</span><span class="token punctuation">(</span><span class="token string">'2d'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="4"><span class="token keyword">var</span> i<span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="5">
+</span><span class="code-line line-number" line="6">v<span class="token punctuation">.</span><span class="token method function property-access">addEventListener</span><span class="token punctuation">(</span><span class="token string">'play'</span><span class="token punctuation">,</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>i<span class="token operator">=</span><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method function property-access">setInterval</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>ctx<span class="token punctuation">.</span><span class="token method function property-access">drawImage</span><span class="token punctuation">(</span>v<span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">260</span><span class="token punctuation">,</span><span class="token number">125</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="7">v<span class="token punctuation">.</span><span class="token method function property-access">addEventListener</span><span class="token punctuation">(</span><span class="token string">'pause'</span><span class="token punctuation">,</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method function property-access">clearInterval</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="8">v<span class="token punctuation">.</span><span class="token method function property-access">addEventListener</span><span class="token punctuation">(</span><span class="token string">'ended'</span><span class="token punctuation">,</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token function">clearInterval</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></code><input type="hidden" value="var v = document.getElementById(&#x22;video1&#x22;);
+var c = document.getElementById(&#x22;myCanvas&#x22;);
+var ctx = c.getContext(&#x27;2d&#x27;);
+var i;
+
+v.addEventListener(&#x27;play&#x27;,function() {i=window.setInterval(function() {ctx.drawImage(v,5,5,260,125)},20);},false);
+v.addEventListener(&#x27;pause&#x27;,function() {window.clearInterval(i);},false);
+v.addEventListener(&#x27;ended&#x27;,function() {clearInterval(i);},false);
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
     
 
 <div class="previous">
@@ -678,6 +1036,44 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#定义和用法" class="tocs-link">定义和用法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#javascript-语法" class="tocs-link">JavaScript 语法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#参数值" class="tocs-link">参数值</a>
+        
+      </li>
+    
+      <li>
+        <a href="#更多示例" class="tocs-link">更多示例</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
 <script src="../js/demo-preview.js?v=1.17.12"></script>

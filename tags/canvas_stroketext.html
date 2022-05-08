@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML &lt;canvas&gt; 标签的 strokeText() 方法 HTML Tutorial </title>
+  <title>HTML canvas strokeText() 方法 HTML Tutorial </title>
   
-  <meta name="description" content="HTML &lt;canvas&gt; 标签的 strokeText() 方法">
+  <meta name="description" content="写“Hello world!” 和“Big smile!” （带渐变）在画布上，使用 strokeText()：">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,7 +642,175 @@
 </div>
 
   <markdown-style>
-    <h1 id="html-canvas-标签的-stroketext-方法"><a aria-hidden="true" tabindex="-1" href="#html-canvas-标签的-stroketext-方法" class="anchor"><span class="icon icon-link"></span></a>HTML <code>&#x3C;canvas></code> 标签的 strokeText() 方法</h1>
+    <h1 id="html-canvas-stroketext-方法"><a aria-hidden="true" tabindex="-1" href="#html-canvas-stroketext-方法" class="anchor"><span class="icon icon-link"></span></a>HTML canvas strokeText() 方法</h1>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>写“Hello world!” 和“Big smile!” （带渐变）在画布上，使用 <code>strokeText()</code>：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>canvas</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myCanvas<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>300<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>150<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">border</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token unit">px</span> solid <span class="token hexcode color">#d3d3d3</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>您的浏览器不支持 HTML5 canvas 标签。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>canvas</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="4"><span class="token script"><span class="token language-javascript"><span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myCanvas"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="5"><span class="token script"><span class="token language-javascript"><span class="token keyword">var</span> ctx <span class="token operator">=</span> c<span class="token punctuation">.</span><span class="token method function property-access">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="6"><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="7"><span class="token script"><span class="token language-javascript">ctx<span class="token punctuation">.</span><span class="token property-access">font</span> <span class="token operator">=</span> <span class="token string">"20px Georgia"</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="8"><span class="token script"><span class="token language-javascript">ctx<span class="token punctuation">.</span><span class="token method function property-access">strokeText</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="9"><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="10"><span class="token script"><span class="token language-javascript">ctx<span class="token punctuation">.</span><span class="token property-access">font</span> <span class="token operator">=</span> <span class="token string">"30px Verdana"</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="11"><span class="token script"><span class="token language-javascript"><span class="token comment">// 创建渐变</span>
+</span></span></span><span class="code-line line-number" line="12"><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="13"><span class="token script"><span class="token language-javascript"><span class="token keyword">var</span> gradient <span class="token operator">=</span> ctx<span class="token punctuation">.</span><span class="token method function property-access">createLinearGradient</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> c<span class="token punctuation">.</span><span class="token property-access">width</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="14"><span class="token script"><span class="token language-javascript">gradient<span class="token punctuation">.</span><span class="token method function property-access">addColorStop</span><span class="token punctuation">(</span><span class="token string">"0"</span><span class="token punctuation">,</span> <span class="token string">"magenta"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="15"><span class="token script"><span class="token language-javascript">gradient<span class="token punctuation">.</span><span class="token method function property-access">addColorStop</span><span class="token punctuation">(</span><span class="token string">"0.5"</span><span class="token punctuation">,</span> <span class="token string">"blue"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="16"><span class="token script"><span class="token language-javascript">gradient<span class="token punctuation">.</span><span class="token method function property-access">addColorStop</span><span class="token punctuation">(</span><span class="token string">"1.0"</span><span class="token punctuation">,</span> <span class="token string">"red"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="17"><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="18"><span class="token script"><span class="token language-javascript"><span class="token comment">// 填充渐变</span>
+</span></span></span><span class="code-line line-number" line="19"><span class="token script"><span class="token language-javascript">ctx<span class="token punctuation">.</span><span class="token property-access">strokeStyle</span> <span class="token operator">=</span> gradient<span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="20"><span class="token script"><span class="token language-javascript">ctx<span class="token punctuation">.</span><span class="token method function property-access">strokeText</span><span class="token punctuation">(</span><span class="token string">"Big smile!"</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">90</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="21"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<canvas id=&#x22;myCanvas&#x22; width=&#x22;300&#x22; height=&#x22;150&#x22; style=&#x22;border:1px solid #d3d3d3;&#x22;>您的浏览器不支持 HTML5 canvas 标签。</canvas>
+
+<script>
+var c = document.getElementById(&#x22;myCanvas&#x22;);
+var ctx = c.getContext(&#x22;2d&#x22;);
+
+ctx.font = &#x22;20px Georgia&#x22;;
+ctx.strokeText(&#x22;Hello World!&#x22;, 10, 50);
+
+ctx.font = &#x22;30px Verdana&#x22;;
+// 创建渐变
+
+var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+gradient.addColorStop(&#x22;0&#x22;, &#x22;magenta&#x22;);
+gradient.addColorStop(&#x22;0.5&#x22;, &#x22;blue&#x22;);
+gradient.addColorStop(&#x22;1.0&#x22;, &#x22;red&#x22;);
+
+// 填充渐变
+ctx.strokeStyle = gradient;
+ctx.strokeText(&#x22;Big smile!&#x22;, 10, 90);
+</script>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<canvas id=&#x22;myCanvas&#x22; width=&#x22;300&#x22; height=&#x22;150&#x22; style=&#x22;border:1px solid #d3d3d3;&#x22;>您的浏览器不支持 HTML5 canvas 标签。</canvas>
+
+<script>
+var c = document.getElementById(&#x22;myCanvas&#x22;);
+var ctx = c.getContext(&#x22;2d&#x22;);
+
+ctx.font = &#x22;20px Georgia&#x22;;
+ctx.strokeText(&#x22;Hello World!&#x22;, 10, 50);
+
+ctx.font = &#x22;30px Verdana&#x22;;
+// 创建渐变
+
+var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+gradient.addColorStop(&#x22;0&#x22;, &#x22;magenta&#x22;);
+gradient.addColorStop(&#x22;0.5&#x22;, &#x22;blue&#x22;);
+gradient.addColorStop(&#x22;1.0&#x22;, &#x22;red&#x22;);
+
+// 填充渐变
+ctx.strokeStyle = gradient;
+ctx.strokeText(&#x22;Big smile!&#x22;, 10, 90);
+</script>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<p>JavaScript:</p>
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line line-number" line="1"><span class="token keyword">var</span> c <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myCanvas"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="2"><span class="token keyword">var</span> ctx <span class="token operator">=</span> c<span class="token punctuation">.</span><span class="token method function property-access">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="3">
+</span><span class="code-line line-number" line="4">ctx<span class="token punctuation">.</span><span class="token property-access">font</span> <span class="token operator">=</span> <span class="token string">"20px Georgia"</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="5">ctx<span class="token punctuation">.</span><span class="token method function property-access">strokeText</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="6">
+</span><span class="code-line line-number" line="7">ctx<span class="token punctuation">.</span><span class="token property-access">font</span> <span class="token operator">=</span> <span class="token string">"30px Verdana"</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="8"><span class="token comment">// 创建渐变</span>
+</span><span class="code-line line-number" line="9">
+</span><span class="code-line line-number" line="10"><span class="token keyword">var</span> gradient <span class="token operator">=</span> ctx<span class="token punctuation">.</span><span class="token method function property-access">createLinearGradient</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> c<span class="token punctuation">.</span><span class="token property-access">width</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="11">gradient<span class="token punctuation">.</span><span class="token method function property-access">addColorStop</span><span class="token punctuation">(</span><span class="token string">"0"</span><span class="token punctuation">,</span> <span class="token string">"magenta"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="12">gradient<span class="token punctuation">.</span><span class="token method function property-access">addColorStop</span><span class="token punctuation">(</span><span class="token string">"0.5"</span><span class="token punctuation">,</span> <span class="token string">"blue"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="13">gradient<span class="token punctuation">.</span><span class="token method function property-access">addColorStop</span><span class="token punctuation">(</span><span class="token string">"1.0"</span><span class="token punctuation">,</span> <span class="token string">"red"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="14">
+</span><span class="code-line line-number" line="15"><span class="token comment">// 填充渐变</span>
+</span><span class="code-line line-number" line="16">ctx<span class="token punctuation">.</span><span class="token property-access">strokeStyle</span> <span class="token operator">=</span> gradient<span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="17">ctx<span class="token punctuation">.</span><span class="token method function property-access">strokeText</span><span class="token punctuation">(</span><span class="token string">"Big smile!"</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">90</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></code><input type="hidden" value="var c = document.getElementById(&#x22;myCanvas&#x22;);
+var ctx = c.getContext(&#x22;2d&#x22;);
+
+ctx.font = &#x22;20px Georgia&#x22;;
+ctx.strokeText(&#x22;Hello World!&#x22;, 10, 50);
+
+ctx.font = &#x22;30px Verdana&#x22;;
+// 创建渐变
+
+var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+gradient.addColorStop(&#x22;0&#x22;, &#x22;magenta&#x22;);
+gradient.addColorStop(&#x22;0.5&#x22;, &#x22;blue&#x22;);
+gradient.addColorStop(&#x22;1.0&#x22;, &#x22;red&#x22;);
+
+// 填充渐变
+ctx.strokeStyle = gradient;
+ctx.strokeText(&#x22;Big smile!&#x22;, 10, 90);
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+<p>表中的数字指定了完全支持该属性的第一个浏览器版本。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>方法 Method</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td><code>strokeText()</code></td><td>Yes</td><td>9.0</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<p><strong>注意：</strong> Safari 5.1 及更早版本不支持 maxWidth 参数。</p>
+<h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+<p><code>strokeText()</code> 方法在画布上绘制文本（没有填充）。 文本的默认颜色是黑色。</p>
+<p><strong>提示：</strong> 使用 <a href="canvas_font.html">font</a> 属性指定字体和字体大小，并使用 <a href="canvas_strokestyle.html">strokeStyle</a> 属性以另一种颜色/渐变呈现文本。</p>
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>JavaScript syntax:</th><th><em>context</em>.strokeText(<em>text,x,y,maxWidth</em>);</th></tr></thead></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="参数值"><a aria-hidden="true" tabindex="-1" href="#参数值" class="anchor"><span class="icon icon-link"></span></a>参数值</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>参数</th><th>描述 Description</th></tr></thead><tbody><tr><td><em>text</em></td><td>指定将在画布上写入的文本</td></tr><tr><td><em>x</em></td><td>开始绘制文本的 x 坐标（相对于画布）</td></tr><tr><td><em>y</em></td><td>y 坐标开始绘制文本的位置（相对于画布）</td></tr><tr><td><em>maxWidth</em></td><td>选修的。 文本的最大允许宽度，以像素为单位</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
     
 
 <div class="previous">
@@ -678,6 +846,34 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#定义和用法" class="tocs-link">定义和用法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#参数值" class="tocs-link">参数值</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
 <script src="../js/demo-preview.js?v=1.17.12"></script>
