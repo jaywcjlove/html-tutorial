@@ -43,7 +43,7 @@ ctx.stroke();
 
 二次贝塞尔曲线需要两个点。 第一个点是二次贝塞尔计算中使用的控制点，第二个点是曲线的终点。 曲线的起点是当前路径中的最后一个点。 如果路径不存在，则使用 [beginPath()](canvas_beginpath.md) 和 [moveTo()](canvas_moveto.md) 方法定义起点。
 
-![A quadratic Bézier curve](../assets/img_quadraticcurve.gif)
+![二次贝塞尔曲线](../assets/img_quadraticcurve.gif)
 
 
 起点：<i></i><!--rehype:style=display: inline-block; background: #ff9000; width: 9px; height: 9px;-->
