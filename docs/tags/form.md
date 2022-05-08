@@ -36,6 +36,7 @@ HTML \<form> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | \<form> | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 Attributes
 
@@ -50,6 +51,7 @@ HTML \<form> 标签
 | [novalidate](./form_novalidate.md)         | novalidate  | 指定提交时不应验证表单|
 | [rel](./form_rel.md)                       | external<br >help<br >license<br >next<br >nofollow<br >noopener<br >noreferrer<br >opener<br >prev<br >search  | 指定链接资源和当前文档之间的关系|
 | [target](./form_target.md)                 | \_blank<br >\_self<br >\_parent<br >\_top  | 指定在哪里显示提交表单后收到的响应|
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

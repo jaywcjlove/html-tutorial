@@ -31,6 +31,7 @@ HTML \<form> name 属性
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | name      | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## 语法
@@ -44,3 +45,10 @@ HTML \<form> name 属性
 | 值 Value | 描述 Description |
 | ----- | ----- |
 | *text* | 指定表单的名称 |
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg
+

@@ -28,6 +28,7 @@ HTML \<h1> to \<h6> Tags
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ----- | --- | --- | --- | --- | --- |
 | \<h1> - \<h6> | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

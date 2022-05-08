@@ -3,11 +3,11 @@ HTML \<i> 标签
 
 ## 示例
 
-标记从文档中的普通散文出发的文本：
+标记从文档中的普通的文本：
 
 ```html idoc:preview:iframe
-<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
-<p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+<p>
+HTML（<i>超文本标记语言</i>——HyperText Markup Language）是构成 Web 世界的一砖一瓦。它定义了网页内容的含义和结构。除 <i>HTML</i> 以外的其它技术则通常用来描述一个网页的表现与展示效果（如 <i>CSS</i>），或功能与行为（如 <i>JavaScript</i>）</p>
 ```
 <!--rehype:style=min-height: 120px;-->
 
@@ -30,6 +30,7 @@ HTML \<i> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | \<i>    | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

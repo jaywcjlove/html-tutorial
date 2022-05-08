@@ -31,12 +31,14 @@ HTML \<html> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | \<html> | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 Attributes
 
 | 属性 | 值 | 描述 |
 | ---- | ---- | ---- |
 | [xmlns](./html_xmlns.md) | https://www.w3.org/1999/xhtml | 指定 XML 命名空间属性（如果您需要您的内容符合 XHTML） |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 
