@@ -50,7 +50,7 @@ ctx.fill();
 表中的数字指定了完全支持该属性的第一个浏览器版本。
 
 | 方法 Method | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
-| ----------- | --- | --- | --- | --- | --- |
+| ------- | --- | --- | --- | --- | --- |
 | createPattern() | Yes | 9.0 | Yes | Yes | Yes |
 <!--rehype:style=width: 100%; display: inline-table;-->
 
