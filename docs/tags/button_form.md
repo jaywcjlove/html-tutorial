@@ -28,6 +28,7 @@ HTML \<button> form 属性
 | 属性 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | form      | 10.0 | 16.0 | 4.0 | 5.1 | 9.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
@@ -40,3 +41,10 @@ HTML \<button> form 属性
 | 值 Value | 描述 Description |
 | ----- | ----- |
 | *form\_id* | 指定 \<button> 元素所属的表单元素。 此属性的值必须是同一文档中 \<form> 元素的 id 属性。 |
+<!--rehype:style=width: 100%; display: inline-table;-->
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg
