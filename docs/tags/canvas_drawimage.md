@@ -150,7 +150,7 @@ window.onload = function() {
 
 要使用的视频（按播放开始演示）：
 
-../assets/mov_bbb.mp4
+[](../assets/mov_bbb.mp4)
 
 Canvas:
 
