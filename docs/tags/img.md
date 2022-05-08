@@ -30,6 +30,7 @@ HTML \<img> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | \<img>  | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 Attributes
 
@@ -47,6 +48,7 @@ HTML \<img> 标签
 | srcset                                      | *URL-list* | 指定在不同情况下使用的图像文件列表|
 | [usemap](./img_usemap.md)                | *#mapname* | 将图像指定为客户端图像映射|
 | [width](./img_width.md)                  | *pixels* | 指定图像的宽度|
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 全局属性
 

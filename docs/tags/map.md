@@ -9,9 +9,9 @@ HTML \<map> 标签
 <img src="../assets/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
 
 <map name="workmap">
-  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+  <area shape="rect" coords="34,44,270,350" alt="A 超链接文档" href="a.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Img 文档" href="img.htm">
+  <area shape="circle" coords="337,300,44" alt="Div 文档" href="div.htm">
 </map>
 ```
 
