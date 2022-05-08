@@ -62,7 +62,7 @@ ctx.fill();
 
 重复元素可用于绘制/填充矩形、圆形、线条等。
 
-| JavaScript 语法: | *context*.createPattern(*image*,"repeat\|repeat-x\|repeat-y\|no-repeat"); |
+| JavaScript 语法: | *context*.createPattern(*image*,"repeat/repeat-x/repeat-y/no-repeat"); |
 | ------- | ------- |
 <!--rehype:style=width: 100%; display: inline-table;-->
 
