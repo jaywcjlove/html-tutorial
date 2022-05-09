@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>canplaytype.md HTML Tutorial </title>
+  <title>HTML Audio/Video DOM canPlayType() 方法 HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/reference/av/method/canplaytype.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="检查您的浏览器是否可以播放不同类型的视频：">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,8 +642,128 @@
 </div>
 
   <markdown-style>
-    <h1 id="canplaytypemd"><a aria-hidden="true" tabindex="-1" href="#canplaytypemd" class="anchor"><span class="icon icon-link"></span></a>canplaytype.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/reference/av/method/canplaytype.md">docs/reference/av/method/canplaytype.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-audiovideo-dom-canplaytype-方法"><a aria-hidden="true" tabindex="-1" href="#html-audiovideo-dom-canplaytype-方法" class="anchor"><span class="icon icon-link"></span></a>HTML Audio/Video DOM canPlayType() 方法</h1>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>检查您的浏览器是否可以播放不同类型的视频：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>我的浏览器可以播放 MP4 视频吗？ <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>span</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">supportType</span><span class="token punctuation">(</span>event<span class="token punctuation">,</span><span class="token string">'video/mp4'</span><span class="token punctuation">,</span><span class="token string">'avc1.42E01E, mp4a.40.2'</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Test<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>button</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>我的浏览器可以播放 OGG 视频吗？<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>span</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="6"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">supportType</span><span class="token punctuation">(</span>event<span class="token punctuation">,</span><span class="token string">'video/ogg'</span><span class="token punctuation">,</span><span class="token string">'theora, vorbis'</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Test<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>button</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="7"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>span</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="8"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript"> 
+</span></span></span><span class="code-line line-number" line="9"><span class="token script"><span class="token language-javascript"><span class="token keyword">function</span> <span class="token function">supportType</span><span class="token punctuation">(</span><span class="token parameter">e<span class="token punctuation">,</span>vidType<span class="token punctuation">,</span>codType</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+</span></span></span><span class="code-line line-number" line="10"><span class="token script"><span class="token language-javascript">  <span class="token keyword">var</span> vid <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">createElement</span><span class="token punctuation">(</span><span class="token string">'video'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="11"><span class="token script"><span class="token language-javascript">  isSupp <span class="token operator">=</span> vid<span class="token punctuation">.</span><span class="token method function property-access">canPlayType</span><span class="token punctuation">(</span>vidType<span class="token operator">+</span><span class="token string">';codecs="'</span><span class="token operator">+</span>codType<span class="token operator">+</span><span class="token string">'"'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="12"><span class="token script"><span class="token language-javascript">  <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span>isSupp <span class="token operator">==</span> <span class="token string">""</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> isSupp <span class="token operator">=</span> <span class="token string">"No"</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="13"><span class="token script"><span class="token language-javascript">  e<span class="token punctuation">.</span><span class="token property-access">target</span><span class="token punctuation">.</span><span class="token property-access">parentNode</span><span class="token punctuation">.</span><span class="token property-access">innerHTML</span> <span class="token operator">=</span> <span class="token string">"答案: "</span> <span class="token operator">+</span> isSupp<span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="14"><span class="token script"><span class="token language-javascript"><span class="token punctuation">}</span> 
+</span></span></span><span class="code-line line-number" line="15"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span> 
+</span></pre><input type="hidden" value="<p>我的浏览器可以播放 MP4 视频吗？ <span>
+<button onclick=&#x22;supportType(event,&#x27;video/mp4&#x27;,&#x27;avc1.42E01E, mp4a.40.2&#x27;)&#x22; type=&#x22;button&#x22;>Test</button>
+</span></p>
+
+<p>我的浏览器可以播放 OGG 视频吗？<span>
+<button onclick=&#x22;supportType(event,&#x27;video/ogg&#x27;,&#x27;theora, vorbis&#x27;)&#x22; type=&#x22;button&#x22;>Test</button>
+</span></p>
+<script> 
+function supportType(e,vidType,codType) { 
+  var vid = document.createElement(&#x27;video&#x27;);
+  isSupp = vid.canPlayType(vidType+&#x27;;codecs=&#x22;&#x27;+codType+&#x27;&#x22;&#x27;);
+  if (isSupp == &#x22;&#x22;) { isSupp = &#x22;No&#x22;; }
+  e.target.parentNode.innerHTML = &#x22;答案: &#x22; + isSupp;
+} 
+</script> 
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<p>我的浏览器可以播放 MP4 视频吗？ <span>
+<button onclick=&#x22;supportType(event,&#x27;video/mp4&#x27;,&#x27;avc1.42E01E, mp4a.40.2&#x27;)&#x22; type=&#x22;button&#x22;>Test</button>
+</span></p>
+
+<p>我的浏览器可以播放 OGG 视频吗？<span>
+<button onclick=&#x22;supportType(event,&#x27;video/ogg&#x27;,&#x27;theora, vorbis&#x27;)&#x22; type=&#x22;button&#x22;>Test</button>
+</span></p>
+<script> 
+function supportType(e,vidType,codType) { 
+  var vid = document.createElement(&#x27;video&#x27;);
+  isSupp = vid.canPlayType(vidType+&#x27;;codecs=&#x22;&#x27;+codType+&#x27;&#x22;&#x27;);
+  if (isSupp == &#x22;&#x22;) { isSupp = &#x22;No&#x22;; }
+  e.target.parentNode.innerHTML = &#x22;答案: &#x22; + isSupp;
+} 
+</script> 
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<p>JavaScript:</p>
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line line-number" line="1"><span class="token keyword">var</span> vid <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">createElement</span><span class="token punctuation">(</span><span class="token string">'video'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span><span class="code-line line-number" line="2">isSupp <span class="token operator">=</span> vid<span class="token punctuation">.</span><span class="token method function property-access">canPlayType</span><span class="token punctuation">(</span>vidType<span class="token operator">+</span><span class="token string">';codecs="'</span><span class="token operator">+</span>codType<span class="token operator">+</span><span class="token string">'"'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></code><input type="hidden" value="var vid = document.createElement(&#x27;video&#x27;);
+isSupp = vid.canPlayType(vidType+&#x27;;codecs=&#x22;&#x27;+codType+&#x27;&#x22;&#x27;);
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+<p><code>canPlayType()</code> 方法检查浏览器是否可以播放指定的音频/视频类型。</p>
+<p><code>canPlayType()</code> 方法可以返回以下值之一：</p>
+<ul>
+<li><code>probably</code> - 浏览器最有可能支持这种音频/视频类型</li>
+<li><code>maybe</code> - 浏览器可能支持这种音频/视频类型</li>
+<li>"" - （空字符串）浏览器不支持这种音频/视频类型</li>
+</ul>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+<p>表中的数字指定了完全支持该方法的第一个浏览器版本。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>方法 Method</th><th><img src="../../../assets/chrome.svg" alt="chrome"></th><th><img src="../../../assets/edge.svg" alt="edge"></th><th><img src="../../../assets/firefox.svg" alt="firefox"></th><th><img src="../../../assets/safari.svg" alt="safari"></th><th><img src="../../../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td><code>canPlayType()</code></td><td>Yes</td><td>9.0</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<h2 id="语法"><a aria-hidden="true" tabindex="-1" href="#语法" class="anchor"><span class="icon icon-link"></span></a>语法</h2>
+<pre class="language-js"><code class="language-js code-highlight"><span class="code-line line-number" line="1">audio<span class="token operator">|</span>video<span class="token punctuation">.</span><span class="token method function property-access">canPlayType</span><span class="token punctuation">(</span>type<span class="token punctuation">)</span>
+</span></code><input type="hidden" value="audio|video.canPlayType(type)
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="参数值"><a aria-hidden="true" tabindex="-1" href="#参数值" class="anchor"><span class="icon icon-link"></span></a>参数值</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>值</th><th>描述 Description</th></tr></thead><tbody><tr><td><em>type</em></td><td>指定要测试支持的音频/视频类型（和可选编解码器）。 共同值：<br>* video/ogg <br>* video/mp4 <br>* video/webm <br>* audio/mpeg <br>* audio/ogg <br>* audio/mp4<br>常用值，包括编解码器：<br>*   video/ogg; codecs="theora, vorbis" <br>* video/mp4; codecs="avc1.4D401E, mp4a.40.2" <br>* video/webm; codecs="vp8.0, vorbis" <br>* audio/ogg; codecs="vorbis" <br>* audio/mp4; codecs="mp4a.40.5"<br><strong>Note:</strong> 如果包含编解码器，此方法只能返回“probably”。</td></tr></tbody></table>
+<h2 id="技术细节"><a aria-hidden="true" tabindex="-1" href="#技术细节" class="anchor"><span class="icon icon-link"></span></a>技术细节</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>返回值:</td><td>一个字符串，表示支持级别。 可能的返回值： <br>* <code>probably</code> - 最有可能支持 <br>* <code>maybe</code> - 可能支持 <br>* "" - （空字符串）不支持</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
     
 
 <div class="previous">
@@ -679,6 +799,44 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#定义和用法" class="tocs-link">定义和用法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#语法" class="tocs-link">语法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#参数值" class="tocs-link">参数值</a>
+        
+      </li>
+    
+      <li>
+        <a href="#技术细节" class="tocs-link">技术细节</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
 <script src="../../../js/demo-preview.js?v=1.17.13"></script>
