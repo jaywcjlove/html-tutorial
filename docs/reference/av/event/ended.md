@@ -46,7 +46,7 @@ aud.onended = function() {
 
 ## 语法
 
-In HTML:
+在 `HTML` 中：
 
 ```html
 <audio onended="myScript">
