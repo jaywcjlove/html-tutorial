@@ -5,6 +5,28 @@ HTML Audio/Video DOM playbackRate 属性
 
 将视频设置为慢动作播放：
 
+```html idoc:preview:iframe
+<button onclick="getPlaySpeed()" type="button">播放速度是多少？</button>
+<button onclick="setPlaySpeed()" type="button">将视频设置为慢动作播放</button><br> 
+
+<video id="myVideo" width="320" height="176" controls>
+  <source src="../../../assets/mov_bbb.mp4" type="video/mp4">
+  您的浏览器不支持 HTML5 视频。
+</video>
+
+<script>
+var vid = document.getElementById("myVideo");
+function getPlaySpeed() { 
+  alert(vid.playbackRate);
+}
+function setPlaySpeed() { 
+  vid.playbackRate = 0.5;
+}
+</script>
+```
+
+JavaScript:
+
 ```js
 var vid = document.getElementById("myVideo");
 vid.playbackRate = 0.5;

@@ -56,7 +56,7 @@ audio|video.played
 
 | 类型 Type | 描述 Description |
 | -------- | -------- |
-| TimeRanges Object | 表示音频/视频的播放部分。TimeRanges 对象属性：<br>* length - 获取音频/视频中播放范围的数量 <br>* start(*index*) - 获取播放范围的开始位置 <br>* end(*index*) - 获取播放范围的结束位置<br>**注意：** 第一个播放范围是 *index* 0|
+| TimeRanges Object | 表示音频/视频的播放部分。TimeRanges 对象属性：<br>* length - 获取音频/视频中播放范围的数量 <br>* start(*index*) - 获取播放范围的开始位置 <br>* end(*index*) - 获取播放范围的结束位置<br>**注意：** 第一个播放范围是 *index* 0 |
 <!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../../../assets/chrome.svg
