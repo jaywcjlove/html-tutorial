@@ -15,6 +15,7 @@ HTML dirname 属性
 | ----- | ----- |
 | [\<input>](../tags/input.md)       | [dirname](../tags/input_dirname.md)    |
 | [\<textarea>](../tags/textarea.md) | [dirname](../tags/textarea_dirname.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -49,6 +50,7 @@ HTML dirname 属性
 | ------- | --- | --- | --- | --- | --- |
 | [input](../tags/input.md)    | Yes | No | No | Yes | Yes |
 | [textarea](../tags/textarea.md) | Yes | No | No | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

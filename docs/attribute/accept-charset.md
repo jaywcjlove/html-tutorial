@@ -14,6 +14,7 @@ HTML accept-charset 属性
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<form>](../tags/form.md) | [accept-charset](../tags/form_accept_charset.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### Form 示例
 
@@ -32,6 +33,7 @@ HTML accept-charset 属性
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | accept-charset | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

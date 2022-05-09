@@ -14,6 +14,7 @@ HTML cols 属性
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<textarea>](../tags/textarea.md) | [cols](../tags/textarea_cols.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -31,6 +32,7 @@ HTML cols 属性
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | cols      | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

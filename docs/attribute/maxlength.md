@@ -13,6 +13,7 @@ HTML maxlength 属性
 | ----- | ----- |
 | [\<input>](../tags/input.md)       | [maxlength](../tags/input_maxlength.md)    |
 | [\<textarea>](../tags/textarea.md) | [maxlength](../tags/textarea_maxlength.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -45,6 +46,7 @@ HTML maxlength 属性
 | ------- | --- | --- | --- | --- | --- |
 | [\<input>](../tags/input.md)       | 1.0 | 2.0  | 1.0 | 1.0 | 1.0  |
 | [\<textarea>](../tags/textarea.md) | Yes | 10.0 | 4.0 | Yes | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

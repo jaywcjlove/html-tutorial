@@ -22,6 +22,7 @@ HTML async 属性
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<script>](../tags/script.md) | [async](../tags/script_async.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## Script 示例
 
@@ -38,6 +39,7 @@ HTML async 属性
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | async     | Yes | 10.0 | 3.6 | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

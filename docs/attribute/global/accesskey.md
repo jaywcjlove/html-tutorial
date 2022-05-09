@@ -34,6 +34,7 @@ HTML accesskey 属性
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __&lt;accesskey&gt;__ | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
@@ -46,6 +47,7 @@ HTML accesskey 属性
 值 Value | 描述 Description
 ---- | ----
 character | 规定激活（使元素获得焦点）元素的便捷按键。
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../../assets/chrome.svg
 [2]: ../../assets/edge.svg

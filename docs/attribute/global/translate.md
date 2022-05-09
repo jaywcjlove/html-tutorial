@@ -28,6 +28,7 @@ translate 属性指定是否应该翻译元素的内容。
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __&lt;title&gt;__ | ❌ 不支持 | ❌ 不支持 | ❌ 不支持 | ❌ 不支持 | ❌ 不支持 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 

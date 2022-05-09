@@ -15,6 +15,7 @@ HTML cite 属性
 | [\<del>](../tags/del.md)               | [cite](../tags/del_cite.md)        |
 | [\<ins>](../tags/ins.md)               | [cite](../tags/ins_cite.md)        |
 | [\<q>](../tags/q.md)                   | [cite](../tags/q_cite.md)          |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -72,6 +73,7 @@ HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世�
 | [del](../tags/del.md)               | Yes | Yes | Yes | Yes | Yes |
 | [ins](../tags/ins.md)               | Yes | Yes | Yes | Yes | Yes |
 | [q](../tags/q.md)                   | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

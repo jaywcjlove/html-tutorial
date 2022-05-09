@@ -15,6 +15,7 @@ HTML multiple 属性
 | ----- | ----- |
 | [\<input>](../tags/input.md)   | [multiple](../tags/input_multiple.md)  |
 | [\<select>](../tags/select.md) | [multiple](../tags/select_multiple.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -50,6 +51,7 @@ HTML multiple 属性
 | ------- | --- | --- | --- | --- | --- |
 | [\<input>](../tags/input.md)   | 6.0 | 10.0 | 3.6 | 5.0 | 11.0 |
 | [\<select>](../tags/select.md) | Yes | Yes  | Yes | Yes | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

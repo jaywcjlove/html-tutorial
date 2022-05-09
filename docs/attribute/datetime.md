@@ -16,6 +16,7 @@ HTML datetime 属性
 | [\<del>](../tags/del.md)   | [datetime](../tags/del_datetime.md)  |
 | [\<ins>](../tags/ins.md)   | [datetime](../tags/ins_datetime.md)  |
 | [\<time>](../tags/time.md) | [datetime](../tags/time_datetime.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -57,6 +58,7 @@ HTML datetime 属性
 | [del](../tags/del.md)     | Yes | Yes | Yes | Yes | Yes |
 | [ins](../tags/ins.md)     | Yes | Yes | Yes | Yes | Yes |
 | [time](../tags/time.md)    | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

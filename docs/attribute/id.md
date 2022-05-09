@@ -14,6 +14,7 @@ HTML id 属性
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | 全部 [HTML](../tags/README.md) 元素 | [id](./global/id.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -38,6 +39,7 @@ HTML id 属性
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | id        | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

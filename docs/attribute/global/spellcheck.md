@@ -28,6 +28,7 @@ HTML `spellcheck` 属性
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __&lt;spellcheck&gt;__ | 9.0 | 10.0 | 2.0 | 5.1 | 10.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 

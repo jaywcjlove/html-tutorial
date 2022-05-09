@@ -19,6 +19,7 @@ The `download` attribute can be used on the following elements:
 | ----- | ----- |
 | [\<a>](../tags/a.md)       | [download](../tags/a_download.md)    |
 | [\<area>](../tags/area.md) | [download](../tags/area_download.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -49,6 +50,7 @@ The `download` attribute can be used on the following elements:
 | ------- | --- | --- | --- | --- | --- |
 | [\<a>](../tags/a.md)       | 14.0 | 13.0          | 20.0 | ❌ 不支持 | 15.0 |
 | [\<area>](../tags/area.md) | 14.0 | ❌ 不支持 | 20.0 | ❌ 不支持 | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

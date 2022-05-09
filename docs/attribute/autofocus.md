@@ -17,6 +17,7 @@ HTML autofocus 属性
 | [\<input>](../tags/input.md)       | [autofocus](../tags/input_autofocus.md)    |
 | [\<select>](../tags/select.md)     | [autofocus](../tags/select_autofocus.md)   |
 | [\<textarea>](../tags/textarea.md) | [autofocus](../tags/textarea_autofocus.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -59,6 +60,7 @@ HTML autofocus 属性
 | [form](../tags/form.md)     | 5.0 | 10.0 | 4.0 | 5.0 | 9.6 |
 | [input](../tags/input.md)    | 5.0 | 10.0 | 4.0 | 5.0 | 9.6 |
 | [textarea](../tags/textarea.md) | Yes | 10.0 | 4.0 | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

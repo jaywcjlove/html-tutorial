@@ -14,6 +14,7 @@ HTML high 属性
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<meter>](../tags/meter.md) | [high](../tags/meter_high.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -28,6 +29,7 @@ HTML high 属性
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | high      | 8.0 | ❌ 不支持 | 6.0 | 6.0 | 11.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

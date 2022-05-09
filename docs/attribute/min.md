@@ -15,6 +15,7 @@ HTML min 属性
 | ----- | ----- |
 | [\<input>](../tags/input.md) | [min](../tags/input_min.md) |
 | [\<meter>](../tags/meter.md) | [min](../tags/meter_min.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -52,6 +53,7 @@ HTML min 属性
 | ------- | --- | --- | --- | --- | --- |
 | input   | 5.0 | 10.0 | 16.0 | 5.1 | 10.6 |
 | meter   | 5.0 | 10.0 | 16.0 | 5.1 | 10.6 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

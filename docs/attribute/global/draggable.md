@@ -26,6 +26,7 @@ draggable 属性指定元素是否可拖动。
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __&lt;draggable&gt;__ | 4.0 | 9.0 | 3.5 | 6.0 | 12.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
@@ -40,6 +41,7 @@ draggable 属性指定元素是否可拖动。
 true | 指定元素是可拖动的
 false | 指定元素不可拖动
 auto | 使用浏览器的默认行为
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../../assets/chrome.svg

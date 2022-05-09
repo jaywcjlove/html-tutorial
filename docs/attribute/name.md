@@ -35,6 +35,7 @@ The `name` attribute can be used on the following elements:
 | [\<param>](../tags/param.md)       | [name](../tags/param_name.md)    |
 | [\<select>](../tags/select.md)     | [name](../tags/select_name.md)   |
 | [\<textarea>](../tags/textarea.md) | [name](../tags/textarea_name.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -200,6 +201,7 @@ The `name` attribute can be used on the following elements:
 | param    | Yes  | Yes           | Yes | Yes  | Yes  |
 | select   | Yes  | Yes           | Yes | Yes  | Yes  |
 | textarea | Yes  | Yes           | Yes | Yes  | Yes  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

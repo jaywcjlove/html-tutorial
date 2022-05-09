@@ -18,6 +18,7 @@ HTML height 属性
 | [\<input>](../tags/input.md)   | [height](../tags/input_height.md)  |
 | [\<object>](../tags/object.md) | [height](../tags/object_height.md) |
 | [\<video>](../tags/video.md)   | [height](../tags/video_height.md)  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -106,6 +107,7 @@ HTML height 属性
 | [\<input>](../tags/input.md)   | 1.0 | Yes | 16.0 | Yes | 1.0 |
 | [\<object>](../tags/object.md) | Yes | Yes | Yes  | Yes | Yes |
 | [\<video>](../tags/video.md)   | Yes | Yes | Yes  | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

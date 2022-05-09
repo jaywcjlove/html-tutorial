@@ -13,7 +13,8 @@ HTML lang 属性
 
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
-| 全部 [HTML](../tags/README.md) 元素 | [lang](att_global_lang.asp) |
+| 全部 [HTML](../tags/README.md) 元素 | [lang](./global/lang.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 

@@ -16,6 +16,7 @@ HTML draggable 属性
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | 所有 [HTML](../tags/README.md) 元素 | [draggable](./global/draggable.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -32,6 +33,7 @@ HTML draggable 属性
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | draggable | 4.0 | 9.0 | 3.5 | 6.0  | 12.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

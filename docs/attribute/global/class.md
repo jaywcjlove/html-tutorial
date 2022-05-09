@@ -41,6 +41,7 @@ p.important {
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __&lt;class&gt;__ | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
@@ -53,6 +54,7 @@ p.important {
 值 Value | 描述 Description
 ---- | ----
 classname | 为元素指定一个或多个类名。 要指定多个类，请用空格分隔类名，例如 `<span class="left important"`>。 这允许您为一个 HTML元素组合多个 CSS 类。<br />命名规则：<br /> 1. 必须以字母 A-Z 或 a-z 开头<br />2. 后面可以跟：字母 (A-Za-z)、数字 (0-9)、连字符 ("-") 和下划线 ("_")
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 更多示例
 

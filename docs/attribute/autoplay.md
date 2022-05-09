@@ -15,6 +15,7 @@ HTML autoplay 属性
 | ----- | ----- |
 | [\<audio>](../tags/audio.md) | [autoplay](../tags/audio_autoplay.md) |
 | [\<video>](../tags/video.md) | [autoplay](../tags/video_autoplay.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -50,6 +51,7 @@ HTML autoplay 属性
 | ------- | --- | --- | --- | --- | --- |
 | [audio](../tags/audio.md)   | 4.0 | 9.0 | 3.5 | 4.0 | 10.5 |
 | [video](../tags/video.md)   | 4.0 | 9.0 | 3.5 | 4.0 | 10.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

@@ -23,6 +23,7 @@ HTML data-\* 属性
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | 全部 [HTML](../reference/byfunc.md) 元素 | [data-\*](./global/data.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -43,6 +44,7 @@ HTML data-\* 属性
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | data-\*   | 4.0 | 5.5 | 2.0 | 3.1 | 9.6 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

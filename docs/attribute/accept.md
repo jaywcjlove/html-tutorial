@@ -16,6 +16,7 @@ accept 属性指定服务器接受的文件类型（可以通过文件上传提�
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<input>](../tags/input.md) | [accept](../tags/input_accept.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## Input 示例
 
@@ -35,6 +36,7 @@ accept 属性指定服务器接受的文件类型（可以通过文件上传提�
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | accept    | 8.0 | 10.0 | 4.0 | 6.0 | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

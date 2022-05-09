@@ -14,6 +14,7 @@ HTML contenteditable 属性
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | 所有 [HTML](../tags/README.md) 元素 | [contenteditable](./global/contenteditable.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -30,6 +31,7 @@ HTML contenteditable 属性
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | contenteditable | 4.0 | 6.0 | 3.5 | 3.1 | 10.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

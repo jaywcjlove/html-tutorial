@@ -24,6 +24,7 @@ HTML disabled 属性
 | [\<option>](../tags/option.md)     | [disabled](../tags/option_disabled.md)   |
 | [\<select>](../tags/select.md)     | [disabled](../tags/select_disabled.md)   |
 | [\<textarea>](../tags/textarea.md) | [disabled](../tags/textarea_disabled.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -122,6 +123,7 @@ HTML disabled 属性
 | [\<option>](../tags/option.md)     | 1.0 | 8.0           | 1.0 | Yes | Yes |
 | [\<select>](../tags/select.md)     | Yes | Yes           | Yes | Yes | Yes |
 | [\<textarea>](../tags/textarea.md) | Yes | Yes           | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

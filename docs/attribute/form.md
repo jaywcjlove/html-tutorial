@@ -22,6 +22,7 @@ HTML form 属性
 | [\<output>](../tags/output.md)     | [form](../tags/output_form.md)   |
 | [\<select>](../tags/select.md)     | [form](../tags/select_form.md)   |
 | [\<textarea>](../tags/textarea.md) | [form](../tags/textarea_form.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -172,6 +173,7 @@ oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
 | output   | Yes           | ❌ 不支持 | Yes           | Yes           | Yes           |
 | select   | Yes           | ❌ 不支持 | Yes           | Yes           | Yes           |
 | textarea | Yes           | ❌ 不支持 | Yes           | Yes           | Yes           |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

@@ -17,6 +17,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集，它涵盖了世界�
 | ----- | ----- |
 | [\<meta>](../tags/meta.md)     | [charset](../tags/meta_charset.md)   |
 | [\<script>](../tags/script.md) | [charset](../tags/script_charset.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -46,6 +47,7 @@ HTML5 规范鼓励 Web 开发人员使用 UTF-8 字符集，它涵盖了世界�
 | ------- | --- | --- | --- | --- | --- |
 | [\<meta>](../tags/meta.md)     | Yes | Yes | Yes | Yes | Yes |
 | [\<script>](../tags/script.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

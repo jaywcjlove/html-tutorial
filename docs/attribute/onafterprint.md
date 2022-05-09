@@ -30,6 +30,7 @@ function myFunction() {
 | 事件属性 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --------------- | -- | --- | --- | ------------- | ------------- |
 | onafterprint    | 63 | Yes | Yes | ❌ 不支持 | ❌ 不支持 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 **注意：** 在 IE/Edge 中，onafterprint 属性出现在打印对话框之前，而不是之后。
 
@@ -44,11 +45,13 @@ function myFunction() {
 | 值 Value | 描述 Description |
 | -------- | -------- |
 | script | 要在 onafterprint 上运行的脚本 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 技术细节
 
 | 支持的HTML标签: | [\<body>](../tags/body.md) |
 | -------- | ------- |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

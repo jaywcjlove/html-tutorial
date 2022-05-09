@@ -13,6 +13,7 @@ HTML colspan 属性
 | ----- | ----- |
 | [\<td>](../tags/td.md) | [colspan](../tags/td_colspan.md) |
 | [\<th>](../tags/th.md) | [colspan](../tags/th_colspan.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -76,6 +77,7 @@ HTML colspan 属性
 | ------- | --- | --- | --- | --- | --- |
 | [\<td>](../tags/td.md) | Yes | Yes | Yes | Yes | Yes |
 | [\<th>](../tags/th.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

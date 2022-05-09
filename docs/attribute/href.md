@@ -19,6 +19,7 @@ HTML href 属性
 | [\<area>](../tags/area.md) | [href](../tags/area_href.md) |
 | [\<base>](../tags/base.md) | [href](../tags/base_href.md) |
 | [\<link>](../tags/link.md) | [href](../tags/link_href.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -71,6 +72,7 @@ href 属性指定 [\<a>](../tags/a.md) 链接的目的地：
 | [\<area>](../tags/area.md) | Yes | Yes | Yes | Yes | Yes |
 | [\<base>](../tags/base.md) | Yes | Yes | Yes | Yes | Yes |
 | [\<link>](../tags/link.md) | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

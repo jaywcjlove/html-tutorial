@@ -12,6 +12,7 @@ HTML content 属性
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<meta>](../tags/meta.md) | [content](../tags/meta_content.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -31,6 +32,7 @@ HTML content 属性
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | content   | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

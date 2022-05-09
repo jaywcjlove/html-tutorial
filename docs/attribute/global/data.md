@@ -37,6 +37,7 @@ HTML data-* 属性
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __&lt;data-*&gt;__ | 4.0 | 5.5 | 2.0 | 3.1 | 9.6 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 

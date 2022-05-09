@@ -18,6 +18,7 @@ HTML onabort 属性
 | [\<img>](../tags/img.md)       | onabort                       |
 | [\<object>](../tags/object.md) | onabort                       |
 | [\<video>](../tags/video.md)   | [onabort](../events/onabort.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -38,6 +39,7 @@ HTML onabort 属性
 | [\<img>](../tags/img.md)       | Yes | Yes           | Yes | Yes | Yes |
 | [\<object>](../tags/object.md) | Yes | ❌ 不支持 | Yes | Yes | Yes |
 | [\<video>](../tags/video.md)   | Yes | 9.0           | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 **注意：** Windows 7 上的 Internet Explorer 11 不支持音频/视频的中止事件。
 

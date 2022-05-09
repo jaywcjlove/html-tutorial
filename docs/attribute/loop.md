@@ -18,6 +18,7 @@ HTML loop 属性
 | ----- | ----- |
 | [\<audio>](../tags/audio.md) | [loop](../tags/audio_loop.md) |
 | [\<video>](../tags/video.md) | [loop](../tags/video_loop.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -57,6 +58,7 @@ HTML loop 属性
 | ------- | --- | --- | --- | --- | --- |
 | [\<audio>](../tags/audio.md) loop | 4.0 | 9.0 | 3.5  | 4.0 | 10.5 |
 | [\<video>](../tags/video.md) loop | 4.0 | 9.0 | 11.0 | 4.0 | 10.5 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

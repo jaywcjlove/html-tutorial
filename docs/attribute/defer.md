@@ -22,6 +22,7 @@ The `defer` attribute can be used on the following element:
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | [\<script>](../tags/script.md) | [defer](../tags/script_defer.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -37,6 +38,7 @@ The `defer` attribute can be used on the following element:
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | defer     | Yes | 10.0 | 3.6 | Yes | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

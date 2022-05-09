@@ -13,7 +13,8 @@ HTML accesskey 属性
 | Chrome            | \[Alt] + *accesskey* | \[Alt] + *accesskey* | \[Control] \[Alt] + *accesskey* |
 | Firefox           | \[Alt] \[Shift] + *accesskey* | \[Alt] \[Shift] + *accesskey* | \[Control] \[Alt] + *accesskey* |
 | Safari            | \[Alt] + *accesskey* | N/A                           | \[Control] \[Alt] + *accesskey* |
-| Opera             | Opera 15 或更高版本: \[Alt] + *accesskey* <br>Opera 12.1 或更高版本: \[Shift] \[Esc] + *accesskey* |                               | |
+| Opera             | Opera 15 或更高版本: \[Alt] + *accesskey* <br>Opera 12.1 或更高版本: \[Shift] \[Esc] + *accesskey* | | |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 但是，在大多数浏览器中，快捷方式可以设置为另一种组合键。
 
@@ -30,6 +31,7 @@ HTML accesskey 属性
 | 元素 Element | 属性 Attribute |
 | ----- | ----- |
 | 全部 [HTML](../tags/README.md) 元素 | [accesskey](./global/accesskey.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ### 示例
 
@@ -42,10 +44,10 @@ HTML accesskey 属性
 
 ## 浏览器支持
 
-
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | accesskey | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

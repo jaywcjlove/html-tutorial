@@ -15,6 +15,7 @@ HTML formaction 属性
 | ----- | ----- |
 | [\<button>](../tags/button.md) | [formaction](../tags/button_formaction.md) |
 | [\<input>](../tags/input.md)   | [formaction](../tags/input_formaction.md)  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -52,6 +53,7 @@ HTML formaction 属性
 | ------- | --- | --- | --- | --- | --- |
 | [\<button>](../tags/button.md) | 9.0 | 10.0 | 4.0 | 5.1 | 10.6 |
 | [\<input>](../tags/input.md)   | 9.0 | 10.0 | 4.0 | 5.1 | 10.6 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

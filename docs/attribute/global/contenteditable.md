@@ -21,7 +21,8 @@ HTML contenteditable 属性
 
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| __&lt;contenteditable&gt;__ | 4.0 | 6.0 | 3.5 | 3.1 | 10.1
+| __&lt;contenteditable&gt;__ | 4.0 | 6.0 | 3.5 | 3.1 | 10.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
@@ -35,6 +36,7 @@ HTML contenteditable 属性
 ---- | ----
 true | 指定元素是可编辑的
 false | 指定元素不可编辑
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../../assets/chrome.svg
 [2]: ../../assets/edge.svg

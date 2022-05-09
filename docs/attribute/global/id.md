@@ -28,6 +28,7 @@ function displayResult() {
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __&lt;id&gt;__ | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
@@ -40,6 +41,7 @@ function displayResult() {
 值 Value | 描述 Description
 ---- | ----
 id | 指定元素的唯一 ID。 命名规则：<br/>1. 必须包含至少一个字符<br/> 2. 不得包含任何空格字符
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../../assets/chrome.svg
 [2]: ../../assets/edge.svg

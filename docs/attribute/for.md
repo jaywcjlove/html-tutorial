@@ -15,6 +15,7 @@ HTML for 属性
 | ----- | ----- |
 | [\<label>](../tags/label.md)   | [for](../tags/label_for.md)  |
 | [\<output>](../tags/output.md) | [for](../tags/output_for.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -54,6 +55,7 @@ HTML for 属性
 | ------- | --- | --- | --- | --- | --- |
 | label   | Yes  | Yes           | Yes | Yes  | Yes  |
 | output  | 10.0 | ❌ 不支持| 4.0 | 5.1  | 11.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

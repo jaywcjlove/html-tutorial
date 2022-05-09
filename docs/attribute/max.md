@@ -16,6 +16,7 @@ HTML max 属性
 | [\<input>](../tags/input.md)       | [max](../tags/input_max.md)    |
 | [\<meter>](../tags/meter.md)       | [max](../tags/meter_max.md)    |
 | [\<progress>](../tags/progress.md) | [max](../tags/progress_max.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -58,6 +59,7 @@ HTML max 属性
 | [\<input>](../tags/input.md)       | 5.0 | 10.0      | 16.0 | 5.1 | 10.6 |
 | [\<meter>](../tags/meter.md)       | 8.0 | ❌ 不支持  | 6.0  | 6.0 | 11.0 |
 | [\<progress>](../tags/progress.md) | 8.0 | 10.0      | 16.0 | 6.0 | 11.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

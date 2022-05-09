@@ -19,6 +19,7 @@ HTML autocomplete 属性
 | ----- | ----- |
 | [\<form>](../tags/form.md)   | [autocomplete](../tags/form_autocomplete.md)  |
 | [\<input>](../tags/input.md) | [autocomplete](../tags/input_autocomplete.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -55,6 +56,7 @@ HTML autocomplete 属性
 | ------- | --- | --- | --- | --- | --- |
 | [form](../tags/form.md)    | Yes  | Yes | 4.0 | 5.2 | 15.0 |
 | [input](../tags/input.md)   | 17.0 | 5.0 | 4.0 | 5.2 | 9.6  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

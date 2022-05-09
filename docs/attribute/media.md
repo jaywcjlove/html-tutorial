@@ -20,6 +20,7 @@ HTML media 属性
 | [\<link>](../tags/link.md)     | [media](../tags/link_media.md)   |
 | [\<source>](../tags/source.md) | [media](../tags/source_media.md) |
 | [\<style>](../tags/style.md)   | [media](../tags/style_media.md)  |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -93,6 +94,7 @@ usemap="#planetmap">
 | [\<link>](../tags/link.md)      | Yes           | Yes           | Yes           | Yes           | Yes           |
 | [\<source>](../tags/source.md)  | ❌ 不支持 | ❌ 不支持 | ❌ 不支持 | ❌ 不支持 | ❌ 不支持 |
 | [\<style>](../tags/style.md)    | Yes           | Yes           | Yes           | Yes           | Yes           |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

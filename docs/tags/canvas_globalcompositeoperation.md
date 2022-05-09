@@ -60,6 +60,7 @@ Internet Explorer 9、Firefox、Opera、Chrome 和 Safari 支持 globalComposite
 | 默认值: | `source-over` |
 | ------ | ------ |
 | JavaScript syntax: | *context*.globalCompositeOperation="source-in"; |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性值
 
@@ -76,6 +77,7 @@ Internet Explorer 9、Firefox、Opera、Chrome 和 Safari 支持 globalComposite
 | lighter          | 显示**源图像**+**目标图像** | 
 | copy             | 显示**源图像**。**目标图像**被忽略 | 
 | xor              | **源图像**与**目标图像**使用异或组合 | 
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 

@@ -16,6 +16,7 @@ HTML hreflang 属性
 | [\<a>](../tags/a.md)       | [hreflang](../tags/a_hreflang.md)    |
 | [\<area>](../tags/area.md) | [hreflang](../tags/area_hreflang.md) |
 | [\<link>](../tags/link.md) | [hreflang](../tags/link_hreflang.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -57,6 +58,7 @@ HTML hreflang 属性
 | [\<a>](../tags/a.md)        | Yes | Yes | Yes | Yes | Yes |
 | [\<area>](../tags/area.md)  | Yes | Yes | Yes | Yes | Yes |
 | [\<link>](../tags/link.md)  | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg

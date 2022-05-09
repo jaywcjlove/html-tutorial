@@ -20,6 +20,7 @@ HTML alt 属性
 | [\<area>](../tags/area.md)   | [alt](../tags/area_alt.md)  |
 | [\<img>](../tags/img.md)     | [alt](../tags/img_alt.md)   |
 | [\<input>](../tags/input.md) | [alt](../tags/input_alt.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 示例
 
@@ -64,6 +65,7 @@ HTML alt 属性
 | area    | Yes | Yes | Yes | Yes | Yes |
 | img     | Yes | Yes | Yes | Yes | Yes |
 | input   | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg

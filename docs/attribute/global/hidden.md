@@ -29,6 +29,7 @@ HTML `hidden` 属性
 | &nbsp; | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | __&lt;hidden&gt;__ | 6.0 | 11.0 | 4.0 | 5.1 | 11.1 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
