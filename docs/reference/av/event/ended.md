@@ -67,7 +67,7 @@ audio|video.addEventListener("ended", myScript);
 
 ## 技术细节
 
-| 支持的 HTML 标签: | \<audio> and \<video> |
+| 支持的 HTML 标签: | \<audio> 和 \<video> |
 | -------- | -------- |
 | 支持的 JavaScript 对象: | Audio, Video |
 <!--rehype:style=width: 100%; display: inline-table;-->
