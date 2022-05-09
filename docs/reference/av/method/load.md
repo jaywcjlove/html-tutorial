@@ -56,7 +56,7 @@ audio|video.load()
 
 ## 返回值
 
-|                 |
+|      |
 | ---- |
 | 无返回值 |
 <!--rehype:style=width: 100%; display: inline-table;-->
