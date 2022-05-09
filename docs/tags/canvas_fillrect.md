@@ -38,6 +38,8 @@ ctx.fillRect(20, 20, 150, 100);
 
 **提示：** 使用 [fillStyle](canvas_fillstyle.md) 属性设置用于填充绘图的颜色、渐变或图案。
 
+## JavaScript 语法
+
 | JavaScript 语法: | *context*.fillRect(*x,y,width,height*); |
 | ------- | ------- |
 <!--rehype:style=width: 100%; display: inline-table;-->
@@ -50,6 +52,7 @@ ctx.fillRect(20, 20, 150, 100);
 | *y*       | 矩形左上角的 y 坐标 |
 | *width*   | 矩形的宽度，以像素为单位 |
 | *height*  | 矩形的高度，以像素为单位 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 [1]: ../assets/chrome.svg
