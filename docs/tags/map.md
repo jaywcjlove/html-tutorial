@@ -15,9 +15,6 @@ HTML \<map> 标签
 </map>
 ```
 
-<img src="../assets/workplace.jpg" alt="Workplace" height="0">
-<!--rehype:style=display: none;-->
-
 ## 定义和用法
 
 `<map>` 标签用于定义图像映射。 图像地图是具有可点击区域的图像。
