@@ -1,6 +1,8 @@
 HTML onkeyup 事件属性
 ===
 
+当用户释放键时触发
+
 ## 示例
 
 当用户释放键时执行 JavaScript：

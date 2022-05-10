@@ -1,9 +1,11 @@
 HTML ontoggle 事件属性
 ===
 
+当用户打开或关闭 [\<details>](../tags/details.md) 元素时触发
+
 ## 示例
 
-当 \<details> 元素打开或关闭时执行 JavaScript：
+当 [\<details>](../tags/details.md) 元素打开或关闭时执行 JavaScript：
 
 ```html
 <details ontoggle="myFunction()">
