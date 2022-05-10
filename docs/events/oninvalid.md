@@ -1,6 +1,8 @@
 HTML oninvalid 事件属性
 ===
 
+元素无效时运行的脚本
+
 ## 示例
 
 当输入字段无效时执行 JavaScript：
