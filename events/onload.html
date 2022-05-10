@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>onload.md HTML Tutorial </title>
+  <title>HTML onload 事件属性 HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/events/onload.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="在页面加载后立即执行 JavaScript：">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,8 +642,193 @@
 </div>
 
   <markdown-style>
-    <h1 id="onloadmd"><a aria-hidden="true" tabindex="-1" href="#onloadmd" class="anchor"><span class="icon icon-link"></span></a>onload.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/events/onload.md">docs/events/onload.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-onload-事件属性"><a aria-hidden="true" tabindex="-1" href="#html-onload-事件属性" class="anchor"><span class="icon icon-link"></span></a>HTML onload 事件属性</h1>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>在页面加载后立即执行 JavaScript：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token doctype"><span class="token punctuation">&#x3C;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>html</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>body</span> <span class="token special-attr"><span class="token attr-name">onload</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h1</span><span class="token punctuation">></span></span>Hello World!<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h1</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>info<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>span</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="6">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="7"><span class="token script"><span class="token language-javascript">    <span class="token keyword">function</span> <span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="8"><span class="token script"><span class="token language-javascript">      <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">'info'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">innerHTML</span> <span class="token operator">=</span> <span class="token string">'页面已加载，执行了 onload 事件。'</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="9"><span class="token script"><span class="token language-javascript">    <span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="10"><span class="token script"><span class="token language-javascript">  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="11"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>body</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="12"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>html</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<!DOCTYPE html>
+<html>
+<body onload=&#x22;myFunction()&#x22;>
+  <h1>Hello World!</h1>
+  <span id=&#x22;info&#x22;> </span>
+  <script>
+    function myFunction() {
+      document.getElementById(&#x27;info&#x27;).innerHTML = &#x27;页面已加载，执行了 onload 事件。&#x27;;
+    }
+  </script>
+</body>
+</html>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<!DOCTYPE html>
+<html>
+<body onload=&#x22;myFunction()&#x22;>
+  <h1>Hello World!</h1>
+  <span id=&#x22;info&#x22;> </span>
+  <script>
+    function myFunction() {
+      document.getElementById(&#x27;info&#x27;).innerHTML = &#x27;页面已加载，执行了 onload 事件。&#x27;;
+    }
+  </script>
+</body>
+</html>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>body</span> <span class="token special-attr"><span class="token attr-name">onload</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<body onload=&#x22;myFunction()&#x22;>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="定义和使用"><a aria-hidden="true" tabindex="-1" href="#定义和使用" class="anchor"><span class="icon icon-link"></span></a>定义和使用</h2>
+<p>加载对象时会触发 <code>onload</code> 属性。</p>
+<p><code>onload</code> 最常用于 &#x3C;body> 元素中，用于在网页完全加载所有内容（包括图像、脚本文件、CSS 文件等）后执行脚本。 但是，它也可以用于其他元素（请参阅下面的“支持的 HTML 标记”）。</p>
+<p><code>onload</code> 属性可用于检查访问者的浏览器类型和浏览器版本，并根据这些信息加载适当版本的网页。</p>
+<p><code>onload</code> 属性也可用于处理 cookie（请参阅下面的“更多示例”）。</p>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>事件属性</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>onload</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="语法"><a aria-hidden="true" tabindex="-1" href="#语法" class="anchor"><span class="icon icon-link"></span></a>语法</h2>
+<pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>element</span> <span class="token special-attr"><span class="token attr-name">onload</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript">script</span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<element onload=&#x22;script&#x22;>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="属性值"><a aria-hidden="true" tabindex="-1" href="#属性值" class="anchor"><span class="icon icon-link"></span></a>属性值</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>值 Value</th><th>描述 Description</th></tr></thead><tbody><tr><td><em>script</em></td><td>要在 onload 上运行的脚本</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="技术细节"><a aria-hidden="true" tabindex="-1" href="#技术细节" class="anchor"><span class="icon icon-link"></span></a>技术细节</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>支持的 HTML 标签:</td><td>&#x3C;body>, &#x3C;frame>, &#x3C;frameset>, &#x3C;iframe>, &#x3C;img>, &#x3C;input type="image">, &#x3C;link>, &#x3C;script> 和 &#x3C;style></td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="更多示例"><a aria-hidden="true" tabindex="-1" href="#更多示例" class="anchor"><span class="icon icon-link"></span></a>更多示例</h2>
+<h3 id="示例-1"><a aria-hidden="true" tabindex="-1" href="#示例-1" class="anchor"><span class="icon icon-link"></span></a>示例</h3>
+<p>在 &#x3C;img> 元素上使用 <code>onload</code>。 加载图像后立即提示“图像已加载”：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/chrome.svg<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">onload</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">loadImage</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>info<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="4"><span class="token script"><span class="token language-javascript">  <span class="token keyword">function</span> <span class="token function">loadImage</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="5"><span class="token script"><span class="token language-javascript">    <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">'info'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">innerHTML</span> <span class="token operator">=</span> <span class="token string">'图片已加载'</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="6"><span class="token script"><span class="token language-javascript">  <span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="7"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<img src=&#x22;../assets/chrome.svg&#x22; onload=&#x22;loadImage()&#x22;>
+<div id=&#x22;info&#x22;> </div>
+<script>
+  function loadImage() {
+    document.getElementById(&#x27;info&#x27;).innerHTML = &#x27;图片已加载&#x27;;
+  }
+</script>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<img src=&#x22;../assets/chrome.svg&#x22; onload=&#x22;loadImage()&#x22;>
+<div id=&#x22;info&#x22;> </div>
+<script>
+  function loadImage() {
+    document.getElementById(&#x27;info&#x27;).innerHTML = &#x27;图片已加载&#x27;;
+  }
+</script>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<h3 id="示例-2"><a aria-hidden="true" tabindex="-1" href="#示例-2" class="anchor"><span class="icon icon-link"></span></a>示例</h3>
+<p>使用 <code>onload</code> 事件处理 <code>cookie</code>（使用“高级”javascript）：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token doctype"><span class="token punctuation">&#x3C;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>html</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>body</span> <span class="token special-attr"><span class="token attr-name">onload</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">checkCookies</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>demo<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="6"><span class="token script"><span class="token language-javascript">    <span class="token keyword">function</span> <span class="token function">checkCookies</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="7"><span class="token script"><span class="token language-javascript">      <span class="token keyword">var</span> text <span class="token operator">=</span> <span class="token string">""</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="8"><span class="token script"><span class="token language-javascript">      <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token dom variable">navigator</span><span class="token punctuation">.</span><span class="token property-access">cookieEnabled</span> <span class="token operator">==</span> <span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="9"><span class="token script"><span class="token language-javascript">        text <span class="token operator">=</span> <span class="token string">"启用 Cookie。"</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="10"><span class="token script"><span class="token language-javascript">      <span class="token punctuation">}</span> <span class="token keyword control-flow">else</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="11"><span class="token script"><span class="token language-javascript">        text <span class="token operator">=</span> <span class="token string">"未启用 Cookie。"</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="12"><span class="token script"><span class="token language-javascript">      <span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="13"><span class="token script"><span class="token language-javascript">      <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"demo"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">innerHTML</span> <span class="token operator">=</span> text<span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="14"><span class="token script"><span class="token language-javascript">    <span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="15"><span class="token script"><span class="token language-javascript">  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="16"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>body</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="17"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>html</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<!DOCTYPE html>
+<html>
+<body onload=&#x22;checkCookies()&#x22;>
+  <p id=&#x22;demo&#x22;></p>
+  <script>
+    function checkCookies() {
+      var text = &#x22;&#x22;;
+      if (navigator.cookieEnabled == true) {
+        text = &#x22;启用 Cookie。&#x22;;
+      } else {
+        text = &#x22;未启用 Cookie。&#x22;;
+      }
+      document.getElementById(&#x22;demo&#x22;).innerHTML = text;
+    }
+  </script>
+</body>
+</html>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<!DOCTYPE html>
+<html>
+<body onload=&#x22;checkCookies()&#x22;>
+  <p id=&#x22;demo&#x22;></p>
+  <script>
+    function checkCookies() {
+      var text = &#x22;&#x22;;
+      if (navigator.cookieEnabled == true) {
+        text = &#x22;启用 Cookie。&#x22;;
+      } else {
+        text = &#x22;未启用 Cookie。&#x22;;
+      }
+      document.getElementById(&#x22;demo&#x22;).innerHTML = text;
+    }
+  </script>
+</body>
+</html>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
     
 
 <div class="previous">
@@ -673,12 +858,69 @@
     <span>GitHub 上编辑此页</span>
   </a>
   
-  <span class="atime">2022/05/09</span>
+  <span class="atime">2022/05/10</span>
   
 </section>
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#定义和使用" class="tocs-link">定义和使用</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#语法" class="tocs-link">语法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#属性值" class="tocs-link">属性值</a>
+        
+      </li>
+    
+      <li>
+        <a href="#技术细节" class="tocs-link">技术细节</a>
+        
+      </li>
+    
+      <li>
+        <a href="#更多示例" class="tocs-link">更多示例</a>
+        
+          <ol class="tocs-list is-collapsed">
+            
+              <li>
+                <a href="#示例-1" class="tocs-link">示例</a>
+                
+              </li>
+            
+              <li>
+                <a href="#示例-2" class="tocs-link">示例</a>
+                
+              </li>
+            
+          </ol>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
 <script src="../js/demo-preview.js?v=1.18.0"></script>
