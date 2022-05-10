@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>oncontextmenu.md HTML Tutorial </title>
+  <title>HTML oncontextmenu 事件属性 HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/events/oncontextmenu.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="触发上下文菜单时运行的脚本">
   
   
   <meta name="keywords" content="html,tutorial">
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,8 +642,168 @@
 </div>
 
   <markdown-style>
-    <h1 id="oncontextmenumd"><a aria-hidden="true" tabindex="-1" href="#oncontextmenumd" class="anchor"><span class="icon icon-link"></span></a>oncontextmenu.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/events/oncontextmenu.md">docs/events/oncontextmenu.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-oncontextmenu-事件属性"><a aria-hidden="true" tabindex="-1" href="#html-oncontextmenu-事件属性" class="anchor"><span class="icon icon-link"></span></a>HTML oncontextmenu 事件属性</h1>
+<p>触发上下文菜单时运行的脚本</p>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>触发上下文菜单时执行 JavaScript：</p>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token doctype"><span class="token punctuation">&#x3C;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>html</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>head</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
+</span></span></span><span class="code-line line-number" line="5"><span class="token style"><span class="token language-css">    <span class="token selector">div</span> <span class="token punctuation">{</span> <span class="token property">background</span><span class="token punctuation">:</span> <span class="token color">yellow</span><span class="token punctuation">;</span> <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token unit">px</span> solid <span class="token color">black</span><span class="token punctuation">;</span> <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">10</span><span class="token unit">px</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="6"><span class="token style"><span class="token language-css">  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>style</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="7"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>head</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="8"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>body</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="9">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span> <span class="token attr-name">oncontextmenu</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myFunction()<span class="token punctuation">"</span></span> <span class="token attr-name">contextmenu</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mymenu<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="10">    <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="11">      在此框内右键单击以查看上下文菜单！
+</span><span class="code-line line-number" line="12">      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>menu</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>context<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mymenu<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="13">        <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>menuitem</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Refresh<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token property-access">location</span><span class="token punctuation">.</span><span class="token method function property-access">reload</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span> <span class="token attr-name">icon</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ico_reload.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>menuitem</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="14">        <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>menu</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Share on...<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="15">          <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>menuitem</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Twitter<span class="token punctuation">"</span></span> <span class="token attr-name">icon</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ico_twitter.png<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method function property-access">open</span><span class="token punctuation">(</span><span class="token string">'//twitter.com/intent/tweet?text='</span> <span class="token operator">+</span> <span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token property-access">location</span><span class="token punctuation">.</span><span class="token property-access">href</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>menuitem</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="16">          <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>menuitem</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Facebook<span class="token punctuation">"</span></span> <span class="token attr-name">icon</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ico_facebook.png<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token method function property-access">open</span><span class="token punctuation">(</span><span class="token string">'//facebook.com/sharer/sharer.php?u='</span> <span class="token operator">+</span> <span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token property-access">location</span><span class="token punctuation">.</span><span class="token property-access">href</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>menuitem</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="17">        <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>menu</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="18">        <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>menuitem</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Email This Page<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token property-access">location</span><span class="token operator">=</span><span class="token string">'mailto:?body='</span><span class="token operator">+</span><span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token property-access">location</span><span class="token punctuation">.</span><span class="token property-access">href</span><span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>menuitem</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="19">      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>menu</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="20">    <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="21">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="22">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>strong</span><span class="token punctuation">></span></span>注意：<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>strong</span><span class="token punctuation">></span></span>contextmenu 属性仅适用于 Firefox！<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="23">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="24"><span class="token script"><span class="token language-javascript">    <span class="token keyword">function</span> <span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="25"><span class="token script"><span class="token language-javascript">      <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"You right-clicked inside the div!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="26"><span class="token script"><span class="token language-javascript">    <span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="27"><span class="token script"><span class="token language-javascript">  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="28"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>body</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="29"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>html</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div { background: yellow; border: 1px solid black; padding: 10px; }
+  </style>
+</head>
+<body>
+  <div oncontextmenu=&#x22;myFunction()&#x22; contextmenu=&#x22;mymenu&#x22;>
+    <p>
+      在此框内右键单击以查看上下文菜单！
+      <menu type=&#x22;context&#x22; id=&#x22;mymenu&#x22;>
+        <menuitem label=&#x22;Refresh&#x22; onclick=&#x22;window.location.reload();&#x22; icon=&#x22;ico_reload.png&#x22;></menuitem>
+        <menu label=&#x22;Share on...&#x22;>
+          <menuitem label=&#x22;Twitter&#x22; icon=&#x22;ico_twitter.png&#x22; onclick=&#x22;window.open(&#x27;//twitter.com/intent/tweet?text=&#x27; + window.location.href);&#x22;></menuitem>
+          <menuitem label=&#x22;Facebook&#x22; icon=&#x22;ico_facebook.png&#x22; onclick=&#x22;window.open(&#x27;//facebook.com/sharer/sharer.php?u=&#x27; + window.location.href);&#x22;></menuitem>
+        </menu>
+        <menuitem label=&#x22;Email This Page&#x22; onclick=&#x22;window.location=&#x27;mailto:?body=&#x27;+window.location.href;&#x22;></menuitem>
+      </menu>
+    </p>
+  </div>
+  <p><strong>注意：</strong>contextmenu 属性仅适用于 Firefox！</p>
+  <script>
+    function myFunction() {
+      alert(&#x22;You right-clicked inside the div!&#x22;);
+    }
+  </script>
+</body>
+</html>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div { background: yellow; border: 1px solid black; padding: 10px; }
+  </style>
+</head>
+<body>
+  <div oncontextmenu=&#x22;myFunction()&#x22; contextmenu=&#x22;mymenu&#x22;>
+    <p>
+      在此框内右键单击以查看上下文菜单！
+      <menu type=&#x22;context&#x22; id=&#x22;mymenu&#x22;>
+        <menuitem label=&#x22;Refresh&#x22; onclick=&#x22;window.location.reload();&#x22; icon=&#x22;ico_reload.png&#x22;></menuitem>
+        <menu label=&#x22;Share on...&#x22;>
+          <menuitem label=&#x22;Twitter&#x22; icon=&#x22;ico_twitter.png&#x22; onclick=&#x22;window.open(&#x27;//twitter.com/intent/tweet?text=&#x27; + window.location.href);&#x22;></menuitem>
+          <menuitem label=&#x22;Facebook&#x22; icon=&#x22;ico_facebook.png&#x22; onclick=&#x22;window.open(&#x27;//facebook.com/sharer/sharer.php?u=&#x27; + window.location.href);&#x22;></menuitem>
+        </menu>
+        <menuitem label=&#x22;Email This Page&#x22; onclick=&#x22;window.location=&#x27;mailto:?body=&#x27;+window.location.href;&#x22;></menuitem>
+      </menu>
+    </p>
+  </div>
+  <p><strong>注意：</strong>contextmenu 属性仅适用于 Firefox！</p>
+  <script>
+    function myFunction() {
+      alert(&#x22;You right-clicked inside the div!&#x22;);
+    }
+  </script>
+</body>
+</html>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span> <span class="token attr-name">oncontextmenu</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myFunction()<span class="token punctuation">"</span></span> <span class="token attr-name">contextmenu</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mymenu<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<div oncontextmenu=&#x22;myFunction()&#x22; contextmenu=&#x22;mymenu&#x22;>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="定义和使用"><a aria-hidden="true" tabindex="-1" href="#定义和使用" class="anchor"><span class="icon icon-link"></span></a>定义和使用</h2>
+<p><code>oncontextmenu</code> 属性在用户右键单击元素以打开上下文菜单时触发。</p>
+<p><strong>注意：</strong> 虽然所有浏览器都支持 oncontextmenu 事件，但目前只有 Firefox 支持 <code>contextmenu</code> 属性。</p>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>事件属性</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>oncontextmenu</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="语法"><a aria-hidden="true" tabindex="-1" href="#语法" class="anchor"><span class="icon icon-link"></span></a>语法</h2>
+<pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>element</span> <span class="token attr-name">oncontextmenu</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>script<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<element oncontextmenu=&#x22;script&#x22;>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="属性值"><a aria-hidden="true" tabindex="-1" href="#属性值" class="anchor"><span class="icon icon-link"></span></a>属性值</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>值 Value</th><th>描述 Description</th></tr></thead><tbody><tr><td><em>script</em></td><td>要在 <code>oncontextmenu</code> 上运行的脚本</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="技术细节"><a aria-hidden="true" tabindex="-1" href="#技术细节" class="anchor"><span class="icon icon-link"></span></a>技术细节</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>支持的 HTML 标签:</td><td>&#x3C;body></td></tr><tr><td>Supported HTML tags:</td><td>所有 HTML 元素</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
     
 
 <div class="previous">
@@ -679,6 +839,44 @@
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#定义和使用" class="tocs-link">定义和使用</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#语法" class="tocs-link">语法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#属性值" class="tocs-link">属性值</a>
+        
+      </li>
+    
+      <li>
+        <a href="#技术细节" class="tocs-link">技术细节</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
 <script src="../js/demo-preview.js?v=1.18.0"></script>
