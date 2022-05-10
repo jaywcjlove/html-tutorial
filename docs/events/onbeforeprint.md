@@ -17,14 +17,12 @@ HTML onbeforeprint 事件属性
 <p><b>注意：</b> Safari 和 Opera 不支持 onbeforeprint 事件。</p>
 
 <script>
-function myFunction() {
-  alert("您即将打印此文档！");
-}
-</script>
-
+  function myFunction() {
+    alert("您即将打印此文档！");
+  }
+  </script>
 </body>
 </html>
-
 ```
 
 ```html
@@ -55,7 +53,17 @@ function myFunction() {
 | --- | --- |
 | *script* | 要在 onbeforeprint 上运行的脚本 |
 
-## Technical Details
+## 技术细节
 
-| Supported HTML tags: | \<body> |
+| 支持的 HTML 标签: | \<body> |
 | --- | --- |
+<!--rehype:style=width: 100%; display: inline-table;-->
+
+
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg
+
