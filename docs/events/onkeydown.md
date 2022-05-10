@@ -36,7 +36,8 @@ function myFunction(evn) {
 
 | 事件属性 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --- | --- | --- | --- | --- | --- |
-| onkeydown       | Yes | Yes | Yes | Yes | Yes |
+| onkeydown | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
@@ -49,12 +50,14 @@ function myFunction(evn) {
 | 值 Value | 描述 Description |
 | --- | --- |
 | *script* | 要在 onkeydown 上运行的脚本 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 技术细节
 
 |   |   |
 | ---- | ---- |
-| Supported HTML tags: | All HTML elements, EXCEPT: \<base>, \<bdo>, \<br>, \<head>, \<html>, \<iframe>, \<meta>, \<param>, \<script>, \<style>, and \<title> |
+| 支持的 HTML 标签: | 所有 HTML 元素，除了: [\<base>](../tags/base.md), [\<bdo>](../tags/bdo.md), [\<br>](../tags/br.md), [\<head>](../tags/head.md), [\<html>](../tags/html.md), [\<iframe>](../tags/iframe.md), [\<meta>](../tags/meta.md), [\<param>](../tags/param.md), [\<script>](../tags/script.md), [\<style>](../tags/style.md), 和 [\<title>](../tags/title.md) |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 更多示例
 
@@ -73,3 +76,11 @@ function keyupFunction() {
 }
 </script>
 ```
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg
+
+
