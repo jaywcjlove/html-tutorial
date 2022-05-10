@@ -7,8 +7,8 @@ HTML \<audio> loop 标签
 
 ```html idoc:preview
 <audio controls loop>
-  <source type="audio/ogg" src="horse.ogg">
-  <source type="audio/mpeg" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
+  <source src="../assets/horse.ogg" type="audio/ogg">
+  <source src="../assets/horse.mp3" type="audio/mpeg">
   Your browser does not support the audio tag.
 </audio>
 ```

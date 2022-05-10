@@ -23,7 +23,7 @@ vid.onabort = function() {
 *   emptied
 *   [error](../events/onerror.md)
 *   [stalled](../events/onstalled.md)
-*   [suspend](av_event_suspend.asp)
+*   [suspend](../events/suspend.md)
 
 ## 浏览器支持
 

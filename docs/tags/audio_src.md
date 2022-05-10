@@ -6,7 +6,7 @@ HTML \<audio> src 标签
 播放声音：
 
 ```html idoc:preview
-<audio controls src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
+<audio controls src="../assets/horse.mp3">
   您的浏览器不支持音频标签。
 </audio>
 ```
@@ -23,8 +23,8 @@ HTML \<audio> src 标签
 
 ```html idoc:preview
 <audio controls preload="none">
-  <source type="audio/ogg" src="horse.ogg">
-  <source type="audio/mpeg" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
+  <source src="../assets/horse.ogg" type="audio/ogg">
+  <source src="../assets/horse.mp3" type="audio/mpeg">
   您的浏览器不支持音频标签。
 </audio>
 ```
