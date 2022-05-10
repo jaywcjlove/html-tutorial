@@ -1,12 +1,25 @@
 HTML onpaste 事件属性
 ===
 
+当用户在元素中粘贴一些内容时触发
+
 ## 示例
 
 在 \<input> 元素中粘贴一些文本时执行 JavaScript：
 
-\<input type="text" onpaste="myFunction()" value="Paste something in here">
+```html
+<input type="text" onpaste="myFunction()" value="在这里粘贴一些东西">
+```
 
+```html idoc:preview:iframe
+<input type="text" onpaste="myFunction()" value="尝试在这里粘贴一些东西" size="40">
+<p id="demo"></p>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "你粘贴了文字！";
+}
+</script>
+```
 
 ## 定义和使用
 
