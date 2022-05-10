@@ -67,7 +67,7 @@ HTML 属性参考
 | [muted](../attribute/muted.md) | [\<video>](../tags/video.md), [\<audio>](../tags/audio.md) | 指定视频的音频输出应静音 |
 | [name](../attribute/name.md) | [\<button>](../tags/button.md), [\<fieldset>](../tags/fieldset.md), [\<form>](../tags/form.md), [\<iframe>](../tags/iframe.md), [\<input>](../tags/input.md), [\<map>](../tags/map.md), [\<meta>](../tags/meta.md), [\<object>](../tags/object.md), [\<output>](../tags/output.md), [\<param>](../tags/param.md), [\<select>](../tags/select.md), [\<textarea>](../tags/textarea.md) | 指定元素的名称 |
 | [novalidate](../attribute/novalidate.md) | [\<form>](../tags/form.md) | 指定提交时不应验证表单 |
-| [onabort](../attribute/onabort.md) | [\<audio>](../tags/audio.md), [\<embed>](../tags/embed.md), [\<img>](../tags/img.md), [\<object>](../tags/object.md), [\<video>](../tags/video.md) | 要在中止时运行的脚本 |
+| [onabort](../events/onabort.md) | [\<audio>](../tags/audio.md), [\<embed>](../tags/embed.md), [\<img>](../tags/img.md), [\<object>](../tags/object.md), [\<video>](../tags/video.md) | 要在中止时运行的脚本 |
 | [onafterprint](../attribute/onafterprint.md) | [\<body>](../tags/body.md) | 打印文档后运行的脚本 |
 | [onbeforeprint](../attribute/onbeforeprint.md) | [\<body>](../tags/body.md) | 在打印文档之前运行的脚本 |
 | [onbeforeunload](../attribute/onbeforeunload.md) | [\<body>](../tags/body.md) | 即将卸载文档时运行的脚本 |

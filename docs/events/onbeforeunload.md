@@ -1,4 +1,73 @@
-onbeforeunload.md
+HTML onbeforeunload 事件属性
 ===
 
-欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/events/onbeforeunload.md">docs/events/onbeforeunload.md</a> 文件，共建 HTML Tutorial 文档。
+即将卸载文档时运行的脚本
+
+## 示例
+
+当页面即将被卸载时执行 JavaScript：
+
+```html idoc:preview:iframe
+<!DOCTYPE html>
+<html>
+<body onbeforeunload="myFunction()">
+  <p>关闭此窗口，按 F5 或单击下面的链接以调用 onbeforeunload 事件。</p>
+  <script>
+    function myFunction() {
+      alert("You are about to print this document!");
+    }
+  </script>
+</body>
+</html>
+```
+
+```html
+<body onbeforeunload="return myFunction()">
+```
+
+## 定义和使用
+
+`onbeforeunload` 事件在文档即将被卸载时触发。
+
+此事件允许您在确认对话框中显示一条消息，以通知用户他/她是要留下还是离开当前页面。
+
+确认框中显示的默认消息在不同的浏览器中有所不同。 但是，标准消息类似于“您确定要离开此页面吗？”。 您无法删除此消息。
+
+但是，您可以将自定义消息与默认消息一起编写。 请参阅此页面上的第一个示例。
+
+**注意：** 在 Firefox 中，只会显示默认消息（不是自定义消息（如果有））。
+
+## 浏览器支持
+
+| 事件属性 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| --- | --- | --- | --- | --- | --- |
+| onbeforeunload  | Yes | Yes | Yes | Yes | 15.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
+
+## 语法
+
+```html
+<element onbeforeunload="script">
+```
+
+## 属性值
+
+| 值 Value | 描述 Description |
+| --- | --- |
+| *script* | 要在 onbeforeunload 上运行的脚本 |
+<!--rehype:style=width: 100%; display: inline-table;-->
+
+## 技术细节
+
+|   |   |
+| ---- | ---- |
+| 支持的 HTML 标签: | \<body> |
+<!--rehype:style=width: 100%; display: inline-table;-->
+
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg
+

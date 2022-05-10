@@ -1,6 +1,8 @@
 HTML onafterprint 事件属性
 ===
 
+打印文档后运行的脚本
+
 ## 示例
 
 当页面开始打印或打印对话框已关闭时执行 JavaScript：
