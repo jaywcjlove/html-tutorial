@@ -1,6 +1,8 @@
 HTML onload 事件属性
 ===
 
+页面加载完成后触发
+
 ## 示例
 
 在页面加载后立即执行 JavaScript：
