@@ -4,25 +4,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>onscroll.md HTML Tutorial </title>
+  <title>HTML onscroll 事件属性 HTML Tutorial </title>
   
-  <meta name="description" content="欢迎您编辑 docs/events/onscroll.md 文件，共建 HTML Tutorial 文档。">
+  <meta name="description" content="滚动元素的滚动条时运行的脚本">
   
   
   <meta name="keywords" content="html,tutorial">
   
-  <link rel="stylesheet" type="text/css" href="../css/main.css?v=1.18.0">
-  <link rel="stylesheet" type="text/css" href="../css/tocbot.css?v=1.18.0">
-  <link rel="stylesheet" type="text/css" href="../css/media.css?v=1.18.0">
-  <link rel="stylesheet" type="text/css" href="../css/sidebar.css?v=1.18.0">
-  <link rel="stylesheet" type="text/css" href="../css/copy.css?v=1.18.0">
-  <link rel="stylesheet" type="text/css" href="../css/demo-preview.css?v=1.18.0">
+  <link rel="stylesheet" type="text/css" href="../css/main.css?v=1.18.1">
+  <link rel="stylesheet" type="text/css" href="../css/tocbot.css?v=1.18.1">
+  <link rel="stylesheet" type="text/css" href="../css/media.css?v=1.18.1">
+  <link rel="stylesheet" type="text/css" href="../css/sidebar.css?v=1.18.1">
+  <link rel="stylesheet" type="text/css" href="../css/copy.css?v=1.18.1">
+  <link rel="stylesheet" type="text/css" href="../css/demo-preview.css?v=1.18.1">
   
     <link rel="icon" href="../logo.svg" type="image/x-icon">
   
-  <script src="../js/copy.js?v=1.18.0"></script>
-  <script src="../js/dark-mode.js?v=1.18.0"></script>
-  <script src="../js/markdown-style.js?v=1.18.0"></script>
+  <script src="../js/copy.js?v=1.18.1"></script>
+  <script src="../js/dark-mode.js?v=1.18.1"></script>
+  <script src="../js/markdown-style.js?v=1.18.1"></script>
 </head>
 <body id="idoctotop">
   <a href="#idoctotop" class="gototop">top</a>
@@ -71,7 +71,7 @@
   </article>
 </header>
 
-<div class="warpper-content warpper sidebar notocs">
+<div class="warpper-content warpper sidebar ">
   
 <div class="sidebar-border">
   <aside class="sidebar" role="navigation">
@@ -642,8 +642,152 @@
 </div>
 
   <markdown-style>
-    <h1 id="onscrollmd"><a aria-hidden="true" tabindex="-1" href="#onscrollmd" class="anchor"><span class="icon icon-link"></span></a>onscroll.md</h1>
-<p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/events/onscroll.md">docs/events/onscroll.md</a> 文件，共建 HTML Tutorial 文档。</p>
+    <h1 id="html-onscroll-事件属性"><a aria-hidden="true" tabindex="-1" href="#html-onscroll-事件属性" class="anchor"><span class="icon icon-link"></span></a>HTML onscroll 事件属性</h1>
+<p>滚动元素的滚动条时运行的脚本</p>
+<h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+<p>在滚动 <a href="../tags/div.html">&#x3C;div></a> 元素时执行 JavaScript：</p>
+<pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span> <span class="token special-attr"><span class="token attr-name">onscroll</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<div onscroll=&#x22;myFunction()&#x22;>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<div class="idoc-demo-warpper language-html"><pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
+</span></span></span><span class="code-line line-number" line="2"><span class="token style"><span class="token language-css">  <span class="token selector"><span class="token id">#myDIV</span></span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="3"><span class="token style"><span class="token language-css">    <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token unit">px</span> solid <span class="token color">black</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="4"><span class="token style"><span class="token language-css">    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">200</span><span class="token unit">px</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="5"><span class="token style"><span class="token language-css">    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span><span class="token unit">px</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="6"><span class="token style"><span class="token language-css">    <span class="token property">overflow</span><span class="token punctuation">:</span> scroll<span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="7"><span class="token style"><span class="token language-css">  <span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="8"><span class="token style"><span class="token language-css"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>style</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="9"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>head</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="10"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>body</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="11">
+</span><span class="code-line line-number" line="12"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>试试 div 中的滚动条。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="13">
+</span><span class="code-line line-number" line="14"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myDIV<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">onscroll</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="15">HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世界的一砖一瓦。它定义了网页内容的含义和结构。除 HTML 以外的其它技术则通常用来描述一个网页的表现与展示效果（如 CSS），或功能与行为（如 JavaScript）。
+</span><span class="code-line line-number" line="16"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>br</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>br</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="17">“超文本”（hypertext）是指连接单个网站内或多个网站间的网页的链接。链接是网络的一个基本方面。只要将内容上传到互联网，并将其与他人创建的页面相链接，你就成为了万维网的积极参与者。
+</span><span class="code-line line-number" line="18"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>br</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>br</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="19">HTML 使用“标记”（markup）来注明文本、图片和其他内容，以便于在 Web 浏览器中显示。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="20"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="21"><span class="token script"><span class="token language-javascript"><span class="token keyword">function</span> <span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="22"><span class="token script"><span class="token language-javascript">  <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"myDIV"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">style</span><span class="token punctuation">.</span><span class="token property-access">color</span> <span class="token operator">=</span> <span class="token string">"red"</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="23"><span class="token script"><span class="token language-javascript"><span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="24"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="25"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>当您在 div 中滚动时会触发一个函数。 该函数将 div 中文本的颜色设置为红色。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<style>
+  #myDIV {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+  }
+</style>
+</head>
+<body>
+
+<p>试试 div 中的滚动条。</p>
+
+<div id=&#x22;myDIV&#x22; onscroll=&#x22;myFunction()&#x22;>
+HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世界的一砖一瓦。它定义了网页内容的含义和结构。除 HTML 以外的其它技术则通常用来描述一个网页的表现与展示效果（如 CSS），或功能与行为（如 JavaScript）。
+<br><br>
+“超文本”（hypertext）是指连接单个网站内或多个网站间的网页的链接。链接是网络的一个基本方面。只要将内容上传到互联网，并将其与他人创建的页面相链接，你就成为了万维网的积极参与者。
+<br><br>
+HTML 使用“标记”（markup）来注明文本、图片和其他内容，以便于在 Web 浏览器中显示。</div>
+<script>
+function myFunction() {
+  document.getElementById(&#x22;myDIV&#x22;).style.color = &#x22;red&#x22;;
+}
+</script>
+<p>当您在 div 中滚动时会触发一个函数。 该函数将 div 中文本的颜色设置为红色。</p>
+"><iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<style>
+  #myDIV {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+  }
+</style>
+</head>
+<body>
+
+<p>试试 div 中的滚动条。</p>
+
+<div id=&#x22;myDIV&#x22; onscroll=&#x22;myFunction()&#x22;>
+HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世界的一砖一瓦。它定义了网页内容的含义和结构。除 HTML 以外的其它技术则通常用来描述一个网页的表现与展示效果（如 CSS），或功能与行为（如 JavaScript）。
+<br><br>
+“超文本”（hypertext）是指连接单个网站内或多个网站间的网页的链接。链接是网络的一个基本方面。只要将内容上传到互联网，并将其与他人创建的页面相链接，你就成为了万维网的积极参与者。
+<br><br>
+HTML 使用“标记”（markup）来注明文本、图片和其他内容，以便于在 Web 浏览器中显示。</div>
+<script>
+function myFunction() {
+  document.getElementById(&#x22;myDIV&#x22;).style.color = &#x22;red&#x22;;
+}
+</script>
+<p>当您在 div 中滚动时会触发一个函数。 该函数将 div 中文本的颜色设置为红色。</p>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></div>
+<h2 id="定义和使用"><a aria-hidden="true" tabindex="-1" href="#定义和使用" class="anchor"><span class="icon icon-link"></span></a>定义和使用</h2>
+<p><code>onscroll</code> 属性在元素的滚动条被滚动时触发。</p>
+<p><strong>提示：</strong> 使用 CSS <code>overflow</code> 样式属性为元素创建滚动条。</p>
+<h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>事件属性</th><th><img src="../assets/chrome.svg" alt="chrome"></th><th><img src="../assets/edge.svg" alt="edge"></th><th><img src="../assets/firefox.svg" alt="firefox"></th><th><img src="../assets/safari.svg" alt="safari"></th><th><img src="../assets/opera.svg" alt="opera"></th></tr></thead><tbody><tr><td>onscroll</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="语法"><a aria-hidden="true" tabindex="-1" href="#语法" class="anchor"><span class="icon icon-link"></span></a>语法</h2>
+<pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>element</span> <span class="token special-attr"><span class="token attr-name">onscroll</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript">script</span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<element onscroll=&#x22;script&#x22;>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="属性值"><a aria-hidden="true" tabindex="-1" href="#属性值" class="anchor"><span class="icon icon-link"></span></a>属性值</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th>值 Value</th><th>描述 Description</th></tr></thead><tbody><tr><td><em>script</em></td><td>在 <code>onscroll</code> 上运行的脚本</td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
+<h2 id="技术细节"><a aria-hidden="true" tabindex="-1" href="#技术细节" class="anchor"><span class="icon icon-link"></span></a>技术细节</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 100%; display: inline-table;"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>支持的 HTML 标签:</td><td><a href="../tags/address.html">&#x3C;address></a>, <a href="../tags/blockquote.html">&#x3C;blockquote></a>, <a href="../tags/body.html">&#x3C;body></a>, <a href="../tags/caption.html">&#x3C;caption></a>, <a href="../tags/center.html">&#x3C;center></a>, <a href="../tags/dd.html">&#x3C;dd></a>, <a href="../tags/dir.html">&#x3C;dir></a>, <a href="../tags/div.html">&#x3C;div></a>, <a href="../tags/dl.html">&#x3C;dl></a>, <a href="../tags/dt.html">&#x3C;dt></a>, <a href="../tags/fieldset.html">&#x3C;fieldset></a>, <a href="../tags/form.html">&#x3C;form></a>, <a href="../tags/hn.html">&#x3C;h1></a> ~ <a href="../tags/hn.html">&#x3C;h6></a>, <a href="../tags/html.html">&#x3C;html></a>, <a href="../tags/li.html">&#x3C;li></a>, <a href="../tags/menu.html">&#x3C;menu></a>, <a href="../tags/object.html">&#x3C;object></a>, <a href="../tags/ol.html">&#x3C;ol></a>, <a href="../tags/p.html">&#x3C;p></a>, <a href="../tags/pre.html">&#x3C;pre></a>, <a href="../tags/select.html">&#x3C;select></a>, <a href="../tags/tbody.html">&#x3C;tbody></a>, <a href="../tags/textarea.html">&#x3C;textarea></a>, <a href="../tags/tfoot.html">&#x3C;tfoot></a>, <a href="../tags/thead.html">&#x3C;thead></a>, <a href="../tags/ul.html">&#x3C;ul></a></td></tr></tbody></table>
+<!--rehype:style=width: 100%; display: inline-table;-->
     
 
 <div class="previous">
@@ -673,25 +817,63 @@
     <span>GitHub 上编辑此页</span>
   </a>
   
-  <span class="atime">2022/05/10</span>
+  <span class="atime">2022/05/12</span>
   
 </section>
 
   </markdown-style>
   
+<nav class="tocs">
+  <aside class="inner toc">
+    <ol class="tocs-list">
+    
+      <li>
+        <a href="#示例" class="tocs-link">示例</a>
+        
+      </li>
+    
+      <li>
+        <a href="#定义和使用" class="tocs-link">定义和使用</a>
+        
+      </li>
+    
+      <li>
+        <a href="#浏览器支持" class="tocs-link">浏览器支持</a>
+        
+      </li>
+    
+      <li>
+        <a href="#语法" class="tocs-link">语法</a>
+        
+      </li>
+    
+      <li>
+        <a href="#属性值" class="tocs-link">属性值</a>
+        
+      </li>
+    
+      <li>
+        <a href="#技术细节" class="tocs-link">技术细节</a>
+        
+      </li>
+    
+    </ol>
+  </aside>
+</nav>
+
 </div>
 
-<script src="../js/demo-preview.js?v=1.18.0"></script>
+<script src="../js/demo-preview.js?v=1.18.1"></script>
 
 
 <div class="footer warpper">
   Released under the MIT License. Copyright © 2022 Kenny Wong<br />
-Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.18.0
+Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.18.1
 
 </div>
 
 
-<script src="../js/tocbot.js?v=1.18.0"></script>
+<script src="../js/tocbot.js?v=1.18.1"></script>
 
 </body>
 </html>
