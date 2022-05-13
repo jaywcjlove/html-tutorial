@@ -14,7 +14,6 @@ HTML \<input> formnovalidate 属性
 </form>
 ```
 
-
 ## 定义和用法
 
 `formnovalidate` 属性是一个布尔属性。
