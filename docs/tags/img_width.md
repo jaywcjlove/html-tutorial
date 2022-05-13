@@ -1,4 +1,4 @@
-HTML \<img> width 标签
+HTML \<img> width 属性
 ===
 
 ## 示例
@@ -9,6 +9,8 @@ HTML \<img> width 标签
 <img src="../assets/chrome.svg" alt="Some image" referrerpolicy="no-referrer" height="600" width="500">
 ```
 <!--rehype:style=min-height: 300px;-->
+
+## 定义和使用
 
 `width` 属性指定图像的宽度，以像素为单位。
 

@@ -44,7 +44,7 @@ HTML 能够让事件触发浏览器中的操作，例如当用户单击元素时
 | [oninput](../events/oninput.md) | _script_ | 当元素获得用户输入时运行的脚本 |
 | [oninvalid](../events/oninvalid.md) | _script_ | 元素无效时运行的脚本 |
 | [onreset](../events/onreset.md) | _script_ | 单击表单中的重置按钮时触发 |
-| [onsearch](../events/onsearch.md) | _script_ | 当用户在搜索字段中写入内容时触发 (`<input="search">`) |
+| [onsearch](../events/onsearch.md) | _script_ | 当用户在搜索字段中写入内容时触发 ([`<input="search">`](../tags/input_type_search.md)) |
 | [onselect](../events/onselect.md) | _script_ | 在元素中选择了某些文本后触发 |
 | [onsubmit](../events/onsubmit.md) | _script_ | 提交表单时触发 |
 <!--rehype:style=width: 100%; display: inline-table;-->
@@ -71,7 +71,7 @@ HTML 能够让事件触发浏览器中的操作，例如当用户单击元素时
 | [onmouseout](../events/onmouseout.md) | _script_ | 当鼠标指针移出元素时触发 |
 | [onmouseover](../events/onmouseover.md) | _script_ | 当鼠标指针移到元素上时触发 |
 | [onmouseup](../events/onmouseup.md) | _script_ | 当在元素上释放鼠标按钮时触发 |
-| onmousewheel | _script_ | ⚠️ 已弃用。 改用 [onwheel](../events/onwheel.md) 属性 |
+| onmousewheel | _script_ | ⚠️ _已弃用_<!--rehype:style=color: red;-->。 改用 [onwheel](../events/onwheel.md) 属性 |
 | [onwheel](../events/onwheel.md) | _script_ | 当鼠标滚轮在元素上向上或向下滚动时触发 |
 <!--rehype:style=width: 100%; display: inline-table;-->
 

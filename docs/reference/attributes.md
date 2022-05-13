@@ -10,19 +10,19 @@ HTML 属性参考
 | [accept-charset](../attribute/accept-charset.md) | [\<form>](../tags/form.md) | 指定要用于表单提交的字符编码 |
 | [accesskey](../attribute/accesskey.md) | [全局属性](./standardattributes.md) | 指定激活/聚焦元素的快捷键 |
 | [action](../attribute/action.md) | [\<form>](../tags/form.md) | 指定提交表单时将表单数据发送到何处 |
-| align | ![][1] ⚠️ HTML 5 不支持 | 根据周围元素指定对齐方式。 改用 CSS |
+| align | ![][1] ⚠️ _HTML 5 不支持_<!--rehype:style=color: red;--> | 根据周围元素指定对齐方式。 改用 CSS |
 | [alt](../attribute/alt.md) | [\<area>](../tags/area.md), [\<img>](../tags/img.md), [\<input>](../tags/input.md) | 指定原始元素无法显示时的替代文本 |
 | [async](../attribute/async.md) | [\<script>](../tags/script.md) | 指定脚本异步执行（仅适用于外部脚本） |
 | [autocomplete](../attribute/autocomplete.md) | [\<form>](../tags/form.md), [\<input>](../tags/input.md) | 指定 [\<form>](../tags/form.md) 或 [\<input>](../tags/input.md) 元素是否应该启用自动完成功能 |
 | [autofocus](../attribute/autofocus.md) | [\<button>](../tags/button.md), [\<input>](../tags/input.md), [\<select>](../tags/select.md), [\<textarea>](../tags/textarea.md) | 指定当页面加载时元素应该自动获得焦点 |
 | [autoplay](../attribute/autoplay.md) | [\<audio>](../tags/audio.md), [\<video>](../tags/video.md) | 指定音频/视频一准备好就开始播放 |
-| bgcolor | ![][1] ⚠️ HTML 5 不支持 | 指定元素的背景颜色。 改用 CSS |
-| border | ![][1] ⚠️ HTML 5 不支持 | 指定元素边框的宽度。 改用 CSS |
+| bgcolor | ![][1] ⚠️ _HTML 5 不支持_<!--rehype:style=color: red;--> | 指定元素的背景颜色。 改用 CSS |
+| border | ![][1] ⚠️ _HTML 5 不支持_<!--rehype:style=color: red;--> | 指定元素边框的宽度。 改用 CSS |
 | [charset](../attribute/charset.md) | [\<meta>](../tags/meta.md), [\<script>](../tags/script.md) | 指定字符编码 |
 | [checked](../attribute/checked.md) | [\<input>](../tags/input.md) | 指定一个 \<input> 页面加载时应预先选择元素（对于 type="checkbox" 或 type="radio"） |
 | [cite](../attribute/cite.md) | [\<blockquote>](../tags/blockquote.md), [\<del>](../tags/del.md), [\<ins>](../tags/ins.md), [\<q>](../tags/q.md) | 指定解释引用/删除/插入文本的 URL |
 | [class](../attribute/class.md) | [全局属性](./standardattributes.md) | 为元素指定一个或多个类名（指样式表中的类） |
-| color | ![][1] ⚠️ HTML 5 不支持 | 指定元素的文本颜色。 改用 CSS |
+| color | ![][1] ⚠️ _HTML 5 不支持_<!--rehype:style=color: red;--> | 指定元素的文本颜色。 改用 CSS |
 | [cols](../attribute/cols.md) | [\<textarea>](../tags/textarea.md) | 指定文本区域的可见宽度 |
 | [colspan](../attribute/colspan.md) | [\<td>](../tags/td.md), [\<th>](../tags/th.md) | 指定表格单元格应跨越的列数 |
 | [content](../attribute/content.md) | [\<meta>](../tags/meta.md) | 给出与 http-equiv 或 name 属性关联的值 |
