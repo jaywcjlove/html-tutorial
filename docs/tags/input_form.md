@@ -36,7 +36,7 @@ HTML \<input> form 属性
 表中的数字指定了完全支持该属性的第一个浏览器版本。
 
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
-| ------- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | form      | Yes | Yes | Yes | 5.1 | 10.6 |
 <!--rehype:style=width: 100%; display: inline-table;-->
 
