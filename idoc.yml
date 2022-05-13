@@ -13,6 +13,8 @@ copyAssets:
   - '**/assets/*.{mp3,ogm,ogg,mp4}'
   - '**/assets/workplace.jpg'
 
+cacheFileStat: true
+
 editButton: 
   label: GitHub 上编辑此页
   url: https://github.com/jaywcjlove/html-tutorial/blob/main/
