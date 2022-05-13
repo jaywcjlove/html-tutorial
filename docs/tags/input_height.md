@@ -31,6 +31,7 @@ HTML \<input> height 属性
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --- | --- | --- | --- | --- | --- |
 | height    | Yes | Yes | 16.0 | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
