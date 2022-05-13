@@ -50,6 +50,8 @@ HTML \<input> alt 属性
 <!--rehype:style=width: 100%; display: inline-table;-->
 
 
+[HTML \<input> tag](./input.md "HTML input 标签参考")
+
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg
 [3]: ../assets/firefox.svg

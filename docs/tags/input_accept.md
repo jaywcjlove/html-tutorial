@@ -58,6 +58,8 @@ HTML \<input> accept 属性
 | *media\_type*     | 有效的媒体类型，没有参数。 查看 [IANA 媒体类型](http://www.iana.org/assignments/media-types/) 了解标准媒体类型的完整列表 |
 <!--rehype:style=width: 100%; display: inline-table;-->
 
+[HTML \<input> tag](./input.md "HTML input 标签参考")
+
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg
 [3]: ../assets/firefox.svg

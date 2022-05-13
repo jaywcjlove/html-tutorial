@@ -32,6 +32,7 @@ HTML \<input> autocomplete 属性
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | autocomplete | 17.0 | 6.0 | 2.0 | 5.1 | 10.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 
 ## 语法
@@ -48,6 +49,8 @@ HTML \<input> autocomplete 属性
 | off   | 指定自动完成关闭（禁用） |
 <!--rehype:style=width: 100%; display: inline-table;-->
 
+
+[HTML \<input> tag](./input.md "HTML input 标签参考")
 
 [1]: ../assets/chrome.svg
 [2]: ../assets/edge.svg
