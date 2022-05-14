@@ -15,7 +15,6 @@ HTML \<input> placeholder 属性
 </form> 
 ```
 
-
 ## 定义和用法
 
 `placeholder` 属性指定描述输入字段的预期值的简短提示（例如，示例值或预期格式的简短描述）。
