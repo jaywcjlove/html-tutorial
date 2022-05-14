@@ -19,6 +19,6 @@
     "tutorial"
   ],
   "dependencies": {
-    "idoc": "^1.19.0"
+    "idoc": "^1.21.0"
   }
 }
