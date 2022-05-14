@@ -3,7 +3,7 @@ HTML \<em> 标签
 
 ## 示例
 
-标记文档中强调的文本：
+标签文档中强调的文本：
 
 ```html idoc:preview
 <p>You <em>have</em> to hurry up!</p>

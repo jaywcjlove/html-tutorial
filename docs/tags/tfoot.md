@@ -46,7 +46,7 @@ HTML \<tfoot> Tag
 
 **注意：** `<tfoot>` 元素内部必须有一个或多个 [\<tr>](./tr.md) 标签。
 
-`<tfoot>` 标记必须在以下上下文中使用： 作为 [\<table>](./table.md) 元素的子元素，在任何 [\<caption>](./caption.md) 之后，[\< colgroup>](./colgroup.md)、[\<thead>](./thead.md) 和 [\<tbody>](./tbody.md) 元素。
+`<tfoot>` 标签必须在以下上下文中使用： 作为 [\<table>](./table.md) 元素的子元素，在任何 [\<caption>](./caption.md) 之后，[\< colgroup>](./colgroup.md)、[\<thead>](./thead.md) 和 [\<tbody>](./tbody.md) 元素。
 
 **提示：** \<thead>、\<tbody> 和 `<tfoot>` 元素默认不会影响表格的布局。但是，您可以使用 CSS 来设置这些元素的样式（参见下面的示例）！
 

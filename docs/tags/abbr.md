@@ -3,7 +3,7 @@ HTML \<abbr> 标签
 
 ## 实例
 
-标记一个缩写：
+标签一个缩写：
 
 ```html idoc:preview
 The <abbr title="People's Republic of China">PRC</abbr> was founded in 1949.

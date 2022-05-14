@@ -3,7 +3,7 @@ HTML \<button> 标签
 
 ## 示例
 
-一个可点击的按钮标记如下：
+一个可点击的按钮标签如下：
 
 ```HTML idoc:preview
 <button type="button">Click Me!</button>

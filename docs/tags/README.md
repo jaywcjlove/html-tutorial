@@ -71,7 +71,7 @@ HTML 标签参考手册
 | [&lt;link&gt;](./link.md) | 定义文档和外部资源之间的关系（最常用于链接到样式文件） |
 | [&lt;main&gt;](./main.md) | 指定文档的主要内容 |
 | [&lt;map&gt;](./map.md) | 定义图像映射 |
-| [&lt;mark&gt;](./mark.md) | 定义标记/突出显示的文本 |
+| [&lt;mark&gt;](./mark.md) | 定义标签/突出显示的文本 |
 | [&lt;menu&gt;](./menu.md) | 定义命令的列表或菜单。 |
 | [&lt;menuitem&gt;](./menuitem.md) | 定义用户可以从弹出菜单调用的命令/菜单项目。 |
 | [&lt;meta&gt;](./meta.md) | 定义有关 HTML 文档的元数据 |

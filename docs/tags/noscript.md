@@ -14,7 +14,7 @@ HTML \<noscript> 标签
 
 ## 定义和用法
 
-`<noscript>` 标记定义了要显示给在浏览器中禁用脚本或浏览器不支持脚本的用户的替代内容。
+`<noscript>` 标签定义了要显示给在浏览器中禁用脚本或浏览器不支持脚本的用户的替代内容。
 
 `<noscript>` 元素可以在 [\<head>](./head.md) 和 [\<body>](./body.md) 中使用。 在 [\<head>](./head.md) 中使用时，`<noscript>` 元素只能包含 [\<link>](./link.md)、[\<style>](./style.md) 和 [\<meta>](./meta.md) 元素。
 

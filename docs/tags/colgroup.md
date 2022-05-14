@@ -26,13 +26,13 @@ HTML \<colgroup> 标签
 
 ## 定义和用法
 
-`<colgroup>` 标记指定表格中的一组一个或多个列进行格式化。
+`<colgroup>` 标签指定表格中的一组一个或多个列进行格式化。
 
 `<colgroup>` 标签可用于将样式应用于整个列，而不是为每个单元格、每一行重复样式。
 
 **注意：** `<colgroup>` 标签必须是 [\<table>](./table.md) 元素的子元素，在任何 [\<caption>](./caption.md) 元素之后和任何 [\<thead>](./thead.md)、[\<tbody>](./tbody.md)、[\<tfoot>](./tfoot.md) 之前， 和 [\<tr>](./tr.md) 元素。
 
-**提示：** 要为 `<colgroup>` 中的列定义不同的属性，请使用 `<colgroup>` 标记中的 [\<col>](./col.md) 标记。
+**提示：** 要为 `<colgroup>` 中的列定义不同的属性，请使用 `<colgroup>` 标签中的 [\<col>](./col.md) 标签。
 
 ## 浏览器支持
 

@@ -24,7 +24,7 @@ HTML \<legend> 标签
 
 ## 定义和用法
 
-`<legend>` 标记定义了 [\<fieldset>](./fieldset.md) 元素的标题。
+`<legend>` 标签定义了 [\<fieldset>](./fieldset.md) 元素的标题。
 
 ## 浏览器支持
 

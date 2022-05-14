@@ -3,7 +3,7 @@ HTML \<img> src 属性
 
 ## 示例
 
-图像标记如下：
+图像标签如下：
 
 ```html idoc:preview
 <img src="../assets/chrome.svg">

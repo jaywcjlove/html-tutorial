@@ -51,11 +51,15 @@ HTML 标题是用 `<h1>` 到 `<h6>` 标签定义的。
 每个 HTML 标题都有一个默认大小。 但是，您可以使用 CSS 的 `font-size` 属性为任何带有 `style` 属性的标题指定大小：
 
 ```html idoc:preview:iframe
-<h1 style="font-size:60px;">标题 1</h1>
+<h1
+  style="font-size:60px;"
+>
+标题 1
+</h1>
 ```
 
 
-## HTML 标记参考
+## HTML 标签参考
 
 当前教程的标签参考包含有关这些标签及其属性的附加信息。
 
@@ -65,4 +69,4 @@ HTML 标题是用 `<h1>` 到 `<h6>` 标签定义的。
 | [\<body>](../tags/body.md)      | 定义文档的主体  |
 | [\<h1> to \<h6>](../tags/hn.md) | 定义 HTML 标题  |
 
-有关所有可用 HTML 标记的完整列表，请访问我们的 [HTML 标记参考](../tags/README.md)。
+有关所有可用 HTML 标签的完整列表，请访问我们的 [HTML 标签参考](../tags/README.md)。

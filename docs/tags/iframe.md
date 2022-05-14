@@ -3,7 +3,7 @@ HTML \<iframe> 标签
 
 ## 示例
 
-内联框架标记如下：
+内联框架标签如下：
 
 ```html idoc:preview
 <iframe src="./html.html" title="HTML Tutorial" height="100%" width="100%"></iframe>

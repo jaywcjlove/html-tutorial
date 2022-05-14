@@ -26,9 +26,9 @@ HTML \<select> Tag
 
 需要 `id` 属性来将下拉列表与标签相关联。
 
-`<select>` 元素内的 [\<option>](./option.md) 标记定义下拉列表中的可用选项。
+`<select>` 元素内的 [\<option>](./option.md) 标签定义下拉列表中的可用选项。
 
-**提示：** 始终添加 [\<label>](./label.md) 标记以获得最佳可访问性实践！
+**提示：** 始终添加 [\<label>](./label.md) 标签以获得最佳可访问性实践！
 
 ## 浏览器支持
 

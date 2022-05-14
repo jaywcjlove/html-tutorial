@@ -11,7 +11,7 @@ HTML 语言代码参考
 </html>
 ```
 
-在 XHTML 中，语言在 <html> 标记内声明如下：
+在 XHTML 中，语言在 <html> 标签内声明如下：
 
 ```html
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">

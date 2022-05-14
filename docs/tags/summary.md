@@ -16,7 +16,7 @@ HTML \<summary> Tag
 
 ## 定义和用法
 
-`<summary>` 标记定义了 [\<details>](./details.md) 元素的可见标题。 可以单击标题以查看/隐藏详细信息。
+`<summary>` 标签定义了 [\<details>](./details.md) 元素的可见标题。 可以单击标题以查看/隐藏详细信息。
 
 **注意：** `<summary>` 元素应该是 [\<details>](./details.md) 元素的第一个子元素。
 

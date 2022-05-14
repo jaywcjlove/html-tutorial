@@ -25,7 +25,7 @@ Canvas 有多种方法用于绘制路径、框、圆、文本和添加图像。
 
 画布是 HTML 页面上的一个矩形区域。 默认情况下，画布没有边框，也没有内容。
 
-标记如下所示：
+标签如下所示：
 
 ```html idoc:preview
 <canvas id="myCanvas1" width="200" height="100"></canvas>

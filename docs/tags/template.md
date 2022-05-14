@@ -26,7 +26,7 @@ HTML \<template> Tag
 
 `<template>` 中的内容可以稍后使用 JavaScript 渲染。
 
-如果您有一些 HTML 代码要反复使用，则可以使用 `<template>` 标记，但在您要求之前不要使用。 要做到这一点*没有* `<template>` 标记，您必须使用 JavaScript 创建 HTML 代码，以防止浏览器呈现代码。
+如果您有一些 HTML 代码要反复使用，则可以使用 `<template>` 标签，但在您要求之前不要使用。 要做到这一点*没有* `<template>` 标签，您必须使用 JavaScript 创建 HTML 代码，以防止浏览器呈现代码。
 
 ## 浏览器支持
 

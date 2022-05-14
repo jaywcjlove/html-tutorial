@@ -3,7 +3,7 @@ HTML \<s> Tag
 
 ## 示例
 
-标记不再正确的文本：
+标签不再正确的文本：
 
 ```html idoc:preview
 <p><s>Only 50 tickets left!</s></p>

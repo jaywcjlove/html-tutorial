@@ -3,7 +3,7 @@ HTML \<head> 标签
 
 ## 示例
 
-一个简单的 HTML 文档，在 head 部分带有 [\<title>](./title.md) 标记：
+一个简单的 HTML 文档，在 head 部分带有 [\<title>](./title.md) 标签：
 
 ```html idoc:preview:iframe
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ HTML \<head> 标签
 
 ## 更多示例
 
-[\<base>](./base.md) 标记（指定页面上所有链接的默认 URL 和目标）位于 \<head> 内：
+[\<base>](./base.md) 标签（指定页面上所有链接的默认 URL 和目标）位于 \<head> 内：
 
 ```html idoc:preview:iframe
 <html>
@@ -63,7 +63,7 @@ HTML \<head> 标签
 </html>
 ```
 
-[\<style>](./style.md) 标记（将样式信息添加到页面）进入 \<head>：
+[\<style>](./style.md) 标签（将样式信息添加到页面）进入 \<head>：
 
 ```html idoc:preview:iframe
 <html>
@@ -80,7 +80,7 @@ HTML \<head> 标签
 </html>
 ```
 
-[\<link>](./link.md) 标记（链接到外部样式表）进入 \<head>：
+[\<link>](./link.md) 标签（链接到外部样式表）进入 \<head>：
 
 ```html idoc:preview:iframe
 <html>

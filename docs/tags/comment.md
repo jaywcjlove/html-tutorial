@@ -27,7 +27,7 @@ function displayMsg() {
 </script> 
 ```
 
-⚠️ 注意：注释行末尾的两个正斜杠 (`//`) 是 JavaScript 注释符号。 这可以防止 JavaScript 执行 `-->` 标记。
+⚠️ 注意：注释行末尾的两个正斜杠 (`//`) 是 JavaScript 注释符号。 这可以防止 JavaScript 执行 `-->` 标签。
 
 ## 标准属性
 

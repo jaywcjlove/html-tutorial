@@ -46,7 +46,7 @@ HTML \<thead> Tag
 
 **注意：** `<thead>` 元素内部必须有一个或多个 [\<tr>](./tr.md) 标签。
 
-`<thead>` 标记必须在以下上下文中使用： 作为 [\<table>](./table.md) 元素的子元素，在任何 [\<caption>](./caption.md) 和 [\< colgroup>](./colgroup.md) 元素，以及任何 [\<tbody>](./tbody.md)、[\<tfoot>](./tfoot.md) 和 [\<tr>](./tr.md) 元素之前.
+`<thead>` 标签必须在以下上下文中使用： 作为 [\<table>](./table.md) 元素的子元素，在任何 [\<caption>](./caption.md) 和 [\< colgroup>](./colgroup.md) 元素，以及任何 [\<tbody>](./tbody.md)、[\<tfoot>](./tfoot.md) 和 [\<tr>](./tr.md) 元素之前.
 
 **提示：** `<thead>`、\<tbody> 和 \<tfoot> 元素默认不会影响表格的布局。但是，您可以使用 CSS 来设置这些元素的样式（参见下面的示例）！
 

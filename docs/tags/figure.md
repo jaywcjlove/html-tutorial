@@ -3,7 +3,7 @@ HTML \<figure> 标签
 
 ## 示例
 
-使用 \<figure> 元素标记文档中的照片，并使用 [\<figcaption>](./figcaption.md) 元素定义照片的标题：
+使用 \<figure> 元素标签文档中的照片，并使用 [\<figcaption>](./figcaption.md) 元素定义照片的标题：
 
 ```html idoc:preview
 <figure>

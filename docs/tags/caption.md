@@ -23,7 +23,7 @@ HTML \<caption> 标签
 
 `<caption>` 标签定义了一个表格标题。
 
-`<caption>` 标记必须紧跟在 [\<table>](./table.md) 标记之后。
+`<caption>` 标签必须紧跟在 [\<table>](./table.md) 标签之后。
 
 **提示：** 默认情况下，表格标题将在表格上方居中对齐。 但是，CSS 属性 `text-align` 和 `caption-side` 可用于对齐和放置标题。
 

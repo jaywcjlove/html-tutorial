@@ -21,7 +21,7 @@ HTML（<i>超文本标记语言</i>——HyperText Markup Language）是构成 W
 
 * [\<em>](./em.md)（强调文本）
 * [\<strong>](./strong.md)（重要文本）
-* [\<mark>](./mark.md)（标记/突出显示的文本）
+* [\<mark>](./mark.md)（标签/突出显示的文本）
 * [\<cite>](./cite.md)（作品的标题）
 * [\<dfn>](./dfn.md)（定义术语）
 

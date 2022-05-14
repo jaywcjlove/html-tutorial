@@ -15,7 +15,7 @@ HTML \<strike> Tag
 <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
 ```
 
-使用 [\<s>](./s.md) 标记来标记不再正确的文本：
+使用 [\<s>](./s.md) 标签来标签不再正确的文本：
 
 ```html idoc:preview:iframe
 <p><s>My car is blue.</s></p>

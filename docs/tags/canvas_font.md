@@ -53,10 +53,10 @@ ctx.fillText("Hello World", 10, 50);
 | *font-size/line-height* | 指定字体大小和行高，以像素为单位 | 
 | *font-family*           | 指定字体系列 | 
 | caption                 | 使用字体标题控件（如按钮、下拉菜单等） | 
-| icon                    | 使用用于标记图标的字体 | 
+| icon                    | 使用用于标签图标的字体 | 
 | menu                    | 使用菜单中使用的字体（下拉菜单和菜单列表） | 
 | message-box             | 使用对话框中使用的字体 | 
-| small-caption           | 使用用于标记小控件的字体 | 
+| small-caption           | 使用用于标签小控件的字体 | 
 | status-bar              | 使用窗口状态栏中使用的字体 | 
 <!--rehype:style=width: 100%; display: inline-table;-->
 

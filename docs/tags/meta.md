@@ -97,7 +97,7 @@ Viewport 是网页的用户可见区域。 它因设备而异 - 在手机上会�
 
 **提示：** 如果您是用手机或平板电脑浏览此页面，您可以点击下面的两个链接查看不同之处。
 
-没有 viewport 元标记 | 使用 viewport 元标记
+没有 viewport 元标签 | 使用 viewport 元标签
 ---- | ----
 ![](../assets/responsive_viewport1.png) | ![](../assets/responsive_viewport2.png)
 

@@ -3,7 +3,7 @@ HTML \<html> xmlns 属性
 
 ## 示例
 
-一个简单的 XHTML 文档，具有最少的必需标记：
+一个简单的 XHTML 文档，具有最少的必需标签：
 
 ```html idoc:preview:iframe
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"

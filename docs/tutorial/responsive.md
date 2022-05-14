@@ -106,9 +106,9 @@ HTML 响应式网页设计
 
 这将设置页面的视口，这将为浏览器提供有关如何控制页面尺寸和缩放的说明。
 
-这是一个没有视口元标记的网页示例，以及具有视口元标记的同一网页：
+这是一个没有 viewport 元标签的网页示例，以及具有 viewport 元标签的同一网页：
 
-没有 viewport 元标记 | 使用 viewport 元标记
+没有 viewport 元标签 | 使用 viewport 元标签
 ---- | ----
 ![](../assets/responsive_viewport1.png) | ![](../assets/responsive_viewport2.png)
 

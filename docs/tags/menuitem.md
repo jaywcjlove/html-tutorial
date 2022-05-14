@@ -28,7 +28,7 @@ HTML \<menuitem> Tag
 
 \<menuitem> 标签在 HTML5 中已弃用。
 
-\<menuitem> 标记定义用户可以从弹出菜单调用的命令/菜单项。
+\<menuitem> 标签定义用户可以从弹出菜单调用的命令/菜单项。
 
 ## 浏览器支持
 
@@ -44,7 +44,7 @@ HTML \<menuitem> Tag
 | ---- | ---- | ---- |
 | [checked](./menuitem_checked.md)       | checked | 指定在页面加载时应检查命令/菜单项。 仅适用于 type="radio" 或 type="checkbox" |
 | command                                   |   |   |
-| [default](./menuitem_default.md)       | default | 将命令/菜单项标记为默认命令 |
+| [default](./menuitem_default.md)       | default | 将命令/菜单项标签为默认命令 |
 | [disabled](./menuitem_disabled.md)     | disabled | 指定应禁用命令/菜单项 |
 | [icon](./menuitem_icon.md)             | *URL* | 指定命令/菜单项的图标 |
 | [label](./menuitem_label.md)           | *text* | Required. 指定命令/菜单项的名称，向用户显示 |

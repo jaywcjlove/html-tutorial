@@ -10,7 +10,7 @@ HTML 是用于创建网页的标准标记语言。
 * HTML 描述网页的结构
 * HTML 由一系列 _元素_ 组成
 * HTML 元素告诉浏览器如何显示内容
-* HTML 元素标记内容片段，例如 `这是一个标题`、`这是一个段落`、`这是一个链接`等。
+* HTML 元素标签内容片段，例如 `这是一个标题`、`这是一个段落`、`这是一个链接`等。
 
 ## 一个简单的 HTML 文档
 
@@ -62,7 +62,7 @@ HTML 元素由开始标签、一些内容和结束标签定义
      Attribute(属性)
 ```
 
-HTML **element** 是从开始标记到结束标记的所有内容：
+HTML **element** 是从开始标签到结束标签的所有内容：
 
 ```html
 <h1>我的第一个标题</h1>
@@ -81,7 +81,7 @@ HTML **element** 是从开始标记到结束标记的所有内容：
 
 Web 浏览器（[Chrome](https://www.google.cn/chrome/index.html)、[Edge](https://www.microsoft.com/zh-cn/edge)、[Firefox](http://www.firefox.com.cn/)、[Safari](https://www.apple.com/safari/)）的目的是读取 HTML 文档并正确显示它们。
 
-浏览器不显示 HTML 标记，而是使用它们来确定如何显示文档：
+浏览器不显示 HTML 标签，而是使用它们来确定如何显示文档：
 
 ![View in Browser](../assets/chrome_first_example.png)
 <!--rehype:style=max-width: 520px;-->

@@ -29,7 +29,7 @@ HTML \<footer> 标签
 
 ## 提示和注意事项
 
-**提示：** `<footer>` 元素内的联系信息应放在 [\<address>](./address.md) 标记内。
+**提示：** `<footer>` 元素内的联系信息应放在 [\<address>](./address.md) 标签内。
 
 ## 浏览器支持
 

@@ -22,9 +22,9 @@ HTML \<html> 标签
 
 `<html>` 标签表示 HTML 文档的根。
 
-`<html>` 标记是所有其他 HTML 元素的容器（[\<!DOCTYPE>](./doctype.md) 标记除外）。
+`<html>` 标签是所有其他 HTML 元素的容器（[\<!DOCTYPE>](./doctype.md) 标签除外）。
 
-**注意：** 您应该始终在 `<html>` 标记中包含 [lang](../attribute/global/lang.md) 属性，以声明网页的语言。 这是为了帮助搜索引擎和浏览器。
+**注意：** 您应该始终在 `<html>` 标签中包含 [lang](../attribute/global/lang.md) 属性，以声明网页的语言。 这是为了帮助搜索引擎和浏览器。
 
 ## 浏览器支持
 
