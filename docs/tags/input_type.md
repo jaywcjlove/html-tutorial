@@ -1,4 +1,4 @@
-HTML \<input> type Attribute
+HTML \<input> type 属性
 ===
 
 ## 示例
