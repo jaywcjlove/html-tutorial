@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>basic.md HTML Tutorial</title>
-    <meta name="description" content="欢迎您编辑 docs/tutorial/basic.md 文件，共建 HTML Tutorial 文档。">
+    <title>HTML 基础示例 HTML Tutorial</title>
+    <meta name="description" content="在本章中，我们将展示一些基本的 HTML 示例。">
     <meta name="keywords" content="html,tutorial">
     <link rel="stylesheet" type="text/css" href="../css/main.css?v=1.21.1">
     <link rel="stylesheet" type="text/css" href="../css/tocbot.css?v=1.21.1">
@@ -43,7 +43,7 @@
         </div>
       </article>
     </header>
-    <div class="warpper-content warpper sidebar notocs">
+    <div class="warpper-content warpper sidebar">
       <div class="sidebar-border">
         <aside class="sidebar" role="navigation">
           <div>
@@ -118,8 +118,180 @@
         </aside>
       </div>
       <markdown-style>
-        <h1 id="basicmd"><a aria-hidden="true" tabindex="-1" href="#basicmd" class="anchor"><span class="icon icon-link"></span></a>basic.md</h1>
-        <p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/tutorial/basic.md">docs/tutorial/basic.md</a> 文件，共建 HTML Tutorial 文档。</p>
+        <h1 id="html-基础示例"><a aria-hidden="true" tabindex="-1" href="#html-基础示例" class="anchor"><span class="icon icon-link"></span></a>HTML 基础示例</h1>
+        <p>在本章中，我们将展示一些基本的 HTML 示例。</p>
+        <p>如果我们使用您尚未了解的标签，请不要担心。</p>
+        <h2 id="html-文档"><a aria-hidden="true" tabindex="-1" href="#html-文档" class="anchor"><span class="icon icon-link"></span></a>HTML 文档</h2>
+        <p>所有 HTML 文档都必须以文档类型声明开头：<a href="../tags/doctype.html"><code>&#x3C;!DOCTYPE html></code></a>。</p>
+        <p>HTML 文档本身以 <code>&#x3C;html></code> 开头并以 <code>&#x3C;/html></code> 结尾。</p>
+        <p>HTML 文档的可见部分位于 <code>&#x3C;body></code> 和 <code>&#x3C;/body></code> 之间。</p>
+        <h3 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h3>
+        <div class="idoc-demo-warpper language-html">
+          <pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token doctype"><span class="token punctuation">&#x3C;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>html</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>body</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h1</span><span class="token punctuation">></span></span>我的第一个标题<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h1</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="5">  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>我的第一段落。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="6"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>body</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="7"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>html</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<!DOCTYPE html>
+<html>
+<body>
+  <h1>我的第一个标题</h1>
+  <p>我的第一段落。</p>
+</body>
+</html>
+">
+          <iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<!DOCTYPE html>
+<html>
+<body>
+  <h1>我的第一个标题</h1>
+  <p>我的第一段落。</p>
+</body>
+</html>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button>
+          <div onclick="copied(this)" class="copied">
+            <svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+              <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+            </svg>
+            <svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+            </svg>
+          </div>
+        </div>
+        <h2 id="doctype-声明"><a aria-hidden="true" tabindex="-1" href="#doctype-声明" class="anchor"><span class="icon icon-link"></span></a>&#x3C;!DOCTYPE> 声明</h2>
+        <p><code>&#x3C;!DOCTYPE></code> 声明表示文档类型，并帮助浏览器正确显示网页。</p>
+        <p>它只能出现一次，在页面顶部（在任何 HTML 标记之前）。</p>
+        <p><code>&#x3C;!DOCTYPE></code> 声明不区分大小写。</p>
+        <p>HTML5 的 <code>&#x3C;!DOCTYPE></code> 声明是：</p>
+        <pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token doctype"><span class="token punctuation">&#x3C;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<!DOCTYPE html>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+        <h2 id="html-标题"><a aria-hidden="true" tabindex="-1" href="#html-标题" class="anchor"><span class="icon icon-link"></span></a>HTML 标题</h2>
+        <p>HTML 标题是用 <code>&#x3C;h1></code> 到 <code>&#x3C;h6></code> 标签定义的。</p>
+        <p><code>&#x3C;h1></code> 定义了最重要的标题。 <code>&#x3C;h6></code> 定义了最不重要的标题：</p>
+        <pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h1</span><span class="token punctuation">></span></span>这是标题 1<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h1</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h2</span><span class="token punctuation">></span></span>这是标题 2<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h2</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h3</span><span class="token punctuation">></span></span>这是标题 3<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h3</span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<h1>这是标题 1</h1>
+<h2>这是标题 2</h2>
+<h3>这是标题 3</h3>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+        <div class="idoc-demo-warpper language-html">
+          <pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h1</span><span class="token punctuation">></span></span>这是标题 1<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h1</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h2</span><span class="token punctuation">></span></span>这是标题 2<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h2</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h3</span><span class="token punctuation">></span></span>这是标题 3<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h3</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<h1>这是标题 1</h1>
+
+<h2>这是标题 2</h2>
+
+<h3>这是标题 3</h3>
+">
+          <iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<h1>这是标题 1</h1>
+
+<h2>这是标题 2</h2>
+
+<h3>这是标题 3</h3>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button>
+          <div onclick="copied(this)" class="copied">
+            <svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+              <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+            </svg>
+            <svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+            </svg>
+          </div>
+        </div>
+        <h2 id="html-段落"><a aria-hidden="true" tabindex="-1" href="#html-段落" class="anchor"><span class="icon icon-link"></span></a>HTML 段落</h2>
+        <p>HTML 段落使用 <code>&#x3C;p></code> 标签定义：</p>
+        <pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>这是一个段落。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>这是另一段。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<p>这是一个段落。</p>
+<p>这是另一段。</p>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+        <div class="idoc-demo-warpper language-html">
+          <pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>这是一个段落。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>这是另一段。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<p>这是一个段落。</p>
+<p>这是另一段。</p>
+">
+          <iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<p>这是一个段落。</p>
+<p>这是另一段。</p>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button>
+          <div onclick="copied(this)" class="copied">
+            <svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+              <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+            </svg>
+            <svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+            </svg>
+          </div>
+        </div>
+        <h2 id="html-链接"><a aria-hidden="true" tabindex="-1" href="#html-链接" class="anchor"><span class="icon icon-link"></span></a>HTML 链接</h2>
+        <p>HTML 链接使用 <code>&#x3C;a></code> 标签定义：</p>
+        <pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://github.com/jaywcjlove/html-tutorial<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>这是一个链接<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>a</span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<a href=&#x22;https://github.com/jaywcjlove/html-tutorial&#x22;>这是一个链接</a>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+        <div class="idoc-demo-warpper language-html">
+          <pre class="language-html code-highlight" data-meta="preview"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://github.com/jaywcjlove/html-tutorial<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>这是一个链接<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>a</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<a href=&#x22;https://github.com/jaywcjlove/html-tutorial&#x22;>这是一个链接</a>
+">
+          <div data-previw="" class="idoc-demo-previw"></div><button type="button" class="idoc-toggle-previw">Show Code</button>
+          <div onclick="copied(this)" class="copied">
+            <svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+              <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+            </svg>
+            <svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+            </svg>
+          </div>
+        </div>
+        <p>链接的目的地在 <code>href</code> 属性中指定。</p>
+        <p>属性用于提供有关 HTML 元素的附加信息。</p>
+        <p>您将在后面的章节中了解有关属性的更多信息。</p>
+        <h2 id="html-图像"><a aria-hidden="true" tabindex="-1" href="#html-图像" class="anchor"><span class="icon icon-link"></span></a>HTML 图像</h2>
+        <p>HTML 图像使用 <code>&#x3C;img></code> 标签定义。</p>
+        <p>源文件 (<code>src</code>)、替代文本 (<code>alt</code>)、<code>width</code> 和 <code>height</code> 作为属性提供：</p>
+        <pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/chrome.svg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Chrome 浏览器<span class="token punctuation">"</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>104<span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>104<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<img src=&#x22;../assets/chrome.svg&#x22; alt=&#x22;Chrome 浏览器&#x22; width=&#x22;104&#x22; height=&#x22;104&#x22;>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+        <div class="idoc-demo-warpper language-html">
+          <pre class="language-html code-highlight" data-meta="preview"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>img</span>
+</span></span><span class="code-line line-number" line="2"><span class="token tag">  <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../assets/chrome.svg<span class="token punctuation">"</span></span>
+</span></span><span class="code-line line-number" line="3"><span class="token tag">  <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Chrome 浏览器<span class="token punctuation">"</span></span>
+</span></span><span class="code-line line-number" line="4"><span class="token tag">  <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>104<span class="token punctuation">"</span></span>
+</span></span><span class="code-line line-number" line="5"><span class="token tag">  <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>104<span class="token punctuation">"</span></span>
+</span></span><span class="code-line line-number" line="6"><span class="token tag"><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<img
+  src=&#x22;../assets/chrome.svg&#x22;
+  alt=&#x22;Chrome 浏览器&#x22;
+  width=&#x22;104&#x22;
+  height=&#x22;104&#x22;
+>
+">
+          <div data-previw="" class="idoc-demo-previw"></div><button type="button" class="idoc-toggle-previw">Show Code</button>
+          <div onclick="copied(this)" class="copied">
+            <svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+              <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+            </svg>
+            <svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+            </svg>
+          </div>
+        </div>
+        <h2 id="如何查看-html-源代码"><a aria-hidden="true" tabindex="-1" href="#如何查看-html-源代码" class="anchor"><span class="icon icon-link"></span></a>如何查看 HTML 源代码？</h2>
+        <p>您是否曾经看过一个网页并想知道“嘿！他们是怎么做到的？”</p>
+        <h3 id="查看-html-源代码"><a aria-hidden="true" tabindex="-1" href="#查看-html-源代码" class="anchor"><span class="icon icon-link"></span></a>查看 HTML 源代码：</h3>
+        <p>在 HTML 页面中单击鼠标右键，然后选择 <code>查看页面源代码</code>（在 Chrome 中）或 <code>查看源代码</code>（在 Edge 中），或在其他浏览器中类似。 这将打开一个包含页面 HTML 源代码的窗口。</p>
+        <h3 id="检查一个-html-元素"><a aria-hidden="true" tabindex="-1" href="#检查一个-html-元素" class="anchor"><span class="icon icon-link"></span></a>检查一个 HTML 元素：</h3>
+        <p>右键单击一个元素（或空白区域），然后选择 <code>检查</code> 或 <code>检查元素</code> 以查看由哪些元素组成（您将看到 HTML 和 CSS）。 您还可以在打开的 <code>元素</code> 或 <code>样式</code> 面板中即时编辑 HTML 或 CSS。</p>
         <div class="previous"><a class="prev" href="editors.html"><svg viewBox="0 0 1024 1024" width="16" height="16" fill="currentColor">
               <path d="M842.666667 864c-8.533333 0-14.933333-2.133333-21.333334-8.533333l-341.333333-309.333334c-6.4-6.4-10.666667-14.933333-10.666667-23.466666 0-8.533333 4.266667-17.066667 10.666667-23.466667l341.333333-309.333333c12.8-12.8 34.133333-10.666667 44.8 2.133333 12.8 12.8 10.666667 34.133333-2.133333 44.8L548.266667 522.666667l315.733333 285.866666c12.8 10.666667 14.933333 32 2.133333 44.8-6.4 6.4-14.933333 10.666667-23.466666 10.666667z"></path>
               <path d="M512 864c-8.533333 0-14.933333-2.133333-21.333333-8.533333L149.333333 546.133333c-6.4-6.4-10.666667-14.933333-10.666666-23.466666 0-8.533333 4.266667-17.066667 10.666666-23.466667L490.666667 189.866667c12.8-12.8 34.133333-10.666667 44.8 2.133333 12.8 12.8 10.666667 34.133333-2.133334 44.8L217.6 522.666667 533.333333 808.533333c12.8 12.8 14.933333 32 2.133334 44.8-6.4 6.4-14.933333 10.666667-23.466667 10.666667z"></path>
@@ -134,8 +306,30 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
             </svg>
 <span>GitHub 上编辑此页</span>
-</a><span class="atime">2022/04/29</span></section>
+</a><span class="atime">2022/05/14</span></section>
       </markdown-style>
+      <nav class="tocs">
+        <aside class="inner toc">
+          <ol class="tocs-list">
+            <li><a href="#html-文档" class="tocs-link">HTML 文档</a>
+              <ol class="tocs-list is-collapsed">
+                <li><a href="#示例" class="tocs-link">示例</a></li>
+              </ol>
+            </li>
+            <li><a href="#doctype-声明" class="tocs-link">&#x3C;!DOCTYPE> 声明</a></li>
+            <li><a href="#html-标题" class="tocs-link">HTML 标题</a></li>
+            <li><a href="#html-段落" class="tocs-link">HTML 段落</a></li>
+            <li><a href="#html-链接" class="tocs-link">HTML 链接</a></li>
+            <li><a href="#html-图像" class="tocs-link">HTML 图像</a></li>
+            <li><a href="#如何查看-html-源代码" class="tocs-link">如何查看 HTML 源代码？</a>
+              <ol class="tocs-list is-collapsed">
+                <li><a href="#查看-html-源代码" class="tocs-link">查看 HTML 源代码：</a></li>
+                <li><a href="#检查一个-html-元素" class="tocs-link">检查一个 HTML 元素：</a></li>
+              </ol>
+            </li>
+          </ol>
+        </aside>
+      </nav>
     </div>
     <script src="../js/demo-preview.js?v=1.21.1"></script>
     <div class="footer warpper">Released under the MIT License. Copyright © 2022 Kenny Wong<br>Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.21.1</div>
