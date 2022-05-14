@@ -1,8 +1,3 @@
-https://wangchujiang.com/html-tutorial/assets/horse.mp3
-https://wangchujiang.com/html-tutorial/assets/horse.ogg
-https://wangchujiang.com/html-tutorial/assets/mov_bbb.mp4
-https://wangchujiang.com/html-tutorial/assets/mov_bbb.ogm
-https://wangchujiang.com/html-tutorial/assets/workplace.jpg
 https://wangchujiang.com/html-tutorial/events/onabort.html
 https://wangchujiang.com/html-tutorial/events/onafterprint.html
 https://wangchujiang.com/html-tutorial/events/onbeforeprint.html
@@ -742,6 +737,11 @@ https://wangchujiang.com/html-tutorial/reference/av/event/suspend.html
 https://wangchujiang.com/html-tutorial/reference/av/event/timeupdate.html
 https://wangchujiang.com/html-tutorial/reference/av/event/volumechange.html
 https://wangchujiang.com/html-tutorial/reference/av/event/waiting.html
+https://wangchujiang.com/html-tutorial/reference/av/method/addtexttrack.html
+https://wangchujiang.com/html-tutorial/reference/av/method/canplaytype.html
+https://wangchujiang.com/html-tutorial/reference/av/method/load.html
+https://wangchujiang.com/html-tutorial/reference/av/method/pause.html
+https://wangchujiang.com/html-tutorial/reference/av/method/play.html
 https://wangchujiang.com/html-tutorial/reference/av/property/audiotracks.html
 https://wangchujiang.com/html-tutorial/reference/av/property/autoplay.html
 https://wangchujiang.com/html-tutorial/reference/av/property/buffered.html
@@ -770,9 +770,4 @@ https://wangchujiang.com/html-tutorial/reference/av/property/startdate.html
 https://wangchujiang.com/html-tutorial/reference/av/property/texttracks.html
 https://wangchujiang.com/html-tutorial/reference/av/property/videotracks.html
 https://wangchujiang.com/html-tutorial/reference/av/property/volume.html
-https://wangchujiang.com/html-tutorial/reference/av/method/addtexttrack.html
-https://wangchujiang.com/html-tutorial/reference/av/method/canplaytype.html
-https://wangchujiang.com/html-tutorial/reference/av/method/load.html
-https://wangchujiang.com/html-tutorial/reference/av/method/pause.html
-https://wangchujiang.com/html-tutorial/reference/av/method/play.html
 https://wangchujiang.com/html-tutorial/index.html
