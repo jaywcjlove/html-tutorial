@@ -1,4 +1,52 @@
-input_minlength.md
+HTML \<input> minlength 属性
 ===
 
-欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/tags/input_minlength.md">docs/tags/input_minlength.md</a> 文件，共建 HTML Tutorial 文档。
+## 示例
+
+最小长度为 8 个字符的 \<input> 元素：
+
+```html idoc:preview:iframe
+<form action="/action_page.php">
+  <label for="password">密码:</label>
+  <input type="password" id="password" name="password" minlength="8"><br><br>
+  <input type="submit" value="提交">
+</form>
+```
+
+## 定义和用法
+
+`minlength` 属性指定输入字段中所需的最小字符数。
+
+**注意：** `minlength` 属性可以与输入类型一起使用：文本、搜索、url、电话、电子邮件和密码。
+
+## 浏览器支持
+
+表中的数字指定了完全支持该属性的第一个浏览器版本。
+
+| 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| --- | --- | --- | --- | --- | --- |
+| minlength | 40.0 | 17.0 | 51.0 | 10.1 | 27.0 |
+<!--rehype:style=width: 100%; display: inline-table;-->
+
+## 语法
+
+```html
+<input minlength="number">
+```
+
+## 属性值
+
+| 值 Value | 描述 Description |
+| ----- | ----- |
+| *number* | \<input> 元素中所需的最小字符数 |
+<!--rehype:style=width: 100%; display: inline-table;-->
+
+[HTML \<input> tag](./input.md "HTML input 标签参考")
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg
+
+
