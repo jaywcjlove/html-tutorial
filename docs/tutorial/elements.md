@@ -1,4 +1,145 @@
-elements.md
+HTML 元素
 ===
 
-欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/tutorial/elements.md">docs/tutorial/elements.md</a> 文件，共建 HTML Tutorial 文档。
+HTML 元素由开始标签、一些内容和结束标签定义。
+
+## HTML 元素
+
+HTML **element** 是从开始标记到结束标记的所有内容：
+
+```html
+<tagname>内容放在这里...</tagname>
+```
+
+一些 HTML 元素的示例：
+
+```html
+<h1>我的第一个标题</h1>
+<p>我的第一段。</p>
+<br>
+```
+
+| 开始标签 | 元素内容 | 结束标签 |
+| ---- | ---- | ---- |
+| \<h1> | 我的第一个标题   | \</h1>  |
+| \<p>  | 我的第一段。 | \</p>   |
+| \<br> | *none* 没有内容 | *none* 没有结束标签 |
+<!--rehype:style=width: 100%; display: inline-table;-->
+
+**注意：** 一些 HTML 元素没有内容（如 \<br> 元素）。 这些元素称为空元素。 空元素没有结束标签！
+
+## 嵌套的 HTML 元素
+
+HTML 元素可以嵌套（这意味着元素可以包含其他元素）。
+
+所有 HTML 文档都包含嵌套的 HTML 元素。
+
+以下示例包含四个 HTML 元素（`<html>`、`<body>`、`<h1>` 和 `<p>`）：
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>我的第一个标题</h1>
+  <p>我的第一段。</p>
+</body>
+</html>
+```
+
+```html idoc:preview:iframe
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>我的第一个标题</h1>
+  <p>我的第一段。</p>
+</body>
+</html>
+```
+
+### 示例解释
+
+`<html>` 元素是根元素，它定义了整个 HTML 文档。
+
+它有一个开始标签`<html>`和一个结束标签`</html>`。
+
+然后，在 `<html>` 元素中有一个 `<body>` 元素：
+
+```html
+<body>
+  <h1>我的第一个标题</h1>
+  <p>我的第一段。</p>
+</body>
+```
+
+`<body>` 元素定义了文档的主体。
+
+它有一个开始标签 `<body>` 和一个结束标签 `</body>`。
+
+然后，在 `<body>` 元素中还有另外两个元素：`<h1>` 和 `<p>`：
+
+```html
+<h1>我的第一个标题</h1>
+<p>我的第一段。</p>
+```
+
+`<h1>` 元素定义了一个标题。
+
+它有一个开始标签`<h1>`和一个结束标签`</h1>`：
+
+```html
+<h1>我的第一个标题</h1>
+```
+
+`<p>` 元素定义了一个段落。
+
+它有一个开始标签`<p>`和一个结束标签`</p>`：
+
+```html
+<p>我的第一段。</p>
+```
+
+## 永远不要跳过结束标签
+
+即使您忘记了结束标记，某些 HTML 元素也会正确显示：
+
+```html
+<html>
+<body>
+  <p>我的第一段落
+  <p>我的第一段落
+</body>
+</html>
+```
+
+**但是，永远不要依赖这个！ 如果忘记结束标签，可能会出现意外结果和错误！**
+
+## 空 HTML 元素
+
+没有内容的 HTML 元素称为空元素。
+
+`<br>` 标签定义了一个换行符，并且是一个没有结束标签的空元素：
+
+```html
+<p>这是一个<br>带有换行符的段落。</p>
+```
+
+## HTML 不区分大小写
+
+HTML 标签不区分大小写：`<P>` 与 `<p>` 的含义相同。
+
+HTML 标准不要求小写标签，但 W3C **建议** HTML 中使用小写，而对于更严格的文档类型，如 XHTML，**要求**小写。
+
+在本教程中，我们总是使用小写的标签名称。
+
+## HTML 标记参考
+
+当前教程的标签参考包含有关这些标签及其属性的附加信息。
+
+| 标签 Tag | 描述 Description |
+| ----- | ----- |
+| [\<html>](../tags/html.md)      | 定义 HTML 文档的根 |
+| [\<body>](../tags/body.md)      | 定义文档的主体 |
+| [\<h1> ~ \<h6>](../tags/hn.md) | 定义 HTML 标题 |
+<!--rehype:style=width: 100%; display: inline-table;-->
+
+有关所有可用 HTML 标记的完整列表，请访问我们的 [HTML 标记参考](../tags/README.md)。
