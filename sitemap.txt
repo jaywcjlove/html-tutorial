@@ -114,8 +114,8 @@ https://wangchujiang.com/html-tutorial/tags/canvas_arcto.html
 https://wangchujiang.com/html-tutorial/tags/canvas_beginpath.html
 https://wangchujiang.com/html-tutorial/tags/canvas_beziercurveto.html
 https://wangchujiang.com/html-tutorial/tags/canvas_clearrect.html
-https://wangchujiang.com/html-tutorial/tags/canvas_closepath.html
 https://wangchujiang.com/html-tutorial/tags/canvas_clip.html
+https://wangchujiang.com/html-tutorial/tags/canvas_closepath.html
 https://wangchujiang.com/html-tutorial/tags/canvas_createimagedata.html
 https://wangchujiang.com/html-tutorial/tags/canvas_createlineargradient.html
 https://wangchujiang.com/html-tutorial/tags/canvas_createpattern.html
