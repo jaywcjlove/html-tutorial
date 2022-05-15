@@ -28,9 +28,16 @@ HTML \<input> required 属性
 | 属性 Attribute | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --- | --- | --- | --- | --- | --- |
 | required  | 5.0 | 10.0 | 4.0 | 10.1 | 9.6 |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 语法
 
 ```html
 <input required>
 ```
+
+[1]: ../assets/chrome.svg
+[2]: ../assets/edge.svg
+[3]: ../assets/firefox.svg
+[4]: ../assets/safari.svg
+[5]: ../assets/opera.svg

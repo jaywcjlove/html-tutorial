@@ -25,28 +25,28 @@ HTML \<input> 标签
 
 不同的输入类型如下：
 
-*   `<input type="button">`
-*   `<input type="checkbox">`
-*   `<input type="color">`
-*   `<input type="date">`
-*   `<input type="datetime-local">`
-*   `<input type="email">`
-*   `<input type="file">`
-*   `<input type="hidden">`
-*   `<input type="image">`
-*   `<input type="month">`
-*   `<input type="number">`
-*   `<input type="password">`
-*   `<input type="radio">`
-*   `<input type="range">`
-*   `<input type="reset">`
-*   `<input type="search">`
-*   `<input type="submit">`
-*   `<input type="tel">`
-*   `<input type="text">` (default value)
-*   `<input type="time">`
-*   `<input type="url">`
-*   `<input type="week">`
+*   [`<input type="button">`](./input_type_button.md)
+*   [`<input type="checkbox">`](./input_type_checkbox.md)
+*   [`<input type="color">`](./input_type_color.md)
+*   [`<input type="date">`](./input_type_date.md)
+*   [`<input type="datetime-local">`](./input_type_datetime-local.md)
+*   [`<input type="email">`](./input_type_email.md)
+*   [`<input type="file">`](./input_type_file.md)
+*   [`<input type="hidden">`](./input_type_hidden.md)
+*   [`<input type="image">`](./input_type_image.md)
+*   [`<input type="month">`](./input_type_month.md)
+*   [`<input type="number">`](./input_type_number.md)
+*   [`<input type="password">`](./input_type_password.md)
+*   [`<input type="radio">`](./input_type_radio.md)
+*   [`<input type="range">`](./input_type_range.md)
+*   [`<input type="reset">`](./input_type_reset.md)
+*   [`<input type="search">`](./input_type_search.md)
+*   [`<input type="submit">`](./input_type_submit.md)
+*   [`<input type="tel">`](./input_type_tel.md)
+*   [`<input type="text">`](./input_type_text.md) (default value)
+*   [`<input type="time">`](./input_type_time.md)
+*   [`<input type="url">`](./input_type_url.md)
+*   [`<input type="week">`](./input_type_week.md)
 
 查看 [type](./input_type.md) 属性以查看每种输入类型的示例！
 
@@ -59,6 +59,7 @@ HTML \<input> 标签
 | Element | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | ------- | --- | --- | --- | --- | --- |
 | \<input> | Yes | Yes | Yes | Yes | Yes |
+<!--rehype:style=width: 100%; display: inline-table;-->
 
 ## 属性 Attributes
 
