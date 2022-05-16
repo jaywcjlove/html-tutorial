@@ -756,7 +756,6 @@ https://wangchujiang.com/html-tutorial/reference/av/property/ended.html
 https://wangchujiang.com/html-tutorial/reference/av/property/error.html
 https://wangchujiang.com/html-tutorial/reference/av/property/loop.html
 https://wangchujiang.com/html-tutorial/reference/av/property/mediagroup.html
-https://wangchujiang.com/html-tutorial/reference/av/property/muted.html
 https://wangchujiang.com/html-tutorial/reference/av/property/networkstate.html
 https://wangchujiang.com/html-tutorial/reference/av/property/paused.html
 https://wangchujiang.com/html-tutorial/reference/av/property/playbackrate.html
@@ -770,4 +769,5 @@ https://wangchujiang.com/html-tutorial/reference/av/property/startdate.html
 https://wangchujiang.com/html-tutorial/reference/av/property/texttracks.html
 https://wangchujiang.com/html-tutorial/reference/av/property/videotracks.html
 https://wangchujiang.com/html-tutorial/reference/av/property/volume.html
+https://wangchujiang.com/html-tutorial/reference/av/property/muted.html
 https://wangchujiang.com/html-tutorial/index.html
