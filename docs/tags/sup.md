@@ -1,4 +1,4 @@
-HTML \<sup> Tag
+HTML \<sup> 标签
 ===
 
 ## 示例

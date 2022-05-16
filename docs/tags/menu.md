@@ -1,4 +1,4 @@
-HTML \<menu> Tag
+HTML \<menu> 标签
 ===
 
 [![](https://shields.io/badge/HTML5-实验性标签-green?logo=HTML5)](https://caniuse.com/?search=<menu>)

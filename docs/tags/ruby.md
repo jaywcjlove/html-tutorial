@@ -1,4 +1,4 @@
-HTML \<ruby> Tag
+HTML \<ruby> 标签
 ===
 
 ## 示例

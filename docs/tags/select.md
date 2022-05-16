@@ -1,4 +1,4 @@
-HTML \<select> Tag
+HTML \<select> 标签
 ===
 
 ## 示例

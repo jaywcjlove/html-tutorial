@@ -1,4 +1,4 @@
-HTML \<strong> Tag
+HTML \<strong> 标签
 ===
 
 ## 示例

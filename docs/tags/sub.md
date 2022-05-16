@@ -1,4 +1,4 @@
-HTML \<sub> Tag
+HTML \<sub> 标签
 ===
 
 ## 示例

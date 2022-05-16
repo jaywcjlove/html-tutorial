@@ -1,4 +1,4 @@
-HTML \<section> Tag
+HTML \<section> 标签
 ===
 
 ## 示例

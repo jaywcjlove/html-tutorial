@@ -1,4 +1,4 @@
-HTML \<small> Tag
+HTML \<small> 标签
 ===
 
 ## 示例

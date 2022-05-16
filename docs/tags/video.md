@@ -1,4 +1,4 @@
-HTML \<video> Tag
+HTML \<video> 标签
 ===
 
 ## 示例

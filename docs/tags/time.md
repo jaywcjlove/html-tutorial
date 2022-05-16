@@ -1,4 +1,4 @@
-HTML \<time> Tag
+HTML \<time> 标签
 ===
 
 ## 示例

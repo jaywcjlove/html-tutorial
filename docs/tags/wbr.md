@@ -1,4 +1,4 @@
-HTML \<wbr> Tag
+HTML \<wbr> 标签
 ===
 
 ## 示例

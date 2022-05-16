@@ -1,4 +1,4 @@
-HTML \<tfoot> Tag
+HTML \<tfoot> 标签
 ===
 
 ## 示例
