@@ -29,6 +29,15 @@ accept 属性指定服务器接受的文件类型（可以通过文件上传提�
 </form>
 ```
 
+支持图片文件选择的同时，还支持 `.heic` 文件选择。
+
+```html idoc:preview:iframe
+<form action="/action_page.php">
+  <input type="file" name="pic" accept="image/*, .heic">
+  <input type="submit">
+</form>
+```
+
 ## 浏览器支持
 
 表中的数字指定了完全支持该属性的第一个浏览器版本。
