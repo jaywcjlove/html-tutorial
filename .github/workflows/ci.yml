@@ -58,6 +58,8 @@ jobs:
           name: ${{ steps.create_tag.outputs.version }}
           tag: ${{ steps.create_tag.outputs.version }}
           body: |
+            [![GitHub Repo Stars](https://img.shields.io/github/stars/jaywcjlove/html-tutorial)]() [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/wcjiang/html-tutorial?logo=docker)](https://hub.docker.com/r/wcjiang/html-tutorial) [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/wcjiang/html-tutorial?logo=docker)](https://hub.docker.com/r/wcjiang/html-tutorial) [![Docker Pulls](https://img.shields.io/docker/pulls/wcjiang/html-tutorial?logo=docker)](https://hub.docker.com/r/wcjiang/tools)
+            
             Documentation ${{ steps.changelog.outputs.tag }}: https://raw.githack.com/jaywcjlove/html-tutorial/${{ steps.changelog.outputs.gh-pages-short-hash }}/index.html  
             Comparing Changes: ${{ steps.changelog.outputs.compareurl }}  
 
