@@ -62,3 +62,22 @@ jobs:
             Comparing Changes: ${{ steps.changelog.outputs.compareurl }}  
 
             ${{ steps.changelog.outputs.changelog }}
+            ```
+
+      # Create Docker Image
+      - name: Docker login
+        if: steps.create_tag.outputs.successful
+        run: docker login -u ${{ secrets.DOCKER_USER }} -p ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Build docs image
+        if: steps.create_tag.outputs.successful
+        run: docker image build -t html-tutorial .
+
+      - name: Tags & Push image
+        if: steps.create_tag.outputs.successful
+        run: |
+          echo "outputs.tag - ${{ steps.changelog.outputs.version }}"
+          docker tag html-tutorial ${{ secrets.DOCKER_USER }}/html-tutorial:${{steps.changelog.outputs.version}}
+          docker tag html-tutorial ${{ secrets.DOCKER_USER }}/html-tutorial:latest
+          docker push ${{ secrets.DOCKER_USER }}/html-tutorial:${{steps.changelog.outputs.version}}
+          docker push ${{ secrets.DOCKER_USER }}/html-tutorial:latest
