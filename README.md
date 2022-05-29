@@ -112,15 +112,15 @@ docker pull wcjiang/html-tutorial
 ```
 
 ```bash
-docker run --name html-tutorial --rm -d -p 9666:80 wcjiang/html-tutorial:latest
+docker run --name html-tutorial --rm -d -p 9665:80 wcjiang/html-tutorial:latest
 # Or
-docker run --name html-tutorial -itd -p 9666:80 wcjiang/html-tutorial:latest
+docker run --name html-tutorial -itd -p 9665:80 wcjiang/html-tutorial:latest
 ```
 
 在浏览器中访问以下 URL
 
 ```bash
-http://localhost:9666/
+http://localhost:9665/
 ```
 
 ## Contributors
