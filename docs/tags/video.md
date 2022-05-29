@@ -7,12 +7,8 @@ HTML \<video> 标签
 
 ```html idoc:preview:iframe
 <video width="320" controls>
-  <source
-    type="video/mp4"
-    src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4">
-  <source
-    type="video/webm"
-    src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm">
+  <source type="video/mp4" src="../assets/mov_bbb.mp4">
+  <source type="video/ogm" src="../assets/mov_bbb.ogm">
   您的浏览器不支持 video 标签。
 </video>
 ```

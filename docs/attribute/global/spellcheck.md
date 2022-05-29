@@ -8,7 +8,9 @@ HTML `spellcheck` 属性
 带有拼写检查的可编辑段落：
 
 ```html idoc:preview
-<p contenteditable="true" spellcheck="true">这是一个段落。</p>
+<p contenteditable="true" spellcheck="true">这是一个段落，不检查英文单词拼写。</p>
+<input spellcheck="false" placeholder="不检查英文单词拼写">
+<input spellcheck="true" placeholder="检查英文单词拼写">
 ```
 
 ## 定义和使用
