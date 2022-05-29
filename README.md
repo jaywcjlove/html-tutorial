@@ -105,6 +105,8 @@ Tim Berners-Lee 被称为 HTML 之父。 HTML 的第一个可用描述是 Tim �
 
 ## Docker
 
+通过 Docker 快速简单的部署文档网站。
+
 ```bash
 docker pull wcjiang/html-tutorial
 ```
@@ -115,7 +117,7 @@ docker run --name html-tutorial --rm -d -p 9666:80 wcjiang/html-tutorial:latest
 docker run --name html-tutorial -itd -p 9666:80 wcjiang/html-tutorial:latest
 ```
 
-Visit the following URL in your browser
+在浏览器中访问以下 URL
 
 ```bash
 http://localhost:9666/
