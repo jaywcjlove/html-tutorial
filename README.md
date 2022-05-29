@@ -3,7 +3,7 @@ HTML Tutorial
 [![GitHub Repo Stars](https://img.shields.io/github/stars/jaywcjlove/html-tutorial)]()
 [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/wcjiang/html-tutorial?logo=docker)](https://hub.docker.com/r/wcjiang/html-tutorial)
 [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/wcjiang/html-tutorial?logo=docker)](https://hub.docker.com/r/wcjiang/html-tutorial)
-[![Docker Pulls](https://img.shields.io/docker/pulls/wcjiang/html-tutorial?logo=docker)](https://hub.docker.com/r/wcjiang/tools)
+[![Docker Pulls](https://img.shields.io/docker/pulls/wcjiang/html-tutorial?logo=docker)](https://hub.docker.com/r/wcjiang/html-tutorial)
 
 HTML（超文本标记语言——HyperText Markup Language）是构成 Web 世界的一砖一瓦。它定义了网页内容的含义和结构。除 HTML 以外的其它技术则通常用来描述一个网页的表现与展示效果（如 CSS），或功能与行为（如 JavaScript）。
 
