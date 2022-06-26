@@ -65,7 +65,7 @@ HTML oncanplay 属性
 
 `oncanplay` 属性对每个元素都有以下浏览器支持：
 
-| 元素 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| 事件属性 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --- | --- | --- | --- | --- | --- |
 | audio   | Yes | 9.0 | Yes | Yes | Yes |
 | embed   | ❌ 不支持 | ❌ 不支持 | ❌ 不支持 | ❌ 不支持 | ❌ 不支持 |

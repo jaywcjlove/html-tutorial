@@ -66,7 +66,7 @@ HTML oncanplaythrough  属性
 
 `oncanplaythrough` 属性对每个元素都有以下浏览器支持：
 
-| 元素 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| 事件属性 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --- | --- | --- | --- | --- | --- |
 | audio   | Yes | 9.0 | Yes | Yes | Yes |
 | video   | Yes | 9.0 | Yes | Yes | Yes |

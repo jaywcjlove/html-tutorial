@@ -70,7 +70,7 @@ function myFunction(val) {
 
 ## 浏览器支持
 
-| 元素 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
+| 事件属性 | ![chrome][1] | ![edge][2] | ![firefox][3] | ![safari][4] | ![opera][5] |
 | --- | --- | --- | --- | --- | --- |
 | onchange        | Yes | Yes | Yes | Yes | Yes |
 <!--rehype:style=width: 100%; display: inline-table;-->
