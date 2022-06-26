@@ -358,8 +358,8 @@ https://wangchujiang.com/html-tutorial/tags/option.html
 https://wangchujiang.com/html-tutorial/tags/option_disabled.html
 https://wangchujiang.com/html-tutorial/tags/option_label.html
 https://wangchujiang.com/html-tutorial/tags/option_selected.html
-https://wangchujiang.com/html-tutorial/tags/output.html
 https://wangchujiang.com/html-tutorial/tags/option_value.html
+https://wangchujiang.com/html-tutorial/tags/output.html
 https://wangchujiang.com/html-tutorial/tags/output_for.html
 https://wangchujiang.com/html-tutorial/tags/output_form.html
 https://wangchujiang.com/html-tutorial/tags/output_name.html
@@ -440,11 +440,11 @@ https://wangchujiang.com/html-tutorial/tags/th_headers.html
 https://wangchujiang.com/html-tutorial/tags/th_rowspan.html
 https://wangchujiang.com/html-tutorial/tags/th_scope.html
 https://wangchujiang.com/html-tutorial/tags/thead.html
-https://wangchujiang.com/html-tutorial/tags/time.html
 https://wangchujiang.com/html-tutorial/tags/time_datetime.html
+https://wangchujiang.com/html-tutorial/tags/time.html
 https://wangchujiang.com/html-tutorial/tags/title.html
-https://wangchujiang.com/html-tutorial/tags/tr.html
 https://wangchujiang.com/html-tutorial/tags/track.html
+https://wangchujiang.com/html-tutorial/tags/tr.html
 https://wangchujiang.com/html-tutorial/tags/track_default.html
 https://wangchujiang.com/html-tutorial/tags/track_kind.html
 https://wangchujiang.com/html-tutorial/tags/track_label.html
@@ -453,8 +453,8 @@ https://wangchujiang.com/html-tutorial/tags/track_srclang.html
 https://wangchujiang.com/html-tutorial/tags/tt.html
 https://wangchujiang.com/html-tutorial/tags/u.html
 https://wangchujiang.com/html-tutorial/tags/ul.html
-https://wangchujiang.com/html-tutorial/tags/var.html
 https://wangchujiang.com/html-tutorial/tags/video.html
+https://wangchujiang.com/html-tutorial/tags/var.html
 https://wangchujiang.com/html-tutorial/tags/video_autoplay.html
 https://wangchujiang.com/html-tutorial/tags/video_controls.html
 https://wangchujiang.com/html-tutorial/tags/video_height.html
@@ -688,11 +688,11 @@ https://wangchujiang.com/html-tutorial/attribute/width.html
 https://wangchujiang.com/html-tutorial/attribute/wrap.html
 https://wangchujiang.com/html-tutorial/attribute/global/accesskey.html
 https://wangchujiang.com/html-tutorial/attribute/global/class.html
-https://wangchujiang.com/html-tutorial/attribute/global/contenteditable.html
 https://wangchujiang.com/html-tutorial/attribute/global/data.html
 https://wangchujiang.com/html-tutorial/attribute/global/dir.html
 https://wangchujiang.com/html-tutorial/attribute/global/draggable.html
 https://wangchujiang.com/html-tutorial/attribute/global/hidden.html
+https://wangchujiang.com/html-tutorial/attribute/global/contenteditable.html
 https://wangchujiang.com/html-tutorial/attribute/global/id.html
 https://wangchujiang.com/html-tutorial/attribute/global/lang.html
 https://wangchujiang.com/html-tutorial/attribute/global/spellcheck.html
