@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ondblclick.md HTML Tutorial</title>
-    <meta name="description" content="欢迎您编辑 docs/attribute/ondblclick.md 文件，共建 HTML Tutorial 文档。">
+    <title>HTML ondblclick 属性 HTML Tutorial</title>
+    <meta name="description" content="ondblclick 属性在鼠标双击元素时触发。">
     <meta name="keywords" content="html,tutorial">
     <link rel="stylesheet" type="text/css" href="../css/main.css?v=1.21.3">
     <link rel="stylesheet" type="text/css" href="../css/tocbot.css?v=1.21.3">
@@ -43,7 +43,7 @@
         </div>
       </article>
     </header>
-    <div class="warpper-content warpper sidebar notocs">
+    <div class="warpper-content warpper sidebar">
       <div class="sidebar-border">
         <aside class="sidebar" role="navigation">
           <div>
@@ -191,8 +191,161 @@
         </aside>
       </div>
       <markdown-style>
-        <h1 id="ondblclickmd"><a aria-hidden="true" tabindex="-1" href="#ondblclickmd" class="anchor"><span class="icon icon-link"></span></a>ondblclick.md</h1>
-        <p>欢迎您编辑 <a target="__blank" href="https://github.com/jaywcjlove/html-tutorial/blob/main/docs/attribute/ondblclick.md">docs/attribute/ondblclick.md</a> 文件，共建 HTML Tutorial 文档。</p>
+        <h1 id="html-ondblclick-属性"><a aria-hidden="true" tabindex="-1" href="#html-ondblclick-属性" class="anchor"><span class="icon icon-link"></span></a>HTML ondblclick 属性</h1>
+        <h2 id="定义和用法"><a aria-hidden="true" tabindex="-1" href="#定义和用法" class="anchor"><span class="icon icon-link"></span></a>定义和用法</h2>
+        <p><code>ondblclick</code> 属性在鼠标双击元素时触发。</p>
+        <h2 id="适用于"><a aria-hidden="true" tabindex="-1" href="#适用于" class="anchor"><span class="icon icon-link"></span></a>适用于</h2>
+        <p><code>ondblclick</code> 属性是 <a href="../reference/attributes.html">事件属性</a> 的一部分，可用于任何 HTML 元素。</p>
+        <table style="width: 100%; display: inline-table;">
+          <thead>
+            <tr>
+              <th>元素</th>
+              <th>事件</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>所有 HTML 元素</td>
+              <td><a href="../events/ondblclick.html">ondblclick</a></td>
+            </tr>
+          </tbody>
+        </table><!--rehype:style=width: 100%; display: inline-table;-->
+        <h2 id="示例"><a aria-hidden="true" tabindex="-1" href="#示例" class="anchor"><span class="icon icon-link"></span></a>示例</h2>
+        <h3 id="button-示例"><a aria-hidden="true" tabindex="-1" href="#button-示例" class="anchor"><span class="icon icon-link"></span></a>Button 示例</h3>
+        <p>双击按钮时执行 JavaScript：</p>
+        <pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token special-attr"><span class="token attr-name">ondblclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>双击我<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>button</span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<button ondblclick=&#x22;myFunction()&#x22;>双击我</button>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+        <div class="idoc-demo-warpper language-html">
+          <pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token special-attr"><span class="token attr-name">ondblclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>双击我<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>button</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>demo<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="4">
+</span><span class="code-line line-number" line="5"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>双击按钮时触发一个函数。 该函数在 id="demo" 的 p 元素中输出一些文本。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="6">
+</span><span class="code-line line-number" line="7"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="8"><span class="token script"><span class="token language-javascript"><span class="token keyword">function</span> <span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="9"><span class="token script"><span class="token language-javascript">  <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"demo"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">innerHTML</span> <span class="token operator">=</span> <span class="token string">"Hello World"</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="10"><span class="token script"><span class="token language-javascript"><span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="11"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<button ondblclick=&#x22;myFunction()&#x22;>双击我</button>
+
+<p id=&#x22;demo&#x22;></p>
+
+<p>双击按钮时触发一个函数。 该函数在 id=&#x22;demo&#x22; 的 p 元素中输出一些文本。</p>
+
+<script>
+function myFunction() {
+  document.getElementById(&#x22;demo&#x22;).innerHTML = &#x22;Hello World&#x22;;
+}
+</script>
+">
+          <iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<button ondblclick=&#x22;myFunction()&#x22;>双击我</button>
+
+<p id=&#x22;demo&#x22;></p>
+
+<p>双击按钮时触发一个函数。 该函数在 id=&#x22;demo&#x22; 的 p 元素中输出一些文本。</p>
+
+<script>
+function myFunction() {
+  document.getElementById(&#x22;demo&#x22;).innerHTML = &#x22;Hello World&#x22;;
+}
+</script>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button>
+          <div onclick="copied(this)" class="copied">
+            <svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+              <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+            </svg>
+            <svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+            </svg>
+          </div>
+        </div>
+        <h3 id="p-示例"><a aria-hidden="true" tabindex="-1" href="#p-示例" class="anchor"><span class="icon icon-link"></span></a>P 示例</h3>
+        <p>双击 &#x3C;p> 元素将其文本颜色更改为红色：</p>
+        <pre class="language-html"><code class="language-html code-highlight"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>demo<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">ondblclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>双击我以更改我的文本颜色。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="4"><span class="token script"><span class="token language-javascript"><span class="token keyword">function</span> <span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="5"><span class="token script"><span class="token language-javascript">  <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"demo"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">style</span><span class="token punctuation">.</span><span class="token property-access">color</span> <span class="token operator">=</span> <span class="token string">"red"</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="6"><span class="token script"><span class="token language-javascript"><span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="7"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span></code><input type="hidden" value="<p id=&#x22;demo&#x22; ondblclick=&#x22;myFunction()&#x22;>双击我以更改我的文本颜色。</p>
+
+<script>
+function myFunction() {
+  document.getElementById(&#x22;demo&#x22;).style.color = &#x22;red&#x22;;
+}
+</script>
+"><div onclick="copied(this)" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+        <div class="idoc-demo-warpper language-html">
+          <pre class="language-html code-highlight" data-meta="preview:iframe"><span class="code-line line-number" line="1"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>demo<span class="token punctuation">"</span></span> <span class="token special-attr"><span class="token attr-name">ondblclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value javascript language-javascript"><span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">></span></span>双击我以更改我的文本颜色。<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="code-line line-number" line="2">
+</span><span class="code-line line-number" line="3"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+</span></span></span><span class="code-line line-number" line="4"><span class="token script"><span class="token language-javascript"><span class="token keyword">function</span> <span class="token function">myFunction</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span></span></span><span class="code-line line-number" line="5"><span class="token script"><span class="token language-javascript">  <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementById</span><span class="token punctuation">(</span><span class="token string">"demo"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">style</span><span class="token punctuation">.</span><span class="token property-access">color</span> <span class="token operator">=</span> <span class="token string">"red"</span><span class="token punctuation">;</span>
+</span></span></span><span class="code-line line-number" line="6"><span class="token script"><span class="token language-javascript"><span class="token punctuation">}</span>
+</span></span></span><span class="code-line line-number" line="7"><span class="token script"><span class="token language-javascript"></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+</span></pre><input type="hidden" value="<p id=&#x22;demo&#x22; ondblclick=&#x22;myFunction()&#x22;>双击我以更改我的文本颜色。</p>
+
+<script>
+function myFunction() {
+  document.getElementById(&#x22;demo&#x22;).style.color = &#x22;red&#x22;;
+}
+</script>
+">
+          <iframe title="Demo Preview" width="100%" height="100%" allowtransparency="" data-previw="" class="idoc-demo-previw" srcdoc="<p id=&#x22;demo&#x22; ondblclick=&#x22;myFunction()&#x22;>双击我以更改我的文本颜色。</p>
+
+<script>
+function myFunction() {
+  document.getElementById(&#x22;demo&#x22;).style.color = &#x22;red&#x22;;
+}
+</script>
+"></iframe><button type="button" class="idoc-toggle-previw">Show Code</button>
+          <div onclick="copied(this)" class="copied">
+            <svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
+              <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+            </svg>
+            <svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12">
+              <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+            </svg>
+          </div>
+        </div>
+        <h2 id="浏览器支持"><a aria-hidden="true" tabindex="-1" href="#浏览器支持" class="anchor"><span class="icon icon-link"></span></a>浏览器支持</h2>
+        <table style="width: 100%; display: inline-table;">
+          <thead>
+            <tr>
+              <th>事件属性</th>
+              <th>
+                <img src="../assets/chrome.svg" alt="chrome">
+              </th>
+              <th>
+                <img src="../assets/edge.svg" alt="edge">
+              </th>
+              <th>
+                <img src="../assets/firefox.svg" alt="firefox">
+              </th>
+              <th>
+                <img src="../assets/safari.svg" alt="safari">
+              </th>
+              <th>
+                <img src="../assets/opera.svg" alt="opera">
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ondblclick</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+            </tr>
+          </tbody>
+        </table><!--rehype:style=width: 100%; display: inline-table;-->
         <div class="previous"><span></span><a class="next" href="../tags/index.html"><span>HTML 索引 (字母排序)
 </span><svg viewBox="0 0 1024 1024" width="16" height="16" fill="currentColor">
               <path d="M544 522.666667c0-8.533333-4.266667-17.066667-10.666667-23.466667L192 189.866667c-12.8-12.8-34.133333-10.666667-44.8 2.133333-12.8 12.8-10.666667 34.133333 2.133333 44.8l315.733334 285.866667L149.333333 808.533333c-12.8 12.8-14.933333 32-2.133333 44.8 6.4 6.4 14.933333 10.666667 23.466667 10.666667 8.533333 0 14.933333-2.133333 21.333333-8.533333l341.333333-309.333334c6.4-6.4 10.666667-14.933333 10.666667-23.466666z"></path>
@@ -202,8 +355,23 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
             </svg>
 <span>GitHub 上编辑此页</span>
-</a><span class="atime">2022/04/29</span></section>
+</a><span class="atime">2022/06/26</span></section>
       </markdown-style>
+      <nav class="tocs">
+        <aside class="inner toc">
+          <ol class="tocs-list">
+            <li><a href="#定义和用法" class="tocs-link">定义和用法</a></li>
+            <li><a href="#适用于" class="tocs-link">适用于</a></li>
+            <li><a href="#示例" class="tocs-link">示例</a>
+              <ol class="tocs-list is-collapsed">
+                <li><a href="#button-示例" class="tocs-link">Button 示例</a></li>
+                <li><a href="#p-示例" class="tocs-link">P 示例</a></li>
+              </ol>
+            </li>
+            <li><a href="#浏览器支持" class="tocs-link">浏览器支持</a></li>
+          </ol>
+        </aside>
+      </nav>
     </div>
     <script src="../js/demo-preview.js?v=1.21.3"></script>
     <div class="footer warpper">Released under the MIT License. Copyright © 2022 Kenny Wong<br>Generated by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a> v1.21.3</div>
