@@ -102,7 +102,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          file: ./Dockerfile
+          context: .
           platforms: linux/amd64,linux/arm64
           tags: ${{ secrets.DOCKER_USER }}/html-tutorial:latest
 
