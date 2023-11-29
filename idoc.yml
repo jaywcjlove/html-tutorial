@@ -5,6 +5,7 @@ menus:
   首页: index.html
   教程: tutorial/index.html
   索引: tags/index.html
+  捐赠: https://jaywcjlove.github.io/#/sponsor
 
 scopePrivate: 
   - tutorial
